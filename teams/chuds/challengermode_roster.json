@@ -1,0 +1,25 @@
+{
+  "team_name": "Chuds LoL",
+  "challengermode_team_url": "https://www.challengermode.com/teams/7637a36b-087b-49a2-52fa-08df10189701",
+  "tournament": "Kia deildin (https://www.challengermode.com/s/RISI/tournaments/b9eead2d-5703-43ff-23b0-08df15925634)",
+  "fetched": "2026-11-06",
+  "notes": "tier_text = rank badge alt text shown on the Challengermode game-account card; cm_tier_label = the 'TIER N' label printed on the card (Challengermode's own tier, not the LoL rank). Riot ID region is the region shown on the card.",
+  "members": [
+    {"cm_username": "PenguinGod#", "cm_user_url": "https://www.challengermode.com/users/d2db83b6-fea7-454c-b21b-0eb76270726d", "captain": false, "also_on_team": "Whisky Tango Foxtrot",
+     "lol_accounts": [{"riot_id": "PenguinGod#EUW", "region": "EUW", "tier_text": "EMERALD I (Ranked Solo 5v5)", "cm_tier_label": "TIER I"}]},
+    {"cm_username": "Atli cool kid#2135", "cm_user_url": "https://www.challengermode.com/users/f58ccb8d-3ab0-4fb0-8ce8-15eb608da0c5", "captain": false,
+     "lol_accounts": [{"riot_id": "Bankastjorinn#BANK", "region": "EUW", "tier_text": "DIAMOND IV (Ranked Solo 5v5)", "cm_tier_label": "TIER IV"}]},
+    {"cm_username": "Aynar", "cm_user_url": "https://www.challengermode.com/users/af35ace8-2e40-4862-9cff-3357d6a33753", "captain": false,
+     "lol_accounts": [{"riot_id": "Zoo#CR07", "region": "EUW", "tier_text": "DIAMOND II (Ranked Solo 5v5)", "cm_tier_label": "TIER II"}]},
+    {"cm_username": "Desilitri", "cm_user_url": "https://www.challengermode.com/users/b9cd6b09-592c-4dcf-868d-7f7bb8478f81", "captain": true,
+     "lol_accounts": [{"riot_id": "Desilitri#69420", "region": "EUW", "tier_text": "DIAMOND I (Ranked Solo 5v5)", "cm_tier_label": "TIER IV"}]},
+    {"cm_username": "sæþór", "cm_user_url": "https://www.challengermode.com/users/f9c3d10c-04e2-46bb-96f6-836819dde9d2", "captain": false,
+     "lol_accounts": [{"riot_id": "Sæþór#Cute", "region": "EUW", "tier_text": "DIAMOND II (Ranked Solo 5v5)", "cm_tier_label": "TIER IV"}]},
+    {"cm_username": "Marri#euw", "cm_user_url": "https://www.challengermode.com/users/159bef78-d0c8-4375-bada-8aa74fd833d9", "captain": false,
+     "lol_accounts": [{"riot_id": "Marri#EUW", "region": "EUW", "tier_text": "DIAMOND III (Ranked Solo 5v5)", "cm_tier_label": "TIER III"}]},
+    {"cm_username": "Sausi", "cm_user_url": "https://www.challengermode.com/users/df9d06c6-322f-4136-820f-bcb7d2f0326d", "captain": false,
+     "lol_accounts": [{"riot_id": "Sausi#EUW", "region": "EUW", "tier_text": "MASTER I (Ranked Solo 5v5)", "cm_tier_label": "TIER V"}]},
+    {"cm_username": "steefanjoh", "cm_user_url": "https://www.challengermode.com/users/dc3bec03-7c9d-4cef-a830-c560e47afb00", "captain": false,
+     "lol_accounts": [{"riot_id": "Avian Creev#EUNE", "region": "EUW", "tier_text": "DIAMOND III (Ranked Solo 5v5)", "cm_tier_label": "TIER V", "note": "tag is #EUNE but card region says Europe West"}]}
+  ]
+}

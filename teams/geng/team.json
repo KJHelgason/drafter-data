@@ -1,0 +1,30 @@
+{
+ "name": "Gen.G",
+ "slug": "geng",
+ "region": "pro",
+ "leagues": [
+  "pro"
+ ],
+ "is_us": false,
+ "profile_source": "tools/pro_team_profile.py",
+ "comp_team_names": [
+  "Gen.G"
+ ],
+ "lineup": {
+  "top": [
+   "kiin"
+  ],
+  "jungle": [
+   "canyon"
+  ],
+  "mid": [
+   "chovy"
+  ],
+  "bot": [
+   "ruler"
+  ],
+  "support": [
+   "duro"
+  ]
+ }
+}

@@ -1,0 +1,30 @@
+{
+  "team_name": "Whisky Tango Foxtrot",
+  "challengermode_team_url": "https://www.challengermode.com/teams/6c9b023b-1a76-476d-0445-08daf935552e",
+  "tournament": "Kia deildin (https://www.challengermode.com/s/RISI/tournaments/b9eead2d-5703-43ff-23b0-08df15925634)",
+  "fetched": "2026-11-06",
+  "notes": "tier_text = rank badge alt text shown on the Challengermode game-account card; cm_tier_label = the 'TIER N' label printed on the card (Challengermode's own tier, not the LoL rank). Riot ID region is the region shown on the card.",
+  "members": [
+    {"cm_username": "PenguinGod#", "cm_user_url": "https://www.challengermode.com/users/d2db83b6-fea7-454c-b21b-0eb76270726d", "captain": false, "also_on_team": "Chuds LoL",
+     "lol_accounts": [{"riot_id": "PenguinGod#EUW", "region": "EUW", "tier_text": "EMERALD I (Ranked Solo 5v5)", "cm_tier_label": "TIER I"}]},
+    {"cm_username": "Sigginn#3074", "cm_user_url": "https://www.challengermode.com/users/d5bf7548-bbae-482d-ab25-2960cb503824", "captain": false,
+     "lol_accounts": [], "note": "no League of Legends account linked (only Rocket League, VALORANT ToePicker#6969, CS2); likely same person as SigginnV2"},
+    {"cm_username": "wasgudbro", "cm_user_url": "https://www.challengermode.com/users/2a049636-0c5b-4c50-9afa-2cbd7b948db0", "captain": false,
+     "lol_accounts": [{"riot_id": "Wasgud#0000", "region": "EUW", "tier_text": "EMERALD II (Ranked Solo 5v5)", "cm_tier_label": "TIER IV"}]},
+    {"cm_username": "gosislaufa123#", "cm_user_url": "https://www.challengermode.com/users/83586c98-ccbb-48c0-9506-398bea0648b9", "captain": false,
+     "lol_accounts": [], "note": "no League of Legends account linked (only Rocket League)"},
+    {"cm_username": "Sindri.exe#1701", "cm_user_url": "https://www.challengermode.com/users/71f1e5bb-e7c3-41db-9fb7-462c11a477c9", "captain": true,
+     "lol_accounts": [{"riot_id": "Meoki#EUW", "region": "EUW", "tier_text": "MASTER I (Ranked Solo 5v5)", "cm_tier_label": "TIER VIII"}]},
+    {"cm_username": "Nêcrophagîst", "cm_user_url": "https://www.challengermode.com/users/6a104f3b-33a1-4ad6-aa25-48bd5d8a51db", "captain": false,
+     "lol_accounts": [{"riot_id": "Necrøphagìst#EUW", "region": "EUW", "tier_text": "DIAMOND IV (Ranked Solo 5v5)", "cm_tier_label": "TIER IV"}]},
+    {"cm_username": "eyenuwa", "cm_user_url": "https://www.challengermode.com/users/15035093-4646-456a-a7e0-66af39d43ebf", "captain": false, "nationality": "Poland",
+     "lol_accounts": [
+       {"riot_id": "Narcy#npd", "region": "EUNE", "tier_text": "CHALLENGER I (Ranked Solo 5v5)", "cm_tier_label": "TIER IV"},
+       {"riot_id": "eyen#777", "region": "EUW", "tier_text": "MASTER I (Ranked Solo 5v5)", "cm_tier_label": "TIER IV"}
+     ]},
+    {"cm_username": "Baunadós", "cm_user_url": "https://www.challengermode.com/users/db1accfb-0508-41f4-8b7f-d068a9026c26", "captain": false,
+     "lol_accounts": [{"riot_id": "Baunadós#123", "region": "EUW", "tier_text": "MASTER I (Ranked Solo 5v5)", "cm_tier_label": "TIER X"}]},
+    {"cm_username": "SigginnV2", "cm_user_url": "https://www.challengermode.com/users/3b1491dc-5f42-4568-839a-d7b143a75a76", "captain": false,
+     "lol_accounts": [{"riot_id": "SigginnV2#WHSK", "region": "EUW", "tier_text": "MASTER I (Ranked Solo 5v5)", "cm_tier_label": "TIER IX"}]}
+  ]
+}

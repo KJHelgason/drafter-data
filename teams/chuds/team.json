@@ -1,0 +1,67 @@
+{
+ "name": "Chuds",
+ "slug": "chuds",
+ "region": "EUW",
+ "leagues": [
+  "Kia deild (IS)"
+ ],
+ "comp_team_names": [
+  "Chuds",
+  "CHUDS"
+ ],
+ "lineup": {
+  "top": [
+   "leifur",
+   "avian creev"
+  ],
+  "jungle": [
+   "bankastjorinn"
+  ],
+  "mid": [
+   "sausi"
+  ],
+  "bot": [
+   "sæþór"
+  ],
+  "support": [
+   "desilitri",
+   "marri"
+  ]
+ },
+ "subs": [
+  "avian creev",
+  "marri",
+  "penguingod"
+ ],
+ "riot_ids": {
+  "bankastjorinn": [
+   "Bankastjorinn#BANK"
+  ],
+  "sausi": [
+   "Sausi#EUW"
+  ],
+  "sæþór": [
+   "Sæþór#Cute"
+  ],
+  "desilitri": [
+   "Desilitri#69420"
+  ],
+  "marri": [
+   "Marri#EUW"
+  ],
+  "avian creev": [
+   "Avian Creev#EUNE"
+  ],
+  "penguingod": [
+   "PenguinGod#EUW"
+  ],
+  "leifur": [
+   "Car#EUNE",
+   "Zoo#CR07"
+  ]
+ },
+ "notes": "Leifur = Challengermode \"Aynar\". Main soloQ: Car#EUNE (EUNE server, Diamond 1 solo per u.gg; confirmed by Kjartan). Zoo#CR07 is the account registered on Challengermode (EUW, S2025 data only).",
+ "ugg_regions": {
+  "Car#EUNE": "eun1"
+ }
+}

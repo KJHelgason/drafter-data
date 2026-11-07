@@ -1,0 +1,30 @@
+{
+ "name": "Karmine Corp",
+ "slug": "kc",
+ "region": "pro",
+ "leagues": [
+  "pro"
+ ],
+ "is_us": false,
+ "profile_source": "tools/pro_team_profile.py",
+ "comp_team_names": [
+  "Karmine Corp"
+ ],
+ "lineup": {
+  "top": [
+   "canna"
+  ],
+  "jungle": [
+   "yike"
+  ],
+  "mid": [
+   "kyeahoo"
+  ],
+  "bot": [
+   "caliste"
+  ],
+  "support": [
+   "busio"
+  ]
+ }
+}

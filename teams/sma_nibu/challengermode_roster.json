@@ -1,0 +1,23 @@
+{
+  "team_name": "Smá nibu",
+  "challengermode_team_url": "https://www.challengermode.com/teams/3087901c-eb16-45d7-5573-08df10189701",
+  "tournament": "Kia deildin (https://www.challengermode.com/s/RISI/tournaments/b9eead2d-5703-43ff-23b0-08df15925634)",
+  "fetched": "2026-11-06",
+  "notes": "tier_text = rank badge alt text shown on the Challengermode game-account card; cm_tier_label = the 'TIER N' label printed on the card (Challengermode's own tier, not the LoL rank). Riot ID region is the region shown on the card.",
+  "members": [
+    {"cm_username": "Seifur", "cm_user_url": "https://www.challengermode.com/users/4629467a-c4e3-4d47-9d45-78b36b637556", "captain": false,
+     "lol_accounts": [{"riot_id": "Seifur#9000", "region": "EUW", "tier_text": "MASTER I (Ranked Solo 5v5)", "cm_tier_label": "TIER VI"}]},
+    {"cm_username": "PállMinhPhuong", "cm_user_url": "https://www.challengermode.com/users/9132d49d-3803-401a-8f2f-867a8b728321", "captain": false,
+     "lol_accounts": [{"riot_id": "Legions1#EUW", "region": "EUW", "tier_text": "DIAMOND I (Ranked Solo 5v5)", "cm_tier_label": "TIER X"}]},
+    {"cm_username": "kristut", "cm_user_url": "https://www.challengermode.com/users/600f8360-1c10-47f5-9131-9f49e6eaca2f", "captain": false,
+     "lol_accounts": [{"riot_id": "redside hater#EUWs", "region": "EUW", "tier_text": "MASTER I (Ranked Solo 5v5)", "cm_tier_label": "TIER VIII"}]},
+    {"cm_username": "Zarzator", "cm_user_url": "https://www.challengermode.com/users/879a626b-3fed-4e95-b341-e238e4b5f992", "captain": false,
+     "lol_accounts": [{"riot_id": "Zarzator#EUW", "region": "EUW", "tier_text": null, "cm_tier_label": "TIER VIII", "note": "no rank badge shown (likely unranked this split)"}]},
+    {"cm_username": "Garðar", "cm_user_url": "https://www.challengermode.com/users/f665a3b7-25be-4708-a003-e3ffb4d56f9f", "captain": true,
+     "lol_accounts": [{"riot_id": "Sosa#qwer", "region": "EUW", "tier_text": "DIAMOND IV (Ranked Solo 5v5)", "cm_tier_label": "TIER IX"}]},
+    {"cm_username": "Kiddi", "cm_user_url": "https://www.challengermode.com/users/b5591f0d-22c0-4840-afc2-ec775e29ccae", "captain": false,
+     "lol_accounts": [{"riot_id": "Red Umbrella#EUW", "region": "EUW", "tier_text": "DIAMOND IV (Ranked Solo 5v5)", "cm_tier_label": "TIER VI"}]},
+    {"cm_username": "bigboppa", "cm_user_url": "https://www.challengermode.com/users/39c1e21f-15c5-4f2a-9ae3-fe60fb57ac9d", "captain": false,
+     "lol_accounts": [{"riot_id": "Boppa#Big", "region": "EUW", "tier_text": "MASTER I (Ranked Solo 5v5)", "cm_tier_label": "TIER V"}]}
+  ]
+}

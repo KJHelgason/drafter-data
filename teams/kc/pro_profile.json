@@ -1,0 +1,1832 @@
+{
+ "team": "Karmine Corp",
+ "players": {
+  "Top": {
+   "player": "Canna",
+   "career_games": 684,
+   "first_game": "2019-12-31",
+   "career_wr": 0.583,
+   "games_2026": 156,
+   "wr_2026": 0.647,
+   "champions": [
+    {
+     "champion": "Rumble",
+     "games": 60,
+     "wins": 40,
+     "weighted_games": 41.4,
+     "weighted_wr": 0.668,
+     "last_played": "2026-10-31"
+    },
+    {
+     "champion": "Gnar",
+     "games": 75,
+     "wins": 40,
+     "weighted_games": 32.1,
+     "weighted_wr": 0.582,
+     "last_played": "2026-09-06"
+    },
+    {
+     "champion": "Jayce",
+     "games": 75,
+     "wins": 46,
+     "weighted_games": 27.7,
+     "weighted_wr": 0.661,
+     "last_played": "2026-10-18"
+    },
+    {
+     "champion": "Renekton",
+     "games": 68,
+     "wins": 45,
+     "weighted_games": 24.7,
+     "weighted_wr": 0.637,
+     "last_played": "2026-10-31"
+    },
+    {
+     "champion": "Ambessa",
+     "games": 27,
+     "wins": 18,
+     "weighted_games": 18.7,
+     "weighted_wr": 0.653,
+     "last_played": "2026-10-15"
+    },
+    {
+     "champion": "Sion",
+     "games": 29,
+     "wins": 16,
+     "weighted_games": 17.5,
+     "weighted_wr": 0.558,
+     "last_played": "2026-06-30"
+    },
+    {
+     "champion": "K'Sante",
+     "games": 25,
+     "wins": 11,
+     "weighted_games": 10.4,
+     "weighted_wr": 0.496,
+     "last_played": "2026-02-08"
+    },
+    {
+     "champion": "Jax",
+     "games": 22,
+     "wins": 15,
+     "weighted_games": 8.6,
+     "weighted_wr": 0.688,
+     "last_played": "2026-10-23"
+    },
+    {
+     "champion": "Kennen",
+     "games": 32,
+     "wins": 20,
+     "weighted_games": 8.4,
+     "weighted_wr": 0.632,
+     "last_played": "2026-10-16"
+    },
+    {
+     "champion": "Gwen",
+     "games": 26,
+     "wins": 12,
+     "weighted_games": 6.7,
+     "weighted_wr": 0.519,
+     "last_played": "2026-03-01"
+    },
+    {
+     "champion": "Galio",
+     "games": 8,
+     "wins": 7,
+     "weighted_games": 6.7,
+     "weighted_wr": 0.765,
+     "last_played": "2026-10-29"
+    },
+    {
+     "champion": "Aurora",
+     "games": 7,
+     "wins": 2,
+     "weighted_games": 5.6,
+     "weighted_wr": 0.439,
+     "last_played": "2026-05-17"
+    },
+    {
+     "champion": "Twisted Fate",
+     "games": 7,
+     "wins": 5,
+     "weighted_games": 5.3,
+     "weighted_wr": 0.686,
+     "last_played": "2026-08-29"
+    },
+    {
+     "champion": "Aatrox",
+     "games": 16,
+     "wins": 7,
+     "weighted_games": 5.2,
+     "weighted_wr": 0.496,
+     "last_played": "2025-09-26"
+    },
+    {
+     "champion": "Gragas",
+     "games": 18,
+     "wins": 8,
+     "weighted_games": 4.9,
+     "weighted_wr": 0.512,
+     "last_played": "2026-09-19"
+    },
+    {
+     "champion": "Camille",
+     "games": 21,
+     "wins": 16,
+     "weighted_games": 4.7,
+     "weighted_wr": 0.743,
+     "last_played": "2026-10-29"
+    },
+    {
+     "champion": "Vayne",
+     "games": 5,
+     "wins": 3,
+     "weighted_games": 4.3,
+     "weighted_wr": 0.597,
+     "last_played": "2026-07-19"
+    },
+    {
+     "champion": "Ornn",
+     "games": 25,
+     "wins": 13,
+     "weighted_games": 4.0,
+     "weighted_wr": 0.517,
+     "last_played": "2025-02-24"
+    },
+    {
+     "champion": "Akali",
+     "games": 11,
+     "wins": 5,
+     "weighted_games": 3.8,
+     "weighted_wr": 0.643,
+     "last_played": "2026-08-23"
+    },
+    {
+     "champion": "Yone",
+     "games": 4,
+     "wins": 4,
+     "weighted_games": 3.4,
+     "weighted_wr": 0.766,
+     "last_played": "2026-07-26"
+    },
+    {
+     "champion": "Olaf",
+     "games": 3,
+     "wins": 1,
+     "weighted_games": 2.8,
+     "weighted_wr": 0.51,
+     "last_played": "2026-09-06"
+    },
+    {
+     "champion": "Varus",
+     "games": 3,
+     "wins": 1,
+     "weighted_games": 2.5,
+     "weighted_wr": 0.516,
+     "last_played": "2026-05-30"
+    },
+    {
+     "champion": "Gangplank",
+     "games": 12,
+     "wins": 3,
+     "weighted_games": 2.3,
+     "weighted_wr": 0.464,
+     "last_played": "2025-03-16"
+    },
+    {
+     "champion": "Graves",
+     "games": 13,
+     "wins": 9,
+     "weighted_games": 2.2,
+     "weighted_wr": 0.629,
+     "last_played": "2022-03-16"
+    },
+    {
+     "champion": "Zaahen",
+     "games": 2,
+     "wins": 2,
+     "weighted_games": 1.8,
+     "weighted_wr": 0.711,
+     "last_played": "2026-10-18"
+    },
+    {
+     "champion": "Rek'Sai",
+     "games": 2,
+     "wins": 1,
+     "weighted_games": 1.6,
+     "weighted_wr": 0.58,
+     "last_played": "2026-02-27"
+    },
+    {
+     "champion": "Nidalee",
+     "games": 2,
+     "wins": 0,
+     "weighted_games": 1.5,
+     "weighted_wr": 0.468,
+     "last_played": "2026-06-07"
+    },
+    {
+     "champion": "Sett",
+     "games": 11,
+     "wins": 7,
+     "weighted_games": 1.3,
+     "weighted_wr": 0.605,
+     "last_played": "2021-07-03"
+    },
+    {
+     "champion": "Skarner",
+     "games": 2,
+     "wins": 1,
+     "weighted_games": 1.3,
+     "weighted_wr": 0.55,
+     "last_played": "2026-05-16"
+    },
+    {
+     "champion": "Kled",
+     "games": 2,
+     "wins": 0,
+     "weighted_games": 1.1,
+     "weighted_wr": 0.499,
+     "last_played": "2026-10-15"
+    },
+    {
+     "champion": "Viego",
+     "games": 8,
+     "wins": 3,
+     "weighted_games": 1.1,
+     "weighted_wr": 0.562,
+     "last_played": "2021-07-31"
+    },
+    {
+     "champion": "Tryndamere",
+     "games": 6,
+     "wins": 3,
+     "weighted_games": 1.1,
+     "weighted_wr": 0.588,
+     "last_played": "2022-07-06"
+    },
+    {
+     "champion": "Shyvana",
+     "games": 2,
+     "wins": 0,
+     "weighted_games": 1.1,
+     "weighted_wr": 0.495,
+     "last_played": "2026-07-18"
+    },
+    {
+     "champion": "Poppy",
+     "games": 3,
+     "wins": 2,
+     "weighted_games": 1.1,
+     "weighted_wr": 0.59,
+     "last_played": "2025-02-02"
+    },
+    {
+     "champion": "Lucian",
+     "games": 9,
+     "wins": 4,
+     "weighted_games": 1.0,
+     "weighted_wr": 0.57,
+     "last_played": "2021-07-24"
+    },
+    {
+     "champion": "Fiora",
+     "games": 4,
+     "wins": 4,
+     "weighted_games": 0.9,
+     "weighted_wr": 0.668,
+     "last_played": "2023-02-16"
+    },
+    {
+     "champion": "Yorick",
+     "games": 1,
+     "wins": 1,
+     "weighted_games": 0.9,
+     "weighted_wr": 0.666,
+     "last_played": "2026-08-09"
+    },
+    {
+     "champion": "Cassiopeia",
+     "games": 1,
+     "wins": 0,
+     "weighted_games": 0.8,
+     "weighted_wr": 0.518,
+     "last_played": "2026-05-10"
+    },
+    {
+     "champion": "Brand",
+     "games": 1,
+     "wins": 0,
+     "weighted_games": 0.8,
+     "weighted_wr": 0.518,
+     "last_played": "2026-05-10"
+    },
+    {
+     "champion": "Sylas",
+     "games": 8,
+     "wins": 7,
+     "weighted_games": 0.7,
+     "weighted_wr": 0.64,
+     "last_played": "2020-08-02"
+    },
+    {
+     "champion": "Cho'Gath",
+     "games": 1,
+     "wins": 1,
+     "weighted_games": 0.7,
+     "weighted_wr": 0.651,
+     "last_played": "2025-09-13"
+    },
+    {
+     "champion": "Mordekaiser",
+     "games": 5,
+     "wins": 2,
+     "weighted_games": 0.6,
+     "weighted_wr": 0.575,
+     "last_played": "2022-07-03"
+    },
+    {
+     "champion": "Wukong",
+     "games": 5,
+     "wins": 5,
+     "weighted_games": 0.6,
+     "weighted_wr": 0.646,
+     "last_played": "2021-07-15"
+    },
+    {
+     "champion": "Sejuani",
+     "games": 3,
+     "wins": 0,
+     "weighted_games": 0.6,
+     "weighted_wr": 0.539,
+     "last_played": "2022-07-20"
+    },
+    {
+     "champion": "Irelia",
+     "games": 3,
+     "wins": 2,
+     "weighted_games": 0.4,
+     "weighted_wr": 0.603,
+     "last_played": "2022-02-20"
+    },
+    {
+     "champion": "LeBlanc",
+     "games": 1,
+     "wins": 1,
+     "weighted_games": 0.3,
+     "weighted_wr": 0.627,
+     "last_played": "2023-07-07"
+    },
+    {
+     "champion": "Soraka",
+     "games": 2,
+     "wins": 2,
+     "weighted_games": 0.2,
+     "weighted_wr": 0.618,
+     "last_played": "2020-02-26"
+    },
+    {
+     "champion": "Karma",
+     "games": 2,
+     "wins": 1,
+     "weighted_games": 0.2,
+     "weighted_wr": 0.6,
+     "last_played": "2020-07-18"
+    },
+    {
+     "champion": "Vladimir",
+     "games": 2,
+     "wins": 2,
+     "weighted_games": 0.2,
+     "weighted_wr": 0.62,
+     "last_played": "2020-08-06"
+    },
+    {
+     "champion": "Yasuo",
+     "games": 1,
+     "wins": 1,
+     "weighted_games": 0.2,
+     "weighted_wr": 0.617,
+     "last_played": "2021-10-30"
+    },
+    {
+     "champion": "Kayle",
+     "games": 1,
+     "wins": 0,
+     "weighted_games": 0.1,
+     "weighted_wr": 0.593,
+     "last_played": "2020-06-17"
+    },
+    {
+     "champion": "Quinn",
+     "games": 1,
+     "wins": 0,
+     "weighted_games": 0.1,
+     "weighted_wr": 0.593,
+     "last_played": "2020-07-25"
+    },
+    {
+     "champion": "Lee Sin",
+     "games": 1,
+     "wins": 0,
+     "weighted_games": 0.1,
+     "weighted_wr": 0.588,
+     "last_played": "2021-06-20"
+    }
+   ]
+  },
+  "Jungle": {
+   "player": "Yike",
+   "career_games": 691,
+   "first_game": "2019-04-30",
+   "career_wr": 0.654,
+   "games_2026": 156,
+   "wr_2026": 0.647,
+   "champions": [
+    {
+     "champion": "Vi",
+     "games": 62,
+     "wins": 41,
+     "weighted_games": 37.7,
+     "weighted_wr": 0.7,
+     "last_played": "2026-10-16"
+    },
+    {
+     "champion": "Xin Zhao",
+     "games": 55,
+     "wins": 35,
+     "weighted_games": 26.0,
+     "weighted_wr": 0.597,
+     "last_played": "2026-08-23"
+    },
+    {
+     "champion": "Wukong",
+     "games": 38,
+     "wins": 24,
+     "weighted_games": 23.2,
+     "weighted_wr": 0.64,
+     "last_played": "2026-10-31"
+    },
+    {
+     "champion": "Jarvan IV",
+     "games": 42,
+     "wins": 30,
+     "weighted_games": 20.8,
+     "weighted_wr": 0.756,
+     "last_played": "2026-10-23"
+    },
+    {
+     "champion": "Maokai",
+     "games": 46,
+     "wins": 35,
+     "weighted_games": 18.0,
+     "weighted_wr": 0.734,
+     "last_played": "2026-03-01"
+    },
+    {
+     "champion": "Pantheon",
+     "games": 21,
+     "wins": 12,
+     "weighted_games": 16.0,
+     "weighted_wr": 0.61,
+     "last_played": "2026-10-31"
+    },
+    {
+     "champion": "Naafiri",
+     "games": 18,
+     "wins": 9,
+     "weighted_games": 14.9,
+     "weighted_wr": 0.534,
+     "last_played": "2026-10-18"
+    },
+    {
+     "champion": "Lee Sin",
+     "games": 26,
+     "wins": 13,
+     "weighted_games": 14.4,
+     "weighted_wr": 0.559,
+     "last_played": "2026-10-26"
+    },
+    {
+     "champion": "Sejuani",
+     "games": 28,
+     "wins": 19,
+     "weighted_games": 13.0,
+     "weighted_wr": 0.639,
+     "last_played": "2026-02-28"
+    },
+    {
+     "champion": "Viego",
+     "games": 44,
+     "wins": 33,
+     "weighted_games": 10.2,
+     "weighted_wr": 0.682,
+     "last_played": "2025-02-24"
+    },
+    {
+     "champion": "Qiyana",
+     "games": 14,
+     "wins": 10,
+     "weighted_games": 9.8,
+     "weighted_wr": 0.697,
+     "last_played": "2026-10-18"
+    },
+    {
+     "champion": "Skarner",
+     "games": 14,
+     "wins": 9,
+     "weighted_games": 9.2,
+     "weighted_wr": 0.657,
+     "last_played": "2026-09-19"
+    },
+    {
+     "champion": "Ivern",
+     "games": 19,
+     "wins": 13,
+     "weighted_games": 8.8,
+     "weighted_wr": 0.664,
+     "last_played": "2025-09-26"
+    },
+    {
+     "champion": "Trundle",
+     "games": 17,
+     "wins": 10,
+     "weighted_games": 7.5,
+     "weighted_wr": 0.566,
+     "last_played": "2026-10-15"
+    },
+    {
+     "champion": "Lillia",
+     "games": 21,
+     "wins": 16,
+     "weighted_games": 6.7,
+     "weighted_wr": 0.733,
+     "last_played": "2025-06-07"
+    },
+    {
+     "champion": "Kha'Zix",
+     "games": 23,
+     "wins": 20,
+     "weighted_games": 6.5,
+     "weighted_wr": 0.783,
+     "last_played": "2026-05-09"
+    },
+    {
+     "champion": "Nocturne",
+     "games": 11,
+     "wins": 5,
+     "weighted_games": 6.1,
+     "weighted_wr": 0.594,
+     "last_played": "2026-07-24"
+    },
+    {
+     "champion": "Brand",
+     "games": 13,
+     "wins": 10,
+     "weighted_games": 6.0,
+     "weighted_wr": 0.7,
+     "last_played": "2025-04-06"
+    },
+    {
+     "champion": "Zyra",
+     "games": 12,
+     "wins": 9,
+     "weighted_games": 5.5,
+     "weighted_wr": 0.699,
+     "last_played": "2025-03-01"
+    },
+    {
+     "champion": "Bel'Veth",
+     "games": 20,
+     "wins": 15,
+     "weighted_games": 5.2,
+     "weighted_wr": 0.681,
+     "last_played": "2024-05-10"
+    },
+    {
+     "champion": "Rell",
+     "games": 15,
+     "wins": 13,
+     "weighted_games": 5.0,
+     "weighted_wr": 0.763,
+     "last_played": "2024-04-07"
+    },
+    {
+     "champion": "Rek'Sai",
+     "games": 12,
+     "wins": 6,
+     "weighted_games": 4.2,
+     "weighted_wr": 0.573,
+     "last_played": "2026-05-30"
+    },
+    {
+     "champion": "Poppy",
+     "games": 9,
+     "wins": 4,
+     "weighted_games": 4.1,
+     "weighted_wr": 0.58,
+     "last_played": "2026-08-03"
+    },
+    {
+     "champion": "Volibear",
+     "games": 13,
+     "wins": 10,
+     "weighted_games": 3.1,
+     "weighted_wr": 0.711,
+     "last_played": "2024-04-14"
+    },
+    {
+     "champion": "Graves",
+     "games": 19,
+     "wins": 12,
+     "weighted_games": 2.7,
+     "weighted_wr": 0.63,
+     "last_played": "2023-01-28"
+    },
+    {
+     "champion": "Dr. Mundo",
+     "games": 3,
+     "wins": 2,
+     "weighted_games": 2.5,
+     "weighted_wr": 0.638,
+     "last_played": "2026-09-19"
+    },
+    {
+     "champion": "Jayce",
+     "games": 3,
+     "wins": 1,
+     "weighted_games": 2.4,
+     "weighted_wr": 0.544,
+     "last_played": "2026-05-16"
+    },
+    {
+     "champion": "Gragas",
+     "games": 13,
+     "wins": 7,
+     "weighted_games": 2.0,
+     "weighted_wr": 0.618,
+     "last_played": "2023-05-16"
+    },
+    {
+     "champion": "Olaf",
+     "games": 8,
+     "wins": 4,
+     "weighted_games": 1.7,
+     "weighted_wr": 0.666,
+     "last_played": "2026-05-30"
+    },
+    {
+     "champion": "Jax",
+     "games": 3,
+     "wins": 2,
+     "weighted_games": 1.6,
+     "weighted_wr": 0.677,
+     "last_played": "2026-05-17"
+    },
+    {
+     "champion": "Aatrox",
+     "games": 2,
+     "wins": 1,
+     "weighted_games": 1.6,
+     "weighted_wr": 0.604,
+     "last_played": "2026-06-07"
+    },
+    {
+     "champion": "Nidalee",
+     "games": 5,
+     "wins": 2,
+     "weighted_games": 1.5,
+     "weighted_wr": 0.586,
+     "last_played": "2025-02-03"
+    },
+    {
+     "champion": "Hecarim",
+     "games": 8,
+     "wins": 4,
+     "weighted_games": 1.1,
+     "weighted_wr": 0.637,
+     "last_played": "2022-03-31"
+    },
+    {
+     "champion": "Kindred",
+     "games": 4,
+     "wins": 2,
+     "weighted_games": 0.9,
+     "weighted_wr": 0.64,
+     "last_played": "2023-05-13"
+    },
+    {
+     "champion": "Gwen",
+     "games": 2,
+     "wins": 0,
+     "weighted_games": 0.9,
+     "weighted_wr": 0.55,
+     "last_played": "2024-09-01"
+    },
+    {
+     "champion": "Diana",
+     "games": 3,
+     "wins": 2,
+     "weighted_games": 0.8,
+     "weighted_wr": 0.606,
+     "last_played": "2025-02-24"
+    },
+    {
+     "champion": "Zaahen",
+     "games": 1,
+     "wins": 0,
+     "weighted_games": 0.8,
+     "weighted_wr": 0.562,
+     "last_played": "2026-02-20"
+    },
+    {
+     "champion": "Ambessa",
+     "games": 1,
+     "wins": 0,
+     "weighted_games": 0.8,
+     "weighted_wr": 0.562,
+     "last_played": "2026-02-20"
+    },
+    {
+     "champion": "Kayn",
+     "games": 4,
+     "wins": 2,
+     "weighted_games": 0.7,
+     "weighted_wr": 0.633,
+     "last_played": "2022-11-05"
+    },
+    {
+     "champion": "Udyr",
+     "games": 3,
+     "wins": 1,
+     "weighted_games": 0.5,
+     "weighted_wr": 0.612,
+     "last_played": "2023-01-30"
+    },
+    {
+     "champion": "Elise",
+     "games": 2,
+     "wins": 2,
+     "weighted_games": 0.3,
+     "weighted_wr": 0.671,
+     "last_played": "2023-02-05"
+    },
+    {
+     "champion": "Shyvana",
+     "games": 3,
+     "wins": 3,
+     "weighted_games": 0.3,
+     "weighted_wr": 0.669,
+     "last_played": "2020-07-20"
+    },
+    {
+     "champion": "Rumble",
+     "games": 2,
+     "wins": 1,
+     "weighted_games": 0.3,
+     "weighted_wr": 0.641,
+     "last_played": "2021-06-29"
+    },
+    {
+     "champion": "Evelynn",
+     "games": 1,
+     "wins": 0,
+     "weighted_games": 0.3,
+     "weighted_wr": 0.611,
+     "last_played": "2023-08-20"
+    },
+    {
+     "champion": "Fiddlesticks",
+     "games": 1,
+     "wins": 0,
+     "weighted_games": 0.3,
+     "weighted_wr": 0.611,
+     "last_played": "2023-09-03"
+    },
+    {
+     "champion": "Sett",
+     "games": 2,
+     "wins": 1,
+     "weighted_games": 0.2,
+     "weighted_wr": 0.643,
+     "last_played": "2020-08-08"
+    },
+    {
+     "champion": "Taliyah",
+     "games": 2,
+     "wins": 1,
+     "weighted_games": 0.2,
+     "weighted_wr": 0.642,
+     "last_played": "2021-01-28"
+    },
+    {
+     "champion": "Camille",
+     "games": 2,
+     "wins": 0,
+     "weighted_games": 0.1,
+     "weighted_wr": 0.633,
+     "last_played": "2019-04-30"
+    },
+    {
+     "champion": "Ekko",
+     "games": 1,
+     "wins": 1,
+     "weighted_games": 0.1,
+     "weighted_wr": 0.656,
+     "last_played": "2020-07-02"
+    }
+   ]
+  },
+  "Mid": {
+   "player": "kyeahoo",
+   "career_games": 404,
+   "first_game": "2023-06-11",
+   "career_wr": 0.562,
+   "games_2026": 156,
+   "wr_2026": 0.647,
+   "champions": [
+    {
+     "champion": "Azir",
+     "games": 57,
+     "wins": 33,
+     "weighted_games": 34.0,
+     "weighted_wr": 0.591,
+     "last_played": "2026-06-07"
+    },
+    {
+     "champion": "Taliyah",
+     "games": 40,
+     "wins": 26,
+     "weighted_games": 24.7,
+     "weighted_wr": 0.645,
+     "last_played": "2026-08-29"
+    },
+    {
+     "champion": "Ryze",
+     "games": 29,
+     "wins": 17,
+     "weighted_games": 21.9,
+     "weighted_wr": 0.603,
+     "last_played": "2026-10-18"
+    },
+    {
+     "champion": "Viktor",
+     "games": 27,
+     "wins": 18,
+     "weighted_games": 20.5,
+     "weighted_wr": 0.662,
+     "last_played": "2026-10-31"
+    },
+    {
+     "champion": "Orianna",
+     "games": 26,
+     "wins": 16,
+     "weighted_games": 18.6,
+     "weighted_wr": 0.617,
+     "last_played": "2026-10-23"
+    },
+    {
+     "champion": "Ahri",
+     "games": 27,
+     "wins": 16,
+     "weighted_games": 17.7,
+     "weighted_wr": 0.635,
+     "last_played": "2026-10-16"
+    },
+    {
+     "champion": "Cassiopeia",
+     "games": 19,
+     "wins": 12,
+     "weighted_games": 15.9,
+     "weighted_wr": 0.633,
+     "last_played": "2026-10-29"
+    },
+    {
+     "champion": "Annie",
+     "games": 15,
+     "wins": 8,
+     "weighted_games": 11.9,
+     "weighted_wr": 0.547,
+     "last_played": "2026-07-19"
+    },
+    {
+     "champion": "Aurora",
+     "games": 18,
+     "wins": 9,
+     "weighted_games": 11.8,
+     "weighted_wr": 0.513,
+     "last_played": "2026-05-30"
+    },
+    {
+     "champion": "Syndra",
+     "games": 14,
+     "wins": 9,
+     "weighted_games": 11.8,
+     "weighted_wr": 0.67,
+     "last_played": "2026-10-31"
+    },
+    {
+     "champion": "Anivia",
+     "games": 13,
+     "wins": 9,
+     "weighted_games": 11.4,
+     "weighted_wr": 0.661,
+     "last_played": "2026-10-15"
+    },
+    {
+     "champion": "Tristana",
+     "games": 20,
+     "wins": 7,
+     "weighted_games": 9.1,
+     "weighted_wr": 0.47,
+     "last_played": "2025-10-09"
+    },
+    {
+     "champion": "Sylas",
+     "games": 11,
+     "wins": 5,
+     "weighted_games": 7.8,
+     "weighted_wr": 0.533,
+     "last_played": "2026-09-06"
+    },
+    {
+     "champion": "Galio",
+     "games": 11,
+     "wins": 7,
+     "weighted_games": 7.8,
+     "weighted_wr": 0.604,
+     "last_played": "2026-07-19"
+    },
+    {
+     "champion": "Hwei",
+     "games": 18,
+     "wins": 8,
+     "weighted_games": 7.3,
+     "weighted_wr": 0.49,
+     "last_played": "2025-05-08"
+    },
+    {
+     "champion": "Corki",
+     "games": 14,
+     "wins": 4,
+     "weighted_games": 6.3,
+     "weighted_wr": 0.446,
+     "last_played": "2025-04-17"
+    },
+    {
+     "champion": "LeBlanc",
+     "games": 8,
+     "wins": 5,
+     "weighted_games": 5.5,
+     "weighted_wr": 0.578,
+     "last_played": "2026-09-19"
+    },
+    {
+     "champion": "Akali",
+     "games": 8,
+     "wins": 5,
+     "weighted_games": 4.9,
+     "weighted_wr": 0.573,
+     "last_played": "2026-09-05"
+    },
+    {
+     "champion": "Yone",
+     "games": 7,
+     "wins": 3,
+     "weighted_games": 4.1,
+     "weighted_wr": 0.535,
+     "last_played": "2025-10-12"
+    },
+    {
+     "champion": "Karma",
+     "games": 6,
+     "wins": 3,
+     "weighted_games": 2.3,
+     "weighted_wr": 0.562,
+     "last_played": "2024-03-14"
+    },
+    {
+     "champion": "Aurelion Sol",
+     "games": 3,
+     "wins": 1,
+     "weighted_games": 1.3,
+     "weighted_wr": 0.536,
+     "last_played": "2024-07-28"
+    },
+    {
+     "champion": "Jayce",
+     "games": 3,
+     "wins": 1,
+     "weighted_games": 1.2,
+     "weighted_wr": 0.559,
+     "last_played": "2025-02-25"
+    },
+    {
+     "champion": "K'Sante",
+     "games": 3,
+     "wins": 1,
+     "weighted_games": 0.9,
+     "weighted_wr": 0.552,
+     "last_played": "2023-06-16"
+    },
+    {
+     "champion": "Lucian",
+     "games": 2,
+     "wins": 1,
+     "weighted_games": 0.9,
+     "weighted_wr": 0.577,
+     "last_played": "2024-08-01"
+    },
+    {
+     "champion": "Twisted Fate",
+     "games": 1,
+     "wins": 1,
+     "weighted_games": 0.9,
+     "weighted_wr": 0.65,
+     "last_played": "2026-06-06"
+    },
+    {
+     "champion": "Brand",
+     "games": 1,
+     "wins": 0,
+     "weighted_games": 0.8,
+     "weighted_wr": 0.505,
+     "last_played": "2026-05-23"
+    },
+    {
+     "champion": "Ambessa",
+     "games": 1,
+     "wins": 1,
+     "weighted_games": 0.5,
+     "weighted_wr": 0.629,
+     "last_played": "2025-02-03"
+    },
+    {
+     "champion": "Zeri",
+     "games": 1,
+     "wins": 1,
+     "weighted_games": 0.4,
+     "weighted_wr": 0.623,
+     "last_played": "2024-08-15"
+    },
+    {
+     "champion": "Gragas",
+     "games": 1,
+     "wins": 0,
+     "weighted_games": 0.3,
+     "weighted_wr": 0.558,
+     "last_played": "2023-06-14"
+    }
+   ]
+  },
+  "Bot": {
+   "player": "Caliste",
+   "career_games": 438,
+   "first_game": "2022-03-20",
+   "career_wr": 0.632,
+   "games_2026": 156,
+   "wr_2026": 0.647,
+   "champions": [
+    {
+     "champion": "Ezreal",
+     "games": 51,
+     "wins": 33,
+     "weighted_games": 32.4,
+     "weighted_wr": 0.602,
+     "last_played": "2026-10-18"
+    },
+    {
+     "champion": "Ashe",
+     "games": 27,
+     "wins": 19,
+     "weighted_games": 19.6,
+     "weighted_wr": 0.691,
+     "last_played": "2026-10-31"
+    },
+    {
+     "champion": "Zeri",
+     "games": 44,
+     "wins": 27,
+     "weighted_games": 19.5,
+     "weighted_wr": 0.627,
+     "last_played": "2026-10-18"
+    },
+    {
+     "champion": "Varus",
+     "games": 31,
+     "wins": 18,
+     "weighted_games": 17.8,
+     "weighted_wr": 0.595,
+     "last_played": "2026-10-15"
+    },
+    {
+     "champion": "Jhin",
+     "games": 23,
+     "wins": 10,
+     "weighted_games": 16.1,
+     "weighted_wr": 0.461,
+     "last_played": "2026-10-26"
+    },
+    {
+     "champion": "Caitlyn",
+     "games": 20,
+     "wins": 14,
+     "weighted_games": 15.4,
+     "weighted_wr": 0.688,
+     "last_played": "2026-09-06"
+    },
+    {
+     "champion": "Xayah",
+     "games": 25,
+     "wins": 21,
+     "weighted_games": 14.4,
+     "weighted_wr": 0.776,
+     "last_played": "2026-10-16"
+    },
+    {
+     "champion": "Corki",
+     "games": 18,
+     "wins": 10,
+     "weighted_games": 13.7,
+     "weighted_wr": 0.554,
+     "last_played": "2026-06-07"
+    },
+    {
+     "champion": "Yunara",
+     "games": 17,
+     "wins": 13,
+     "weighted_games": 13.7,
+     "weighted_wr": 0.737,
+     "last_played": "2026-10-29"
+    },
+    {
+     "champion": "Kai'Sa",
+     "games": 26,
+     "wins": 16,
+     "weighted_games": 12.6,
+     "weighted_wr": 0.65,
+     "last_played": "2026-10-15"
+    },
+    {
+     "champion": "Miss Fortune",
+     "games": 22,
+     "wins": 14,
+     "weighted_games": 12.0,
+     "weighted_wr": 0.61,
+     "last_played": "2026-10-15"
+    },
+    {
+     "champion": "Lucian",
+     "games": 18,
+     "wins": 11,
+     "weighted_games": 11.3,
+     "weighted_wr": 0.603,
+     "last_played": "2026-10-15"
+    },
+    {
+     "champion": "Kalista",
+     "games": 19,
+     "wins": 15,
+     "weighted_games": 10.5,
+     "weighted_wr": 0.756,
+     "last_played": "2026-10-24"
+    },
+    {
+     "champion": "Sivir",
+     "games": 14,
+     "wins": 8,
+     "weighted_games": 8.7,
+     "weighted_wr": 0.656,
+     "last_played": "2026-10-31"
+    },
+    {
+     "champion": "Draven",
+     "games": 18,
+     "wins": 9,
+     "weighted_games": 7.4,
+     "weighted_wr": 0.599,
+     "last_played": "2026-10-16"
+    },
+    {
+     "champion": "Aphelios",
+     "games": 17,
+     "wins": 8,
+     "weighted_games": 6.4,
+     "weighted_wr": 0.558,
+     "last_played": "2026-01-19"
+    },
+    {
+     "champion": "Viktor",
+     "games": 5,
+     "wins": 5,
+     "weighted_games": 4.5,
+     "weighted_wr": 0.809,
+     "last_played": "2026-08-03"
+    },
+    {
+     "champion": "Jinx",
+     "games": 9,
+     "wins": 2,
+     "weighted_games": 3.7,
+     "weighted_wr": 0.464,
+     "last_played": "2025-08-10"
+    },
+    {
+     "champion": "Ziggs",
+     "games": 4,
+     "wins": 1,
+     "weighted_games": 3.6,
+     "weighted_wr": 0.476,
+     "last_played": "2026-07-19"
+    },
+    {
+     "champion": "Nilah",
+     "games": 7,
+     "wins": 6,
+     "weighted_games": 2.6,
+     "weighted_wr": 0.717,
+     "last_played": "2025-03-15"
+    },
+    {
+     "champion": "Kog'Maw",
+     "games": 6,
+     "wins": 5,
+     "weighted_games": 2.4,
+     "weighted_wr": 0.704,
+     "last_played": "2025-05-10"
+    },
+    {
+     "champion": "Smolder",
+     "games": 5,
+     "wins": 4,
+     "weighted_games": 2.3,
+     "weighted_wr": 0.701,
+     "last_played": "2026-05-17"
+    },
+    {
+     "champion": "Tristana",
+     "games": 2,
+     "wins": 1,
+     "weighted_games": 1.8,
+     "weighted_wr": 0.611,
+     "last_played": "2026-10-29"
+    },
+    {
+     "champion": "Senna",
+     "games": 4,
+     "wins": 3,
+     "weighted_games": 1.7,
+     "weighted_wr": 0.673,
+     "last_played": "2025-06-01"
+    },
+    {
+     "champion": "Yasuo",
+     "games": 2,
+     "wins": 1,
+     "weighted_games": 0.9,
+     "weighted_wr": 0.597,
+     "last_played": "2025-02-24"
+    },
+    {
+     "champion": "Mel",
+     "games": 1,
+     "wins": 1,
+     "weighted_games": 0.9,
+     "weighted_wr": 0.691,
+     "last_played": "2026-07-15"
+    },
+    {
+     "champion": "Samira",
+     "games": 2,
+     "wins": 1,
+     "weighted_games": 0.5,
+     "weighted_wr": 0.632,
+     "last_played": "2023-07-19"
+    },
+    {
+     "champion": "Vayne",
+     "games": 1,
+     "wins": 1,
+     "weighted_games": 0.3,
+     "weighted_wr": 0.66,
+     "last_played": "2023-12-09"
+    }
+   ]
+  },
+  "Support": {
+   "player": "Busio",
+   "career_games": 552,
+   "first_game": "2021-01-12",
+   "career_wr": 0.598,
+   "games_2026": 156,
+   "wr_2026": 0.647,
+   "champions": [
+    {
+     "champion": "Alistar",
+     "games": 43,
+     "wins": 21,
+     "weighted_games": 24.2,
+     "weighted_wr": 0.547,
+     "last_played": "2026-10-26"
+    },
+    {
+     "champion": "Rakan",
+     "games": 50,
+     "wins": 33,
+     "weighted_games": 22.7,
+     "weighted_wr": 0.698,
+     "last_played": "2026-10-16"
+    },
+    {
+     "champion": "Nautilus",
+     "games": 52,
+     "wins": 23,
+     "weighted_games": 22.4,
+     "weighted_wr": 0.465,
+     "last_played": "2026-10-29"
+    },
+    {
+     "champion": "Bard",
+     "games": 30,
+     "wins": 20,
+     "weighted_games": 21.5,
+     "weighted_wr": 0.643,
+     "last_played": "2026-09-06"
+    },
+    {
+     "champion": "Leona",
+     "games": 37,
+     "wins": 29,
+     "weighted_games": 20.4,
+     "weighted_wr": 0.801,
+     "last_played": "2026-10-18"
+    },
+    {
+     "champion": "Nami",
+     "games": 30,
+     "wins": 18,
+     "weighted_games": 17.4,
+     "weighted_wr": 0.561,
+     "last_played": "2026-10-15"
+    },
+    {
+     "champion": "Seraphine",
+     "games": 23,
+     "wins": 16,
+     "weighted_games": 17.3,
+     "weighted_wr": 0.683,
+     "last_played": "2026-10-31"
+    },
+    {
+     "champion": "Rell",
+     "games": 30,
+     "wins": 18,
+     "weighted_games": 16.7,
+     "weighted_wr": 0.619,
+     "last_played": "2026-10-15"
+    },
+    {
+     "champion": "Lulu",
+     "games": 32,
+     "wins": 21,
+     "weighted_games": 16.5,
+     "weighted_wr": 0.769,
+     "last_played": "2026-10-31"
+    },
+    {
+     "champion": "Neeko",
+     "games": 21,
+     "wins": 14,
+     "weighted_games": 13.8,
+     "weighted_wr": 0.637,
+     "last_played": "2026-07-24"
+    },
+    {
+     "champion": "Renata Glasc",
+     "games": 30,
+     "wins": 19,
+     "weighted_games": 13.4,
+     "weighted_wr": 0.623,
+     "last_played": "2026-10-24"
+    },
+    {
+     "champion": "Karma",
+     "games": 21,
+     "wins": 10,
+     "weighted_games": 10.5,
+     "weighted_wr": 0.541,
+     "last_played": "2026-09-19"
+    },
+    {
+     "champion": "Camille",
+     "games": 6,
+     "wins": 2,
+     "weighted_games": 5.3,
+     "weighted_wr": 0.479,
+     "last_played": "2026-07-26"
+    },
+    {
+     "champion": "Braum",
+     "games": 16,
+     "wins": 11,
+     "weighted_games": 5.0,
+     "weighted_wr": 0.672,
+     "last_played": "2025-09-07"
+    },
+    {
+     "champion": "Milio",
+     "games": 7,
+     "wins": 5,
+     "weighted_games": 5.0,
+     "weighted_wr": 0.692,
+     "last_played": "2026-09-06"
+    },
+    {
+     "champion": "Tahm Kench",
+     "games": 21,
+     "wins": 16,
+     "weighted_games": 4.1,
+     "weighted_wr": 0.673,
+     "last_played": "2024-03-31"
+    },
+    {
+     "champion": "Thresh",
+     "games": 19,
+     "wins": 9,
+     "weighted_games": 3.6,
+     "weighted_wr": 0.546,
+     "last_played": "2023-03-26"
+    },
+    {
+     "champion": "Shen",
+     "games": 4,
+     "wins": 3,
+     "weighted_games": 3.6,
+     "weighted_wr": 0.681,
+     "last_played": "2026-08-03"
+    },
+    {
+     "champion": "Pyke",
+     "games": 7,
+     "wins": 5,
+     "weighted_games": 3.3,
+     "weighted_wr": 0.709,
+     "last_played": "2026-07-16"
+    },
+    {
+     "champion": "Yuumi",
+     "games": 8,
+     "wins": 4,
+     "weighted_games": 3.3,
+     "weighted_wr": 0.578,
+     "last_played": "2026-10-18"
+    },
+    {
+     "champion": "Vel'Koz",
+     "games": 3,
+     "wins": 3,
+     "weighted_games": 2.8,
+     "weighted_wr": 0.761,
+     "last_played": "2026-10-15"
+    },
+    {
+     "champion": "Poppy",
+     "games": 3,
+     "wins": 2,
+     "weighted_games": 1.8,
+     "weighted_wr": 0.602,
+     "last_played": "2026-06-07"
+    },
+    {
+     "champion": "Lux",
+     "games": 5,
+     "wins": 2,
+     "weighted_games": 1.7,
+     "weighted_wr": 0.633,
+     "last_played": "2026-08-29"
+    },
+    {
+     "champion": "Ashe",
+     "games": 5,
+     "wins": 3,
+     "weighted_games": 1.7,
+     "weighted_wr": 0.637,
+     "last_played": "2024-03-15"
+    },
+    {
+     "champion": "Janna",
+     "games": 2,
+     "wins": 2,
+     "weighted_games": 1.4,
+     "weighted_wr": 0.712,
+     "last_played": "2026-05-17"
+    },
+    {
+     "champion": "Rumble",
+     "games": 4,
+     "wins": 1,
+     "weighted_games": 1.3,
+     "weighted_wr": 0.593,
+     "last_played": "2025-05-17"
+    },
+    {
+     "champion": "Soraka",
+     "games": 3,
+     "wins": 1,
+     "weighted_games": 1.1,
+     "weighted_wr": 0.544,
+     "last_played": "2025-10-22"
+    },
+    {
+     "champion": "Galio",
+     "games": 7,
+     "wins": 4,
+     "weighted_games": 0.9,
+     "weighted_wr": 0.617,
+     "last_played": "2021-07-13"
+    },
+    {
+     "champion": "Senna",
+     "games": 3,
+     "wins": 1,
+     "weighted_games": 0.9,
+     "weighted_wr": 0.573,
+     "last_played": "2024-10-13"
+    },
+    {
+     "champion": "Ornn",
+     "games": 2,
+     "wins": 1,
+     "weighted_games": 0.8,
+     "weighted_wr": 0.611,
+     "last_played": "2024-06-15"
+    },
+    {
+     "champion": "Gragas",
+     "games": 5,
+     "wins": 1,
+     "weighted_games": 0.6,
+     "weighted_wr": 0.583,
+     "last_played": "2021-02-15"
+    },
+    {
+     "champion": "Sett",
+     "games": 5,
+     "wins": 2,
+     "weighted_games": 0.6,
+     "weighted_wr": 0.606,
+     "last_played": "2021-05-24"
+    },
+    {
+     "champion": "Yasuo",
+     "games": 3,
+     "wins": 1,
+     "weighted_games": 0.6,
+     "weighted_wr": 0.597,
+     "last_played": "2022-07-22"
+    },
+    {
+     "champion": "Blitzcrank",
+     "games": 2,
+     "wins": 1,
+     "weighted_games": 0.6,
+     "weighted_wr": 0.606,
+     "last_played": "2024-02-10"
+    },
+    {
+     "champion": "Elise",
+     "games": 1,
+     "wins": 1,
+     "weighted_games": 0.6,
+     "weighted_wr": 0.67,
+     "last_played": "2025-06-15"
+    },
+    {
+     "champion": "Dr. Mundo",
+     "games": 3,
+     "wins": 2,
+     "weighted_games": 0.4,
+     "weighted_wr": 0.633,
+     "last_played": "2021-07-19"
+    },
+    {
+     "champion": "Zilean",
+     "games": 2,
+     "wins": 1,
+     "weighted_games": 0.4,
+     "weighted_wr": 0.62,
+     "last_played": "2022-07-13"
+    },
+    {
+     "champion": "Taric",
+     "games": 2,
+     "wins": 2,
+     "weighted_games": 0.3,
+     "weighted_wr": 0.65,
+     "last_played": "2021-07-13"
+    },
+    {
+     "champion": "Azir",
+     "games": 1,
+     "wins": 0,
+     "weighted_games": 0.3,
+     "weighted_wr": 0.6,
+     "last_played": "2023-01-26"
+    },
+    {
+     "champion": "Varus",
+     "games": 1,
+     "wins": 1,
+     "weighted_games": 0.3,
+     "weighted_wr": 0.648,
+     "last_played": "2023-02-10"
+    },
+    {
+     "champion": "Nasus",
+     "games": 1,
+     "wins": 0,
+     "weighted_games": 0.2,
+     "weighted_wr": 0.607,
+     "last_played": "2022-04-13"
+    },
+    {
+     "champion": "Pantheon",
+     "games": 1,
+     "wins": 0,
+     "weighted_games": 0.1,
+     "weighted_wr": 0.615,
+     "last_played": "2021-01-26"
+    },
+    {
+     "champion": "Trundle",
+     "games": 1,
+     "wins": 1,
+     "weighted_games": 0.1,
+     "weighted_wr": 0.64,
+     "last_played": "2021-07-07"
+    }
+   ]
+  }
+ },
+ "team_draft": {
+  "games": 156,
+  "blue": [
+   54,
+   86
+  ],
+  "red": [
+   47,
+   70
+  ],
+  "bans_made": [
+   [
+    "Nocturne",
+    55
+   ],
+   [
+    "Vi",
+    47
+   ],
+   [
+    "Nautilus",
+    46
+   ],
+   [
+    "Orianna",
+    36
+   ],
+   [
+    "Varus",
+    36
+   ],
+   [
+    "Akali",
+    35
+   ],
+   [
+    "Pantheon",
+    24
+   ],
+   [
+    "Poppy",
+    22
+   ],
+   [
+    "Rumble",
+    20
+   ],
+   [
+    "Olaf",
+    18
+   ],
+   [
+    "Anivia",
+    18
+   ],
+   [
+    "Jarvan IV",
+    17
+   ]
+  ],
+  "bans_received": [
+   [
+    "Jayce",
+    47
+   ],
+   [
+    "Orianna",
+    45
+   ],
+   [
+    "Rumble",
+    38
+   ],
+   [
+    "Jarvan IV",
+    27
+   ],
+   [
+    "Vi",
+    25
+   ],
+   [
+    "Nautilus",
+    25
+   ],
+   [
+    "Varus",
+    25
+   ],
+   [
+    "Vayne",
+    24
+   ],
+   [
+    "Nocturne",
+    23
+   ],
+   [
+    "Poppy",
+    23
+   ],
+   [
+    "Bard",
+    22
+   ],
+   [
+    "Yunara",
+    21
+   ]
+  ],
+  "first_rotation_picks": [
+   [
+    "Rumble",
+    28
+   ],
+   [
+    "Vi",
+    22
+   ],
+   [
+    "Seraphine",
+    17
+   ],
+   [
+    "Azir",
+    16
+   ],
+   [
+    "Orianna",
+    15
+   ],
+   [
+    "Ashe",
+    15
+   ],
+   [
+    "Ryze",
+    15
+   ],
+   [
+    "Ezreal",
+    15
+   ],
+   [
+    "Jarvan IV",
+    14
+   ],
+   [
+    "Nami",
+    13
+   ],
+   [
+    "Cassiopeia",
+    12
+   ],
+   [
+    "Lulu",
+    12
+   ]
+  ]
+ }
+}

@@ -1,0 +1,192 @@
+{
+ "slice_key": "R:Worlds 2026 Main Event:TOP",
+ "kind": "role",
+ "tournament": "Worlds 2026 Main Event",
+ "patch": "ALL",
+ "role": "TOP",
+ "source": "gol.gg",
+ "source_url": "https://gol.gg/champion/list/season-S16/split-ALL/tournament-Worlds%202026%20Main%20Event/",
+ "method": "POST (form-encoded, same as the page's #FilterForm)",
+ "post_params": {
+  "cbtournament": "Worlds 2026 Main Event",
+  "patch": "ALL",
+  "role": "TOP",
+  "leaguePost": "true",
+  "side": "ALL",
+  "draft": "ALL"
+ },
+ "fetched_at": "2026-11-06T10:45:23.455Z",
+ "fetch_date": "2026-11-06",
+ "games": 61,
+ "notes": "Only champions with >=1 pick or ban kept (role slices: >=1 pick). Role slices: bans are not role-specific, so only picks/wins. games = sum(picks)/10 (role slices: /2). blind_pick_pct = gol.gg 'BP%' (blind pick %), avg_pick_round = 'Avg RP', avg_ban_turn = 'Avg BT' (1 = first ban).",
+ "rows": [
+  {
+   "champion_id": "Olaf",
+   "gol_icon": "Olaf",
+   "picks": 11,
+   "wins": 5,
+   "losses": 6
+  },
+  {
+   "champion_id": "Rumble",
+   "gol_icon": "Rumble",
+   "picks": 17,
+   "wins": 3,
+   "losses": 14
+  },
+  {
+   "champion_id": "Jayce",
+   "gol_icon": "Jayce",
+   "picks": 8,
+   "wins": 3,
+   "losses": 5
+  },
+  {
+   "champion_id": "KSante",
+   "gol_icon": "KSante",
+   "picks": 15,
+   "wins": 7,
+   "losses": 8
+  },
+  {
+   "champion_id": "Ambessa",
+   "gol_icon": "Ambessa",
+   "picks": 17,
+   "wins": 9,
+   "losses": 8
+  },
+  {
+   "champion_id": "Galio",
+   "gol_icon": "Galio",
+   "picks": 3,
+   "wins": 2,
+   "losses": 1
+  },
+  {
+   "champion_id": "Renekton",
+   "gol_icon": "Renekton",
+   "picks": 5,
+   "wins": 4,
+   "losses": 1
+  },
+  {
+   "champion_id": "Camille",
+   "gol_icon": "Camille",
+   "picks": 6,
+   "wins": 4,
+   "losses": 2
+  },
+  {
+   "champion_id": "Gnar",
+   "gol_icon": "Gnar",
+   "picks": 9,
+   "wins": 6,
+   "losses": 3
+  },
+  {
+   "champion_id": "Trundle",
+   "gol_icon": "Trundle",
+   "picks": 1,
+   "wins": 1,
+   "losses": 0
+  },
+  {
+   "champion_id": "Jax",
+   "gol_icon": "Jax",
+   "picks": 4,
+   "wins": 2,
+   "losses": 2
+  },
+  {
+   "champion_id": "Ornn",
+   "gol_icon": "Ornn",
+   "picks": 7,
+   "wins": 5,
+   "losses": 2
+  },
+  {
+   "champion_id": "Vayne",
+   "gol_icon": "Vayne",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "Shen",
+   "gol_icon": "Shen",
+   "picks": 4,
+   "wins": 0,
+   "losses": 4
+  },
+  {
+   "champion_id": "Kled",
+   "gol_icon": "Kled",
+   "picks": 2,
+   "wins": 2,
+   "losses": 0
+  },
+  {
+   "champion_id": "Gwen",
+   "gol_icon": "Gwen",
+   "picks": 1,
+   "wins": 1,
+   "losses": 0
+  },
+  {
+   "champion_id": "Aurora",
+   "gol_icon": "Aurora",
+   "picks": 2,
+   "wins": 2,
+   "losses": 0
+  },
+  {
+   "champion_id": "Kennen",
+   "gol_icon": "Kennen",
+   "picks": 2,
+   "wins": 1,
+   "losses": 1
+  },
+  {
+   "champion_id": "Aatrox",
+   "gol_icon": "Aatrox",
+   "picks": 2,
+   "wins": 1,
+   "losses": 1
+  },
+  {
+   "champion_id": "Irelia",
+   "gol_icon": "Irelia",
+   "picks": 1,
+   "wins": 1,
+   "losses": 0
+  },
+  {
+   "champion_id": "Sion",
+   "gol_icon": "Sion",
+   "picks": 1,
+   "wins": 1,
+   "losses": 0
+  },
+  {
+   "champion_id": "Zaahen",
+   "gol_icon": "Zaahen",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "Gangplank",
+   "gol_icon": "Gangplank",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "Tristana",
+   "gol_icon": "Tristana",
+   "picks": 1,
+   "wins": 1,
+   "losses": 0
+  }
+ ]
+}

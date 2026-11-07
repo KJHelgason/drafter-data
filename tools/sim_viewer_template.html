@@ -1,0 +1,345 @@
+<title>__TITLE__</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: champ-select board. Blue picks as splash bars on the left, red on the right, bans underneath,
+   the selected action's reasoning in the centre panel, and the full draft order as a timeline below. Single dark look. */
+:root{
+  color-scheme:dark;
+  --bg:#0b0d12; --panel:#14171e; --panel2:#1b1f28; --ink:#eceef3; --muted:#8d93a3; --line:#272c37;
+  --blue:#5b8dff; --blue-soft:#17233d; --red:#ff6a5c; --red-soft:#3a1a18; --gold:#d9b25a;
+  --f-display:"Barlow Condensed","Arial Narrow",sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--f-body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px 48px}
+.wrap{max-width:1280px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+h1,h2,h3{font-family:var(--f-display);font-weight:700;margin:0;line-height:1.1;text-wrap:balance}
+.lbl{font:600 .7rem/1 var(--f-body);letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.muted{color:var(--muted)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+
+/* nav */
+nav{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:flex-end}
+.navgrp{display:flex;flex-direction:column;gap:6px}
+.chips{display:flex;flex-wrap:wrap;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:4px}
+nav a{font:500 .82rem/1 var(--f-body);color:var(--muted);text-decoration:none;padding:8px 11px;border-radius:7px}
+nav a:hover{color:var(--ink)}
+nav a[aria-current="true"]{background:var(--panel2);color:var(--ink);box-shadow:inset 0 0 0 1px var(--line)}
+
+/* board */
+.board{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.5fr) minmax(0,1fr);gap:16px;align-items:start}
+.col{display:flex;flex-direction:column;gap:6px}
+.slot{position:relative;height:96px;border-radius:6px;overflow:hidden;background:var(--panel2);border:0;padding:0;cursor:pointer;display:block;width:100%;color:var(--ink);text-align:left}
+.slot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 22%;transition:transform .25s}
+.slot:hover img{transform:scale(1.04)}
+.slot::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.75),rgba(0,0,0,0) 55%)}
+.slot .role{position:absolute;top:7px;left:7px;z-index:1;font:600 .66rem/1 var(--f-body);letter-spacing:.06em;text-transform:uppercase;background:rgba(0,0,0,.6);padding:4px 6px;border-radius:4px}
+.slot .nm{position:absolute;bottom:7px;left:10px;z-index:1;font:700 1.15rem/1 var(--f-display);letter-spacing:.02em;text-shadow:0 1px 3px #000}
+.slot .pl{position:absolute;bottom:9px;right:10px;z-index:1;font-size:.72rem;color:#d5d8e0;text-shadow:0 1px 3px #000}
+.red .slot .role{left:auto;right:7px}
+.red .slot .nm{left:auto;right:10px}
+.red .slot .pl{right:auto;left:10px}
+.slot .ord{position:absolute;top:7px;right:7px;z-index:1;font:500 .68rem/1 var(--f-mono);background:rgba(0,0,0,.6);padding:4px 5px;border-radius:4px}
+.red .slot .ord{right:auto;left:7px}
+.blue .slot{box-shadow:inset 3px 0 0 var(--blue)}
+.red .slot{box-shadow:inset -3px 0 0 var(--red)}
+.slot.sel{outline:2px solid var(--gold);outline-offset:1px}
+.slot.empty{cursor:default;display:grid;place-items:center;color:var(--muted);font-size:.8rem}
+
+.bans{display:flex;gap:14px;flex-wrap:wrap}
+.red .bans{justify-content:flex-end}
+.bgrp{display:flex;gap:5px}
+.bn{position:relative;width:46px;height:46px;border-radius:5px;overflow:hidden;border:1px solid var(--line);padding:0;cursor:pointer;background:var(--panel2)}
+.bn img{width:100%;height:100%;filter:grayscale(1) brightness(.7)}
+.bn::after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,transparent 47%,rgba(255,255,255,.75) 48%,rgba(255,255,255,.75) 52%,transparent 53%)}
+.bn.sel{outline:2px solid var(--gold);outline-offset:1px}
+.banrow{display:flex;flex-direction:column;gap:6px;margin-top:8px}
+
+.center{display:flex;flex-direction:column;gap:12px;min-width:0}
+.teams{display:flex;justify-content:space-between;gap:10px}
+.teams h2{font-size:1.7rem}
+.teams .r{text-align:right}
+.tb{color:var(--blue)} .tr{color:var(--red)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.intel{font:600 .68rem/1 var(--f-body);letter-spacing:.08em;text-transform:uppercase;padding:4px 7px;border-radius:4px;border:1px solid currentColor;align-self:flex-start}
+.intel.full{color:var(--gold)} .intel.public{color:var(--muted)}
+.order{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));gap:4px}
+.step{position:relative;aspect-ratio:1;border-radius:4px;overflow:hidden;border:0;padding:0;cursor:pointer;background:var(--panel2);max-width:100%}
+.step img{width:100%;height:100%;display:block}
+.step.ban img{filter:grayscale(1) brightness(.65)}
+.step .n{position:absolute;left:2px;top:1px;font:500 .6rem/1 var(--f-mono);text-shadow:0 0 3px #000}
+.step.blue{box-shadow:inset 0 -3px 0 var(--blue)} .step.red{box-shadow:inset 0 -3px 0 var(--red)}
+.step.sel{outline:2px solid var(--gold);outline-offset:1px}
+.note{display:flex;gap:12px;align-items:flex-start}
+.note img{width:58px;height:58px;border-radius:6px;flex:none}
+.note .t{display:flex;flex-direction:column;gap:4px;min-width:0}
+.note h3{font-size:1.4rem}
+.note p{margin:0;font-size:.92rem;line-height:1.55}
+.hint{font-size:.78rem;color:var(--muted)}
+.ordtog{display:inline-flex;gap:2px;background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:3px;align-self:flex-start}
+.ordtog button{font:500 .76rem/1 var(--f-body);color:var(--muted);background:none;border:0;border-radius:6px;padding:7px 10px;cursor:pointer}
+.ordtog button:hover{color:var(--ink)}
+.ordtog button[aria-pressed="true"]{background:var(--panel);color:var(--ink);box-shadow:inset 0 0 0 1px var(--line)}
+
+/* timeline */
+.tl{display:grid;grid-template-columns:minmax(0,1fr) 46px minmax(0,1fr);column-gap:14px;row-gap:8px}
+.phase{grid-column:1/-1;display:flex;align-items:center;gap:12px;margin-top:10px}
+.phase::before,.phase::after{content:"";flex:1;height:1px;background:var(--line)}
+.phase span{font:700 .95rem/1 var(--f-display);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.spine{grid-column:2;display:flex;justify-content:center;padding-top:16px}
+.num{font:500 .74rem/1 var(--f-mono);color:var(--muted);width:30px;height:30px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;background:var(--panel)}
+.ev{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:flex;gap:12px;align-items:flex-start;min-width:0}
+.ev.blue{grid-column:1;flex-direction:row-reverse;text-align:right}
+.ev.red{grid-column:3}
+.ev .ic{width:52px;height:52px;border-radius:6px;flex:none}
+.ev.ban .ic{filter:grayscale(1) brightness(.7)}
+.ev .bd{display:flex;flex-direction:column;gap:4px;min-width:0}
+.ev .top{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.ev.blue .top{flex-direction:row-reverse}
+.tag{font:600 .68rem/1 var(--f-mono);padding:4px 6px;border-radius:4px}
+.ev.blue .tag{background:var(--blue-soft);color:var(--blue)} .ev.red .tag{background:var(--red-soft);color:var(--red)}
+.ev .champ{font:700 1.3rem/1 var(--f-display);letter-spacing:.02em}
+.ev.blue .champ{color:var(--blue)} .ev.red .champ{color:var(--red)}
+.ev.ban .champ{text-decoration:line-through;opacity:.75}
+.ev.pick{border-color:#343a48}
+.ev p{margin:0;font-size:.88rem;line-height:1.5;color:#d3d6de}
+
+/* overview */
+.ov{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow-x:auto}
+.ov table{width:100%;border-collapse:collapse;min-width:920px;font-size:.86rem}
+.ov th,.ov td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle}
+.ov th{font:600 .68rem/1 var(--f-body);letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.ov tr:last-child td{border-bottom:0}
+.ov td a{color:var(--ink);font-weight:600}
+.icons{display:flex;flex-wrap:wrap;gap:4px}
+.icons img{width:34px;height:34px;flex:0 0 auto;border-radius:5px;object-fit:cover}
+.icons.fl{display:grid;grid-template-columns:repeat(5,26px);gap:3px}
+.icons.fl img{width:26px;height:26px}
+.ovl{display:flex;flex-direction:column;gap:12px}
+.ovc{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--line);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.ovc.blue{border-left-color:var(--blue)} .ovc.red{border-left-color:var(--red)}
+.ovc header{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px}
+.ovc header a{color:var(--ink);font-weight:600;font-size:1.05rem}
+.ovr{margin-left:auto;display:flex;gap:4px 18px;align-items:center;flex-wrap:wrap}
+.ovk{display:flex;gap:6px;align-items:baseline;font-size:.82rem;color:var(--muted)}
+.ovk .lv{font-size:.95rem}
+.ovg{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),max-content));gap:14px 32px}
+.ovt{display:flex;flex-direction:column;gap:10px;min-width:0}
+.ovb{display:flex;flex-direction:column;gap:5px}
+.dsc{display:flex;flex-direction:column;align-items:flex-end;gap:2px;font-size:.9rem}
+.side-blue{color:var(--blue);font-weight:600} .side-red{color:var(--red);font-weight:600}
+.icons.g img{filter:grayscale(1) brightness(.7);width:26px;height:26px}
+
+/* post-draft review */
+.rv{display:flex;flex-direction:column;gap:14px}
+.rv .head{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+.lean{display:flex;height:34px;border-radius:7px;overflow:hidden;font:700 1.05rem/34px var(--f-display);letter-spacing:.03em}
+.lean .b{background:var(--blue-soft);color:var(--blue);padding:0 12px;box-shadow:inset 3px 0 0 var(--blue)}
+.lean .r{background:var(--red-soft);color:var(--red);padding:0 12px;text-align:right;box-shadow:inset -3px 0 0 var(--red)}
+.rgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.rgrid4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.rc{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:6px}
+.rc p{margin:0;font-size:.9rem;color:#d3d6de}
+.rc h3{font-size:1.15rem;letter-spacing:.02em}
+.rc.blue{box-shadow:inset 3px 0 0 var(--blue)} .rc.red{box-shadow:inset 3px 0 0 var(--red)} .rc.us{box-shadow:inset 3px 0 0 var(--gold)}
+.rc dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:.88rem}
+.rc dt{color:var(--muted);font-weight:600} .rc dd{margin:0;color:#d3d6de}
+.edge{font:600 .7rem/1 var(--f-mono);padding:3px 6px;border-radius:4px;background:var(--panel2);color:var(--muted)}
+.edge.blue{color:var(--blue)} .edge.red{color:var(--red)}
+.grade{font:700 1.5rem/1 var(--f-display)}
+.drv{margin:0;padding-left:18px;font-size:.9rem;color:#d3d6de}
+.lv{font-weight:700;font-family:var(--f-display);font-size:1.05rem}
+@media (max-width:900px){.rgrid4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.rgrid,.rgrid4{grid-template-columns:minmax(0,1fr)}}
+
+@media (max-width:900px){
+  .board{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .center{grid-column:1/-1;order:-1}
+  .slot{height:76px}
+}
+@media (max-width:640px){
+  .tl{grid-template-columns:minmax(0,1fr)}
+  .spine{display:none}
+  .ev.blue,.ev.red{grid-column:1}
+  .ev.blue{flex-direction:row;text-align:left;margin-right:24px}
+  .ev.blue .top{flex-direction:row}
+  .ev.red{margin-left:24px}
+  .slot .pl{display:none}
+  .bn{width:38px;height:38px}
+  .order{grid-template-columns:repeat(5,minmax(0,1fr))}
+}
+@media (prefers-reduced-motion:reduce){.slot img{transition:none}}
+</style>
+
+<div class="wrap">
+  <header style="display:flex;flex-direction:column;gap:6px">
+    <span class="lbl">__KICKER__</span>
+    <h1 style="font-size:2rem;text-transform:uppercase">__TITLE__</h1>
+    <p class="muted" id="intro" style="margin:0;max-width:75ch">Two Claude captains drafting against each other. Click any champion to read why it was banned or picked. Under each board, a neutral analyst reviews the draft: who won it, lanes, teamfights and our game plan. <b>Full</b> intel: the opponent saw our team sheet, scrims and drafter history. <b>Public</b>: only league games (and their drafts), soloQ and pro data.</p>
+  </header>
+  <nav id="nav" aria-label="Simulations"></nav>
+  <main id="view"></main>
+</div>
+
+<script>
+const SIMS = /*__DATA__*/[];
+const IMG = /*__IMG__*/{};
+const META = /*__META__*/{};
+const SER = META && META.series;   // series mode (sim_viewer.py --series): games in order, results shown
+const PH = [[0,"Ban phase 1"],[6,"Pick phase 1"],[12,"Ban phase 2"],[16,"Pick phase 2"]];
+const esc = s => String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const id = s => s.file.replace(/\.json$/,"").replace(/[^a-z0-9]+/gi,"-");
+const sq = k => (IMG[k]&&IMG[k].q)||"";
+const sp = k => (IMG[k]&&IMG[k].s)||sq(k);
+const ROLE = {top:"Top",jungle:"Jungle",mid:"Mid",bot:"Bottom",support:"Support"};
+let cur = null, sel = 0;
+
+function nav(c){
+  const groups = {};
+  if(SER) SIMS.forEach(s=>{const k="Series · "+s[s.us].name+" vs "+s[opp(s)].name;(groups[k]=groups[k]||[]).push(s)});
+  else SIMS.forEach(s=>{const k=s[s.us].name+" vs "+s[opp(s)].name+" · "+(s.us==="blue"?"we're blue":"we're red");(groups[k]=groups[k]||[]).push(s)});
+  let h = `<div class="navgrp"><span class="lbl">Summary</span><div class="chips"><a href="#overview" aria-current="${c==='overview'}">All drafts</a></div></div>`;
+  for(const [k,arr] of Object.entries(groups))
+    h += `<div class="navgrp"><span class="lbl">${esc(k)}</span><div class="chips">`+
+      arr.map(s=>`<a href="#${id(s)}" aria-current="${c===id(s)}">${esc(s.label)} · ${SER?(s.us==="blue"?"we're blue":"we're red")+(s.result?" · "+(s.result.winner===s.us?"W":"L"):""):esc(s.intel)}</a>`).join("")+`</div></div>`;
+  document.getElementById("nav").innerHTML = h;
+}
+const opp = s => s.us==="blue"?"red":"blue";
+const acts = (s,side,kind)=>s.actions.filter(a=>a.side===side&&a.kind===kind);
+
+function draftCell(s){   // objective draft score: champions only, players left out (draft_review.py --draft-only)
+  const d = s.draft_only; if(!d) return '<span class="muted">-</span>';
+  const u = d.lean[s.us], w = u>50?"us":u<50?"them":"even";
+  return `<span class="lv" style="color:${w==="us"?"var(--gold)":w==="them"?"var(--muted)":"var(--ink)"}">${w==="even"?"Even":(w==="us"?"Us ":esc(s[opp(s)].name)+" ")+Math.max(u,100-u)}</span>`;
+}
+function leanCell(s){
+  const r = s.review; if(!r||!r.lean) return '<span class="muted">-</span>';
+  const u = r.lean[s.us], w = u>50?"us":u<50?"them":"even";
+  return `<span class="lv" style="color:${w==="us"?"var(--gold)":w==="them"?"var(--muted)":"var(--ink)"}">${w==="even"?"Even":(w==="us"?"Us ":"")+(w==="them"?esc(s[opp(s)].name)+" ":"")+Math.max(u,100-u)}</span>`;
+}
+function review(s){
+  const r = s.review, d = s.data; if(!r && !d) return "";
+  const B = esc(s.blue.name), R = esc(s.red.name);
+  let h = `<section class="rv" aria-label="Post-draft review"><div class="head"><div><span class="lbl">Post-draft review</span><h2 style="font-size:1.6rem">${r?(r.winner==="even"?"Even draft":(r.winner==="blue"?B:R)+" won the draft"):"Data score"}</h2></div>`;
+  const o = s.draft_only;
+  if(d||o) h += `<div class="dsc">${o?`<span><span class="muted">Draft only (champions, no players):</span> <b>${B} ${o.lean.blue} – ${o.lean.red} ${R}</b></span>`:""}${d?`<span class="muted" style="font-size:.82rem">Data score with players: ${B} ${d.lean.blue} – ${d.lean.red} ${R}</span>`:""}</div>`;
+  h += `</div>`;
+  if(r){
+    const lb = r.lean.blue;
+    h += `<div class="lean" role="img" aria-label="Analyst lean ${B} ${lb}, ${R} ${100-lb}"><div class="b" style="width:${lb}%">${B} ${lb}</div><div class="r" style="width:${100-lb}%">${100-lb} ${R}</div></div>
+    <div class="rgrid"><div class="rc"><span class="lbl">Verdict</span><p>${esc(r.verdict)}</p></div>
+      <div class="rc"><span class="lbl">What decided it</span><ol class="drv">${(r.drivers||[]).map(x=>`<li>${esc(x)}</li>`).join("")}</ol>
+      ${d?`<span class="muted" style="font-size:.78rem">Data drivers: ${esc(d.drivers.join(", "))}</span>`:""}
+      ${o?`<span class="muted" style="font-size:.78rem">Draft-only drivers: ${esc(o.drivers.join(", "))}</span>`:""}</div></div>`;
+    h += `<div class="rgrid">`+["blue","red"].map(sd=>{const c=(r.comps||{})[sd]||{};return `<div class="rc ${sd}"><span class="lbl">${sd==="blue"?B:R} comp</span><h3>${esc(c.style)}</h3>
+      <dl><dt>Win con</dt><dd>${esc(c.win_condition)}</dd><dt>Spikes</dt><dd>${esc(c.power_spikes)}</dd></dl></div>`}).join("")+`</div>`;
+    const edge = role=>{const l=d&&d.lanes.find(x=>x.role===role); if(!l) return ""; const e=role==="bot"?l.edge+(d.lanes.find(x=>x.role==="support")||{edge:0}).edge:l.edge; const ee=Math.round(e*10)/10;
+      return `<span class="edge ${e>0?"blue":e<0?"red":""}" title="${esc((l.notes||[]).join("; "))}">data ${ee>0?B+" +"+ee:ee<0?R+" +"+(-ee):"even"}</span>`};
+    const LN = {top:"Top",jungle:"Jungle",mid:"Mid",bot:"Bot lane (2v2)"};
+    h += `<div class="rgrid4">`+Object.keys(LN).map(k=>`<div class="rc"><div style="display:flex;justify-content:space-between;gap:6px;align-items:center"><span class="lbl">${LN[k]}</span>${edge(k)}</div><p>${esc((r.lanes||{})[k])}</p></div>`).join("")+`</div>`;
+    const p = r.game_plan||r.whisky_plan||{};
+    h += `<div class="rgrid"><div class="rc"><span class="lbl">Teamfights</span><p>${esc(r.teamfight)}</p></div>
+      <div class="rc us"><span class="lbl" style="color:var(--gold)">Our game plan</span><dl><dt>Early</dt><dd>${esc(p.early)}</dd><dt>Mid</dt><dd>${esc(p.mid)}</dd><dt>Late</dt><dd>${esc(p.late)}</dd><dt>Avoid</dt><dd>${esc(p.avoid)}</dd></dl></div></div>`;
+    const g = r.draft_grades||{};
+    h += `<div class="rgrid">`+["blue","red"].map(sd=>`<div class="rc ${sd}"><span class="lbl">${sd==="blue"?B:R} draft grade</span><div style="display:flex;gap:12px;align-items:baseline"><span class="grade">${esc((g[sd]||{}).grade)}</span><p>${esc((g[sd]||{}).note)}</p></div></div>`).join("")+`</div>`;
+  }
+  return h+`</section>`;
+}
+function overview(){
+  const ic = (arr,cls)=>`<div class="icons ${cls}">`+arr.map(a=>`<img src="${sq(a.key)}" alt="${esc(a.champ)}" title="${esc(a.champ)}">`).join("")+`</div>`;
+  const comp = s=>s.comp.map(c=>({key:c.key,champ:c.champ}));
+  const sorted = SER ? [...SIMS] : [...SIMS].sort((a,b)=>(a.us===b.us?0:a.us==="blue"?-1:1));
+  const res = s=>s.result?`<span class="lv" style="color:${s.result.winner===s.us?"var(--gold)":"var(--muted)"}">${s.result.winner===s.us?"Our win":esc(s[opp(s)].name)+" win"}</span><div class="muted" style="font-size:.78rem">${esc(s.result.score_after)}</div>`:'<span class="muted">-</span>';
+  const blk = (lbl,arr,cls)=>`<div class="ovb"><span class="lbl">${lbl}</span>${arr.length?ic(arr,cls):'<span class="muted" style="font-size:.8rem">none</span>'}</div>`;
+  const rows = sorted.map(s=>{const o=opp(s);return `<article class="ovc ${s.us}">
+    <header><span class="side-${s.us}">${s.us==="blue"?"Blue":"Red"}</span>
+      <a href="#${id(s)}">${esc(s[o].name)}</a><span class="muted">${esc(s.label)}</span><span class="intel ${s.intel}">${esc(s.intel)}</span>
+      <span class="ovr"><span class="ovk" title="Analyst's judgment of the draft, with these players">Draft lean ${leanCell(s)}</span><span class="ovk" title="Objective: champions only, players left out">Draft only ${draftCell(s)}</span>${SER?`<span class="ovk">${res(s)}</span>`:""}</span></header>
+    <div class="ovg">
+      <div class="ovt us">${blk("Our comp",comp(s[s.us]),"us")}${blk("Our bans",acts(s,s.us,"ban"),"g")}</div>
+      <div class="ovt">${blk(esc(s[o].name)+" comp",comp(s[o]),"")}${blk(esc(s[o].name)+" bans",acts(s,o,"ban"),"g")}</div>
+      ${SER?`<div class="ovt">${blk("Fearless-locked ("+(s.fearless||[]).length+")",s.fearless||[],"g fl")}</div>`:""}
+    </div></article>`}).join("");
+  return `<div style="display:flex;flex-direction:column;gap:12px">
+    <h2 style="font-size:1.6rem">${SER?"Series: "+esc(SER.result):"All drafts"}</h2>
+    <p class="muted" style="margin:0">${SER?"Games in order. Fearless lists every champion picked in the earlier games (gone for both teams). Comps read top, jungle, mid, bot, support. Draft lean is the analyst's judgment of the draft with these players; Draft only is the objective score of the champions alone, players left out. "+esc(SER.method):"Our drafts on blue side first, then red side. Comps read top, jungle, mid, bot, support. Open a draft to see the board and the reasoning."}</p>
+    <div class="ovl">${rows}</div></div>`;
+}
+
+let ord = "pick";   // board order: "pick" (B1..B5 / R1..R5) or "role" (top to support); remembered per viewer
+try{ const v = localStorage.getItem("simOrder"); if(v==="pick"||v==="role") ord = v; }catch(e){}
+function ordToggle(){
+  return `<div class="ordtog" role="group" aria-label="Board order">${[["pick","Pick order"],["role","Role order"]].map(([k,t])=>`<button type="button" data-ord="${k}" aria-pressed="${ord===k}">${t}</button>`).join("")}</div>`;
+}
+function slots(s,side){
+  const pidx = c=>{const i=s.actions.findIndex(a=>a.kind==="pick"&&a.side===side&&a.champ===c.champ); return i<0?99:i;};
+  const list = ord==="pick" ? s[side].comp.slice().sort((x,y)=>pidx(x)-pidx(y)) : s[side].comp;
+  return list.map(c=>{
+    if(!c.champ) return `<div class="slot empty">${ROLE[c.role]}</div>`;
+    const i = s.actions.findIndex(a=>a.kind==="pick"&&a.side===side&&a.champ===c.champ);
+    const a = s.actions[i];
+    return `<button class="slot${i===sel?" sel":""}" data-i="${i}" aria-label="${esc(c.champ)}, ${ROLE[c.role]}">
+      <img src="${sp(c.key)}" alt=""><span class="role">${ROLE[c.role]}</span><span class="ord">${esc(a.tag)}</span>
+      <span class="nm">${esc(c.champ)}</span><span class="pl">${esc(c.player)}</span></button>`;}).join("");
+}
+function bans(s,side){
+  const b = s.actions.map((a,i)=>({a,i})).filter(x=>x.a.side===side&&x.a.kind==="ban");
+  const btn = x=>`<button class="bn${x.i===sel?" sel":""}" data-i="${x.i}" title="${esc(x.a.champ)}" aria-label="Ban ${esc(x.a.champ)}"><img src="${sq(x.a.key)}" alt=""></button>`;
+  return `<div class="bans"><div class="bgrp">${b.slice(0,3).map(btn).join("")}</div><div class="bgrp">${b.slice(3).map(btn).join("")}</div></div>`;
+}
+function note(s){
+  const a = s.actions[sel]; if(!a) return "";
+  return `<div class="note"><img src="${sq(a.key)}" alt="" style="${a.kind==='ban'?'filter:grayscale(1)':''}">
+    <div class="t"><span class="lbl" style="color:var(--${a.side})">${a.side==="blue"?esc(s.blue.name):esc(s.red.name)} · ${a.kind==="ban"?esc(a.tag):"pick "+esc(a.tag)} · action ${a.i} of 20</span>
+    <h3>${esc(a.champ)}</h3><p>${esc(a.why)}</p></div></div>`;
+}
+function sim(s){
+  const order = s.actions.map((a,i)=>`<button class="step ${a.side} ${a.kind}${i===sel?" sel":""}" data-i="${i}" title="${i+1}. ${a.side} ${a.kind} ${esc(a.champ)}"><img src="${sq(a.key)}" alt="${esc(a.champ)}"><span class="n">${i+1}</span></button>`).join("");
+  let tl = "";
+  s.actions.forEach((a,i)=>{
+    const ph = PH.find(p=>p[0]===i); if(ph) tl += `<div class="phase"><span>${ph[1]}</span></div>`;
+    const ev = `<article class="ev ${a.side} ${a.kind}"><img class="ic" src="${sq(a.key)}" alt="">
+      <div class="bd"><div class="top"><span class="tag">${esc(a.tag)}</span><span class="champ">${esc(a.champ)}</span></div><p>${esc(a.why)}</p></div></article>`;
+    const num = `<div class="spine"><span class="num">${i+1}</span></div>`;
+    tl += a.side==="blue" ? ev+num+"<div></div>" : "<div></div>"+num+ev;
+  });
+  return `<div style="display:flex;flex-direction:column;gap:22px">
+   <section class="board">
+    <div class="col blue">${slots(s,"blue")}<div class="banrow">${bans(s,"blue")}</div></div>
+    <div class="center">
+      <div class="teams"><div><h2 class="tb">${esc(s.blue.name)}</h2><span class="muted">blue side</span></div>
+        <div class="r"><h2 class="tr">${esc(s.red.name)}</h2><span class="muted">red side</span></div></div>
+      <div class="card"><div style="display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:center">
+          <span class="intel ${s.intel}">${esc(s.intel)} intel</span><span class="muted" style="font-size:.78rem">${esc(s.label)} · ${esc(s.file)}</span></div>
+        <div style="display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:center"><span class="lbl">Draft order</span>${ordToggle()}</div><div class="order">${order}</div>
+        ${(s.fearless&&s.fearless.length)?`<span class="lbl">Fearless-locked (${s.fearless.length}, picked in earlier games)</span><div class="icons g" style="flex-wrap:wrap">${s.fearless.map(f=>`<img src="${sq(f.key)}" alt="${esc(f.champ)}" title="${esc(f.champ)} (${esc(s[f.side].name)})">`).join("")}</div>`:""}
+        ${s.result?`<span class="lbl">Game result</span><p style="margin:0"><b>${esc(s.result.winner==="blue"?s.blue.name:s.red.name)} win</b> · ${esc(s.result.score_after)}</p>`:""}</div>
+      <div class="card" id="note">${note(s)}</div>
+      <span class="hint">Click a pick, ban or step to read the captain's reasoning. The full timeline is below.</span>
+    </div>
+    <div class="col red">${slots(s,"red")}<div class="banrow">${bans(s,"red")}</div></div>
+   </section>
+   ${review(s)}
+   <section class="tl" aria-label="Draft timeline">${tl}</section></div>`;
+}
+function render(){
+  const s = SIMS.find(x=>id(x)===cur);
+  nav(s?id(s):"overview");
+  document.getElementById("view").innerHTML = s ? sim(s) : overview();
+}
+document.addEventListener("click",e=>{
+  const t = e.target.closest("[data-ord]");
+  if(t){ ord = t.dataset.ord; try{ localStorage.setItem("simOrder", ord); }catch(err){} render(); return; }
+  const b = e.target.closest("[data-i]"); if(!b) return;
+  sel = +b.dataset.i;
+  const s = SIMS.find(x=>id(x)===cur); if(!s) return;
+  document.getElementById("note").innerHTML = note(s);
+  document.querySelectorAll("[data-i]").forEach(el=>el.classList.toggle("sel",+el.dataset.i===sel));
+});
+function route(){cur = location.hash.slice(1); sel = 6; render();}
+addEventListener("hashchange",()=>{route();scrollTo(0,0)});
+route();
+</script>

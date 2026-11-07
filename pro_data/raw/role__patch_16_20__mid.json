@@ -1,0 +1,248 @@
+{
+ "slice_key": "R:P16.20.:MID",
+ "kind": "role",
+ "tournament": "ALL",
+ "patch": "16.20",
+ "role": "MID",
+ "source": "gol.gg",
+ "source_url": "https://gol.gg/champion/list/season-S16/split-ALL/tournament-ALL/",
+ "method": "POST (form-encoded, same as the page's #FilterForm)",
+ "post_params": {
+  "cbtournament": "ALL",
+  "patch": "16.20.",
+  "role": "MID",
+  "leaguePost": "true",
+  "side": "ALL",
+  "draft": "ALL"
+ },
+ "fetched_at": "2026-11-06T10:46:24.790Z",
+ "fetch_date": "2026-11-06",
+ "games": 112,
+ "notes": "Only champions with >=1 pick or ban kept (role slices: >=1 pick). Role slices: bans are not role-specific, so only picks/wins. games = sum(picks)/10 (role slices: /2). blind_pick_pct = gol.gg 'BP%' (blind pick %), avg_pick_round = 'Avg RP', avg_ban_turn = 'Avg BT' (1 = first ban).",
+ "rows": [
+  {
+   "champion_id": "Syndra",
+   "gol_icon": "Syndra",
+   "picks": 26,
+   "wins": 16,
+   "losses": 10
+  },
+  {
+   "champion_id": "Cassiopeia",
+   "gol_icon": "Cassiopeia",
+   "picks": 17,
+   "wins": 9,
+   "losses": 8
+  },
+  {
+   "champion_id": "Akali",
+   "gol_icon": "Akali",
+   "picks": 16,
+   "wins": 4,
+   "losses": 12
+  },
+  {
+   "champion_id": "Orianna",
+   "gol_icon": "Orianna",
+   "picks": 25,
+   "wins": 17,
+   "losses": 8
+  },
+  {
+   "champion_id": "Locke",
+   "gol_icon": "Locke",
+   "picks": 12,
+   "wins": 7,
+   "losses": 5
+  },
+  {
+   "champion_id": "Rumble",
+   "gol_icon": "Rumble",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "Jayce",
+   "gol_icon": "Jayce",
+   "picks": 2,
+   "wins": 1,
+   "losses": 1
+  },
+  {
+   "champion_id": "KSante",
+   "gol_icon": "KSante",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "Galio",
+   "gol_icon": "Galio",
+   "picks": 14,
+   "wins": 7,
+   "losses": 7
+  },
+  {
+   "champion_id": "Viktor",
+   "gol_icon": "Viktor",
+   "picks": 22,
+   "wins": 11,
+   "losses": 11
+  },
+  {
+   "champion_id": "Sylas",
+   "gol_icon": "Sylas",
+   "picks": 7,
+   "wins": 3,
+   "losses": 4
+  },
+  {
+   "champion_id": "Ryze",
+   "gol_icon": "Ryze",
+   "picks": 13,
+   "wins": 4,
+   "losses": 9
+  },
+  {
+   "champion_id": "Ahri",
+   "gol_icon": "Ahri",
+   "picks": 10,
+   "wins": 5,
+   "losses": 5
+  },
+  {
+   "champion_id": "Leblanc",
+   "gol_icon": "LeBlanc",
+   "picks": 4,
+   "wins": 1,
+   "losses": 3
+  },
+  {
+   "champion_id": "Ambessa",
+   "gol_icon": "Ambessa",
+   "picks": 1,
+   "wins": 1,
+   "losses": 0
+  },
+  {
+   "champion_id": "Anivia",
+   "gol_icon": "Anivia",
+   "picks": 7,
+   "wins": 1,
+   "losses": 6
+  },
+  {
+   "champion_id": "Taliyah",
+   "gol_icon": "Taliyah",
+   "picks": 10,
+   "wins": 7,
+   "losses": 3
+  },
+  {
+   "champion_id": "Yone",
+   "gol_icon": "Yone",
+   "picks": 3,
+   "wins": 0,
+   "losses": 3
+  },
+  {
+   "champion_id": "Annie",
+   "gol_icon": "Annie",
+   "picks": 8,
+   "wins": 6,
+   "losses": 2
+  },
+  {
+   "champion_id": "Aurora",
+   "gol_icon": "Aurora",
+   "picks": 5,
+   "wins": 2,
+   "losses": 3
+  },
+  {
+   "champion_id": "TwistedFate",
+   "gol_icon": "TwistedFate",
+   "picks": 3,
+   "wins": 2,
+   "losses": 1
+  },
+  {
+   "champion_id": "Lissandra",
+   "gol_icon": "Lissandra",
+   "picks": 3,
+   "wins": 2,
+   "losses": 1
+  },
+  {
+   "champion_id": "Corki",
+   "gol_icon": "Corki",
+   "picks": 2,
+   "wins": 1,
+   "losses": 1
+  },
+  {
+   "champion_id": "Ziggs",
+   "gol_icon": "Ziggs",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "KogMaw",
+   "gol_icon": "KogMaw",
+   "picks": 3,
+   "wins": 2,
+   "losses": 1
+  },
+  {
+   "champion_id": "Tristana",
+   "gol_icon": "Tristana",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "Mel",
+   "gol_icon": "Mel",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "Hwei",
+   "gol_icon": "Hwei",
+   "picks": 2,
+   "wins": 1,
+   "losses": 1
+  },
+  {
+   "champion_id": "Diana",
+   "gol_icon": "Diana",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "Swain",
+   "gol_icon": "Swain",
+   "picks": 1,
+   "wins": 1,
+   "losses": 0
+  },
+  {
+   "champion_id": "Veigar",
+   "gol_icon": "Veigar",
+   "picks": 1,
+   "wins": 1,
+   "losses": 0
+  },
+  {
+   "champion_id": "Smolder",
+   "gol_icon": "Smolder",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  }
+ ]
+}

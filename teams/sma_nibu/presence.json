@@ -1,0 +1,1041 @@
+{
+ "team": "Smá Nibu",
+ "slug": "sma_nibu",
+ "method": "Player \"personality\": what each player has actually shown in league games, and what opponents fear from them.\nFor semi-pro leagues this matters as much as pro meta: players are strongest on their favourites (e.g. Leifur's Urgot),\nnot on every pro pick.",
+ "players": {
+  "boppa": {
+   "role": "top",
+   "league_roles": {
+    "jungle": 2,
+    "top": 13
+   },
+   "champions": [
+    {
+     "champ": "Jax",
+     "name": "Jax",
+     "presence": 8.54,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 7.07,
+     "phase2_bans_vs": 0.79
+    },
+    {
+     "champ": "Gnar",
+     "name": "Gnar",
+     "presence": 8.0,
+     "games": 4,
+     "wins": 3,
+     "games_2025": 0,
+     "phase1_bans_vs": 4.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Jayce",
+     "name": "Jayce",
+     "presence": 6.38,
+     "games": 2,
+     "wins": 2,
+     "games_2025": 0,
+     "phase1_bans_vs": 4.38,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Rumble",
+     "name": "Rumble",
+     "presence": 2.74,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 1.74,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "DrMundo",
+     "name": "Dr. Mundo",
+     "presence": 1.75,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.75,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Ambessa",
+     "name": "Ambessa",
+     "presence": 1.43,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.71
+    },
+    {
+     "champ": "Sion",
+     "name": "Sion",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Vayne",
+     "name": "Vayne",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Renekton",
+     "name": "Renekton",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 0,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Camille",
+     "name": "Camille",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 0,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Gwen",
+     "name": "Gwen",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 0,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "MonkeyKing",
+     "name": "Wukong",
+     "presence": 0.9,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.9,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Ryze",
+     "name": "Ryze",
+     "presence": 0.64,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.64,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Karma",
+     "name": "Karma",
+     "presence": 0.53,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.33,
+     "phase2_bans_vs": 0.33
+    },
+    {
+     "champ": "Shen",
+     "name": "Shen",
+     "presence": 0.5,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.5,
+     "phase2_bans_vs": 0.0
+    }
+   ]
+  },
+  "sosa": {
+   "role": "jungle",
+   "league_roles": {
+    "support": 1,
+    "bot": 1,
+    "jungle": 13
+   },
+   "champions": [
+    {
+     "champ": "Shaco",
+     "name": "Shaco",
+     "presence": 4.48,
+     "games": 2,
+     "wins": 2,
+     "games_2025": 2,
+     "phase1_bans_vs": 1.78,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Khazix",
+     "name": "Kha'Zix",
+     "presence": 3.0,
+     "games": 2,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 1.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Jayce",
+     "name": "Jayce",
+     "presence": 2.92,
+     "games": 2,
+     "wins": 2,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.92,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Poppy",
+     "name": "Poppy",
+     "presence": 2.35,
+     "games": 2,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.58
+    },
+    {
+     "champ": "Jax",
+     "name": "Jax",
+     "presence": 2.06,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 0,
+     "phase1_bans_vs": 1.93,
+     "phase2_bans_vs": 0.21
+    },
+    {
+     "champ": "XinZhao",
+     "name": "Xin Zhao",
+     "presence": 2.0,
+     "games": 2,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Janna",
+     "name": "Janna",
+     "presence": 1.3,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 3,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.41
+    },
+    {
+     "champ": "Zyra",
+     "name": "Zyra",
+     "presence": 1.3,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 0,
+     "phase1_bans_vs": 1.0,
+     "phase2_bans_vs": 0.5
+    },
+    {
+     "champ": "Veigar",
+     "name": "Veigar",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Skarner",
+     "name": "Skarner",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Olaf",
+     "name": "Olaf",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Nidalee",
+     "name": "Nidalee",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 0,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Sion",
+     "name": "Sion",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "MonkeyKing",
+     "name": "Wukong",
+     "presence": 0.9,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.9,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Senna",
+     "name": "Senna",
+     "presence": 0.7,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 2,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    }
+   ]
+  },
+  "legions": {
+   "role": "mid",
+   "league_roles": {
+    "mid": 6,
+    "top": 1
+   },
+   "champions": [
+    {
+     "champ": "Viktor",
+     "name": "Viktor",
+     "presence": 3.6,
+     "games": 2,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 1.0,
+     "phase2_bans_vs": 1.0
+    },
+    {
+     "champ": "Ryze",
+     "name": "Ryze",
+     "presence": 3.36,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 2.36,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Leblanc",
+     "name": "LeBlanc",
+     "presence": 3.36,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 0,
+     "phase1_bans_vs": 3.0,
+     "phase2_bans_vs": 0.6
+    },
+    {
+     "champ": "Qiyana",
+     "name": "Qiyana",
+     "presence": 2.38,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 3,
+     "phase1_bans_vs": 1.33,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Syndra",
+     "name": "Syndra",
+     "presence": 2.2,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 2.0
+    },
+    {
+     "champ": "Zed",
+     "name": "Zed",
+     "presence": 1.95,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 1,
+     "phase1_bans_vs": 1.0,
+     "phase2_bans_vs": 1.0
+    },
+    {
+     "champ": "Yone",
+     "name": "Yone",
+     "presence": 1.47,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.79
+    },
+    {
+     "champ": "Sylas",
+     "name": "Sylas",
+     "presence": 1.32,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 2,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 1.04
+    },
+    {
+     "champ": "Kassadin",
+     "name": "Kassadin",
+     "presence": 1.2,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 2.0
+    },
+    {
+     "champ": "JarvanIV",
+     "name": "Jarvan IV",
+     "presence": 1.05,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 3,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Yasuo",
+     "name": "Yasuo",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Azir",
+     "name": "Azir",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 0,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Jayce",
+     "name": "Jayce",
+     "presence": 0.69,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.69,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Locke",
+     "name": "Locke",
+     "presence": 0.6,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 1.0
+    },
+    {
+     "champ": "MonkeyKing",
+     "name": "Wukong",
+     "presence": 0.56,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.21,
+     "phase2_bans_vs": 0.0
+    }
+   ]
+  },
+  "zarzator": {
+   "role": "mid",
+   "league_roles": {
+    "mid": 8
+   },
+   "champions": [
+    {
+     "champ": "TwistedFate",
+     "name": "Twisted Fate",
+     "presence": 1.82,
+     "games": 1,
+     "wins": 0,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.78
+    },
+    {
+     "champ": "Annie",
+     "name": "Annie",
+     "presence": 1.7,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 2,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Orianna",
+     "name": "Orianna",
+     "presence": 1.35,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Ahri",
+     "name": "Ahri",
+     "presence": 1.35,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Anivia",
+     "name": "Anivia",
+     "presence": 1.35,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Kled",
+     "name": "Kled",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Karthus",
+     "name": "Karthus",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Lux",
+     "name": "Lux",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 0,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Qiyana",
+     "name": "Qiyana",
+     "presence": 0.68,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.33,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Yasuo",
+     "name": "Yasuo",
+     "presence": 0.35,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Zoe",
+     "name": "Zoe",
+     "presence": 0.35,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Xerath",
+     "name": "Xerath",
+     "presence": 0.35,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Lissandra",
+     "name": "Lissandra",
+     "presence": 0.35,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    }
+   ]
+  },
+  "redside hater": {
+   "role": "bot",
+   "league_roles": {
+    "top": 1,
+    "support": 1,
+    "bot": 11
+   },
+   "champions": [
+    {
+     "champ": "Ezreal",
+     "name": "Ezreal",
+     "presence": 4.2,
+     "games": 3,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 2.0
+    },
+    {
+     "champ": "Anivia",
+     "name": "Anivia",
+     "presence": 3.0,
+     "games": 3,
+     "wins": 2,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Lucian",
+     "name": "Lucian",
+     "presence": 2.0,
+     "games": 2,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Yunara",
+     "name": "Yunara",
+     "presence": 1.91,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.56,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Caitlyn",
+     "name": "Caitlyn",
+     "presence": 1.56,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.94
+    },
+    {
+     "champ": "Rumble",
+     "name": "Rumble",
+     "presence": 1.32,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.32,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Sylas",
+     "name": "Sylas",
+     "presence": 1.14,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.24
+    },
+    {
+     "champ": "Xayah",
+     "name": "Xayah",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Ambessa",
+     "name": "Ambessa",
+     "presence": 0.75,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 2,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.09
+    },
+    {
+     "champ": "Gangplank",
+     "name": "Gangplank",
+     "presence": 0.7,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 2,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Renekton",
+     "name": "Renekton",
+     "presence": 0.7,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 2,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "DrMundo",
+     "name": "Dr. Mundo",
+     "presence": 0.4,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.05,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Orianna",
+     "name": "Orianna",
+     "presence": 0.35,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Mordekaiser",
+     "name": "Mordekaiser",
+     "presence": 0.35,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Gwen",
+     "name": "Gwen",
+     "presence": 0.35,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    }
+   ]
+  },
+  "miq": {
+   "role": "bot",
+   "league_roles": {
+    "bot": 2
+   },
+   "champions": [
+    {
+     "champ": "Twitch",
+     "name": "Twitch",
+     "presence": 2.05,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 3,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Yunara",
+     "name": "Yunara",
+     "presence": 1.79,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.44,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Kaisa",
+     "name": "Kai'Sa",
+     "presence": 0.35,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Sivir",
+     "name": "Sivir",
+     "presence": 0.35,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Vayne",
+     "name": "Vayne",
+     "presence": 0.35,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Ashe",
+     "name": "Ashe",
+     "presence": 0.35,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Smolder",
+     "name": "Smolder",
+     "presence": 0.35,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Lucian",
+     "name": "Lucian",
+     "presence": 0.35,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Aphelios",
+     "name": "Aphelios",
+     "presence": 0.35,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 1,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    }
+   ]
+  },
+  "red umbrella": {
+   "role": "support",
+   "league_roles": {
+    "bot": 1,
+    "mid": 1,
+    "support": 13
+   },
+   "champions": [
+    {
+     "champ": "Leblanc",
+     "name": "LeBlanc",
+     "presence": 3.24,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 2.0,
+     "phase2_bans_vs": 0.4
+    },
+    {
+     "champ": "Leona",
+     "name": "Leona",
+     "presence": 2.6,
+     "games": 2,
+     "wins": 2,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 1.0
+    },
+    {
+     "champ": "Milio",
+     "name": "Milio",
+     "presence": 2.0,
+     "games": 2,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Nautilus",
+     "name": "Nautilus",
+     "presence": 2.0,
+     "games": 2,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Lulu",
+     "name": "Lulu",
+     "presence": 1.47,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.79
+    },
+    {
+     "champ": "Jhin",
+     "name": "Jhin",
+     "presence": 1.4,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 4,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Zyra",
+     "name": "Zyra",
+     "presence": 1.3,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 0,
+     "phase1_bans_vs": 1.0,
+     "phase2_bans_vs": 0.5
+    },
+    {
+     "champ": "Poppy",
+     "name": "Poppy",
+     "presence": 1.2,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.33
+    },
+    {
+     "champ": "Ashe",
+     "name": "Ashe",
+     "presence": 1.05,
+     "games": 0,
+     "wins": 0,
+     "games_2025": 3,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Lucian",
+     "name": "Lucian",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Bard",
+     "name": "Bard",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Rell",
+     "name": "Rell",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Elise",
+     "name": "Elise",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 1,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Nami",
+     "name": "Nami",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 0,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    },
+    {
+     "champ": "Braum",
+     "name": "Braum",
+     "presence": 1.0,
+     "games": 1,
+     "wins": 0,
+     "games_2025": 0,
+     "phase1_bans_vs": 0.0,
+     "phase2_bans_vs": 0.0
+    }
+   ]
+  }
+ }
+}

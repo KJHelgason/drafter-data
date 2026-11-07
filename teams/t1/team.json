@@ -1,0 +1,30 @@
+{
+ "name": "T1",
+ "slug": "t1",
+ "region": "pro",
+ "leagues": [
+  "pro"
+ ],
+ "is_us": false,
+ "profile_source": "tools/pro_team_profile.py",
+ "comp_team_names": [
+  "T1"
+ ],
+ "lineup": {
+  "top": [
+   "doran"
+  ],
+  "jungle": [
+   "oner"
+  ],
+  "mid": [
+   "faker"
+  ],
+  "bot": [
+   "peyz"
+  ],
+  "support": [
+   "keria"
+  ]
+ }
+}

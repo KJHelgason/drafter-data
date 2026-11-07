@@ -1,0 +1,2745 @@
+{
+ "Aatrox": {
+  "name": "Aatrox",
+  "roles": [
+   "top",
+   "jungle"
+  ],
+  "archetypes": [
+   "fighter",
+   "juggernaut",
+   "tank"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 2,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Ahri": {
+  "name": "Ahri",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "assassin",
+   "burst",
+   "mage"
+  ],
+  "damage": "mixed",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Akali": {
+  "name": "Akali",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "assassin"
+  ],
+  "damage": "AP",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Akshan": {
+  "name": "Akshan",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "assassin",
+   "marksman"
+  ],
+  "damage": "AD",
+  "range": "short",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Alistar": {
+  "name": "Alistar",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "support",
+   "tank",
+   "vanguard"
+  ],
+  "damage": "AP",
+  "range": "melee",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Ambessa": {
+  "name": "Ambessa",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "assassin",
+   "diver",
+   "fighter",
+   "skirmisher"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Amumu": {
+  "name": "Amumu",
+  "roles": [
+   "support",
+   "jungle"
+  ],
+  "archetypes": [
+   "support",
+   "tank",
+   "vanguard"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 2,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Anivia": {
+  "name": "Anivia",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "battlemage",
+   "mage",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Annie": {
+  "name": "Annie",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "burst",
+   "mage",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Aphelios": {
+  "name": "Aphelios",
+  "roles": [
+   "bot"
+  ],
+  "archetypes": [
+   "marksman"
+  ],
+  "damage": "AD",
+  "range": "long",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Ashe": {
+  "name": "Ashe",
+  "roles": [
+   "bot"
+  ],
+  "archetypes": [
+   "marksman",
+   "support"
+  ],
+  "damage": "AD",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "AurelionSol": {
+  "name": "Aurelion Sol",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "battlemage",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Aurora": {
+  "name": "Aurora",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "assassin",
+   "burst",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Azir": {
+  "name": "Azir",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "mage",
+   "marksman",
+   "specialist"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Bard": {
+  "name": "Bard",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "catcher",
+   "mage",
+   "support"
+  ],
+  "damage": "mixed",
+  "range": "short",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Belveth": {
+  "name": "Bel'Veth",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "fighter",
+   "skirmisher"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Blitzcrank": {
+  "name": "Blitzcrank",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "catcher",
+   "support",
+   "tank"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Brand": {
+  "name": "Brand",
+  "roles": [
+   "support",
+   "mid"
+  ],
+  "archetypes": [
+   "burst",
+   "mage",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Braum": {
+  "name": "Braum",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "support",
+   "tank",
+   "warden"
+  ],
+  "damage": "AP",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Briar": {
+  "name": "Briar",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "assassin",
+   "diver",
+   "fighter"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Caitlyn": {
+  "name": "Caitlyn",
+  "roles": [
+   "bot"
+  ],
+  "archetypes": [
+   "marksman"
+  ],
+  "damage": "AD",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Camille": {
+  "name": "Camille",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "assassin",
+   "diver",
+   "fighter"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Cassiopeia": {
+  "name": "Cassiopeia",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "battlemage",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 4,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Chogath": {
+  "name": "Cho'Gath",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "mage",
+   "specialist",
+   "tank"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Corki": {
+  "name": "Corki",
+  "roles": [
+   "bot"
+  ],
+  "archetypes": [
+   "mage",
+   "marksman"
+  ],
+  "damage": "mixed",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Darius": {
+  "name": "Darius",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "fighter",
+   "juggernaut",
+   "tank"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Diana": {
+  "name": "Diana",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "assassin",
+   "diver",
+   "fighter"
+  ],
+  "damage": "AP",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "DrMundo": {
+  "name": "Dr. Mundo",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "fighter",
+   "juggernaut",
+   "tank"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Draven": {
+  "name": "Draven",
+  "roles": [
+   "bot"
+  ],
+  "archetypes": [
+   "marksman"
+  ],
+  "damage": "AD",
+  "range": "long",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Ekko": {
+  "name": "Ekko",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "assassin",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Elise": {
+  "name": "Elise",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "assassin",
+   "diver",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Evelynn": {
+  "name": "Evelynn",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "assassin",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Ezreal": {
+  "name": "Ezreal",
+  "roles": [
+   "bot"
+  ],
+  "archetypes": [
+   "mage",
+   "marksman"
+  ],
+  "damage": "mixed",
+  "range": "long",
+  "blind_safety": 4,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Fiddlesticks": {
+  "name": "Fiddlesticks",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "mage",
+   "specialist",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "short",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Fiora": {
+  "name": "Fiora",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "assassin",
+   "fighter",
+   "skirmisher"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Fizz": {
+  "name": "Fizz",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "assassin",
+   "fighter"
+  ],
+  "damage": "AP",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Galio": {
+  "name": "Galio",
+  "roles": [
+   "mid",
+   "top"
+  ],
+  "archetypes": [
+   "mage",
+   "tank",
+   "warden"
+  ],
+  "damage": "AP",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Gangplank": {
+  "name": "Gangplank",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "fighter",
+   "specialist"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Garen": {
+  "name": "Garen",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "fighter",
+   "juggernaut",
+   "tank"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Gnar": {
+  "name": "Gnar",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "fighter",
+   "specialist",
+   "tank"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Gragas": {
+  "name": "Gragas",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "fighter",
+   "mage",
+   "vanguard"
+  ],
+  "damage": "AP",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Graves": {
+  "name": "Graves",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "marksman",
+   "specialist"
+  ],
+  "damage": "AD",
+  "range": "short",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Gwen": {
+  "name": "Gwen",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "assassin",
+   "fighter",
+   "skirmisher"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Hecarim": {
+  "name": "Hecarim",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "diver",
+   "fighter",
+   "tank"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Heimerdinger": {
+  "name": "Heimerdinger",
+  "roles": [
+   "bot"
+  ],
+  "archetypes": [
+   "mage",
+   "specialist",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Hwei": {
+  "name": "Hwei",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "artillery",
+   "mage",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Illaoi": {
+  "name": "Illaoi",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "fighter",
+   "juggernaut",
+   "tank"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Irelia": {
+  "name": "Irelia",
+  "roles": [
+   "top",
+   "mid"
+  ],
+  "archetypes": [
+   "assassin",
+   "diver",
+   "fighter"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Ivern": {
+  "name": "Ivern",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "catcher",
+   "mage",
+   "support"
+  ],
+  "damage": "mixed",
+  "range": "short",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Janna": {
+  "name": "Janna",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "enchanter",
+   "mage",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "JarvanIV": {
+  "name": "Jarvan IV",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "diver",
+   "fighter",
+   "tank"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 4,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Jax": {
+  "name": "Jax",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "assassin",
+   "fighter",
+   "skirmisher"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Jayce": {
+  "name": "Jayce",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "artillery",
+   "fighter",
+   "marksman"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 5,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Jhin": {
+  "name": "Jhin",
+  "roles": [
+   "bot"
+  ],
+  "archetypes": [
+   "catcher",
+   "mage",
+   "marksman"
+  ],
+  "damage": "AD",
+  "range": "long",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Jinx": {
+  "name": "Jinx",
+  "roles": [
+   "bot"
+  ],
+  "archetypes": [
+   "marksman"
+  ],
+  "damage": "AD",
+  "range": "long",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "KSante": {
+  "name": "K'Sante",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "fighter",
+   "skirmisher",
+   "tank",
+   "warden"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Kaisa": {
+  "name": "Kai'Sa",
+  "roles": [
+   "bot"
+  ],
+  "archetypes": [
+   "mage",
+   "marksman"
+  ],
+  "damage": "mixed",
+  "range": "long",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Kalista": {
+  "name": "Kalista",
+  "roles": [
+   "bot"
+  ],
+  "archetypes": [
+   "marksman"
+  ],
+  "damage": "AD",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Karma": {
+  "name": "Karma",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "burst",
+   "enchanter",
+   "mage",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 4,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Karthus": {
+  "name": "Karthus",
+  "roles": [
+   "bot",
+   "jungle"
+  ],
+  "archetypes": [
+   "battlemage",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "short",
+  "blind_safety": 3,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Kassadin": {
+  "name": "Kassadin",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "assassin",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Katarina": {
+  "name": "Katarina",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "assassin",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Kayle": {
+  "name": "Kayle",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "mage",
+   "marksman",
+   "specialist"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Kayn": {
+  "name": "Kayn",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "assassin",
+   "fighter",
+   "skirmisher"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Kennen": {
+  "name": "Kennen",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "mage",
+   "marksman",
+   "specialist"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Khazix": {
+  "name": "Kha'Zix",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "assassin"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Kindred": {
+  "name": "Kindred",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "marksman"
+  ],
+  "damage": "AD",
+  "range": "short",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Kled": {
+  "name": "Kled",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "fighter",
+   "skirmisher",
+   "tank"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "KogMaw": {
+  "name": "Kog'Maw",
+  "roles": [
+   "mid",
+   "bot"
+  ],
+  "archetypes": [
+   "mage",
+   "marksman"
+  ],
+  "damage": "mixed",
+  "range": "short",
+  "blind_safety": 1,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Leblanc": {
+  "name": "LeBlanc",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "assassin",
+   "burst",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "LeeSin": {
+  "name": "Lee Sin",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "assassin",
+   "diver",
+   "fighter"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Leona": {
+  "name": "Leona",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "support",
+   "tank",
+   "vanguard"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Lillia": {
+  "name": "Lillia",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "fighter",
+   "mage",
+   "skirmisher"
+  ],
+  "damage": "mixed",
+  "range": "short",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Lissandra": {
+  "name": "Lissandra",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "burst",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Locke": {
+  "name": "Locke",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "assassin",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "melee",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Lucian": {
+  "name": "Lucian",
+  "roles": [
+   "bot"
+  ],
+  "archetypes": [
+   "assassin",
+   "marksman"
+  ],
+  "damage": "AD",
+  "range": "short",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Lulu": {
+  "name": "Lulu",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "enchanter",
+   "mage",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Lux": {
+  "name": "Lux",
+  "roles": [
+   "support",
+   "mid"
+  ],
+  "archetypes": [
+   "artillery",
+   "burst",
+   "mage",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 1,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Malphite": {
+  "name": "Malphite",
+  "roles": [
+   "top",
+   "jungle"
+  ],
+  "archetypes": [
+   "mage",
+   "tank",
+   "vanguard"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Malzahar": {
+  "name": "Malzahar",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "assassin",
+   "battlemage",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "short",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Maokai": {
+  "name": "Maokai",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "support",
+   "tank",
+   "vanguard"
+  ],
+  "damage": "AP",
+  "range": "melee",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "MasterYi": {
+  "name": "Master Yi",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "assassin",
+   "fighter",
+   "skirmisher"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Mel": {
+  "name": "Mel",
+  "roles": [
+   "bot",
+   "mid"
+  ],
+  "archetypes": [
+   "artillery",
+   "mage",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 1,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Milio": {
+  "name": "Milio",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "enchanter",
+   "mage",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "MissFortune": {
+  "name": "Miss Fortune",
+  "roles": [
+   "bot"
+  ],
+  "archetypes": [
+   "mage",
+   "marksman"
+  ],
+  "damage": "AD",
+  "range": "long",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "MonkeyKing": {
+  "name": "Wukong",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "diver",
+   "fighter",
+   "tank"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Mordekaiser": {
+  "name": "Mordekaiser",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "fighter",
+   "juggernaut",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Morgana": {
+  "name": "Morgana",
+  "roles": [
+   "support",
+   "jungle"
+  ],
+  "archetypes": [
+   "catcher",
+   "mage",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "short",
+  "blind_safety": 3,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Naafiri": {
+  "name": "Naafiri",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "assassin",
+   "fighter"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Nami": {
+  "name": "Nami",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "enchanter",
+   "mage",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Nasus": {
+  "name": "Nasus",
+  "roles": [
+   "top",
+   "jungle",
+   "mid"
+  ],
+  "archetypes": [
+   "fighter",
+   "juggernaut",
+   "tank"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Nautilus": {
+  "name": "Nautilus",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "support",
+   "tank",
+   "vanguard"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Neeko": {
+  "name": "Neeko",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "burst",
+   "catcher",
+   "mage",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Nidalee": {
+  "name": "Nidalee",
+  "roles": [
+   "jungle",
+   "top"
+  ],
+  "archetypes": [
+   "assassin",
+   "mage",
+   "specialist"
+  ],
+  "damage": "mixed",
+  "range": "long",
+  "blind_safety": 2,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Nilah": {
+  "name": "Nilah",
+  "roles": [
+   "bot"
+  ],
+  "archetypes": [
+   "assassin",
+   "fighter",
+   "skirmisher"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Nocturne": {
+  "name": "Nocturne",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "assassin",
+   "fighter"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 4,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Nunu": {
+  "name": "Nunu & Willump",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "mage",
+   "tank",
+   "vanguard"
+  ],
+  "damage": "AP",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Olaf": {
+  "name": "Olaf",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "diver",
+   "fighter",
+   "tank"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Orianna": {
+  "name": "Orianna",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "burst",
+   "mage",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 5,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Ornn": {
+  "name": "Ornn",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "fighter",
+   "tank",
+   "vanguard"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Pantheon": {
+  "name": "Pantheon",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "assassin",
+   "diver",
+   "fighter"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Poppy": {
+  "name": "Poppy",
+  "roles": [
+   "jungle",
+   "support"
+  ],
+  "archetypes": [
+   "fighter",
+   "tank",
+   "warden"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Pyke": {
+  "name": "Pyke",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "assassin",
+   "catcher",
+   "support"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Qiyana": {
+  "name": "Qiyana",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "assassin",
+   "fighter"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Quinn": {
+  "name": "Quinn",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "assassin",
+   "marksman",
+   "specialist"
+  ],
+  "damage": "AD",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Rakan": {
+  "name": "Rakan",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "catcher",
+   "support"
+  ],
+  "damage": "mixed",
+  "range": "short",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Rammus": {
+  "name": "Rammus",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "fighter",
+   "tank",
+   "vanguard"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "RekSai": {
+  "name": "Rek'Sai",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "diver",
+   "fighter",
+   "tank"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Rell": {
+  "name": "Rell",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "support",
+   "tank",
+   "vanguard"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Renata": {
+  "name": "Renata Glasc",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "enchanter",
+   "mage",
+   "support"
+  ],
+  "damage": "mixed",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Renekton": {
+  "name": "Renekton",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "diver",
+   "fighter",
+   "tank"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 4,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Rengar": {
+  "name": "Rengar",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "assassin",
+   "diver",
+   "fighter"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Riven": {
+  "name": "Riven",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "assassin",
+   "fighter",
+   "skirmisher"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Rumble": {
+  "name": "Rumble",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "battlemage",
+   "fighter",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "melee",
+  "blind_safety": 5,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Ryze": {
+  "name": "Ryze",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "battlemage",
+   "fighter",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 5,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Samira": {
+  "name": "Samira",
+  "roles": [
+   "bot"
+  ],
+  "archetypes": [
+   "assassin",
+   "marksman"
+  ],
+  "damage": "AD",
+  "range": "short",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Sejuani": {
+  "name": "Sejuani",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "fighter",
+   "tank",
+   "vanguard"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Senna": {
+  "name": "Senna",
+  "roles": [
+   "support",
+   "bot"
+  ],
+  "archetypes": [
+   "enchanter",
+   "marksman",
+   "support"
+  ],
+  "damage": "AD",
+  "range": "long",
+  "blind_safety": 2,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Seraphine": {
+  "name": "Seraphine",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "burst",
+   "enchanter",
+   "mage",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Sett": {
+  "name": "Sett",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "fighter",
+   "juggernaut",
+   "tank"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Shaco": {
+  "name": "Shaco",
+  "roles": [
+   "jungle",
+   "support"
+  ],
+  "archetypes": [
+   "assassin"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Shen": {
+  "name": "Shen",
+  "roles": [
+   "support",
+   "top"
+  ],
+  "archetypes": [
+   "tank",
+   "warden"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 2,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Shyvana": {
+  "name": "Shyvana",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "fighter",
+   "juggernaut",
+   "mage"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Singed": {
+  "name": "Singed",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "mage",
+   "specialist",
+   "tank"
+  ],
+  "damage": "AP",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Sion": {
+  "name": "Sion",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "fighter",
+   "tank",
+   "vanguard"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Sivir": {
+  "name": "Sivir",
+  "roles": [
+   "bot"
+  ],
+  "archetypes": [
+   "marksman"
+  ],
+  "damage": "AD",
+  "range": "short",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Skarner": {
+  "name": "Skarner",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "fighter",
+   "juggernaut",
+   "tank",
+   "vanguard"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Smolder": {
+  "name": "Smolder",
+  "roles": [
+   "mid",
+   "bot"
+  ],
+  "archetypes": [
+   "mage",
+   "marksman"
+  ],
+  "damage": "mixed",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Sona": {
+  "name": "Sona",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "enchanter",
+   "mage",
+   "support"
+  ],
+  "damage": "mixed",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Soraka": {
+  "name": "Soraka",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "enchanter",
+   "mage",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Swain": {
+  "name": "Swain",
+  "roles": [
+   "mid",
+   "bot"
+  ],
+  "archetypes": [
+   "battlemage",
+   "mage",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 1,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Sylas": {
+  "name": "Sylas",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "assassin",
+   "burst",
+   "mage",
+   "skirmisher"
+  ],
+  "damage": "AP",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Syndra": {
+  "name": "Syndra",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "burst",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "TahmKench": {
+  "name": "Tahm Kench",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "support",
+   "tank",
+   "warden"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Taliyah": {
+  "name": "Taliyah",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "battlemage",
+   "mage",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Talon": {
+  "name": "Talon",
+  "roles": [
+   "mid",
+   "jungle"
+  ],
+  "archetypes": [
+   "assassin"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Taric": {
+  "name": "Taric",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "enchanter",
+   "support",
+   "tank",
+   "warden"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Teemo": {
+  "name": "Teemo",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "mage",
+   "marksman",
+   "specialist"
+  ],
+  "damage": "AP",
+  "range": "short",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Thresh": {
+  "name": "Thresh",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "catcher",
+   "support",
+   "tank"
+  ],
+  "damage": "AP",
+  "range": "short",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Tristana": {
+  "name": "Tristana",
+  "roles": [
+   "bot",
+   "mid"
+  ],
+  "archetypes": [
+   "assassin",
+   "marksman"
+  ],
+  "damage": "AD",
+  "range": "long",
+  "blind_safety": 2,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Trundle": {
+  "name": "Trundle",
+  "roles": [
+   "jungle",
+   "top"
+  ],
+  "archetypes": [
+   "fighter",
+   "juggernaut",
+   "tank"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Tryndamere": {
+  "name": "Tryndamere",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "assassin",
+   "fighter",
+   "skirmisher"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "TwistedFate": {
+  "name": "Twisted Fate",
+  "roles": [
+   "mid",
+   "top"
+  ],
+  "archetypes": [
+   "burst",
+   "mage",
+   "marksman"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 2,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Twitch": {
+  "name": "Twitch",
+  "roles": [
+   "bot"
+  ],
+  "archetypes": [
+   "assassin",
+   "marksman"
+  ],
+  "damage": "mixed",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Udyr": {
+  "name": "Udyr",
+  "roles": [
+   "jungle",
+   "top"
+  ],
+  "archetypes": [
+   "fighter",
+   "juggernaut",
+   "tank"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Urgot": {
+  "name": "Urgot",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "fighter",
+   "juggernaut",
+   "tank"
+  ],
+  "damage": "AD",
+  "range": "short",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Varus": {
+  "name": "Varus",
+  "roles": [
+   "bot",
+   "top"
+  ],
+  "archetypes": [
+   "artillery",
+   "mage",
+   "marksman"
+  ],
+  "damage": "mixed",
+  "range": "long",
+  "blind_safety": 4,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Vayne": {
+  "name": "Vayne",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "assassin",
+   "marksman"
+  ],
+  "damage": "mixed",
+  "range": "long",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Veigar": {
+  "name": "Veigar",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "burst",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Velkoz": {
+  "name": "Vel'Koz",
+  "roles": [
+   "support",
+   "bot"
+  ],
+  "archetypes": [
+   "artillery",
+   "mage",
+   "support"
+  ],
+  "damage": "mixed",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Vex": {
+  "name": "Vex",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "burst",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Vi": {
+  "name": "Vi",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "assassin",
+   "diver",
+   "fighter"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 4,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Viego": {
+  "name": "Viego",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "assassin",
+   "fighter",
+   "skirmisher"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Viktor": {
+  "name": "Viktor",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "battlemage",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Vladimir": {
+  "name": "Vladimir",
+  "roles": [
+   "top",
+   "mid"
+  ],
+  "archetypes": [
+   "battlemage",
+   "fighter",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "short",
+  "blind_safety": 3,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Volibear": {
+  "name": "Volibear",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "fighter",
+   "juggernaut",
+   "tank"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Warwick": {
+  "name": "Warwick",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "diver",
+   "fighter",
+   "tank"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Xayah": {
+  "name": "Xayah",
+  "roles": [
+   "bot"
+  ],
+  "archetypes": [
+   "marksman"
+  ],
+  "damage": "AD",
+  "range": "long",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Xerath": {
+  "name": "Xerath",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "artillery",
+   "mage",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "XinZhao": {
+  "name": "Xin Zhao",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "diver",
+   "fighter",
+   "tank"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Yasuo": {
+  "name": "Yasuo",
+  "roles": [
+   "top",
+   "bot",
+   "mid"
+  ],
+  "archetypes": [
+   "assassin",
+   "fighter",
+   "skirmisher"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Yone": {
+  "name": "Yone",
+  "roles": [
+   "mid",
+   "top"
+  ],
+  "archetypes": [
+   "assassin",
+   "fighter",
+   "skirmisher"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Yorick": {
+  "name": "Yorick",
+  "roles": [
+   "top"
+  ],
+  "archetypes": [
+   "fighter",
+   "juggernaut",
+   "tank"
+  ],
+  "damage": "mixed",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Yunara": {
+  "name": "Yunara",
+  "roles": [
+   "bot"
+  ],
+  "archetypes": [
+   "marksman"
+  ],
+  "damage": "mixed",
+  "range": "long",
+  "blind_safety": 4,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Yuumi": {
+  "name": "Yuumi",
+  "roles": [
+   "support"
+  ],
+  "archetypes": [
+   "enchanter",
+   "mage",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "short",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Zaahen": {
+  "name": "Zaahen",
+  "roles": [
+   "top",
+   "jungle"
+  ],
+  "archetypes": [
+   "fighter"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 1,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Zac": {
+  "name": "Zac",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "fighter",
+   "tank",
+   "vanguard"
+  ],
+  "damage": "AP",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Zed": {
+  "name": "Zed",
+  "roles": [
+   "jungle",
+   "mid"
+  ],
+  "archetypes": [
+   "assassin"
+  ],
+  "damage": "AD",
+  "range": "melee",
+  "blind_safety": 3,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Zeri": {
+  "name": "Zeri",
+  "roles": [
+   "bot"
+  ],
+  "archetypes": [
+   "marksman"
+  ],
+  "damage": "mixed",
+  "range": "long",
+  "blind_safety": 1,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Ziggs": {
+  "name": "Ziggs",
+  "roles": [
+   "bot"
+  ],
+  "archetypes": [
+   "artillery",
+   "mage"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Zilean": {
+  "name": "Zilean",
+  "roles": [
+   "support",
+   "top"
+  ],
+  "archetypes": [
+   "mage",
+   "specialist",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 3,
+  "flex": true,
+  "comp_vs_soloq": ""
+ },
+ "Zoe": {
+  "name": "Zoe",
+  "roles": [
+   "mid"
+  ],
+  "archetypes": [
+   "burst",
+   "mage",
+   "support"
+  ],
+  "damage": "mixed",
+  "range": "long",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ },
+ "Zyra": {
+  "name": "Zyra",
+  "roles": [
+   "jungle"
+  ],
+  "archetypes": [
+   "catcher",
+   "mage",
+   "support"
+  ],
+  "damage": "AP",
+  "range": "long",
+  "blind_safety": 2,
+  "flex": false,
+  "comp_vs_soloq": ""
+ }
+}

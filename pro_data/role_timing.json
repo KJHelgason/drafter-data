@@ -1,0 +1,12669 @@
+{
+"meta": {
+"games": 10959,
+"weighted_games": 4921.0,
+"by_level": {
+"Primary": 3308,
+"Secondary": 7651
+},
+"note": "every 2026 Primary/Secondary Leaguepedia game (raw counts, not weighted); win-rate ranges are Wilson 95%"
+},
+"jungle": [
+{
+"champ": "Jarvan IV",
+"games": 2667,
+"wins": 1374,
+"wr_ci": [
+0.5,
+0.53
+],
+"by_game": [
+1568,
+805,
+246,
+48
+],
+"blind": 1981,
+"counter": 686,
+"blind_pct": 0.74,
+"phase1_pct": 0.93,
+"blind_wr": [
+1029,
+1981,
+[
+0.5,
+0.54
+]
+],
+"counter_wr": [
+345,
+686,
+[
+0.47,
+0.54
+]
+],
+"gone_before_blind": [
+{
+"champ": "Thresh",
+"n": 10,
+"of": 1981,
+"lift": 1.91
+},
+{
+"champ": "Jhin",
+"n": 36,
+"of": 1981,
+"lift": 1.51
+}
+]
+},
+{
+"champ": "Xin Zhao",
+"games": 2453,
+"wins": 1164,
+"wr_ci": [
+0.45,
+0.49
+],
+"by_game": [
+1300,
+775,
+300,
+78
+],
+"blind": 1177,
+"counter": 1276,
+"blind_pct": 0.48,
+"phase1_pct": 0.79,
+"blind_wr": [
+559,
+1177,
+[
+0.45,
+0.5
+]
+],
+"counter_wr": [
+605,
+1276,
+[
+0.45,
+0.5
+]
+],
+"gone_before_blind": [
+{
+"champ": "Malzahar",
+"n": 11,
+"of": 1177,
+"lift": 2.87
+},
+{
+"champ": "Kha'Zix",
+"n": 13,
+"of": 1177,
+"lift": 2.56
+},
+{
+"champ": "Miss Fortune",
+"n": 18,
+"of": 1177,
+"lift": 2.2
+},
+{
+"champ": "Nami",
+"n": 57,
+"of": 1177,
+"lift": 1.83
+},
+{
+"champ": "Ivern",
+"n": 23,
+"of": 1177,
+"lift": 1.65
+}
+]
+},
+{
+"champ": "Wukong",
+"games": 2117,
+"wins": 952,
+"wr_ci": [
+0.43,
+0.47
+],
+"by_game": [
+985,
+705,
+356,
+71
+],
+"blind": 849,
+"counter": 1268,
+"blind_pct": 0.4,
+"phase1_pct": 0.73,
+"blind_wr": [
+401,
+849,
+[
+0.44,
+0.51
+]
+],
+"counter_wr": [
+551,
+1268,
+[
+0.41,
+0.46
+]
+],
+"gone_before_blind": [
+{
+"champ": "Diana",
+"n": 15,
+"of": 849,
+"lift": 2.14
+},
+{
+"champ": "Aurelion Sol",
+"n": 16,
+"of": 849,
+"lift": 2.11
+},
+{
+"champ": "Zed",
+"n": 13,
+"of": 849,
+"lift": 2.06
+},
+{
+"champ": "Shyvana",
+"n": 11,
+"of": 849,
+"lift": 1.99
+},
+{
+"champ": "Malphite",
+"n": 85,
+"of": 849,
+"lift": 1.65
+}
+]
+},
+{
+"champ": "Vi",
+"games": 2055,
+"wins": 1071,
+"wr_ci": [
+0.5,
+0.54
+],
+"by_game": [
+977,
+740,
+272,
+66
+],
+"blind": 1364,
+"counter": 691,
+"blind_pct": 0.66,
+"phase1_pct": 0.89,
+"blind_wr": [
+715,
+1364,
+[
+0.5,
+0.55
+]
+],
+"counter_wr": [
+356,
+691,
+[
+0.48,
+0.55
+]
+],
+"gone_before_blind": [
+{
+"champ": "Milio",
+"n": 42,
+"of": 1364,
+"lift": 1.72
+}
+]
+},
+{
+"champ": "Pantheon",
+"games": 1844,
+"wins": 880,
+"wr_ci": [
+0.45,
+0.5
+],
+"by_game": [
+897,
+607,
+258,
+82
+],
+"blind": 1143,
+"counter": 701,
+"blind_pct": 0.62,
+"phase1_pct": 0.82,
+"blind_wr": [
+515,
+1143,
+[
+0.42,
+0.48
+]
+],
+"counter_wr": [
+365,
+701,
+[
+0.48,
+0.56
+]
+],
+"gone_before_blind": [
+{
+"champ": "Azir",
+"n": 155,
+"of": 1143,
+"lift": 1.59
+},
+{
+"champ": "Ornn",
+"n": 23,
+"of": 1143,
+"lift": 1.57
+},
+{
+"champ": "Karma",
+"n": 416,
+"of": 1143,
+"lift": 1.52
+},
+{
+"champ": "Ashe",
+"n": 156,
+"of": 1143,
+"lift": 1.52
+}
+]
+},
+{
+"champ": "Nocturne",
+"games": 1392,
+"wins": 702,
+"wr_ci": [
+0.48,
+0.53
+],
+"by_game": [
+686,
+430,
+213,
+63
+],
+"blind": 950,
+"counter": 442,
+"blind_pct": 0.68,
+"phase1_pct": 0.87,
+"blind_wr": [
+480,
+950,
+[
+0.47,
+0.54
+]
+],
+"counter_wr": [
+222,
+442,
+[
+0.46,
+0.55
+]
+],
+"gone_before_blind": [
+{
+"champ": "Jhin",
+"n": 23,
+"of": 950,
+"lift": 1.8
+},
+{
+"champ": "Annie",
+"n": 35,
+"of": 950,
+"lift": 1.62
+},
+{
+"champ": "Nami",
+"n": 30,
+"of": 950,
+"lift": 1.61
+}
+]
+},
+{
+"champ": "Lee Sin",
+"games": 1387,
+"wins": 752,
+"wr_ci": [
+0.52,
+0.57
+],
+"by_game": [
+721,
+442,
+184,
+40
+],
+"blind": 765,
+"counter": 622,
+"blind_pct": 0.55,
+"phase1_pct": 0.77,
+"blind_wr": [
+411,
+765,
+[
+0.5,
+0.57
+]
+],
+"counter_wr": [
+341,
+622,
+[
+0.51,
+0.59
+]
+],
+"gone_before_blind": [
+{
+"champ": "Poppy",
+"n": 243,
+"of": 765,
+"lift": 2.31
+},
+{
+"champ": "Locke",
+"n": 147,
+"of": 765,
+"lift": 2.16
+},
+{
+"champ": "Camille",
+"n": 102,
+"of": 765,
+"lift": 2.02
+},
+{
+"champ": "Cassiopeia",
+"n": 382,
+"of": 765,
+"lift": 2.02
+},
+{
+"champ": "Vayne",
+"n": 50,
+"of": 765,
+"lift": 1.81
+}
+]
+},
+{
+"champ": "Naafiri",
+"games": 1143,
+"wins": 582,
+"wr_ci": [
+0.48,
+0.54
+],
+"by_game": [
+451,
+400,
+218,
+74
+],
+"blind": 436,
+"counter": 707,
+"blind_pct": 0.38,
+"phase1_pct": 0.68,
+"blind_wr": [
+218,
+436,
+[
+0.45,
+0.55
+]
+],
+"counter_wr": [
+364,
+707,
+[
+0.48,
+0.55
+]
+],
+"gone_before_blind": [
+{
+"champ": "Camille",
+"n": 68,
+"of": 436,
+"lift": 2.22
+},
+{
+"champ": "Trundle",
+"n": 20,
+"of": 436,
+"lift": 2.18
+},
+{
+"champ": "Twisted Fate",
+"n": 10,
+"of": 436,
+"lift": 2.15
+},
+{
+"champ": "Olaf",
+"n": 64,
+"of": 436,
+"lift": 1.89
+},
+{
+"champ": "Lee Sin",
+"n": 112,
+"of": 436,
+"lift": 1.86
+}
+]
+},
+{
+"champ": "Skarner",
+"games": 838,
+"wins": 434,
+"wr_ci": [
+0.48,
+0.55
+],
+"by_game": [
+286,
+306,
+173,
+73
+],
+"blind": 200,
+"counter": 638,
+"blind_pct": 0.24,
+"phase1_pct": 0.62,
+"blind_wr": [
+87,
+200,
+[
+0.37,
+0.5
+]
+],
+"counter_wr": [
+347,
+638,
+[
+0.51,
+0.58
+]
+],
+"gone_before_blind": [
+{
+"champ": "Trundle",
+"n": 26,
+"of": 200,
+"lift": 4.26
+},
+{
+"champ": "Viktor",
+"n": 31,
+"of": 200,
+"lift": 1.89
+},
+{
+"champ": "Naafiri",
+"n": 35,
+"of": 200,
+"lift": 1.7
+},
+{
+"champ": "Gnar",
+"n": 22,
+"of": 200,
+"lift": 1.68
+},
+{
+"champ": "Seraphine",
+"n": 43,
+"of": 200,
+"lift": 1.66
+}
+]
+},
+{
+"champ": "Trundle",
+"games": 705,
+"wins": 376,
+"wr_ci": [
+0.5,
+0.57
+],
+"by_game": [
+182,
+237,
+186,
+100
+],
+"blind": 197,
+"counter": 508,
+"blind_pct": 0.28,
+"phase1_pct": 0.53,
+"blind_wr": [
+102,
+197,
+[
+0.45,
+0.59
+]
+],
+"counter_wr": [
+274,
+508,
+[
+0.5,
+0.58
+]
+],
+"gone_before_blind": [
+{
+"champ": "Miss Fortune",
+"n": 9,
+"of": 197,
+"lift": 2.92
+},
+{
+"champ": "Vayne",
+"n": 31,
+"of": 197,
+"lift": 2.52
+},
+{
+"champ": "Mel",
+"n": 15,
+"of": 197,
+"lift": 2.2
+},
+{
+"champ": "Yone",
+"n": 13,
+"of": 197,
+"lift": 2.11
+},
+{
+"champ": "Viktor",
+"n": 36,
+"of": 197,
+"lift": 2.09
+}
+]
+},
+{
+"champ": "Qiyana",
+"games": 562,
+"wins": 316,
+"wr_ci": [
+0.52,
+0.6
+],
+"by_game": [
+235,
+195,
+98,
+34
+],
+"blind": 250,
+"counter": 312,
+"blind_pct": 0.44,
+"phase1_pct": 0.68,
+"blind_wr": [
+147,
+250,
+[
+0.53,
+0.65
+]
+],
+"counter_wr": [
+169,
+312,
+[
+0.49,
+0.6
+]
+],
+"gone_before_blind": [
+{
+"champ": "Renata Glasc",
+"n": 13,
+"of": 250,
+"lift": 4.23
+},
+{
+"champ": "Kalista",
+"n": 26,
+"of": 250,
+"lift": 3.18
+},
+{
+"champ": "Lee Sin",
+"n": 79,
+"of": 250,
+"lift": 2.37
+},
+{
+"champ": "Olaf",
+"n": 40,
+"of": 250,
+"lift": 2.07
+},
+{
+"champ": "Skarner",
+"n": 18,
+"of": 250,
+"lift": 1.99
+}
+]
+},
+{
+"champ": "Dr. Mundo",
+"games": 496,
+"wins": 250,
+"wr_ci": [
+0.46,
+0.55
+],
+"by_game": [
+206,
+175,
+79,
+36
+],
+"blind": 186,
+"counter": 310,
+"blind_pct": 0.38,
+"phase1_pct": 0.66,
+"blind_wr": [
+88,
+186,
+[
+0.4,
+0.54
+]
+],
+"counter_wr": [
+162,
+310,
+[
+0.47,
+0.58
+]
+],
+"gone_before_blind": [
+{
+"champ": "Corki",
+"n": 21,
+"of": 186,
+"lift": 2.94
+},
+{
+"champ": "Zaahen",
+"n": 17,
+"of": 186,
+"lift": 2.8
+},
+{
+"champ": "Aatrox",
+"n": 18,
+"of": 186,
+"lift": 2.62
+},
+{
+"champ": "Nami",
+"n": 14,
+"of": 186,
+"lift": 2.5
+},
+{
+"champ": "Gwen",
+"n": 20,
+"of": 186,
+"lift": 2.48
+}
+]
+},
+{
+"champ": "Aatrox",
+"games": 440,
+"wins": 220,
+"wr_ci": [
+0.45,
+0.55
+],
+"by_game": [
+159,
+155,
+88,
+38
+],
+"blind": 154,
+"counter": 286,
+"blind_pct": 0.35,
+"phase1_pct": 0.62,
+"blind_wr": [
+81,
+154,
+[
+0.45,
+0.6
+]
+],
+"counter_wr": [
+139,
+286,
+[
+0.43,
+0.54
+]
+],
+"gone_before_blind": [
+{
+"champ": "Zaahen",
+"n": 10,
+"of": 154,
+"lift": 1.95
+},
+{
+"champ": "Sion",
+"n": 21,
+"of": 154,
+"lift": 1.92
+},
+{
+"champ": "Anivia",
+"n": 21,
+"of": 154,
+"lift": 1.91
+},
+{
+"champ": "Azir",
+"n": 26,
+"of": 154,
+"lift": 1.77
+}
+]
+},
+{
+"champ": "Zaahen",
+"games": 321,
+"wins": 169,
+"wr_ci": [
+0.47,
+0.58
+],
+"by_game": [
+148,
+89,
+60,
+24
+],
+"blind": 98,
+"counter": 223,
+"blind_pct": 0.31,
+"phase1_pct": 0.67,
+"blind_wr": [
+58,
+98,
+[
+0.49,
+0.68
+]
+],
+"counter_wr": [
+111,
+223,
+[
+0.43,
+0.56
+]
+],
+"gone_before_blind": [
+{
+"champ": "Viego",
+"n": 9,
+"of": 98,
+"lift": 5.94
+},
+{
+"champ": "Zoe",
+"n": 9,
+"of": 98,
+"lift": 3.88
+},
+{
+"champ": "Ambessa",
+"n": 44,
+"of": 98,
+"lift": 2.46
+},
+{
+"champ": "Gwen",
+"n": 9,
+"of": 98,
+"lift": 2.15
+},
+{
+"champ": "Yunara",
+"n": 21,
+"of": 98,
+"lift": 2.02
+}
+]
+},
+{
+"champ": "Sejuani",
+"games": 319,
+"wins": 168,
+"wr_ci": [
+0.47,
+0.58
+],
+"by_game": [
+72,
+101,
+80,
+66
+],
+"blind": 101,
+"counter": 218,
+"blind_pct": 0.32,
+"phase1_pct": 0.48,
+"blind_wr": [
+47,
+101,
+[
+0.37,
+0.56
+]
+],
+"counter_wr": [
+121,
+218,
+[
+0.49,
+0.62
+]
+],
+"gone_before_blind": [
+{
+"champ": "Trundle",
+"n": 13,
+"of": 101,
+"lift": 4.65
+},
+{
+"champ": "Zaahen",
+"n": 8,
+"of": 101,
+"lift": 2.15
+},
+{
+"champ": "Gwen",
+"n": 11,
+"of": 101,
+"lift": 2.14
+},
+{
+"champ": "Malphite",
+"n": 13,
+"of": 101,
+"lift": 2.02
+},
+{
+"champ": "Dr. Mundo",
+"n": 10,
+"of": 101,
+"lift": 1.87
+}
+]
+},
+{
+"champ": "Ambessa",
+"games": 313,
+"wins": 148,
+"wr_ci": [
+0.42,
+0.53
+],
+"by_game": [
+168,
+102,
+39,
+4
+],
+"blind": 212,
+"counter": 101,
+"blind_pct": 0.68,
+"phase1_pct": 0.84,
+"blind_wr": [
+97,
+212,
+[
+0.39,
+0.52
+]
+],
+"counter_wr": [
+51,
+101,
+[
+0.41,
+0.6
+]
+],
+"gone_before_blind": [
+{
+"champ": "Diana",
+"n": 9,
+"of": 212,
+"lift": 5.43
+},
+{
+"champ": "Aurelion Sol",
+"n": 8,
+"of": 212,
+"lift": 4.45
+},
+{
+"champ": "Aphelios",
+"n": 15,
+"of": 212,
+"lift": 3.48
+},
+{
+"champ": "Viego",
+"n": 10,
+"of": 212,
+"lift": 3.36
+},
+{
+"champ": "Sivir",
+"n": 11,
+"of": 212,
+"lift": 2.79
+}
+]
+},
+{
+"champ": "Maokai",
+"games": 258,
+"wins": 120,
+"wr_ci": [
+0.41,
+0.53
+],
+"by_game": [
+42,
+59,
+79,
+78
+],
+"blind": 102,
+"counter": 156,
+"blind_pct": 0.4,
+"phase1_pct": 0.55,
+"blind_wr": [
+42,
+102,
+[
+0.32,
+0.51
+]
+],
+"counter_wr": [
+78,
+156,
+[
+0.42,
+0.58
+]
+],
+"gone_before_blind": [
+{
+"champ": "Yorick",
+"n": 8,
+"of": 102,
+"lift": 4.53
+},
+{
+"champ": "Yone",
+"n": 8,
+"of": 102,
+"lift": 3.24
+},
+{
+"champ": "Kalista",
+"n": 10,
+"of": 102,
+"lift": 2.91
+},
+{
+"champ": "Viktor",
+"n": 16,
+"of": 102,
+"lift": 2.3
+},
+{
+"champ": "Skarner",
+"n": 8,
+"of": 102,
+"lift": 2.05
+}
+]
+},
+{
+"champ": "Jayce",
+"games": 244,
+"wins": 111,
+"wr_ci": [
+0.39,
+0.52
+],
+"by_game": [
+114,
+71,
+40,
+19
+],
+"blind": 163,
+"counter": 81,
+"blind_pct": 0.67,
+"phase1_pct": 0.79,
+"blind_wr": [
+75,
+163,
+[
+0.39,
+0.54
+]
+],
+"counter_wr": [
+36,
+81,
+[
+0.34,
+0.55
+]
+],
+"gone_before_blind": [
+{
+"champ": "Malphite",
+"n": 51,
+"of": 163,
+"lift": 5.45
+},
+{
+"champ": "Sivir",
+"n": 12,
+"of": 163,
+"lift": 3.67
+},
+{
+"champ": "Sion",
+"n": 25,
+"of": 163,
+"lift": 2.79
+},
+{
+"champ": "Taliyah",
+"n": 13,
+"of": 163,
+"lift": 2.4
+},
+{
+"champ": "Gwen",
+"n": 13,
+"of": 163,
+"lift": 2.23
+}
+]
+},
+{
+"champ": "Poppy",
+"games": 191,
+"wins": 106,
+"wr_ci": [
+0.48,
+0.62
+],
+"by_game": [
+57,
+71,
+41,
+22
+],
+"blind": 26,
+"counter": 165,
+"blind_pct": 0.14,
+"phase1_pct": 0.58,
+"blind_wr": [
+16,
+26,
+[
+0.43,
+0.78
+]
+],
+"counter_wr": [
+90,
+165,
+[
+0.47,
+0.62
+]
+],
+"gone_before_blind": [
+{
+"champ": "Ambessa",
+"n": 10,
+"of": 26,
+"lift": 2.04
+},
+{
+"champ": "Akali",
+"n": 9,
+"of": 26,
+"lift": 1.91
+}
+]
+},
+{
+"champ": "Viego",
+"games": 175,
+"wins": 67,
+"wr_ci": [
+0.31,
+0.46
+],
+"by_game": [
+45,
+62,
+44,
+24
+],
+"blind": 61,
+"counter": 114,
+"blind_pct": 0.35,
+"phase1_pct": 0.54,
+"blind_wr": [
+24,
+61,
+[
+0.28,
+0.52
+]
+],
+"counter_wr": [
+43,
+114,
+[
+0.29,
+0.47
+]
+],
+"gone_before_blind": [
+{
+"champ": "Gwen",
+"n": 8,
+"of": 61,
+"lift": 2.87
+},
+{
+"champ": "Sion",
+"n": 9,
+"of": 61,
+"lift": 2.04
+},
+{
+"champ": "Ambessa",
+"n": 21,
+"of": 61,
+"lift": 1.81
+},
+{
+"champ": "Yunara",
+"n": 12,
+"of": 61,
+"lift": 1.73
+}
+]
+},
+{
+"champ": "Cho'Gath",
+"games": 153,
+"wins": 69,
+"wr_ci": [
+0.37,
+0.53
+],
+"by_game": [
+46,
+40,
+44,
+23
+],
+"blind": 36,
+"counter": 117,
+"blind_pct": 0.24,
+"phase1_pct": 0.56,
+"blind_wr": [
+16,
+36,
+[
+0.3,
+0.6
+]
+],
+"counter_wr": [
+53,
+117,
+[
+0.37,
+0.54
+]
+],
+"gone_before_blind": [
+{
+"champ": "Syndra",
+"n": 14,
+"of": 36,
+"lift": 2.36
+},
+{
+"champ": "Cassiopeia",
+"n": 21,
+"of": 36,
+"lift": 2.23
+},
+{
+"champ": "Lee Sin",
+"n": 10,
+"of": 36,
+"lift": 1.9
+},
+{
+"champ": "Vi",
+"n": 16,
+"of": 36,
+"lift": 1.56
+}
+]
+},
+{
+"champ": "Malphite",
+"games": 146,
+"wins": 76,
+"wr_ci": [
+0.44,
+0.6
+],
+"by_game": [
+51,
+55,
+29,
+11
+],
+"blind": 54,
+"counter": 92,
+"blind_pct": 0.37,
+"phase1_pct": 0.64,
+"blind_wr": [
+26,
+54,
+[
+0.35,
+0.61
+]
+],
+"counter_wr": [
+50,
+92,
+[
+0.44,
+0.64
+]
+],
+"gone_before_blind": [
+{
+"champ": "Sylas",
+"n": 29,
+"of": 54,
+"lift": 19.12
+},
+{
+"champ": "Neeko",
+"n": 24,
+"of": 54,
+"lift": 4.5
+},
+{
+"champ": "Dr. Mundo",
+"n": 8,
+"of": 54,
+"lift": 3.43
+},
+{
+"champ": "Jayce",
+"n": 34,
+"of": 54,
+"lift": 2.97
+},
+{
+"champ": "Ambessa",
+"n": 20,
+"of": 54,
+"lift": 2.21
+}
+]
+},
+{
+"champ": "Kha'Zix",
+"games": 133,
+"wins": 72,
+"wr_ci": [
+0.46,
+0.62
+],
+"by_game": [
+38,
+43,
+28,
+24
+],
+"blind": 18,
+"counter": 115,
+"blind_pct": 0.14,
+"phase1_pct": 0.26,
+"blind_wr": [
+8,
+18,
+[
+0.25,
+0.66
+]
+],
+"counter_wr": [
+64,
+115,
+[
+0.47,
+0.64
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Olaf",
+"games": 127,
+"wins": 67,
+"wr_ci": [
+0.44,
+0.61
+],
+"by_game": [
+43,
+31,
+35,
+18
+],
+"blind": 29,
+"counter": 98,
+"blind_pct": 0.23,
+"phase1_pct": 0.46,
+"blind_wr": [
+16,
+29,
+[
+0.38,
+0.72
+]
+],
+"counter_wr": [
+51,
+98,
+[
+0.42,
+0.62
+]
+],
+"gone_before_blind": [
+{
+"champ": "Cassiopeia",
+"n": 14,
+"of": 29,
+"lift": 1.79
+},
+{
+"champ": "Vi",
+"n": 14,
+"of": 29,
+"lift": 1.61
+}
+]
+},
+{
+"champ": "Shyvana",
+"games": 124,
+"wins": 63,
+"wr_ci": [
+0.42,
+0.59
+],
+"by_game": [
+36,
+29,
+35,
+24
+],
+"blind": 27,
+"counter": 97,
+"blind_pct": 0.22,
+"phase1_pct": 0.48,
+"blind_wr": [
+13,
+27,
+[
+0.31,
+0.66
+]
+],
+"counter_wr": [
+50,
+97,
+[
+0.42,
+0.61
+]
+],
+"gone_before_blind": [
+{
+"champ": "Olaf",
+"n": 10,
+"of": 27,
+"lift": 3.82
+}
+]
+},
+{
+"champ": "Sylas",
+"games": 94,
+"wins": 38,
+"wr_ci": [
+0.31,
+0.51
+],
+"by_game": [
+33,
+40,
+11,
+10
+],
+"blind": 28,
+"counter": 66,
+"blind_pct": 0.3,
+"phase1_pct": 0.5,
+"blind_wr": [
+12,
+28,
+[
+0.27,
+0.61
+]
+],
+"counter_wr": [
+26,
+66,
+[
+0.29,
+0.51
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Zyra",
+"games": 91,
+"wins": 45,
+"wr_ci": [
+0.39,
+0.6
+],
+"by_game": [
+31,
+26,
+21,
+13
+],
+"blind": 39,
+"counter": 52,
+"blind_pct": 0.43,
+"phase1_pct": 0.67,
+"blind_wr": [
+24,
+39,
+[
+0.46,
+0.75
+]
+],
+"counter_wr": [
+21,
+52,
+[
+0.28,
+0.54
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Rek'Sai",
+"games": 80,
+"wins": 47,
+"wr_ci": [
+0.48,
+0.69
+],
+"by_game": [
+43,
+14,
+18,
+5
+],
+"blind": 20,
+"counter": 60,
+"blind_pct": 0.25,
+"phase1_pct": 0.51,
+"blind_wr": [
+11,
+20,
+[
+0.34,
+0.74
+]
+],
+"counter_wr": [
+36,
+60,
+[
+0.47,
+0.71
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Jax",
+"games": 70,
+"wins": 34,
+"wr_ci": [
+0.37,
+0.6
+],
+"by_game": [
+28,
+20,
+14,
+8
+],
+"blind": 13,
+"counter": 57,
+"blind_pct": 0.19,
+"phase1_pct": 0.57,
+"blind_wr": [
+6,
+13,
+[
+0.23,
+0.71
+]
+],
+"counter_wr": [
+28,
+57,
+[
+0.37,
+0.62
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Lillia",
+"games": 69,
+"wins": 41,
+"wr_ci": [
+0.48,
+0.7
+],
+"by_game": [
+19,
+21,
+18,
+11
+],
+"blind": 25,
+"counter": 44,
+"blind_pct": 0.36,
+"phase1_pct": 0.61,
+"blind_wr": [
+21,
+25,
+[
+0.65,
+0.94
+]
+],
+"counter_wr": [
+20,
+44,
+[
+0.32,
+0.6
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Nidalee",
+"games": 69,
+"wins": 38,
+"wr_ci": [
+0.43,
+0.66
+],
+"by_game": [
+20,
+16,
+14,
+19
+],
+"blind": 22,
+"counter": 47,
+"blind_pct": 0.32,
+"phase1_pct": 0.52,
+"blind_wr": [
+12,
+22,
+[
+0.35,
+0.73
+]
+],
+"counter_wr": [
+26,
+47,
+[
+0.41,
+0.69
+]
+],
+"gone_before_blind": [
+{
+"champ": "Varus",
+"n": 12,
+"of": 22,
+"lift": 1.62
+}
+]
+},
+{
+"champ": "Ivern",
+"games": 64,
+"wins": 28,
+"wr_ci": [
+0.32,
+0.56
+],
+"by_game": [
+23,
+17,
+18,
+6
+],
+"blind": 17,
+"counter": 47,
+"blind_pct": 0.27,
+"phase1_pct": 0.53,
+"blind_wr": [
+8,
+17,
+[
+0.26,
+0.69
+]
+],
+"counter_wr": [
+20,
+47,
+[
+0.3,
+0.57
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Hecarim",
+"games": 60,
+"wins": 26,
+"wr_ci": [
+0.32,
+0.56
+],
+"by_game": [
+17,
+21,
+13,
+9
+],
+"blind": 14,
+"counter": 46,
+"blind_pct": 0.23,
+"phase1_pct": 0.58,
+"blind_wr": [
+5,
+14,
+[
+0.16,
+0.61
+]
+],
+"counter_wr": [
+21,
+46,
+[
+0.32,
+0.6
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Graves",
+"games": 60,
+"wins": 34,
+"wr_ci": [
+0.44,
+0.68
+],
+"by_game": [
+20,
+24,
+5,
+11
+],
+"blind": 11,
+"counter": 49,
+"blind_pct": 0.18,
+"phase1_pct": 0.53,
+"blind_wr": [
+6,
+11,
+[
+0.28,
+0.79
+]
+],
+"counter_wr": [
+28,
+49,
+[
+0.43,
+0.7
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Kindred",
+"games": 54,
+"wins": 15,
+"wr_ci": [
+0.18,
+0.41
+],
+"by_game": [
+18,
+14,
+8,
+14
+],
+"blind": 10,
+"counter": 44,
+"blind_pct": 0.19,
+"phase1_pct": 0.24,
+"blind_wr": [
+5,
+10,
+[
+0.24,
+0.76
+]
+],
+"counter_wr": [
+10,
+44,
+[
+0.13,
+0.37
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Nasus",
+"games": 50,
+"wins": 33,
+"wr_ci": [
+0.52,
+0.78
+],
+"by_game": [
+16,
+14,
+11,
+9
+],
+"blind": 11,
+"counter": 39,
+"blind_pct": 0.22,
+"phase1_pct": 0.44,
+"blind_wr": [
+8,
+11,
+[
+0.43,
+0.9
+]
+],
+"counter_wr": [
+25,
+39,
+[
+0.48,
+0.77
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Taliyah",
+"games": 49,
+"wins": 30,
+"wr_ci": [
+0.47,
+0.74
+],
+"by_game": [
+26,
+14,
+6,
+3
+],
+"blind": 26,
+"counter": 23,
+"blind_pct": 0.53,
+"phase1_pct": 0.9,
+"blind_wr": [
+17,
+26,
+[
+0.46,
+0.81
+]
+],
+"counter_wr": [
+13,
+23,
+[
+0.37,
+0.74
+]
+],
+"gone_before_blind": [
+{
+"champ": "Jayce",
+"n": 13,
+"of": 26,
+"lift": 2.44
+}
+]
+},
+{
+"champ": "Volibear",
+"games": 46,
+"wins": 20,
+"wr_ci": [
+0.3,
+0.58
+],
+"by_game": [
+18,
+21,
+5,
+2
+],
+"blind": 7,
+"counter": 39,
+"blind_pct": 0.15,
+"phase1_pct": 0.63,
+"blind_wr": [
+1,
+7,
+[
+0.03,
+0.51
+]
+],
+"counter_wr": [
+19,
+39,
+[
+0.34,
+0.64
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Diana",
+"games": 44,
+"wins": 18,
+"wr_ci": [
+0.28,
+0.56
+],
+"by_game": [
+17,
+12,
+14,
+1
+],
+"blind": 15,
+"counter": 29,
+"blind_pct": 0.34,
+"phase1_pct": 0.57,
+"blind_wr": [
+7,
+15,
+[
+0.25,
+0.7
+]
+],
+"counter_wr": [
+11,
+29,
+[
+0.23,
+0.56
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Shen",
+"games": 37,
+"wins": 17,
+"wr_ci": [
+0.31,
+0.62
+],
+"by_game": [
+13,
+17,
+3,
+4
+],
+"blind": 9,
+"counter": 28,
+"blind_pct": 0.24,
+"phase1_pct": 0.49,
+"blind_wr": [
+4,
+9,
+[
+0.19,
+0.73
+]
+],
+"counter_wr": [
+13,
+28,
+[
+0.3,
+0.64
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Gwen",
+"games": 36,
+"wins": 13,
+"wr_ci": [
+0.22,
+0.52
+],
+"by_game": [
+23,
+8,
+2,
+3
+],
+"blind": 12,
+"counter": 24,
+"blind_pct": 0.33,
+"phase1_pct": 0.58,
+"blind_wr": [
+2,
+12,
+[
+0.05,
+0.45
+]
+],
+"counter_wr": [
+11,
+24,
+[
+0.28,
+0.65
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Zed",
+"games": 29,
+"wins": 13,
+"wr_ci": [
+0.28,
+0.62
+],
+"by_game": [
+9,
+9,
+7,
+4
+],
+"blind": 10,
+"counter": 19,
+"blind_pct": 0.34,
+"phase1_pct": 0.34,
+"blind_wr": [
+4,
+10,
+[
+0.17,
+0.69
+]
+],
+"counter_wr": [
+9,
+19,
+[
+0.27,
+0.68
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Zac",
+"games": 28,
+"wins": 12,
+"wr_ci": [
+0.27,
+0.61
+],
+"by_game": [
+5,
+6,
+11,
+6
+],
+"blind": 10,
+"counter": 18,
+"blind_pct": 0.36,
+"phase1_pct": 0.39,
+"blind_wr": [
+5,
+10,
+[
+0.24,
+0.76
+]
+],
+"counter_wr": [
+7,
+18,
+[
+0.2,
+0.61
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Kayn",
+"games": 26,
+"wins": 13,
+"wr_ci": [
+0.32,
+0.68
+],
+"by_game": [
+12,
+8,
+4,
+2
+],
+"blind": 4,
+"counter": 22,
+"blind_pct": 0.15,
+"phase1_pct": 0.38,
+"blind_wr": [
+2,
+4,
+[
+0.15,
+0.85
+]
+],
+"counter_wr": [
+11,
+22,
+[
+0.31,
+0.69
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Rengar",
+"games": 21,
+"wins": 14,
+"wr_ci": [
+0.45,
+0.83
+],
+"by_game": [
+8,
+7,
+5,
+1
+],
+"blind": 5,
+"counter": 16,
+"blind_pct": 0.24,
+"phase1_pct": 0.48,
+"blind_wr": [
+3,
+5,
+[
+0.23,
+0.88
+]
+],
+"counter_wr": [
+11,
+16,
+[
+0.44,
+0.86
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Darius",
+"games": 19,
+"wins": 10,
+"wr_ci": [
+0.32,
+0.73
+],
+"by_game": [
+8,
+5,
+4,
+2
+],
+"blind": 7,
+"counter": 12,
+"blind_pct": 0.37,
+"phase1_pct": 0.58,
+"blind_wr": [
+3,
+7,
+[
+0.16,
+0.75
+]
+],
+"counter_wr": [
+7,
+12,
+[
+0.32,
+0.81
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Bel'Veth",
+"games": 17,
+"wins": 5,
+"wr_ci": [
+0.13,
+0.53
+],
+"by_game": [
+9,
+6,
+1,
+1
+],
+"blind": 4,
+"counter": 13,
+"blind_pct": 0.24,
+"phase1_pct": 0.47,
+"blind_wr": [
+0,
+4,
+[
+0.0,
+0.49
+]
+],
+"counter_wr": [
+5,
+13,
+[
+0.18,
+0.64
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Udyr",
+"games": 15,
+"wins": 8,
+"wr_ci": [
+0.3,
+0.75
+],
+"by_game": [
+8,
+4,
+0,
+3
+],
+"blind": 5,
+"counter": 10,
+"blind_pct": 0.33,
+"phase1_pct": 0.6,
+"blind_wr": [
+2,
+5,
+[
+0.12,
+0.77
+]
+],
+"counter_wr": [
+6,
+10,
+[
+0.31,
+0.83
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Talon",
+"games": 14,
+"wins": 9,
+"wr_ci": [
+0.39,
+0.84
+],
+"by_game": [
+3,
+7,
+2,
+2
+],
+"blind": 1,
+"counter": 13,
+"blind_pct": 0.07,
+"phase1_pct": 0.36,
+"blind_wr": [
+1,
+1,
+[
+0.21,
+1.0
+]
+],
+"counter_wr": [
+8,
+13,
+[
+0.36,
+0.82
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Karthus",
+"games": 14,
+"wins": 6,
+"wr_ci": [
+0.21,
+0.67
+],
+"by_game": [
+5,
+5,
+3,
+1
+],
+"blind": 5,
+"counter": 9,
+"blind_pct": 0.36,
+"phase1_pct": 0.21,
+"blind_wr": [
+3,
+5,
+[
+0.23,
+0.88
+]
+],
+"counter_wr": [
+3,
+9,
+[
+0.12,
+0.65
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Amumu",
+"games": 13,
+"wins": 7,
+"wr_ci": [
+0.29,
+0.77
+],
+"by_game": [
+7,
+3,
+2,
+1
+],
+"blind": 1,
+"counter": 12,
+"blind_pct": 0.08,
+"phase1_pct": 0.46,
+"blind_wr": [
+1,
+1,
+[
+0.21,
+1.0
+]
+],
+"counter_wr": [
+6,
+12,
+[
+0.25,
+0.75
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Nunu &amp; Willump",
+"games": 13,
+"wins": 8,
+"wr_ci": [
+0.36,
+0.82
+],
+"by_game": [
+6,
+5,
+1,
+1
+],
+"blind": 4,
+"counter": 9,
+"blind_pct": 0.31,
+"phase1_pct": 0.46,
+"blind_wr": [
+3,
+4,
+[
+0.3,
+0.95
+]
+],
+"counter_wr": [
+5,
+9,
+[
+0.27,
+0.81
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Sion",
+"games": 12,
+"wins": 6,
+"wr_ci": [
+0.25,
+0.75
+],
+"by_game": [
+4,
+3,
+5,
+0
+],
+"blind": 6,
+"counter": 6,
+"blind_pct": 0.5,
+"phase1_pct": 0.67,
+"blind_wr": [
+3,
+6,
+[
+0.19,
+0.81
+]
+],
+"counter_wr": [
+3,
+6,
+[
+0.19,
+0.81
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Morgana",
+"games": 12,
+"wins": 6,
+"wr_ci": [
+0.25,
+0.75
+],
+"by_game": [
+2,
+5,
+3,
+2
+],
+"blind": 3,
+"counter": 9,
+"blind_pct": 0.25,
+"phase1_pct": 0.67,
+"blind_wr": [
+2,
+3,
+[
+0.21,
+0.94
+]
+],
+"counter_wr": [
+4,
+9,
+[
+0.19,
+0.73
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Locke",
+"games": 11,
+"wins": 7,
+"wr_ci": [
+0.35,
+0.85
+],
+"by_game": [
+7,
+2,
+1,
+1
+],
+"blind": 8,
+"counter": 3,
+"blind_pct": 0.73,
+"phase1_pct": 0.82,
+"blind_wr": [
+6,
+8,
+[
+0.41,
+0.93
+]
+],
+"counter_wr": [
+1,
+3,
+[
+0.06,
+0.79
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Shaco",
+"games": 9,
+"wins": 8,
+"wr_ci": [
+0.56,
+0.98
+],
+"by_game": [
+3,
+4,
+1,
+1
+],
+"blind": 1,
+"counter": 8,
+"blind_pct": 0.11,
+"phase1_pct": 0.67,
+"blind_wr": [
+1,
+1,
+[
+0.21,
+1.0
+]
+],
+"counter_wr": [
+7,
+8,
+[
+0.53,
+0.98
+]
+],
+"gone_before_blind": []
+}
+],
+"top": [
+{
+"champ": "Rumble",
+"games": 2324,
+"wins": 1243,
+"wr_ci": [
+0.51,
+0.56
+],
+"by_game": [
+1431,
+658,
+188,
+47
+],
+"blind": 2065,
+"counter": 259,
+"blind_pct": 0.89,
+"phase1_pct": 0.74,
+"blind_wr": [
+1110,
+2065,
+[
+0.52,
+0.56
+]
+],
+"counter_wr": [
+133,
+259,
+[
+0.45,
+0.57
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "K'Sante",
+"games": 2255,
+"wins": 1021,
+"wr_ci": [
+0.43,
+0.47
+],
+"by_game": [
+1261,
+661,
+276,
+57
+],
+"blind": 959,
+"counter": 1296,
+"blind_pct": 0.43,
+"phase1_pct": 0.38,
+"blind_wr": [
+414,
+959,
+[
+0.4,
+0.46
+]
+],
+"counter_wr": [
+607,
+1296,
+[
+0.44,
+0.5
+]
+],
+"gone_before_blind": [
+{
+"champ": "Gnar",
+"n": 231,
+"of": 959,
+"lift": 2.1
+},
+{
+"champ": "Fiora",
+"n": 41,
+"of": 959,
+"lift": 1.66
+},
+{
+"champ": "Gwen",
+"n": 120,
+"of": 959,
+"lift": 1.54
+}
+]
+},
+{
+"champ": "Ambessa",
+"games": 1885,
+"wins": 916,
+"wr_ci": [
+0.46,
+0.51
+],
+"by_game": [
+973,
+592,
+239,
+81
+],
+"blind": 1063,
+"counter": 822,
+"blind_pct": 0.56,
+"phase1_pct": 0.5,
+"blind_wr": [
+518,
+1063,
+[
+0.46,
+0.52
+]
+],
+"counter_wr": [
+398,
+822,
+[
+0.45,
+0.52
+]
+],
+"gone_before_blind": [
+{
+"champ": "Renekton",
+"n": 342,
+"of": 1063,
+"lift": 4.3
+},
+{
+"champ": "Hwei",
+"n": 33,
+"of": 1063,
+"lift": 1.55
+}
+]
+},
+{
+"champ": "Gnar",
+"games": 1866,
+"wins": 1006,
+"wr_ci": [
+0.52,
+0.56
+],
+"by_game": [
+795,
+676,
+303,
+92
+],
+"blind": 970,
+"counter": 896,
+"blind_pct": 0.52,
+"phase1_pct": 0.31,
+"blind_wr": [
+521,
+970,
+[
+0.51,
+0.57
+]
+],
+"counter_wr": [
+485,
+896,
+[
+0.51,
+0.57
+]
+],
+"gone_before_blind": [
+{
+"champ": "Vayne",
+"n": 241,
+"of": 970,
+"lift": 2.88
+},
+{
+"champ": "Kennen",
+"n": 27,
+"of": 970,
+"lift": 1.82
+}
+]
+},
+{
+"champ": "Sion",
+"games": 1752,
+"wins": 837,
+"wr_ci": [
+0.45,
+0.5
+],
+"by_game": [
+954,
+523,
+222,
+53
+],
+"blind": 1058,
+"counter": 694,
+"blind_pct": 0.6,
+"phase1_pct": 0.39,
+"blind_wr": [
+515,
+1058,
+[
+0.46,
+0.52
+]
+],
+"counter_wr": [
+322,
+694,
+[
+0.43,
+0.5
+]
+],
+"gone_before_blind": [
+{
+"champ": "Gwen",
+"n": 260,
+"of": 1058,
+"lift": 3.29
+},
+{
+"champ": "Ekko",
+"n": 10,
+"of": 1058,
+"lift": 2.06
+},
+{
+"champ": "Ivern",
+"n": 27,
+"of": 1058,
+"lift": 1.83
+},
+{
+"champ": "Diana",
+"n": 17,
+"of": 1058,
+"lift": 1.63
+},
+{
+"champ": "LeBlanc",
+"n": 111,
+"of": 1058,
+"lift": 1.54
+}
+]
+},
+{
+"champ": "Renekton",
+"games": 1546,
+"wins": 791,
+"wr_ci": [
+0.49,
+0.54
+],
+"by_game": [
+565,
+580,
+302,
+99
+],
+"blind": 1155,
+"counter": 391,
+"blind_pct": 0.75,
+"phase1_pct": 0.34,
+"blind_wr": [
+582,
+1155,
+[
+0.48,
+0.53
+]
+],
+"counter_wr": [
+209,
+391,
+[
+0.48,
+0.58
+]
+],
+"gone_before_blind": [
+{
+"champ": "Kennen",
+"n": 37,
+"of": 1155,
+"lift": 1.99
+},
+{
+"champ": "Gnar",
+"n": 238,
+"of": 1155,
+"lift": 1.87
+}
+]
+},
+{
+"champ": "Jayce",
+"games": 1160,
+"wins": 574,
+"wr_ci": [
+0.47,
+0.52
+],
+"by_game": [
+533,
+435,
+149,
+43
+],
+"blind": 946,
+"counter": 214,
+"blind_pct": 0.82,
+"phase1_pct": 0.57,
+"blind_wr": [
+467,
+946,
+[
+0.46,
+0.53
+]
+],
+"counter_wr": [
+107,
+214,
+[
+0.43,
+0.57
+]
+],
+"gone_before_blind": [
+{
+"champ": "Yorick",
+"n": 85,
+"of": 946,
+"lift": 3.3
+},
+{
+"champ": "Annie",
+"n": 88,
+"of": 946,
+"lift": 1.92
+},
+{
+"champ": "Twisted Fate",
+"n": 31,
+"of": 946,
+"lift": 1.89
+},
+{
+"champ": "Cassiopeia",
+"n": 388,
+"of": 946,
+"lift": 1.56
+},
+{
+"champ": "Locke",
+"n": 144,
+"of": 946,
+"lift": 1.55
+}
+]
+},
+{
+"champ": "Ornn",
+"games": 814,
+"wins": 390,
+"wr_ci": [
+0.44,
+0.51
+],
+"by_game": [
+395,
+265,
+103,
+51
+],
+"blind": 275,
+"counter": 539,
+"blind_pct": 0.34,
+"phase1_pct": 0.32,
+"blind_wr": [
+125,
+275,
+[
+0.4,
+0.51
+]
+],
+"counter_wr": [
+265,
+539,
+[
+0.45,
+0.53
+]
+],
+"gone_before_blind": [
+{
+"champ": "Aurelion Sol",
+"n": 10,
+"of": 275,
+"lift": 3.14
+},
+{
+"champ": "Fiora",
+"n": 20,
+"of": 275,
+"lift": 2.83
+},
+{
+"champ": "Ivern",
+"n": 11,
+"of": 275,
+"lift": 2.8
+},
+{
+"champ": "Viego",
+"n": 16,
+"of": 275,
+"lift": 2.76
+},
+{
+"champ": "Thresh",
+"n": 9,
+"of": 275,
+"lift": 2.67
+}
+]
+},
+{
+"champ": "Olaf",
+"games": 705,
+"wins": 381,
+"wr_ci": [
+0.5,
+0.58
+],
+"by_game": [
+322,
+202,
+129,
+52
+],
+"blind": 437,
+"counter": 268,
+"blind_pct": 0.62,
+"phase1_pct": 0.5,
+"blind_wr": [
+244,
+437,
+[
+0.51,
+0.6
+]
+],
+"counter_wr": [
+137,
+268,
+[
+0.45,
+0.57
+]
+],
+"gone_before_blind": [
+{
+"champ": "Kled",
+"n": 15,
+"of": 437,
+"lift": 5.0
+},
+{
+"champ": "Vayne",
+"n": 77,
+"of": 437,
+"lift": 2.87
+},
+{
+"champ": "Renata Glasc",
+"n": 23,
+"of": 437,
+"lift": 2.64
+},
+{
+"champ": "Kalista",
+"n": 47,
+"of": 437,
+"lift": 2.48
+},
+{
+"champ": "Nasus",
+"n": 9,
+"of": 437,
+"lift": 2.44
+}
+]
+},
+{
+"champ": "Zaahen",
+"games": 598,
+"wins": 313,
+"wr_ci": [
+0.48,
+0.56
+],
+"by_game": [
+205,
+216,
+126,
+51
+],
+"blind": 169,
+"counter": 429,
+"blind_pct": 0.28,
+"phase1_pct": 0.25,
+"blind_wr": [
+93,
+169,
+[
+0.48,
+0.62
+]
+],
+"counter_wr": [
+220,
+429,
+[
+0.47,
+0.56
+]
+],
+"gone_before_blind": [
+{
+"champ": "Rengar",
+"n": 8,
+"of": 169,
+"lift": 3.82
+},
+{
+"champ": "Fiora",
+"n": 10,
+"of": 169,
+"lift": 2.42
+},
+{
+"champ": "Viego",
+"n": 8,
+"of": 169,
+"lift": 2.36
+},
+{
+"champ": "Zoe",
+"n": 11,
+"of": 169,
+"lift": 2.25
+},
+{
+"champ": "Dr. Mundo",
+"n": 25,
+"of": 169,
+"lift": 2.23
+}
+]
+},
+{
+"champ": "Yorick",
+"games": 591,
+"wins": 279,
+"wr_ci": [
+0.43,
+0.51
+],
+"by_game": [
+208,
+218,
+118,
+47
+],
+"blind": 87,
+"counter": 504,
+"blind_pct": 0.15,
+"phase1_pct": 0.32,
+"blind_wr": [
+41,
+87,
+[
+0.37,
+0.58
+]
+],
+"counter_wr": [
+238,
+504,
+[
+0.43,
+0.52
+]
+],
+"gone_before_blind": [
+{
+"champ": "Jax",
+"n": 11,
+"of": 87,
+"lift": 3.04
+},
+{
+"champ": "Annie",
+"n": 15,
+"of": 87,
+"lift": 2.58
+},
+{
+"champ": "Skarner",
+"n": 13,
+"of": 87,
+"lift": 2.12
+},
+{
+"champ": "Sivir",
+"n": 13,
+"of": 87,
+"lift": 1.92
+},
+{
+"champ": "Naafiri",
+"n": 20,
+"of": 87,
+"lift": 1.79
+}
+]
+},
+{
+"champ": "Gwen",
+"games": 578,
+"wins": 326,
+"wr_ci": [
+0.52,
+0.6
+],
+"by_game": [
+226,
+196,
+105,
+51
+],
+"blind": 113,
+"counter": 465,
+"blind_pct": 0.2,
+"phase1_pct": 0.24,
+"blind_wr": [
+56,
+113,
+[
+0.41,
+0.59
+]
+],
+"counter_wr": [
+270,
+465,
+[
+0.54,
+0.62
+]
+],
+"gone_before_blind": [
+{
+"champ": "Jax",
+"n": 14,
+"of": 113,
+"lift": 2.99
+},
+{
+"champ": "Braum",
+"n": 10,
+"of": 113,
+"lift": 2.29
+},
+{
+"champ": "Yone",
+"n": 10,
+"of": 113,
+"lift": 2.21
+},
+{
+"champ": "Dr. Mundo",
+"n": 16,
+"of": 113,
+"lift": 2.13
+},
+{
+"champ": "Malphite",
+"n": 17,
+"of": 113,
+"lift": 2.08
+}
+]
+},
+{
+"champ": "Jax",
+"games": 570,
+"wins": 276,
+"wr_ci": [
+0.44,
+0.53
+],
+"by_game": [
+186,
+176,
+136,
+72
+],
+"blind": 198,
+"counter": 372,
+"blind_pct": 0.35,
+"phase1_pct": 0.25,
+"blind_wr": [
+103,
+198,
+[
+0.45,
+0.59
+]
+],
+"counter_wr": [
+173,
+372,
+[
+0.41,
+0.52
+]
+],
+"gone_before_blind": [
+{
+"champ": "Darius",
+"n": 8,
+"of": 198,
+"lift": 2.93
+},
+{
+"champ": "Irelia",
+"n": 12,
+"of": 198,
+"lift": 2.81
+},
+{
+"champ": "Tristana",
+"n": 18,
+"of": 198,
+"lift": 2.76
+},
+{
+"champ": "Zeri",
+"n": 9,
+"of": 198,
+"lift": 2.63
+},
+{
+"champ": "Sejuani",
+"n": 8,
+"of": 198,
+"lift": 2.33
+}
+]
+},
+{
+"champ": "Aatrox",
+"games": 539,
+"wins": 253,
+"wr_ci": [
+0.43,
+0.51
+],
+"by_game": [
+222,
+171,
+94,
+52
+],
+"blind": 186,
+"counter": 353,
+"blind_pct": 0.35,
+"phase1_pct": 0.24,
+"blind_wr": [
+91,
+186,
+[
+0.42,
+0.56
+]
+],
+"counter_wr": [
+162,
+353,
+[
+0.41,
+0.51
+]
+],
+"gone_before_blind": [
+{
+"champ": "Graves",
+"n": 8,
+"of": 186,
+"lift": 5.03
+},
+{
+"champ": "Zyra",
+"n": 10,
+"of": 186,
+"lift": 4.3
+},
+{
+"champ": "Fiora",
+"n": 12,
+"of": 186,
+"lift": 2.55
+},
+{
+"champ": "Zaahen",
+"n": 21,
+"of": 186,
+"lift": 2.23
+},
+{
+"champ": "Sylas",
+"n": 21,
+"of": 186,
+"lift": 1.71
+}
+]
+},
+{
+"champ": "Vayne",
+"games": 366,
+"wins": 217,
+"wr_ci": [
+0.54,
+0.64
+],
+"by_game": [
+128,
+131,
+78,
+29
+],
+"blind": 35,
+"counter": 331,
+"blind_pct": 0.1,
+"phase1_pct": 0.2,
+"blind_wr": [
+20,
+35,
+[
+0.41,
+0.72
+]
+],
+"counter_wr": [
+197,
+331,
+[
+0.54,
+0.65
+]
+],
+"gone_before_blind": [
+{
+"champ": "Locke",
+"n": 8,
+"of": 35,
+"lift": 2.23
+},
+{
+"champ": "Poppy",
+"n": 11,
+"of": 35,
+"lift": 1.91
+}
+]
+},
+{
+"champ": "Camille",
+"games": 327,
+"wins": 169,
+"wr_ci": [
+0.46,
+0.57
+],
+"by_game": [
+100,
+110,
+87,
+30
+],
+"blind": 98,
+"counter": 229,
+"blind_pct": 0.3,
+"phase1_pct": 0.33,
+"blind_wr": [
+46,
+98,
+[
+0.37,
+0.57
+]
+],
+"counter_wr": [
+123,
+229,
+[
+0.47,
+0.6
+]
+],
+"gone_before_blind": [
+{
+"champ": "Jax",
+"n": 14,
+"of": 98,
+"lift": 4.41
+},
+{
+"champ": "Renekton",
+"n": 22,
+"of": 98,
+"lift": 3.01
+},
+{
+"champ": "Olaf",
+"n": 25,
+"of": 98,
+"lift": 2.61
+},
+{
+"champ": "Sylas",
+"n": 10,
+"of": 98,
+"lift": 2.01
+},
+{
+"champ": "Qiyana",
+"n": 15,
+"of": 98,
+"lift": 1.99
+}
+]
+},
+{
+"champ": "Varus",
+"games": 257,
+"wins": 140,
+"wr_ci": [
+0.48,
+0.6
+],
+"by_game": [
+94,
+86,
+57,
+20
+],
+"blind": 167,
+"counter": 90,
+"blind_pct": 0.65,
+"phase1_pct": 0.64,
+"blind_wr": [
+90,
+167,
+[
+0.46,
+0.61
+]
+],
+"counter_wr": [
+50,
+90,
+[
+0.45,
+0.65
+]
+],
+"gone_before_blind": [
+{
+"champ": "Jax",
+"n": 13,
+"of": 167,
+"lift": 4.0
+},
+{
+"champ": "Pyke",
+"n": 9,
+"of": 167,
+"lift": 1.98
+},
+{
+"champ": "Olaf",
+"n": 22,
+"of": 167,
+"lift": 1.71
+},
+{
+"champ": "Anivia",
+"n": 18,
+"of": 167,
+"lift": 1.59
+}
+]
+},
+{
+"champ": "Dr. Mundo",
+"games": 229,
+"wins": 114,
+"wr_ci": [
+0.43,
+0.56
+],
+"by_game": [
+86,
+73,
+52,
+18
+],
+"blind": 37,
+"counter": 192,
+"blind_pct": 0.16,
+"phase1_pct": 0.19,
+"blind_wr": [
+20,
+37,
+[
+0.38,
+0.69
+]
+],
+"counter_wr": [
+94,
+192,
+[
+0.42,
+0.56
+]
+],
+"gone_before_blind": [
+{
+"champ": "Gwen",
+"n": 8,
+"of": 37,
+"lift": 3.35
+},
+{
+"champ": "Locke",
+"n": 9,
+"of": 37,
+"lift": 2.45
+}
+]
+},
+{
+"champ": "Malphite",
+"games": 221,
+"wins": 95,
+"wr_ci": [
+0.37,
+0.5
+],
+"by_game": [
+81,
+70,
+48,
+22
+],
+"blind": 28,
+"counter": 193,
+"blind_pct": 0.13,
+"phase1_pct": 0.19,
+"blind_wr": [
+8,
+28,
+[
+0.15,
+0.47
+]
+],
+"counter_wr": [
+87,
+193,
+[
+0.38,
+0.52
+]
+],
+"gone_before_blind": [
+{
+"champ": "Sylas",
+"n": 8,
+"of": 28,
+"lift": 4.83
+}
+]
+},
+{
+"champ": "Aurora",
+"games": 217,
+"wins": 100,
+"wr_ci": [
+0.4,
+0.53
+],
+"by_game": [
+86,
+73,
+42,
+16
+],
+"blind": 111,
+"counter": 106,
+"blind_pct": 0.51,
+"phase1_pct": 0.51,
+"blind_wr": [
+53,
+111,
+[
+0.39,
+0.57
+]
+],
+"counter_wr": [
+47,
+106,
+[
+0.35,
+0.54
+]
+],
+"gone_before_blind": [
+{
+"champ": "Sion",
+"n": 21,
+"of": 111,
+"lift": 2.29
+},
+{
+"champ": "Anivia",
+"n": 20,
+"of": 111,
+"lift": 2.24
+},
+{
+"champ": "Annie",
+"n": 10,
+"of": 111,
+"lift": 2.06
+},
+{
+"champ": "Corki",
+"n": 11,
+"of": 111,
+"lift": 1.96
+},
+{
+"champ": "Azir",
+"n": 21,
+"of": 111,
+"lift": 1.9
+}
+]
+},
+{
+"champ": "Gragas",
+"games": 212,
+"wins": 104,
+"wr_ci": [
+0.42,
+0.56
+],
+"by_game": [
+49,
+74,
+56,
+33
+],
+"blind": 95,
+"counter": 117,
+"blind_pct": 0.45,
+"phase1_pct": 0.18,
+"blind_wr": [
+46,
+95,
+[
+0.39,
+0.58
+]
+],
+"counter_wr": [
+58,
+117,
+[
+0.41,
+0.59
+]
+],
+"gone_before_blind": [
+{
+"champ": "Aatrox",
+"n": 17,
+"of": 95,
+"lift": 2.63
+},
+{
+"champ": "LeBlanc",
+"n": 18,
+"of": 95,
+"lift": 2.29
+},
+{
+"champ": "Trundle",
+"n": 12,
+"of": 95,
+"lift": 2.24
+},
+{
+"champ": "Tristana",
+"n": 8,
+"of": 95,
+"lift": 2.23
+},
+{
+"champ": "Milio",
+"n": 12,
+"of": 95,
+"lift": 2.1
+}
+]
+},
+{
+"champ": "Kennen",
+"games": 205,
+"wins": 98,
+"wr_ci": [
+0.41,
+0.55
+],
+"by_game": [
+55,
+60,
+56,
+34
+],
+"blind": 44,
+"counter": 161,
+"blind_pct": 0.21,
+"phase1_pct": 0.23,
+"blind_wr": [
+20,
+44,
+[
+0.32,
+0.6
+]
+],
+"counter_wr": [
+78,
+161,
+[
+0.41,
+0.56
+]
+],
+"gone_before_blind": [
+{
+"champ": "Nami",
+"n": 8,
+"of": 44,
+"lift": 2.79
+},
+{
+"champ": "Azir",
+"n": 14,
+"of": 44,
+"lift": 2.6
+},
+{
+"champ": "Malphite",
+"n": 8,
+"of": 44,
+"lift": 2.39
+},
+{
+"champ": "Aurora",
+"n": 13,
+"of": 44,
+"lift": 2.24
+},
+{
+"champ": "Gwen",
+"n": 8,
+"of": 44,
+"lift": 2.16
+}
+]
+},
+{
+"champ": "Shen",
+"games": 201,
+"wins": 94,
+"wr_ci": [
+0.4,
+0.54
+],
+"by_game": [
+84,
+56,
+38,
+23
+],
+"blind": 64,
+"counter": 137,
+"blind_pct": 0.32,
+"phase1_pct": 0.24,
+"blind_wr": [
+25,
+64,
+[
+0.28,
+0.51
+]
+],
+"counter_wr": [
+69,
+137,
+[
+0.42,
+0.59
+]
+],
+"gone_before_blind": [
+{
+"champ": "Skarner",
+"n": 9,
+"of": 64,
+"lift": 2.02
+}
+]
+},
+{
+"champ": "Galio",
+"games": 168,
+"wins": 74,
+"wr_ci": [
+0.37,
+0.52
+],
+"by_game": [
+97,
+52,
+15,
+4
+],
+"blind": 5,
+"counter": 163,
+"blind_pct": 0.03,
+"phase1_pct": 0.56,
+"blind_wr": [
+2,
+5,
+[
+0.12,
+0.77
+]
+],
+"counter_wr": [
+72,
+163,
+[
+0.37,
+0.52
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Anivia",
+"games": 142,
+"wins": 75,
+"wr_ci": [
+0.45,
+0.61
+],
+"by_game": [
+52,
+53,
+24,
+13
+],
+"blind": 69,
+"counter": 73,
+"blind_pct": 0.49,
+"phase1_pct": 0.46,
+"blind_wr": [
+32,
+69,
+[
+0.35,
+0.58
+]
+],
+"counter_wr": [
+43,
+73,
+[
+0.47,
+0.69
+]
+],
+"gone_before_blind": [
+{
+"champ": "Annie",
+"n": 8,
+"of": 69,
+"lift": 2.29
+},
+{
+"champ": "Vayne",
+"n": 9,
+"of": 69,
+"lift": 1.97
+},
+{
+"champ": "Bard",
+"n": 27,
+"of": 69,
+"lift": 1.85
+},
+{
+"champ": "Lulu",
+"n": 13,
+"of": 69,
+"lift": 1.69
+}
+]
+},
+{
+"champ": "Kled",
+"games": 139,
+"wins": 75,
+"wr_ci": [
+0.46,
+0.62
+],
+"by_game": [
+64,
+35,
+25,
+15
+],
+"blind": 39,
+"counter": 100,
+"blind_pct": 0.28,
+"phase1_pct": 0.29,
+"blind_wr": [
+23,
+39,
+[
+0.43,
+0.73
+]
+],
+"counter_wr": [
+52,
+100,
+[
+0.42,
+0.62
+]
+],
+"gone_before_blind": [
+{
+"champ": "Sion",
+"n": 11,
+"of": 39,
+"lift": 2.26
+},
+{
+"champ": "Locke",
+"n": 9,
+"of": 39,
+"lift": 2.14
+},
+{
+"champ": "Viktor",
+"n": 9,
+"of": 39,
+"lift": 1.92
+}
+]
+},
+{
+"champ": "Cho'Gath",
+"games": 118,
+"wins": 50,
+"wr_ci": [
+0.34,
+0.51
+],
+"by_game": [
+50,
+31,
+26,
+11
+],
+"blind": 42,
+"counter": 76,
+"blind_pct": 0.36,
+"phase1_pct": 0.39,
+"blind_wr": [
+20,
+42,
+[
+0.33,
+0.62
+]
+],
+"counter_wr": [
+30,
+76,
+[
+0.29,
+0.51
+]
+],
+"gone_before_blind": [
+{
+"champ": "Yuumi",
+"n": 8,
+"of": 42,
+"lift": 20.66
+},
+{
+"champ": "Dr. Mundo",
+"n": 9,
+"of": 42,
+"lift": 3.39
+},
+{
+"champ": "Gwen",
+"n": 9,
+"of": 42,
+"lift": 3.11
+},
+{
+"champ": "Viktor",
+"n": 10,
+"of": 42,
+"lift": 2.34
+},
+{
+"champ": "Ambessa",
+"n": 16,
+"of": 42,
+"lift": 1.72
+}
+]
+},
+{
+"champ": "Irelia",
+"games": 114,
+"wins": 71,
+"wr_ci": [
+0.53,
+0.71
+],
+"by_game": [
+51,
+30,
+22,
+11
+],
+"blind": 15,
+"counter": 99,
+"blind_pct": 0.13,
+"phase1_pct": 0.25,
+"blind_wr": [
+13,
+15,
+[
+0.62,
+0.96
+]
+],
+"counter_wr": [
+58,
+99,
+[
+0.49,
+0.68
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Poppy",
+"games": 109,
+"wins": 55,
+"wr_ci": [
+0.41,
+0.6
+],
+"by_game": [
+49,
+27,
+16,
+17
+],
+"blind": 22,
+"counter": 87,
+"blind_pct": 0.2,
+"phase1_pct": 0.25,
+"blind_wr": [
+10,
+22,
+[
+0.27,
+0.65
+]
+],
+"counter_wr": [
+45,
+87,
+[
+0.41,
+0.62
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Mordekaiser",
+"games": 108,
+"wins": 42,
+"wr_ci": [
+0.3,
+0.48
+],
+"by_game": [
+44,
+38,
+15,
+11
+],
+"blind": 22,
+"counter": 86,
+"blind_pct": 0.2,
+"phase1_pct": 0.26,
+"blind_wr": [
+11,
+22,
+[
+0.31,
+0.69
+]
+],
+"counter_wr": [
+31,
+86,
+[
+0.27,
+0.47
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Fiora",
+"games": 107,
+"wins": 51,
+"wr_ci": [
+0.38,
+0.57
+],
+"by_game": [
+49,
+28,
+21,
+9
+],
+"blind": 30,
+"counter": 77,
+"blind_pct": 0.28,
+"phase1_pct": 0.31,
+"blind_wr": [
+16,
+30,
+[
+0.36,
+0.7
+]
+],
+"counter_wr": [
+35,
+77,
+[
+0.35,
+0.57
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Rek'Sai",
+"games": 105,
+"wins": 56,
+"wr_ci": [
+0.44,
+0.63
+],
+"by_game": [
+33,
+35,
+26,
+11
+],
+"blind": 13,
+"counter": 92,
+"blind_pct": 0.12,
+"phase1_pct": 0.14,
+"blind_wr": [
+5,
+13,
+[
+0.18,
+0.64
+]
+],
+"counter_wr": [
+51,
+92,
+[
+0.45,
+0.65
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Volibear",
+"games": 99,
+"wins": 53,
+"wr_ci": [
+0.44,
+0.63
+],
+"by_game": [
+33,
+30,
+23,
+13
+],
+"blind": 12,
+"counter": 87,
+"blind_pct": 0.12,
+"phase1_pct": 0.15,
+"blind_wr": [
+3,
+12,
+[
+0.09,
+0.53
+]
+],
+"counter_wr": [
+50,
+87,
+[
+0.47,
+0.67
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Yone",
+"games": 85,
+"wins": 47,
+"wr_ci": [
+0.45,
+0.65
+],
+"by_game": [
+32,
+27,
+16,
+10
+],
+"blind": 14,
+"counter": 71,
+"blind_pct": 0.16,
+"phase1_pct": 0.2,
+"blind_wr": [
+7,
+14,
+[
+0.27,
+0.73
+]
+],
+"counter_wr": [
+40,
+71,
+[
+0.45,
+0.67
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Twisted Fate",
+"games": 76,
+"wins": 44,
+"wr_ci": [
+0.47,
+0.68
+],
+"by_game": [
+24,
+31,
+16,
+5
+],
+"blind": 6,
+"counter": 70,
+"blind_pct": 0.08,
+"phase1_pct": 0.14,
+"blind_wr": [
+5,
+6,
+[
+0.44,
+0.97
+]
+],
+"counter_wr": [
+39,
+70,
+[
+0.44,
+0.67
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Darius",
+"games": 72,
+"wins": 31,
+"wr_ci": [
+0.32,
+0.55
+],
+"by_game": [
+28,
+28,
+12,
+4
+],
+"blind": 21,
+"counter": 51,
+"blind_pct": 0.29,
+"phase1_pct": 0.29,
+"blind_wr": [
+7,
+21,
+[
+0.17,
+0.55
+]
+],
+"counter_wr": [
+24,
+51,
+[
+0.34,
+0.6
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Akali",
+"games": 72,
+"wins": 43,
+"wr_ci": [
+0.48,
+0.7
+],
+"by_game": [
+28,
+28,
+9,
+7
+],
+"blind": 26,
+"counter": 46,
+"blind_pct": 0.36,
+"phase1_pct": 0.36,
+"blind_wr": [
+18,
+26,
+[
+0.5,
+0.83
+]
+],
+"counter_wr": [
+25,
+46,
+[
+0.4,
+0.68
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Gangplank",
+"games": 67,
+"wins": 39,
+"wr_ci": [
+0.46,
+0.69
+],
+"by_game": [
+20,
+23,
+14,
+10
+],
+"blind": 24,
+"counter": 43,
+"blind_pct": 0.36,
+"phase1_pct": 0.22,
+"blind_wr": [
+17,
+24,
+[
+0.51,
+0.85
+]
+],
+"counter_wr": [
+22,
+43,
+[
+0.37,
+0.65
+]
+],
+"gone_before_blind": [
+{
+"champ": "Cassiopeia",
+"n": 14,
+"of": 24,
+"lift": 2.15
+}
+]
+},
+{
+"champ": "Nasus",
+"games": 61,
+"wins": 28,
+"wr_ci": [
+0.34,
+0.58
+],
+"by_game": [
+17,
+15,
+16,
+13
+],
+"blind": 14,
+"counter": 47,
+"blind_pct": 0.23,
+"phase1_pct": 0.28,
+"blind_wr": [
+7,
+14,
+[
+0.27,
+0.73
+]
+],
+"counter_wr": [
+21,
+47,
+[
+0.31,
+0.59
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Yasuo",
+"games": 53,
+"wins": 24,
+"wr_ci": [
+0.33,
+0.59
+],
+"by_game": [
+12,
+26,
+12,
+3
+],
+"blind": 6,
+"counter": 47,
+"blind_pct": 0.11,
+"phase1_pct": 0.13,
+"blind_wr": [
+3,
+6,
+[
+0.19,
+0.81
+]
+],
+"counter_wr": [
+21,
+47,
+[
+0.31,
+0.59
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Garen",
+"games": 49,
+"wins": 18,
+"wr_ci": [
+0.25,
+0.51
+],
+"by_game": [
+15,
+17,
+8,
+9
+],
+"blind": 5,
+"counter": 44,
+"blind_pct": 0.1,
+"phase1_pct": 0.22,
+"blind_wr": [
+1,
+5,
+[
+0.04,
+0.62
+]
+],
+"counter_wr": [
+17,
+44,
+[
+0.26,
+0.53
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Tristana",
+"games": 46,
+"wins": 18,
+"wr_ci": [
+0.26,
+0.54
+],
+"by_game": [
+14,
+17,
+12,
+3
+],
+"blind": 6,
+"counter": 40,
+"blind_pct": 0.13,
+"phase1_pct": 0.2,
+"blind_wr": [
+2,
+6,
+[
+0.1,
+0.7
+]
+],
+"counter_wr": [
+16,
+40,
+[
+0.26,
+0.55
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Trundle",
+"games": 45,
+"wins": 23,
+"wr_ci": [
+0.37,
+0.65
+],
+"by_game": [
+13,
+15,
+13,
+4
+],
+"blind": 1,
+"counter": 44,
+"blind_pct": 0.02,
+"phase1_pct": 0.33,
+"blind_wr": [
+0,
+1,
+[
+0.0,
+0.79
+]
+],
+"counter_wr": [
+23,
+44,
+[
+0.38,
+0.66
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Sett",
+"games": 39,
+"wins": 18,
+"wr_ci": [
+0.32,
+0.61
+],
+"by_game": [
+16,
+9,
+8,
+6
+],
+"blind": 8,
+"counter": 31,
+"blind_pct": 0.21,
+"phase1_pct": 0.15,
+"blind_wr": [
+2,
+8,
+[
+0.07,
+0.59
+]
+],
+"counter_wr": [
+16,
+31,
+[
+0.35,
+0.68
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Sylas",
+"games": 38,
+"wins": 16,
+"wr_ci": [
+0.28,
+0.58
+],
+"by_game": [
+10,
+19,
+8,
+1
+],
+"blind": 1,
+"counter": 37,
+"blind_pct": 0.03,
+"phase1_pct": 0.11,
+"blind_wr": [
+0,
+1,
+[
+0.0,
+0.79
+]
+],
+"counter_wr": [
+16,
+37,
+[
+0.29,
+0.59
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Urgot",
+"games": 34,
+"wins": 18,
+"wr_ci": [
+0.37,
+0.69
+],
+"by_game": [
+14,
+14,
+5,
+1
+],
+"blind": 14,
+"counter": 20,
+"blind_pct": 0.41,
+"phase1_pct": 0.18,
+"blind_wr": [
+9,
+14,
+[
+0.39,
+0.84
+]
+],
+"counter_wr": [
+9,
+20,
+[
+0.26,
+0.66
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Shyvana",
+"games": 31,
+"wins": 15,
+"wr_ci": [
+0.32,
+0.65
+],
+"by_game": [
+9,
+13,
+6,
+3
+],
+"blind": 10,
+"counter": 21,
+"blind_pct": 0.32,
+"phase1_pct": 0.19,
+"blind_wr": [
+3,
+10,
+[
+0.11,
+0.6
+]
+],
+"counter_wr": [
+12,
+21,
+[
+0.37,
+0.76
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Illaoi",
+"games": 31,
+"wins": 14,
+"wr_ci": [
+0.29,
+0.62
+],
+"by_game": [
+14,
+11,
+5,
+1
+],
+"blind": 2,
+"counter": 29,
+"blind_pct": 0.06,
+"phase1_pct": 0.19,
+"blind_wr": [
+0,
+2,
+[
+0.0,
+0.66
+]
+],
+"counter_wr": [
+14,
+29,
+[
+0.31,
+0.66
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Kayle",
+"games": 31,
+"wins": 13,
+"wr_ci": [
+0.26,
+0.59
+],
+"by_game": [
+12,
+8,
+7,
+4
+],
+"blind": 5,
+"counter": 26,
+"blind_pct": 0.16,
+"phase1_pct": 0.29,
+"blind_wr": [
+3,
+5,
+[
+0.23,
+0.88
+]
+],
+"counter_wr": [
+10,
+26,
+[
+0.22,
+0.57
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Riven",
+"games": 29,
+"wins": 17,
+"wr_ci": [
+0.41,
+0.74
+],
+"by_game": [
+9,
+8,
+7,
+5
+],
+"blind": 8,
+"counter": 21,
+"blind_pct": 0.28,
+"phase1_pct": 0.21,
+"blind_wr": [
+5,
+8,
+[
+0.31,
+0.86
+]
+],
+"counter_wr": [
+12,
+21,
+[
+0.37,
+0.76
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Cassiopeia",
+"games": 28,
+"wins": 17,
+"wr_ci": [
+0.42,
+0.76
+],
+"by_game": [
+13,
+8,
+6,
+1
+],
+"blind": 17,
+"counter": 11,
+"blind_pct": 0.61,
+"phase1_pct": 0.57,
+"blind_wr": [
+9,
+17,
+[
+0.31,
+0.74
+]
+],
+"counter_wr": [
+8,
+11,
+[
+0.43,
+0.9
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Vladimir",
+"games": 27,
+"wins": 7,
+"wr_ci": [
+0.13,
+0.45
+],
+"by_game": [
+6,
+12,
+5,
+4
+],
+"blind": 8,
+"counter": 19,
+"blind_pct": 0.3,
+"phase1_pct": 0.19,
+"blind_wr": [
+4,
+8,
+[
+0.22,
+0.78
+]
+],
+"counter_wr": [
+3,
+19,
+[
+0.06,
+0.38
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Swain",
+"games": 27,
+"wins": 11,
+"wr_ci": [
+0.25,
+0.59
+],
+"by_game": [
+13,
+6,
+5,
+3
+],
+"blind": 3,
+"counter": 24,
+"blind_pct": 0.11,
+"phase1_pct": 0.19,
+"blind_wr": [
+1,
+3,
+[
+0.06,
+0.79
+]
+],
+"counter_wr": [
+10,
+24,
+[
+0.24,
+0.61
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Tryndamere",
+"games": 25,
+"wins": 10,
+"wr_ci": [
+0.23,
+0.59
+],
+"by_game": [
+7,
+12,
+6,
+0
+],
+"blind": 5,
+"counter": 20,
+"blind_pct": 0.2,
+"phase1_pct": 0.24,
+"blind_wr": [
+4,
+5,
+[
+0.38,
+0.96
+]
+],
+"counter_wr": [
+6,
+20,
+[
+0.15,
+0.52
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Pantheon",
+"games": 24,
+"wins": 12,
+"wr_ci": [
+0.31,
+0.69
+],
+"by_game": [
+10,
+7,
+5,
+2
+],
+"blind": 12,
+"counter": 12,
+"blind_pct": 0.5,
+"phase1_pct": 0.38,
+"blind_wr": [
+7,
+12,
+[
+0.32,
+0.81
+]
+],
+"counter_wr": [
+5,
+12,
+[
+0.19,
+0.68
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Udyr",
+"games": 23,
+"wins": 9,
+"wr_ci": [
+0.22,
+0.59
+],
+"by_game": [
+8,
+10,
+4,
+1
+],
+"blind": 9,
+"counter": 14,
+"blind_pct": 0.39,
+"phase1_pct": 0.13,
+"blind_wr": [
+4,
+9,
+[
+0.19,
+0.73
+]
+],
+"counter_wr": [
+5,
+14,
+[
+0.16,
+0.61
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Ryze",
+"games": 22,
+"wins": 8,
+"wr_ci": [
+0.2,
+0.57
+],
+"by_game": [
+9,
+10,
+3,
+0
+],
+"blind": 9,
+"counter": 13,
+"blind_pct": 0.41,
+"phase1_pct": 0.77,
+"blind_wr": [
+5,
+9,
+[
+0.27,
+0.81
+]
+],
+"counter_wr": [
+3,
+13,
+[
+0.08,
+0.5
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Singed",
+"games": 22,
+"wins": 13,
+"wr_ci": [
+0.39,
+0.77
+],
+"by_game": [
+7,
+8,
+3,
+4
+],
+"blind": 4,
+"counter": 18,
+"blind_pct": 0.18,
+"phase1_pct": 0.18,
+"blind_wr": [
+2,
+4,
+[
+0.15,
+0.85
+]
+],
+"counter_wr": [
+11,
+18,
+[
+0.39,
+0.8
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Skarner",
+"games": 21,
+"wins": 13,
+"wr_ci": [
+0.41,
+0.79
+],
+"by_game": [
+9,
+5,
+4,
+3
+],
+"blind": 9,
+"counter": 12,
+"blind_pct": 0.43,
+"phase1_pct": 0.33,
+"blind_wr": [
+6,
+9,
+[
+0.35,
+0.88
+]
+],
+"counter_wr": [
+7,
+12,
+[
+0.32,
+0.81
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Naafiri",
+"games": 16,
+"wins": 10,
+"wr_ci": [
+0.39,
+0.82
+],
+"by_game": [
+6,
+5,
+5,
+0
+],
+"blind": 2,
+"counter": 14,
+"blind_pct": 0.12,
+"phase1_pct": 0.25,
+"blind_wr": [
+1,
+2,
+[
+0.09,
+0.91
+]
+],
+"counter_wr": [
+9,
+14,
+[
+0.39,
+0.84
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Maokai",
+"games": 16,
+"wins": 8,
+"wr_ci": [
+0.28,
+0.72
+],
+"by_game": [
+5,
+6,
+4,
+1
+],
+"blind": 7,
+"counter": 9,
+"blind_pct": 0.44,
+"phase1_pct": 0.19,
+"blind_wr": [
+5,
+7,
+[
+0.36,
+0.92
+]
+],
+"counter_wr": [
+3,
+9,
+[
+0.12,
+0.65
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Nidalee",
+"games": 12,
+"wins": 7,
+"wr_ci": [
+0.32,
+0.81
+],
+"by_game": [
+2,
+4,
+1,
+5
+],
+"blind": 4,
+"counter": 8,
+"blind_pct": 0.33,
+"phase1_pct": 0.17,
+"blind_wr": [
+2,
+4,
+[
+0.15,
+0.85
+]
+],
+"counter_wr": [
+5,
+8,
+[
+0.31,
+0.86
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Sejuani",
+"games": 11,
+"wins": 5,
+"wr_ci": [
+0.21,
+0.72
+],
+"by_game": [
+1,
+4,
+4,
+2
+],
+"blind": 6,
+"counter": 5,
+"blind_pct": 0.55,
+"phase1_pct": 0.45,
+"blind_wr": [
+2,
+6,
+[
+0.1,
+0.7
+]
+],
+"counter_wr": [
+3,
+5,
+[
+0.23,
+0.88
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Zac",
+"games": 11,
+"wins": 3,
+"wr_ci": [
+0.1,
+0.57
+],
+"by_game": [
+5,
+2,
+2,
+2
+],
+"blind": 6,
+"counter": 5,
+"blind_pct": 0.55,
+"phase1_pct": 0.73,
+"blind_wr": [
+1,
+6,
+[
+0.03,
+0.56
+]
+],
+"counter_wr": [
+2,
+5,
+[
+0.12,
+0.77
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Smolder",
+"games": 10,
+"wins": 3,
+"wr_ci": [
+0.11,
+0.6
+],
+"by_game": [
+2,
+6,
+0,
+2
+],
+"blind": 1,
+"counter": 9,
+"blind_pct": 0.1,
+"phase1_pct": 0.1,
+"blind_wr": [
+0,
+1,
+[
+0.0,
+0.79
+]
+],
+"counter_wr": [
+3,
+9,
+[
+0.12,
+0.65
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Warwick",
+"games": 9,
+"wins": 7,
+"wr_ci": [
+0.45,
+0.94
+],
+"by_game": [
+5,
+1,
+2,
+1
+],
+"blind": 1,
+"counter": 8,
+"blind_pct": 0.11,
+"phase1_pct": 0.11,
+"blind_wr": [
+1,
+1,
+[
+0.21,
+1.0
+]
+],
+"counter_wr": [
+6,
+8,
+[
+0.41,
+0.93
+]
+],
+"gone_before_blind": []
+}
+],
+"mid": [
+{
+"champ": "Ryze",
+"games": 2615,
+"wins": 1311,
+"wr_ci": [
+0.48,
+0.52
+],
+"by_game": [
+1518,
+811,
+236,
+50
+],
+"blind": 2119,
+"counter": 496,
+"blind_pct": 0.81,
+"phase1_pct": 0.8,
+"blind_wr": [
+1061,
+2119,
+[
+0.48,
+0.52
+]
+],
+"counter_wr": [
+250,
+496,
+[
+0.46,
+0.55
+]
+],
+"gone_before_blind": [
+{
+"champ": "Veigar",
+"n": 8,
+"of": 2119,
+"lift": 2.08
+}
+]
+},
+{
+"champ": "Orianna",
+"games": 2038,
+"wins": 1066,
+"wr_ci": [
+0.5,
+0.54
+],
+"by_game": [
+1232,
+566,
+192,
+48
+],
+"blind": 1678,
+"counter": 360,
+"blind_pct": 0.82,
+"phase1_pct": 0.91,
+"blind_wr": [
+876,
+1678,
+[
+0.5,
+0.55
+]
+],
+"counter_wr": [
+190,
+360,
+[
+0.48,
+0.58
+]
+],
+"gone_before_blind": [
+{
+"champ": "Urgot",
+"n": 21,
+"of": 1678,
+"lift": 2.28
+},
+{
+"champ": "Zac",
+"n": 15,
+"of": 1678,
+"lift": 1.92
+},
+{
+"champ": "Darius",
+"n": 20,
+"of": 1678,
+"lift": 1.64
+},
+{
+"champ": "Diana",
+"n": 21,
+"of": 1678,
+"lift": 1.6
+}
+]
+},
+{
+"champ": "Ahri",
+"games": 1627,
+"wins": 859,
+"wr_ci": [
+0.5,
+0.55
+],
+"by_game": [
+616,
+589,
+326,
+96
+],
+"blind": 809,
+"counter": 818,
+"blind_pct": 0.5,
+"phase1_pct": 0.47,
+"blind_wr": [
+439,
+809,
+[
+0.51,
+0.58
+]
+],
+"counter_wr": [
+420,
+818,
+[
+0.48,
+0.55
+]
+],
+"gone_before_blind": [
+{
+"champ": "Mel",
+"n": 75,
+"of": 809,
+"lift": 2.42
+},
+{
+"champ": "Graves",
+"n": 15,
+"of": 809,
+"lift": 2.36
+},
+{
+"champ": "Lux",
+"n": 17,
+"of": 809,
+"lift": 2.24
+},
+{
+"champ": "Volibear",
+"n": 11,
+"of": 809,
+"lift": 1.96
+},
+{
+"champ": "Vladimir",
+"n": 12,
+"of": 809,
+"lift": 1.94
+}
+]
+},
+{
+"champ": "Viktor",
+"games": 1512,
+"wins": 753,
+"wr_ci": [
+0.47,
+0.52
+],
+"by_game": [
+643,
+517,
+277,
+75
+],
+"blind": 710,
+"counter": 802,
+"blind_pct": 0.47,
+"phase1_pct": 0.51,
+"blind_wr": [
+356,
+710,
+[
+0.46,
+0.54
+]
+],
+"counter_wr": [
+397,
+802,
+[
+0.46,
+0.53
+]
+],
+"gone_before_blind": [
+{
+"champ": "Swain",
+"n": 10,
+"of": 710,
+"lift": 2.03
+},
+{
+"champ": "Shyvana",
+"n": 12,
+"of": 710,
+"lift": 1.91
+},
+{
+"champ": "Xerath",
+"n": 11,
+"of": 710,
+"lift": 1.89
+},
+{
+"champ": "Aurelion Sol",
+"n": 13,
+"of": 710,
+"lift": 1.84
+},
+{
+"champ": "Thresh",
+"n": 11,
+"of": 710,
+"lift": 1.83
+}
+]
+},
+{
+"champ": "Syndra",
+"games": 1477,
+"wins": 705,
+"wr_ci": [
+0.45,
+0.5
+],
+"by_game": [
+831,
+407,
+178,
+61
+],
+"blind": 713,
+"counter": 764,
+"blind_pct": 0.48,
+"phase1_pct": 0.66,
+"blind_wr": [
+333,
+713,
+[
+0.43,
+0.5
+]
+],
+"counter_wr": [
+372,
+764,
+[
+0.45,
+0.52
+]
+],
+"gone_before_blind": [
+{
+"champ": "Kassadin",
+"n": 8,
+"of": 713,
+"lift": 3.37
+},
+{
+"champ": "Locke",
+"n": 179,
+"of": 713,
+"lift": 2.68
+},
+{
+"champ": "Gragas",
+"n": 9,
+"of": 713,
+"lift": 2.56
+},
+{
+"champ": "Thresh",
+"n": 9,
+"of": 713,
+"lift": 2.05
+},
+{
+"champ": "Kled",
+"n": 8,
+"of": 713,
+"lift": 2.01
+}
+]
+},
+{
+"champ": "Aurora",
+"games": 1266,
+"wins": 589,
+"wr_ci": [
+0.44,
+0.49
+],
+"by_game": [
+490,
+474,
+220,
+82
+],
+"blind": 792,
+"counter": 474,
+"blind_pct": 0.63,
+"phase1_pct": 0.47,
+"blind_wr": [
+370,
+792,
+[
+0.43,
+0.5
+]
+],
+"counter_wr": [
+219,
+474,
+[
+0.42,
+0.51
+]
+],
+"gone_before_blind": [
+{
+"champ": "LeBlanc",
+"n": 82,
+"of": 792,
+"lift": 1.86
+},
+{
+"champ": "Ornn",
+"n": 42,
+"of": 792,
+"lift": 1.83
+},
+{
+"champ": "Twisted Fate",
+"n": 27,
+"of": 792,
+"lift": 1.77
+},
+{
+"champ": "Annie",
+"n": 71,
+"of": 792,
+"lift": 1.7
+},
+{
+"champ": "Mel",
+"n": 48,
+"of": 792,
+"lift": 1.61
+}
+]
+},
+{
+"champ": "Cassiopeia",
+"games": 1135,
+"wins": 633,
+"wr_ci": [
+0.53,
+0.59
+],
+"by_game": [
+647,
+332,
+125,
+31
+],
+"blind": 736,
+"counter": 399,
+"blind_pct": 0.65,
+"phase1_pct": 0.76,
+"blind_wr": [
+413,
+736,
+[
+0.53,
+0.6
+]
+],
+"counter_wr": [
+220,
+399,
+[
+0.5,
+0.6
+]
+],
+"gone_before_blind": [
+{
+"champ": "Camille",
+"n": 102,
+"of": 736,
+"lift": 2.12
+},
+{
+"champ": "Vayne",
+"n": 54,
+"of": 736,
+"lift": 1.93
+},
+{
+"champ": "Cho'Gath",
+"n": 12,
+"of": 736,
+"lift": 1.9
+},
+{
+"champ": "Shen",
+"n": 30,
+"of": 736,
+"lift": 1.84
+},
+{
+"champ": "Locke",
+"n": 118,
+"of": 736,
+"lift": 1.82
+}
+]
+},
+{
+"champ": "Akali",
+"games": 1085,
+"wins": 571,
+"wr_ci": [
+0.5,
+0.56
+],
+"by_game": [
+487,
+358,
+168,
+72
+],
+"blind": 266,
+"counter": 819,
+"blind_pct": 0.25,
+"phase1_pct": 0.56,
+"blind_wr": [
+138,
+266,
+[
+0.46,
+0.58
+]
+],
+"counter_wr": [
+433,
+819,
+[
+0.49,
+0.56
+]
+],
+"gone_before_blind": [
+{
+"champ": "Twisted Fate",
+"n": 22,
+"of": 266,
+"lift": 4.05
+},
+{
+"champ": "Kennen",
+"n": 8,
+"of": 266,
+"lift": 2.49
+},
+{
+"champ": "LeBlanc",
+"n": 37,
+"of": 266,
+"lift": 2.4
+},
+{
+"champ": "Galio",
+"n": 36,
+"of": 266,
+"lift": 2.25
+},
+{
+"champ": "Ornn",
+"n": 14,
+"of": 266,
+"lift": 1.7
+}
+]
+},
+{
+"champ": "Azir",
+"games": 1071,
+"wins": 484,
+"wr_ci": [
+0.42,
+0.48
+],
+"by_game": [
+618,
+274,
+129,
+50
+],
+"blind": 593,
+"counter": 478,
+"blind_pct": 0.55,
+"phase1_pct": 0.7,
+"blind_wr": [
+274,
+593,
+[
+0.42,
+0.5
+]
+],
+"counter_wr": [
+210,
+478,
+[
+0.4,
+0.48
+]
+],
+"gone_before_blind": [
+{
+"champ": "Malphite",
+"n": 111,
+"of": 593,
+"lift": 3.06
+},
+{
+"champ": "Ornn",
+"n": 25,
+"of": 593,
+"lift": 2.21
+},
+{
+"champ": "Neeko",
+"n": 140,
+"of": 593,
+"lift": 2.1
+},
+{
+"champ": "Yunara",
+"n": 135,
+"of": 593,
+"lift": 2.08
+},
+{
+"champ": "Dr. Mundo",
+"n": 59,
+"of": 593,
+"lift": 2.03
+}
+]
+},
+{
+"champ": "Taliyah",
+"games": 1000,
+"wins": 471,
+"wr_ci": [
+0.44,
+0.5
+],
+"by_game": [
+427,
+324,
+180,
+69
+],
+"blind": 344,
+"counter": 656,
+"blind_pct": 0.34,
+"phase1_pct": 0.56,
+"blind_wr": [
+158,
+344,
+[
+0.41,
+0.51
+]
+],
+"counter_wr": [
+313,
+656,
+[
+0.44,
+0.52
+]
+],
+"gone_before_blind": [
+{
+"champ": "Malphite",
+"n": 61,
+"of": 344,
+"lift": 2.7
+},
+{
+"champ": "Sejuani",
+"n": 9,
+"of": 344,
+"lift": 2.23
+},
+{
+"champ": "Jax",
+"n": 22,
+"of": 344,
+"lift": 2.14
+},
+{
+"champ": "Neeko",
+"n": 84,
+"of": 344,
+"lift": 1.86
+},
+{
+"champ": "Aphelios",
+"n": 21,
+"of": 344,
+"lift": 1.79
+}
+]
+},
+{
+"champ": "Galio",
+"games": 869,
+"wins": 409,
+"wr_ci": [
+0.44,
+0.5
+],
+"by_game": [
+359,
+292,
+159,
+59
+],
+"blind": 166,
+"counter": 703,
+"blind_pct": 0.19,
+"phase1_pct": 0.46,
+"blind_wr": [
+70,
+166,
+[
+0.35,
+0.5
+]
+],
+"counter_wr": [
+339,
+703,
+[
+0.45,
+0.52
+]
+],
+"gone_before_blind": [
+{
+"champ": "Yuumi",
+"n": 9,
+"of": 166,
+"lift": 5.73
+},
+{
+"champ": "Irelia",
+"n": 10,
+"of": 166,
+"lift": 3.02
+},
+{
+"champ": "Malphite",
+"n": 26,
+"of": 166,
+"lift": 2.26
+},
+{
+"champ": "Aurora",
+"n": 37,
+"of": 166,
+"lift": 2.0
+},
+{
+"champ": "Sylas",
+"n": 18,
+"of": 166,
+"lift": 1.97
+}
+]
+},
+{
+"champ": "Annie",
+"games": 809,
+"wins": 429,
+"wr_ci": [
+0.5,
+0.56
+],
+"by_game": [
+237,
+340,
+175,
+57
+],
+"blind": 456,
+"counter": 353,
+"blind_pct": 0.56,
+"phase1_pct": 0.53,
+"blind_wr": [
+238,
+456,
+[
+0.48,
+0.57
+]
+],
+"counter_wr": [
+191,
+353,
+[
+0.49,
+0.59
+]
+],
+"gone_before_blind": [
+{
+"champ": "Galio",
+"n": 41,
+"of": 456,
+"lift": 1.77
+},
+{
+"champ": "Pyke",
+"n": 26,
+"of": 456,
+"lift": 1.72
+},
+{
+"champ": "Karma",
+"n": 209,
+"of": 456,
+"lift": 1.69
+},
+{
+"champ": "Gnar",
+"n": 53,
+"of": 456,
+"lift": 1.66
+},
+{
+"champ": "Pantheon",
+"n": 141,
+"of": 456,
+"lift": 1.51
+}
+]
+},
+{
+"champ": "Anivia",
+"games": 758,
+"wins": 396,
+"wr_ci": [
+0.49,
+0.56
+],
+"by_game": [
+334,
+269,
+108,
+47
+],
+"blind": 189,
+"counter": 569,
+"blind_pct": 0.25,
+"phase1_pct": 0.54,
+"blind_wr": [
+103,
+189,
+[
+0.47,
+0.61
+]
+],
+"counter_wr": [
+293,
+569,
+[
+0.47,
+0.56
+]
+],
+"gone_before_blind": [
+{
+"champ": "Hwei",
+"n": 8,
+"of": 189,
+"lift": 2.06
+},
+{
+"champ": "Skarner",
+"n": 22,
+"of": 189,
+"lift": 1.99
+},
+{
+"champ": "Zoe",
+"n": 10,
+"of": 189,
+"lift": 1.95
+},
+{
+"champ": "Jax",
+"n": 12,
+"of": 189,
+"lift": 1.82
+},
+{
+"champ": "Milio",
+"n": 14,
+"of": 189,
+"lift": 1.72
+}
+]
+},
+{
+"champ": "Sylas",
+"games": 580,
+"wins": 293,
+"wr_ci": [
+0.46,
+0.55
+],
+"by_game": [
+154,
+219,
+139,
+68
+],
+"blind": 121,
+"counter": 459,
+"blind_pct": 0.21,
+"phase1_pct": 0.28,
+"blind_wr": [
+67,
+121,
+[
+0.46,
+0.64
+]
+],
+"counter_wr": [
+226,
+459,
+[
+0.45,
+0.54
+]
+],
+"gone_before_blind": [
+{
+"champ": "Nidalee",
+"n": 8,
+"of": 121,
+"lift": 6.61
+},
+{
+"champ": "Trundle",
+"n": 15,
+"of": 121,
+"lift": 2.61
+},
+{
+"champ": "Yone",
+"n": 12,
+"of": 121,
+"lift": 2.43
+},
+{
+"champ": "Alistar",
+"n": 18,
+"of": 121,
+"lift": 2.23
+},
+{
+"champ": "Gnar",
+"n": 25,
+"of": 121,
+"lift": 1.94
+}
+]
+},
+{
+"champ": "Yone",
+"games": 449,
+"wins": 218,
+"wr_ci": [
+0.44,
+0.53
+],
+"by_game": [
+153,
+143,
+96,
+57
+],
+"blind": 123,
+"counter": 326,
+"blind_pct": 0.27,
+"phase1_pct": 0.44,
+"blind_wr": [
+54,
+123,
+[
+0.35,
+0.53
+]
+],
+"counter_wr": [
+164,
+326,
+[
+0.45,
+0.56
+]
+],
+"gone_before_blind": [
+{
+"champ": "Ornn",
+"n": 11,
+"of": 123,
+"lift": 2.79
+},
+{
+"champ": "LeBlanc",
+"n": 15,
+"of": 123,
+"lift": 2.08
+},
+{
+"champ": "Trundle",
+"n": 10,
+"of": 123,
+"lift": 2.06
+},
+{
+"champ": "Skarner",
+"n": 14,
+"of": 123,
+"lift": 1.86
+},
+{
+"champ": "Kai'Sa",
+"n": 14,
+"of": 123,
+"lift": 1.84
+}
+]
+},
+{
+"champ": "Hwei",
+"games": 447,
+"wins": 209,
+"wr_ci": [
+0.42,
+0.51
+],
+"by_game": [
+145,
+166,
+104,
+32
+],
+"blind": 135,
+"counter": 312,
+"blind_pct": 0.3,
+"phase1_pct": 0.34,
+"blind_wr": [
+66,
+135,
+[
+0.41,
+0.57
+]
+],
+"counter_wr": [
+143,
+312,
+[
+0.4,
+0.51
+]
+],
+"gone_before_blind": [
+{
+"champ": "Darius",
+"n": 8,
+"of": 135,
+"lift": 4.29
+},
+{
+"champ": "Zoe",
+"n": 12,
+"of": 135,
+"lift": 3.07
+},
+{
+"champ": "Ornn",
+"n": 10,
+"of": 135,
+"lift": 1.97
+},
+{
+"champ": "Sion",
+"n": 29,
+"of": 135,
+"lift": 1.85
+},
+{
+"champ": "Sivir",
+"n": 19,
+"of": 135,
+"lift": 1.82
+}
+]
+},
+{
+"champ": "LeBlanc",
+"games": 442,
+"wins": 230,
+"wr_ci": [
+0.47,
+0.57
+],
+"by_game": [
+169,
+155,
+86,
+32
+],
+"blind": 112,
+"counter": 330,
+"blind_pct": 0.25,
+"phase1_pct": 0.37,
+"blind_wr": [
+48,
+112,
+[
+0.34,
+0.52
+]
+],
+"counter_wr": [
+182,
+330,
+[
+0.5,
+0.6
+]
+],
+"gone_before_blind": [
+{
+"champ": "Mel",
+"n": 16,
+"of": 112,
+"lift": 3.17
+},
+{
+"champ": "Ornn",
+"n": 11,
+"of": 112,
+"lift": 2.73
+},
+{
+"champ": "Aurora",
+"n": 31,
+"of": 112,
+"lift": 2.37
+},
+{
+"champ": "Pyke",
+"n": 9,
+"of": 112,
+"lift": 2.06
+},
+{
+"champ": "Zaahen",
+"n": 11,
+"of": 112,
+"lift": 2.04
+}
+]
+},
+{
+"champ": "Locke",
+"games": 430,
+"wins": 224,
+"wr_ci": [
+0.47,
+0.57
+],
+"by_game": [
+207,
+137,
+65,
+21
+],
+"blind": 190,
+"counter": 240,
+"blind_pct": 0.44,
+"phase1_pct": 0.66,
+"blind_wr": [
+93,
+190,
+[
+0.42,
+0.56
+]
+],
+"counter_wr": [
+131,
+240,
+[
+0.48,
+0.61
+]
+],
+"gone_before_blind": [
+{
+"champ": "Galio",
+"n": 32,
+"of": 190,
+"lift": 4.37
+},
+{
+"champ": "Camille",
+"n": 47,
+"of": 190,
+"lift": 3.46
+},
+{
+"champ": "Ziggs",
+"n": 28,
+"of": 190,
+"lift": 2.67
+},
+{
+"champ": "Kalista",
+"n": 17,
+"of": 190,
+"lift": 2.5
+},
+{
+"champ": "Poppy",
+"n": 65,
+"of": 190,
+"lift": 2.35
+}
+]
+},
+{
+"champ": "Mel",
+"games": 355,
+"wins": 147,
+"wr_ci": [
+0.36,
+0.47
+],
+"by_game": [
+119,
+117,
+88,
+31
+],
+"blind": 121,
+"counter": 234,
+"blind_pct": 0.34,
+"phase1_pct": 0.33,
+"blind_wr": [
+49,
+121,
+[
+0.32,
+0.49
+]
+],
+"counter_wr": [
+98,
+234,
+[
+0.36,
+0.48
+]
+],
+"gone_before_blind": [
+{
+"champ": "Zoe",
+"n": 11,
+"of": 121,
+"lift": 3.28
+},
+{
+"champ": "Ornn",
+"n": 11,
+"of": 121,
+"lift": 2.77
+},
+{
+"champ": "Ashe",
+"n": 42,
+"of": 121,
+"lift": 2.64
+},
+{
+"champ": "Sylas",
+"n": 17,
+"of": 121,
+"lift": 2.55
+},
+{
+"champ": "Aurora",
+"n": 33,
+"of": 121,
+"lift": 2.47
+}
+]
+},
+{
+"champ": "Twisted Fate",
+"games": 304,
+"wins": 170,
+"wr_ci": [
+0.5,
+0.61
+],
+"by_game": [
+68,
+93,
+86,
+57
+],
+"blind": 110,
+"counter": 194,
+"blind_pct": 0.36,
+"phase1_pct": 0.31,
+"blind_wr": [
+57,
+110,
+[
+0.43,
+0.61
+]
+],
+"counter_wr": [
+113,
+194,
+[
+0.51,
+0.65
+]
+],
+"gone_before_blind": [
+{
+"champ": "Mel",
+"n": 17,
+"of": 110,
+"lift": 3.62
+},
+{
+"champ": "Annie",
+"n": 23,
+"of": 110,
+"lift": 3.48
+},
+{
+"champ": "Yorick",
+"n": 9,
+"of": 110,
+"lift": 2.3
+},
+{
+"champ": "Yone",
+"n": 9,
+"of": 110,
+"lift": 2.23
+},
+{
+"champ": "Seraphine",
+"n": 30,
+"of": 110,
+"lift": 1.86
+}
+]
+},
+{
+"champ": "Lissandra",
+"games": 170,
+"wins": 77,
+"wr_ci": [
+0.38,
+0.53
+],
+"by_game": [
+33,
+61,
+51,
+25
+],
+"blind": 35,
+"counter": 135,
+"blind_pct": 0.21,
+"phase1_pct": 0.28,
+"blind_wr": [
+13,
+35,
+[
+0.23,
+0.54
+]
+],
+"counter_wr": [
+64,
+135,
+[
+0.39,
+0.56
+]
+],
+"gone_before_blind": [
+{
+"champ": "Sylas",
+"n": 8,
+"of": 35,
+"lift": 3.79
+},
+{
+"champ": "Camille",
+"n": 8,
+"of": 35,
+"lift": 2.5
+}
+]
+},
+{
+"champ": "Zoe",
+"games": 152,
+"wins": 75,
+"wr_ci": [
+0.42,
+0.57
+],
+"by_game": [
+54,
+40,
+38,
+20
+],
+"blind": 45,
+"counter": 107,
+"blind_pct": 0.3,
+"phase1_pct": 0.31,
+"blind_wr": [
+20,
+45,
+[
+0.31,
+0.59
+]
+],
+"counter_wr": [
+55,
+107,
+[
+0.42,
+0.61
+]
+],
+"gone_before_blind": [
+{
+"champ": "Aatrox",
+"n": 8,
+"of": 45,
+"lift": 3.26
+},
+{
+"champ": "Annie",
+"n": 8,
+"of": 45,
+"lift": 2.92
+},
+{
+"champ": "Aurora",
+"n": 10,
+"of": 45,
+"lift": 1.97
+}
+]
+},
+{
+"champ": "Tristana",
+"games": 107,
+"wins": 52,
+"wr_ci": [
+0.39,
+0.58
+],
+"by_game": [
+33,
+29,
+22,
+23
+],
+"blind": 41,
+"counter": 66,
+"blind_pct": 0.38,
+"phase1_pct": 0.4,
+"blind_wr": [
+16,
+41,
+[
+0.26,
+0.54
+]
+],
+"counter_wr": [
+36,
+66,
+[
+0.43,
+0.66
+]
+],
+"gone_before_blind": [
+{
+"champ": "Syndra",
+"n": 15,
+"of": 41,
+"lift": 1.97
+},
+{
+"champ": "Olaf",
+"n": 8,
+"of": 41,
+"lift": 1.94
+},
+{
+"champ": "Cassiopeia",
+"n": 19,
+"of": 41,
+"lift": 1.72
+}
+]
+},
+{
+"champ": "Jayce",
+"games": 93,
+"wins": 45,
+"wr_ci": [
+0.38,
+0.58
+],
+"by_game": [
+36,
+21,
+25,
+11
+],
+"blind": 56,
+"counter": 37,
+"blind_pct": 0.6,
+"phase1_pct": 0.67,
+"blind_wr": [
+26,
+56,
+[
+0.34,
+0.59
+]
+],
+"counter_wr": [
+19,
+37,
+[
+0.36,
+0.67
+]
+],
+"gone_before_blind": [
+{
+"champ": "Syndra",
+"n": 17,
+"of": 56,
+"lift": 2.05
+},
+{
+"champ": "Naafiri",
+"n": 10,
+"of": 56,
+"lift": 2.05
+}
+]
+},
+{
+"champ": "Ziggs",
+"games": 80,
+"wins": 38,
+"wr_ci": [
+0.37,
+0.58
+],
+"by_game": [
+39,
+23,
+12,
+6
+],
+"blind": 27,
+"counter": 53,
+"blind_pct": 0.34,
+"phase1_pct": 0.61,
+"blind_wr": [
+10,
+27,
+[
+0.22,
+0.56
+]
+],
+"counter_wr": [
+28,
+53,
+[
+0.4,
+0.66
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Aurelion Sol",
+"games": 68,
+"wins": 41,
+"wr_ci": [
+0.48,
+0.71
+],
+"by_game": [
+26,
+21,
+13,
+8
+],
+"blind": 8,
+"counter": 60,
+"blind_pct": 0.12,
+"phase1_pct": 0.37,
+"blind_wr": [
+5,
+8,
+[
+0.31,
+0.86
+]
+],
+"counter_wr": [
+36,
+60,
+[
+0.47,
+0.71
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Sion",
+"games": 54,
+"wins": 30,
+"wr_ci": [
+0.42,
+0.68
+],
+"by_game": [
+25,
+14,
+13,
+2
+],
+"blind": 26,
+"counter": 28,
+"blind_pct": 0.48,
+"phase1_pct": 0.76,
+"blind_wr": [
+15,
+26,
+[
+0.39,
+0.74
+]
+],
+"counter_wr": [
+15,
+28,
+[
+0.36,
+0.7
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Yasuo",
+"games": 53,
+"wins": 31,
+"wr_ci": [
+0.45,
+0.71
+],
+"by_game": [
+11,
+20,
+15,
+7
+],
+"blind": 12,
+"counter": 41,
+"blind_pct": 0.23,
+"phase1_pct": 0.47,
+"blind_wr": [
+7,
+12,
+[
+0.32,
+0.81
+]
+],
+"counter_wr": [
+24,
+41,
+[
+0.43,
+0.72
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Zed",
+"games": 52,
+"wins": 29,
+"wr_ci": [
+0.42,
+0.68
+],
+"by_game": [
+17,
+24,
+7,
+4
+],
+"blind": 12,
+"counter": 40,
+"blind_pct": 0.23,
+"phase1_pct": 0.33,
+"blind_wr": [
+7,
+12,
+[
+0.32,
+0.81
+]
+],
+"counter_wr": [
+22,
+40,
+[
+0.4,
+0.69
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Veigar",
+"games": 52,
+"wins": 22,
+"wr_ci": [
+0.3,
+0.56
+],
+"by_game": [
+26,
+14,
+5,
+7
+],
+"blind": 6,
+"counter": 46,
+"blind_pct": 0.12,
+"phase1_pct": 0.31,
+"blind_wr": [
+2,
+6,
+[
+0.1,
+0.7
+]
+],
+"counter_wr": [
+20,
+46,
+[
+0.3,
+0.58
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Xerath",
+"games": 51,
+"wins": 19,
+"wr_ci": [
+0.25,
+0.51
+],
+"by_game": [
+16,
+23,
+10,
+2
+],
+"blind": 6,
+"counter": 45,
+"blind_pct": 0.12,
+"phase1_pct": 0.37,
+"blind_wr": [
+4,
+6,
+[
+0.3,
+0.9
+]
+],
+"counter_wr": [
+15,
+45,
+[
+0.21,
+0.48
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Swain",
+"games": 50,
+"wins": 31,
+"wr_ci": [
+0.48,
+0.74
+],
+"by_game": [
+17,
+16,
+9,
+8
+],
+"blind": 6,
+"counter": 44,
+"blind_pct": 0.12,
+"phase1_pct": 0.2,
+"blind_wr": [
+4,
+6,
+[
+0.3,
+0.9
+]
+],
+"counter_wr": [
+27,
+44,
+[
+0.47,
+0.74
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Irelia",
+"games": 49,
+"wins": 22,
+"wr_ci": [
+0.32,
+0.59
+],
+"by_game": [
+9,
+25,
+7,
+8
+],
+"blind": 11,
+"counter": 38,
+"blind_pct": 0.22,
+"phase1_pct": 0.49,
+"blind_wr": [
+4,
+11,
+[
+0.15,
+0.65
+]
+],
+"counter_wr": [
+18,
+38,
+[
+0.32,
+0.63
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Vladimir",
+"games": 45,
+"wins": 18,
+"wr_ci": [
+0.27,
+0.55
+],
+"by_game": [
+10,
+22,
+9,
+4
+],
+"blind": 9,
+"counter": 36,
+"blind_pct": 0.2,
+"phase1_pct": 0.33,
+"blind_wr": [
+4,
+9,
+[
+0.19,
+0.73
+]
+],
+"counter_wr": [
+14,
+36,
+[
+0.25,
+0.55
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Lux",
+"games": 44,
+"wins": 22,
+"wr_ci": [
+0.36,
+0.64
+],
+"by_game": [
+20,
+12,
+8,
+4
+],
+"blind": 9,
+"counter": 35,
+"blind_pct": 0.2,
+"phase1_pct": 0.41,
+"blind_wr": [
+6,
+9,
+[
+0.35,
+0.88
+]
+],
+"counter_wr": [
+16,
+35,
+[
+0.3,
+0.62
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Kog'Maw",
+"games": 43,
+"wins": 20,
+"wr_ci": [
+0.33,
+0.61
+],
+"by_game": [
+15,
+15,
+4,
+9
+],
+"blind": 10,
+"counter": 33,
+"blind_pct": 0.23,
+"phase1_pct": 0.42,
+"blind_wr": [
+6,
+10,
+[
+0.31,
+0.83
+]
+],
+"counter_wr": [
+14,
+33,
+[
+0.27,
+0.59
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Vex",
+"games": 43,
+"wins": 23,
+"wr_ci": [
+0.39,
+0.67
+],
+"by_game": [
+8,
+12,
+11,
+12
+],
+"blind": 8,
+"counter": 35,
+"blind_pct": 0.19,
+"phase1_pct": 0.3,
+"blind_wr": [
+3,
+8,
+[
+0.14,
+0.69
+]
+],
+"counter_wr": [
+20,
+35,
+[
+0.41,
+0.72
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Ekko",
+"games": 32,
+"wins": 13,
+"wr_ci": [
+0.26,
+0.58
+],
+"by_game": [
+16,
+10,
+4,
+2
+],
+"blind": 2,
+"counter": 30,
+"blind_pct": 0.06,
+"phase1_pct": 0.28,
+"blind_wr": [
+0,
+2,
+[
+0.0,
+0.66
+]
+],
+"counter_wr": [
+13,
+30,
+[
+0.27,
+0.61
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Kassadin",
+"games": 31,
+"wins": 13,
+"wr_ci": [
+0.26,
+0.59
+],
+"by_game": [
+15,
+8,
+5,
+3
+],
+"blind": 3,
+"counter": 28,
+"blind_pct": 0.1,
+"phase1_pct": 0.42,
+"blind_wr": [
+1,
+3,
+[
+0.06,
+0.79
+]
+],
+"counter_wr": [
+12,
+28,
+[
+0.27,
+0.61
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Malzahar",
+"games": 29,
+"wins": 12,
+"wr_ci": [
+0.26,
+0.59
+],
+"by_game": [
+7,
+11,
+7,
+4
+],
+"blind": 5,
+"counter": 24,
+"blind_pct": 0.17,
+"phase1_pct": 0.34,
+"blind_wr": [
+1,
+5,
+[
+0.04,
+0.62
+]
+],
+"counter_wr": [
+11,
+24,
+[
+0.28,
+0.65
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Corki",
+"games": 26,
+"wins": 12,
+"wr_ci": [
+0.29,
+0.65
+],
+"by_game": [
+9,
+7,
+5,
+5
+],
+"blind": 10,
+"counter": 16,
+"blind_pct": 0.38,
+"phase1_pct": 0.54,
+"blind_wr": [
+5,
+10,
+[
+0.24,
+0.76
+]
+],
+"counter_wr": [
+7,
+16,
+[
+0.23,
+0.67
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Smolder",
+"games": 23,
+"wins": 10,
+"wr_ci": [
+0.26,
+0.63
+],
+"by_game": [
+6,
+8,
+3,
+6
+],
+"blind": 6,
+"counter": 17,
+"blind_pct": 0.26,
+"phase1_pct": 0.17,
+"blind_wr": [
+4,
+6,
+[
+0.3,
+0.9
+]
+],
+"counter_wr": [
+6,
+17,
+[
+0.17,
+0.59
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Diana",
+"games": 21,
+"wins": 10,
+"wr_ci": [
+0.28,
+0.68
+],
+"by_game": [
+4,
+9,
+5,
+3
+],
+"blind": 1,
+"counter": 20,
+"blind_pct": 0.05,
+"phase1_pct": 0.33,
+"blind_wr": [
+1,
+1,
+[
+0.21,
+1.0
+]
+],
+"counter_wr": [
+9,
+20,
+[
+0.26,
+0.66
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Ambessa",
+"games": 16,
+"wins": 6,
+"wr_ci": [
+0.18,
+0.61
+],
+"by_game": [
+4,
+10,
+0,
+2
+],
+"blind": 9,
+"counter": 7,
+"blind_pct": 0.56,
+"phase1_pct": 0.5,
+"blind_wr": [
+4,
+9,
+[
+0.19,
+0.73
+]
+],
+"counter_wr": [
+2,
+7,
+[
+0.08,
+0.64
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Morgana",
+"games": 16,
+"wins": 8,
+"wr_ci": [
+0.28,
+0.72
+],
+"by_game": [
+4,
+3,
+8,
+1
+],
+"blind": 7,
+"counter": 9,
+"blind_pct": 0.44,
+"phase1_pct": 0.25,
+"blind_wr": [
+3,
+7,
+[
+0.16,
+0.75
+]
+],
+"counter_wr": [
+5,
+9,
+[
+0.27,
+0.81
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Vel'Koz",
+"games": 16,
+"wins": 9,
+"wr_ci": [
+0.33,
+0.77
+],
+"by_game": [
+10,
+4,
+1,
+1
+],
+"blind": 3,
+"counter": 13,
+"blind_pct": 0.19,
+"phase1_pct": 0.44,
+"blind_wr": [
+1,
+3,
+[
+0.06,
+0.79
+]
+],
+"counter_wr": [
+8,
+13,
+[
+0.36,
+0.82
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Rumble",
+"games": 14,
+"wins": 5,
+"wr_ci": [
+0.16,
+0.61
+],
+"by_game": [
+5,
+5,
+3,
+1
+],
+"blind": 9,
+"counter": 5,
+"blind_pct": 0.64,
+"phase1_pct": 0.79,
+"blind_wr": [
+4,
+9,
+[
+0.19,
+0.73
+]
+],
+"counter_wr": [
+1,
+5,
+[
+0.04,
+0.62
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "K'Sante",
+"games": 13,
+"wins": 8,
+"wr_ci": [
+0.36,
+0.82
+],
+"by_game": [
+3,
+7,
+2,
+1
+],
+"blind": 6,
+"counter": 7,
+"blind_pct": 0.46,
+"phase1_pct": 0.38,
+"blind_wr": [
+3,
+6,
+[
+0.19,
+0.81
+]
+],
+"counter_wr": [
+5,
+7,
+[
+0.36,
+0.92
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Neeko",
+"games": 12,
+"wins": 4,
+"wr_ci": [
+0.14,
+0.61
+],
+"by_game": [
+5,
+5,
+1,
+1
+],
+"blind": 7,
+"counter": 5,
+"blind_pct": 0.58,
+"phase1_pct": 0.67,
+"blind_wr": [
+2,
+7,
+[
+0.08,
+0.64
+]
+],
+"counter_wr": [
+2,
+5,
+[
+0.12,
+0.77
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Ezreal",
+"games": 12,
+"wins": 4,
+"wr_ci": [
+0.14,
+0.61
+],
+"by_game": [
+5,
+3,
+3,
+1
+],
+"blind": 6,
+"counter": 6,
+"blind_pct": 0.5,
+"phase1_pct": 0.58,
+"blind_wr": [
+2,
+6,
+[
+0.1,
+0.7
+]
+],
+"counter_wr": [
+2,
+6,
+[
+0.1,
+0.7
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Nasus",
+"games": 11,
+"wins": 3,
+"wr_ci": [
+0.1,
+0.57
+],
+"by_game": [
+3,
+2,
+2,
+4
+],
+"blind": 5,
+"counter": 6,
+"blind_pct": 0.45,
+"phase1_pct": 0.27,
+"blind_wr": [
+2,
+5,
+[
+0.12,
+0.77
+]
+],
+"counter_wr": [
+1,
+6,
+[
+0.03,
+0.56
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Vayne",
+"games": 11,
+"wins": 6,
+"wr_ci": [
+0.28,
+0.79
+],
+"by_game": [
+3,
+7,
+0,
+1
+],
+"blind": 4,
+"counter": 7,
+"blind_pct": 0.36,
+"phase1_pct": 0.45,
+"blind_wr": [
+3,
+4,
+[
+0.3,
+0.95
+]
+],
+"counter_wr": [
+3,
+7,
+[
+0.16,
+0.75
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Varus",
+"games": 10,
+"wins": 3,
+"wr_ci": [
+0.11,
+0.6
+],
+"by_game": [
+5,
+4,
+1,
+0
+],
+"blind": 9,
+"counter": 1,
+"blind_pct": 0.9,
+"phase1_pct": 0.9,
+"blind_wr": [
+3,
+9,
+[
+0.12,
+0.65
+]
+],
+"counter_wr": [
+0,
+1,
+[
+0.0,
+0.79
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Renekton",
+"games": 10,
+"wins": 4,
+"wr_ci": [
+0.17,
+0.69
+],
+"by_game": [
+2,
+5,
+1,
+2
+],
+"blind": 2,
+"counter": 8,
+"blind_pct": 0.2,
+"phase1_pct": 0.5,
+"blind_wr": [
+1,
+2,
+[
+0.09,
+0.91
+]
+],
+"counter_wr": [
+3,
+8,
+[
+0.14,
+0.69
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Fizz",
+"games": 9,
+"wins": 4,
+"wr_ci": [
+0.19,
+0.73
+],
+"by_game": [
+6,
+1,
+2,
+0
+],
+"blind": 2,
+"counter": 7,
+"blind_pct": 0.22,
+"phase1_pct": 0.11,
+"blind_wr": [
+0,
+2,
+[
+0.0,
+0.66
+]
+],
+"counter_wr": [
+4,
+7,
+[
+0.25,
+0.84
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Seraphine",
+"games": 9,
+"wins": 4,
+"wr_ci": [
+0.19,
+0.73
+],
+"by_game": [
+5,
+4,
+0,
+0
+],
+"blind": 7,
+"counter": 2,
+"blind_pct": 0.78,
+"phase1_pct": 1.0,
+"blind_wr": [
+3,
+7,
+[
+0.16,
+0.75
+]
+],
+"counter_wr": [
+1,
+2,
+[
+0.09,
+0.91
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Katarina",
+"games": 8,
+"wins": 5,
+"wr_ci": [
+0.31,
+0.86
+],
+"by_game": [
+4,
+2,
+1,
+1
+],
+"blind": 2,
+"counter": 6,
+"blind_pct": 0.25,
+"phase1_pct": 0.25,
+"blind_wr": [
+0,
+2,
+[
+0.0,
+0.66
+]
+],
+"counter_wr": [
+5,
+6,
+[
+0.44,
+0.97
+]
+],
+"gone_before_blind": []
+}
+],
+"bot": [
+{
+"champ": "Ezreal",
+"games": 2784,
+"wins": 1379,
+"wr_ci": [
+0.48,
+0.51
+],
+"by_game": [
+1796,
+718,
+225,
+45
+],
+"blind": 1867,
+"counter": 917,
+"blind_pct": 0.67,
+"phase1_pct": 0.8,
+"blind_wr": [
+916,
+1867,
+[
+0.47,
+0.51
+]
+],
+"counter_wr": [
+463,
+917,
+[
+0.47,
+0.54
+]
+],
+"gone_before_blind": [
+{
+"champ": "Kai'Sa",
+"n": 80,
+"of": 1867,
+"lift": 1.62
+}
+]
+},
+{
+"champ": "Yunara",
+"games": 2267,
+"wins": 1161,
+"wr_ci": [
+0.49,
+0.53
+],
+"by_game": [
+1100,
+804,
+299,
+64
+],
+"blind": 1463,
+"counter": 804,
+"blind_pct": 0.65,
+"phase1_pct": 0.79,
+"blind_wr": [
+761,
+1463,
+[
+0.49,
+0.55
+]
+],
+"counter_wr": [
+400,
+804,
+[
+0.46,
+0.53
+]
+],
+"gone_before_blind": [
+{
+"champ": "Malphite",
+"n": 170,
+"of": 1463,
+"lift": 1.97
+},
+{
+"champ": "Azir",
+"n": 253,
+"of": 1463,
+"lift": 1.92
+},
+{
+"champ": "Aphelios",
+"n": 61,
+"of": 1463,
+"lift": 1.77
+},
+{
+"champ": "Neeko",
+"n": 265,
+"of": 1463,
+"lift": 1.74
+},
+{
+"champ": "Lux",
+"n": 17,
+"of": 1463,
+"lift": 1.72
+}
+]
+},
+{
+"champ": "Jhin",
+"games": 1576,
+"wins": 734,
+"wr_ci": [
+0.44,
+0.49
+],
+"by_game": [
+749,
+484,
+251,
+92
+],
+"blind": 530,
+"counter": 1046,
+"blind_pct": 0.34,
+"phase1_pct": 0.53,
+"blind_wr": [
+233,
+530,
+[
+0.4,
+0.48
+]
+],
+"counter_wr": [
+501,
+1046,
+[
+0.45,
+0.51
+]
+],
+"gone_before_blind": [
+{
+"champ": "Kalista",
+"n": 51,
+"of": 530,
+"lift": 2.26
+},
+{
+"champ": "Shen",
+"n": 41,
+"of": 530,
+"lift": 2.18
+},
+{
+"champ": "Lucian",
+"n": 163,
+"of": 530,
+"lift": 1.87
+},
+{
+"champ": "Miss Fortune",
+"n": 15,
+"of": 530,
+"lift": 1.71
+},
+{
+"champ": "Renata Glasc",
+"n": 17,
+"of": 530,
+"lift": 1.68
+}
+]
+},
+{
+"champ": "Corki",
+"games": 1569,
+"wins": 749,
+"wr_ci": [
+0.45,
+0.5
+],
+"by_game": [
+747,
+533,
+217,
+72
+],
+"blind": 808,
+"counter": 761,
+"blind_pct": 0.51,
+"phase1_pct": 0.61,
+"blind_wr": [
+394,
+808,
+[
+0.45,
+0.52
+]
+],
+"counter_wr": [
+355,
+761,
+[
+0.43,
+0.5
+]
+],
+"gone_before_blind": [
+{
+"champ": "Heimerdinger",
+"n": 10,
+"of": 808,
+"lift": 2.67
+},
+{
+"champ": "Zed",
+"n": 14,
+"of": 808,
+"lift": 2.2
+},
+{
+"champ": "Xayah",
+"n": 30,
+"of": 808,
+"lift": 2.15
+},
+{
+"champ": "Zyra",
+"n": 17,
+"of": 808,
+"lift": 2.04
+},
+{
+"champ": "Diana",
+"n": 13,
+"of": 808,
+"lift": 1.87
+}
+]
+},
+{
+"champ": "Lucian",
+"games": 1530,
+"wins": 754,
+"wr_ci": [
+0.47,
+0.52
+],
+"by_game": [
+642,
+567,
+271,
+50
+],
+"blind": 986,
+"counter": 544,
+"blind_pct": 0.64,
+"phase1_pct": 0.79,
+"blind_wr": [
+489,
+986,
+[
+0.46,
+0.53
+]
+],
+"counter_wr": [
+265,
+544,
+[
+0.45,
+0.53
+]
+],
+"gone_before_blind": [
+{
+"champ": "Lee Sin",
+"n": 212,
+"of": 986,
+"lift": 1.58
+},
+{
+"champ": "Cassiopeia",
+"n": 390,
+"of": 986,
+"lift": 1.55
+}
+]
+},
+{
+"champ": "Ashe",
+"games": 1478,
+"wins": 811,
+"wr_ci": [
+0.52,
+0.57
+],
+"by_game": [
+700,
+495,
+213,
+70
+],
+"blind": 919,
+"counter": 559,
+"blind_pct": 0.62,
+"phase1_pct": 0.83,
+"blind_wr": [
+511,
+919,
+[
+0.52,
+0.59
+]
+],
+"counter_wr": [
+300,
+559,
+[
+0.5,
+0.58
+]
+],
+"gone_before_blind": [
+{
+"champ": "Smolder",
+"n": 14,
+"of": 919,
+"lift": 2.09
+},
+{
+"champ": "Nautilus",
+"n": 257,
+"of": 919,
+"lift": 1.8
+},
+{
+"champ": "Karma",
+"n": 393,
+"of": 919,
+"lift": 1.75
+},
+{
+"champ": "Annie",
+"n": 40,
+"of": 919,
+"lift": 1.62
+},
+{
+"champ": "Pantheon",
+"n": 257,
+"of": 919,
+"lift": 1.58
+}
+]
+},
+{
+"champ": "Caitlyn",
+"games": 1462,
+"wins": 762,
+"wr_ci": [
+0.5,
+0.55
+],
+"by_game": [
+651,
+506,
+226,
+79
+],
+"blind": 675,
+"counter": 787,
+"blind_pct": 0.46,
+"phase1_pct": 0.75,
+"blind_wr": [
+352,
+675,
+[
+0.48,
+0.56
+]
+],
+"counter_wr": [
+410,
+787,
+[
+0.49,
+0.56
+]
+],
+"gone_before_blind": [
+{
+"champ": "Nami",
+"n": 31,
+"of": 675,
+"lift": 1.68
+},
+{
+"champ": "Jhin",
+"n": 26,
+"of": 675,
+"lift": 1.63
+},
+{
+"champ": "Yorick",
+"n": 17,
+"of": 675,
+"lift": 1.62
+},
+{
+"champ": "Nautilus",
+"n": 179,
+"of": 675,
+"lift": 1.55
+}
+]
+},
+{
+"champ": "Varus",
+"games": 1265,
+"wins": 610,
+"wr_ci": [
+0.45,
+0.51
+],
+"by_game": [
+630,
+391,
+183,
+61
+],
+"blind": 895,
+"counter": 370,
+"blind_pct": 0.71,
+"phase1_pct": 0.81,
+"blind_wr": [
+446,
+895,
+[
+0.47,
+0.53
+]
+],
+"counter_wr": [
+164,
+370,
+[
+0.39,
+0.49
+]
+],
+"gone_before_blind": [
+{
+"champ": "Ekko",
+"n": 9,
+"of": 895,
+"lift": 2.94
+},
+{
+"champ": "Sivir",
+"n": 44,
+"of": 895,
+"lift": 2.37
+},
+{
+"champ": "Malphite",
+"n": 116,
+"of": 895,
+"lift": 2.24
+},
+{
+"champ": "Xayah",
+"n": 15,
+"of": 895,
+"lift": 2.18
+},
+{
+"champ": "Neeko",
+"n": 177,
+"of": 895,
+"lift": 2.02
+}
+]
+},
+{
+"champ": "Sivir",
+"games": 1252,
+"wins": 649,
+"wr_ci": [
+0.49,
+0.55
+],
+"by_game": [
+556,
+393,
+221,
+82
+],
+"blind": 298,
+"counter": 954,
+"blind_pct": 0.24,
+"phase1_pct": 0.56,
+"blind_wr": [
+138,
+298,
+[
+0.41,
+0.52
+]
+],
+"counter_wr": [
+511,
+954,
+[
+0.5,
+0.57
+]
+],
+"gone_before_blind": [
+{
+"champ": "Diana",
+"n": 8,
+"of": 298,
+"lift": 2.93
+},
+{
+"champ": "Ivern",
+"n": 11,
+"of": 298,
+"lift": 2.81
+},
+{
+"champ": "Xayah",
+"n": 21,
+"of": 298,
+"lift": 2.74
+},
+{
+"champ": "Rell",
+"n": 35,
+"of": 298,
+"lift": 2.66
+},
+{
+"champ": "Rakan",
+"n": 27,
+"of": 298,
+"lift": 2.37
+}
+]
+},
+{
+"champ": "Kai'Sa",
+"games": 1152,
+"wins": 605,
+"wr_ci": [
+0.5,
+0.55
+],
+"by_game": [
+479,
+365,
+221,
+87
+],
+"blind": 313,
+"counter": 839,
+"blind_pct": 0.27,
+"phase1_pct": 0.5,
+"blind_wr": [
+161,
+313,
+[
+0.46,
+0.57
+]
+],
+"counter_wr": [
+444,
+839,
+[
+0.5,
+0.56
+]
+],
+"gone_before_blind": [
+{
+"champ": "Xayah",
+"n": 33,
+"of": 313,
+"lift": 3.97
+},
+{
+"champ": "Hecarim",
+"n": 10,
+"of": 313,
+"lift": 2.7
+},
+{
+"champ": "Tristana",
+"n": 19,
+"of": 313,
+"lift": 2.28
+},
+{
+"champ": "Miss Fortune",
+"n": 11,
+"of": 313,
+"lift": 1.94
+},
+{
+"champ": "Alistar",
+"n": 28,
+"of": 313,
+"lift": 1.94
+}
+]
+},
+{
+"champ": "Xayah",
+"games": 743,
+"wins": 404,
+"wr_ci": [
+0.51,
+0.58
+],
+"by_game": [
+203,
+257,
+199,
+84
+],
+"blind": 295,
+"counter": 448,
+"blind_pct": 0.4,
+"phase1_pct": 0.44,
+"blind_wr": [
+158,
+295,
+[
+0.48,
+0.59
+]
+],
+"counter_wr": [
+246,
+448,
+[
+0.5,
+0.59
+]
+],
+"gone_before_blind": [
+{
+"champ": "Shyvana",
+"n": 9,
+"of": 295,
+"lift": 3.38
+},
+{
+"champ": "Kalista",
+"n": 34,
+"of": 295,
+"lift": 2.64
+},
+{
+"champ": "Alistar",
+"n": 27,
+"of": 295,
+"lift": 2.13
+},
+{
+"champ": "Renata Glasc",
+"n": 12,
+"of": 295,
+"lift": 2.03
+},
+{
+"champ": "Tristana",
+"n": 14,
+"of": 295,
+"lift": 1.83
+}
+]
+},
+{
+"champ": "Aphelios",
+"games": 561,
+"wins": 275,
+"wr_ci": [
+0.45,
+0.53
+],
+"by_game": [
+176,
+205,
+115,
+65
+],
+"blind": 203,
+"counter": 358,
+"blind_pct": 0.36,
+"phase1_pct": 0.64,
+"blind_wr": [
+112,
+203,
+[
+0.48,
+0.62
+]
+],
+"counter_wr": [
+163,
+358,
+[
+0.4,
+0.51
+]
+],
+"gone_before_blind": [
+{
+"champ": "Malphite",
+"n": 42,
+"of": 203,
+"lift": 3.25
+},
+{
+"champ": "Draven",
+"n": 8,
+"of": 203,
+"lift": 2.94
+},
+{
+"champ": "Neeko",
+"n": 66,
+"of": 203,
+"lift": 2.66
+},
+{
+"champ": "Viego",
+"n": 9,
+"of": 203,
+"lift": 2.65
+},
+{
+"champ": "Alistar",
+"n": 16,
+"of": 203,
+"lift": 2.55
+}
+]
+},
+{
+"champ": "Ziggs",
+"games": 559,
+"wins": 246,
+"wr_ci": [
+0.4,
+0.48
+],
+"by_game": [
+284,
+167,
+71,
+37
+],
+"blind": 288,
+"counter": 271,
+"blind_pct": 0.52,
+"phase1_pct": 0.7,
+"blind_wr": [
+122,
+288,
+[
+0.37,
+0.48
+]
+],
+"counter_wr": [
+124,
+271,
+[
+0.4,
+0.52
+]
+],
+"gone_before_blind": [
+{
+"champ": "Camille",
+"n": 74,
+"of": 288,
+"lift": 3.73
+},
+{
+"champ": "Locke",
+"n": 94,
+"of": 288,
+"lift": 3.57
+},
+{
+"champ": "Leona",
+"n": 15,
+"of": 288,
+"lift": 3.04
+},
+{
+"champ": "Shen",
+"n": 20,
+"of": 288,
+"lift": 2.98
+},
+{
+"champ": "Poppy",
+"n": 119,
+"of": 288,
+"lift": 2.95
+}
+]
+},
+{
+"champ": "Kalista",
+"games": 500,
+"wins": 259,
+"wr_ci": [
+0.47,
+0.56
+],
+"by_game": [
+146,
+186,
+105,
+63
+],
+"blind": 274,
+"counter": 226,
+"blind_pct": 0.55,
+"phase1_pct": 0.59,
+"blind_wr": [
+143,
+274,
+[
+0.46,
+0.58
+]
+],
+"counter_wr": [
+116,
+226,
+[
+0.45,
+0.58
+]
+],
+"gone_before_blind": [
+{
+"champ": "Maokai",
+"n": 11,
+"of": 274,
+"lift": 3.88
+},
+{
+"champ": "Xayah",
+"n": 15,
+"of": 274,
+"lift": 3.5
+},
+{
+"champ": "Qiyana",
+"n": 53,
+"of": 274,
+"lift": 2.68
+},
+{
+"champ": "Lulu",
+"n": 61,
+"of": 274,
+"lift": 2.45
+},
+{
+"champ": "Alistar",
+"n": 16,
+"of": 274,
+"lift": 2.2
+}
+]
+},
+{
+"champ": "Miss Fortune",
+"games": 482,
+"wins": 230,
+"wr_ci": [
+0.43,
+0.52
+],
+"by_game": [
+120,
+160,
+127,
+75
+],
+"blind": 132,
+"counter": 350,
+"blind_pct": 0.27,
+"phase1_pct": 0.47,
+"blind_wr": [
+65,
+132,
+[
+0.41,
+0.58
+]
+],
+"counter_wr": [
+165,
+350,
+[
+0.42,
+0.52
+]
+],
+"gone_before_blind": [
+{
+"champ": "Malphite",
+"n": 31,
+"of": 132,
+"lift": 3.46
+},
+{
+"champ": "Alistar",
+"n": 15,
+"of": 132,
+"lift": 2.56
+},
+{
+"champ": "Aphelios",
+"n": 12,
+"of": 132,
+"lift": 2.55
+},
+{
+"champ": "Rakan",
+"n": 12,
+"of": 132,
+"lift": 2.41
+},
+{
+"champ": "Neeko",
+"n": 39,
+"of": 132,
+"lift": 2.14
+}
+]
+},
+{
+"champ": "Zeri",
+"games": 380,
+"wins": 183,
+"wr_ci": [
+0.43,
+0.53
+],
+"by_game": [
+109,
+105,
+114,
+52
+],
+"blind": 110,
+"counter": 270,
+"blind_pct": 0.29,
+"phase1_pct": 0.39,
+"blind_wr": [
+52,
+110,
+[
+0.38,
+0.57
+]
+],
+"counter_wr": [
+131,
+270,
+[
+0.43,
+0.54
+]
+],
+"gone_before_blind": [
+{
+"champ": "Kalista",
+"n": 15,
+"of": 110,
+"lift": 3.01
+},
+{
+"champ": "Xayah",
+"n": 9,
+"of": 110,
+"lift": 2.89
+},
+{
+"champ": "Yone",
+"n": 10,
+"of": 110,
+"lift": 2.57
+},
+{
+"champ": "Rakan",
+"n": 12,
+"of": 110,
+"lift": 2.53
+},
+{
+"champ": "Olaf",
+"n": 26,
+"of": 110,
+"lift": 2.23
+}
+]
+},
+{
+"champ": "Tristana",
+"games": 335,
+"wins": 163,
+"wr_ci": [
+0.43,
+0.54
+],
+"by_game": [
+123,
+110,
+61,
+41
+],
+"blind": 119,
+"counter": 216,
+"blind_pct": 0.36,
+"phase1_pct": 0.42,
+"blind_wr": [
+64,
+119,
+[
+0.45,
+0.62
+]
+],
+"counter_wr": [
+99,
+216,
+[
+0.39,
+0.52
+]
+],
+"gone_before_blind": [
+{
+"champ": "Zeri",
+"n": 9,
+"of": 119,
+"lift": 6.36
+},
+{
+"champ": "Xayah",
+"n": 11,
+"of": 119,
+"lift": 3.7
+},
+{
+"champ": "Yone",
+"n": 10,
+"of": 119,
+"lift": 2.59
+},
+{
+"champ": "Rell",
+"n": 10,
+"of": 119,
+"lift": 1.99
+},
+{
+"champ": "Syndra",
+"n": 42,
+"of": 119,
+"lift": 1.93
+}
+]
+},
+{
+"champ": "Jinx",
+"games": 323,
+"wins": 156,
+"wr_ci": [
+0.43,
+0.54
+],
+"by_game": [
+76,
+94,
+77,
+76
+],
+"blind": 83,
+"counter": 240,
+"blind_pct": 0.26,
+"phase1_pct": 0.45,
+"blind_wr": [
+37,
+83,
+[
+0.34,
+0.55
+]
+],
+"counter_wr": [
+119,
+240,
+[
+0.43,
+0.56
+]
+],
+"gone_before_blind": [
+{
+"champ": "Aphelios",
+"n": 9,
+"of": 83,
+"lift": 3.04
+},
+{
+"champ": "Rell",
+"n": 10,
+"of": 83,
+"lift": 2.75
+},
+{
+"champ": "Jhin",
+"n": 10,
+"of": 83,
+"lift": 2.32
+},
+{
+"champ": "Taliyah",
+"n": 11,
+"of": 83,
+"lift": 2.15
+},
+{
+"champ": "Qiyana",
+"n": 12,
+"of": 83,
+"lift": 1.86
+}
+]
+},
+{
+"champ": "Mel",
+"games": 207,
+"wins": 94,
+"wr_ci": [
+0.39,
+0.52
+],
+"by_game": [
+64,
+81,
+46,
+16
+],
+"blind": 55,
+"counter": 152,
+"blind_pct": 0.27,
+"phase1_pct": 0.65,
+"blind_wr": [
+26,
+55,
+[
+0.35,
+0.6
+]
+],
+"counter_wr": [
+68,
+152,
+[
+0.37,
+0.53
+]
+],
+"gone_before_blind": [
+{
+"champ": "Ziggs",
+"n": 15,
+"of": 55,
+"lift": 4.58
+},
+{
+"champ": "Seraphine",
+"n": 22,
+"of": 55,
+"lift": 3.23
+},
+{
+"champ": "Naafiri",
+"n": 11,
+"of": 55,
+"lift": 2.01
+},
+{
+"champ": "Lucian",
+"n": 16,
+"of": 55,
+"lift": 1.94
+},
+{
+"champ": "Syndra",
+"n": 16,
+"of": 55,
+"lift": 1.72
+}
+]
+},
+{
+"champ": "Senna",
+"games": 199,
+"wins": 98,
+"wr_ci": [
+0.42,
+0.56
+],
+"by_game": [
+68,
+73,
+43,
+15
+],
+"blind": 72,
+"counter": 127,
+"blind_pct": 0.36,
+"phase1_pct": 0.58,
+"blind_wr": [
+34,
+72,
+[
+0.36,
+0.59
+]
+],
+"counter_wr": [
+64,
+127,
+[
+0.42,
+0.59
+]
+],
+"gone_before_blind": [
+{
+"champ": "Anivia",
+"n": 11,
+"of": 72,
+"lift": 1.89
+},
+{
+"champ": "Seraphine",
+"n": 17,
+"of": 72,
+"lift": 1.84
+}
+]
+},
+{
+"champ": "Viktor",
+"games": 180,
+"wins": 89,
+"wr_ci": [
+0.42,
+0.57
+],
+"by_game": [
+107,
+55,
+16,
+2
+],
+"blind": 117,
+"counter": 63,
+"blind_pct": 0.65,
+"phase1_pct": 0.72,
+"blind_wr": [
+60,
+117,
+[
+0.42,
+0.6
+]
+],
+"counter_wr": [
+29,
+63,
+[
+0.34,
+0.58
+]
+],
+"gone_before_blind": [
+{
+"champ": "Leona",
+"n": 13,
+"of": 117,
+"lift": 6.02
+},
+{
+"champ": "Locke",
+"n": 49,
+"of": 117,
+"lift": 4.59
+},
+{
+"champ": "Fiora",
+"n": 9,
+"of": 117,
+"lift": 4.27
+},
+{
+"champ": "Camille",
+"n": 32,
+"of": 117,
+"lift": 4.01
+},
+{
+"champ": "Shen",
+"n": 11,
+"of": 117,
+"lift": 4.0
+}
+]
+},
+{
+"champ": "Syndra",
+"games": 148,
+"wins": 67,
+"wr_ci": [
+0.37,
+0.53
+],
+"by_game": [
+96,
+42,
+8,
+2
+],
+"blind": 107,
+"counter": 41,
+"blind_pct": 0.72,
+"phase1_pct": 0.85,
+"blind_wr": [
+46,
+107,
+[
+0.34,
+0.52
+]
+],
+"counter_wr": [
+21,
+41,
+[
+0.36,
+0.66
+]
+],
+"gone_before_blind": [
+{
+"champ": "Ziggs",
+"n": 27,
+"of": 107,
+"lift": 5.48
+},
+{
+"champ": "Locke",
+"n": 42,
+"of": 107,
+"lift": 4.48
+},
+{
+"champ": "Camille",
+"n": 25,
+"of": 107,
+"lift": 3.7
+},
+{
+"champ": "Poppy",
+"n": 42,
+"of": 107,
+"lift": 2.9
+},
+{
+"champ": "Naafiri",
+"n": 20,
+"of": 107,
+"lift": 2.46
+}
+]
+},
+{
+"champ": "Smolder",
+"games": 141,
+"wins": 54,
+"wr_ci": [
+0.31,
+0.47
+],
+"by_game": [
+45,
+45,
+26,
+25
+],
+"blind": 42,
+"counter": 99,
+"blind_pct": 0.3,
+"phase1_pct": 0.47,
+"blind_wr": [
+16,
+42,
+[
+0.25,
+0.53
+]
+],
+"counter_wr": [
+38,
+99,
+[
+0.29,
+0.48
+]
+],
+"gone_before_blind": [
+{
+"champ": "Caitlyn",
+"n": 14,
+"of": 42,
+"lift": 2.34
+},
+{
+"champ": "Aurora",
+"n": 8,
+"of": 42,
+"lift": 2.15
+}
+]
+},
+{
+"champ": "Seraphine",
+"games": 94,
+"wins": 51,
+"wr_ci": [
+0.44,
+0.64
+],
+"by_game": [
+50,
+26,
+13,
+5
+],
+"blind": 59,
+"counter": 35,
+"blind_pct": 0.63,
+"phase1_pct": 0.68,
+"blind_wr": [
+32,
+59,
+[
+0.42,
+0.66
+]
+],
+"counter_wr": [
+19,
+35,
+[
+0.38,
+0.7
+]
+],
+"gone_before_blind": [
+{
+"champ": "Yuumi",
+"n": 9,
+"of": 59,
+"lift": 24.05
+},
+{
+"champ": "Syndra",
+"n": 18,
+"of": 59,
+"lift": 2.0
+},
+{
+"champ": "Olaf",
+"n": 9,
+"of": 59,
+"lift": 1.95
+}
+]
+},
+{
+"champ": "Kog'Maw",
+"games": 86,
+"wins": 38,
+"wr_ci": [
+0.34,
+0.55
+],
+"by_game": [
+19,
+30,
+27,
+10
+],
+"blind": 13,
+"counter": 73,
+"blind_pct": 0.15,
+"phase1_pct": 0.56,
+"blind_wr": [
+4,
+13,
+[
+0.13,
+0.58
+]
+],
+"counter_wr": [
+34,
+73,
+[
+0.36,
+0.58
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Draven",
+"games": 82,
+"wins": 45,
+"wr_ci": [
+0.44,
+0.65
+],
+"by_game": [
+23,
+31,
+20,
+8
+],
+"blind": 20,
+"counter": 62,
+"blind_pct": 0.24,
+"phase1_pct": 0.5,
+"blind_wr": [
+10,
+20,
+[
+0.3,
+0.7
+]
+],
+"counter_wr": [
+35,
+62,
+[
+0.44,
+0.68
+]
+],
+"gone_before_blind": [
+{
+"champ": "Ezreal",
+"n": 9,
+"of": 20,
+"lift": 1.87
+}
+]
+},
+{
+"champ": "Cassiopeia",
+"games": 78,
+"wins": 47,
+"wr_ci": [
+0.49,
+0.7
+],
+"by_game": [
+54,
+16,
+6,
+2
+],
+"blind": 57,
+"counter": 21,
+"blind_pct": 0.73,
+"phase1_pct": 0.77,
+"blind_wr": [
+35,
+57,
+[
+0.48,
+0.73
+]
+],
+"counter_wr": [
+12,
+21,
+[
+0.37,
+0.76
+]
+],
+"gone_before_blind": [
+{
+"champ": "Camille",
+"n": 17,
+"of": 57,
+"lift": 4.75
+},
+{
+"champ": "Locke",
+"n": 21,
+"of": 57,
+"lift": 4.22
+},
+{
+"champ": "Poppy",
+"n": 32,
+"of": 57,
+"lift": 4.14
+},
+{
+"champ": "Lee Sin",
+"n": 24,
+"of": 57,
+"lift": 3.44
+},
+{
+"champ": "Ziggs",
+"n": 8,
+"of": 57,
+"lift": 3.07
+}
+]
+},
+{
+"champ": "Taliyah",
+"games": 54,
+"wins": 27,
+"wr_ci": [
+0.37,
+0.63
+],
+"by_game": [
+24,
+21,
+6,
+3
+],
+"blind": 14,
+"counter": 40,
+"blind_pct": 0.26,
+"phase1_pct": 0.37,
+"blind_wr": [
+7,
+14,
+[
+0.27,
+0.73
+]
+],
+"counter_wr": [
+20,
+40,
+[
+0.35,
+0.65
+]
+],
+"gone_before_blind": [
+{
+"champ": "Cassiopeia",
+"n": 9,
+"of": 14,
+"lift": 2.34
+}
+]
+},
+{
+"champ": "Vayne",
+"games": 52,
+"wins": 28,
+"wr_ci": [
+0.41,
+0.67
+],
+"by_game": [
+15,
+19,
+11,
+7
+],
+"blind": 12,
+"counter": 40,
+"blind_pct": 0.23,
+"phase1_pct": 0.23,
+"blind_wr": [
+8,
+12,
+[
+0.39,
+0.86
+]
+],
+"counter_wr": [
+20,
+40,
+[
+0.35,
+0.65
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Samira",
+"games": 39,
+"wins": 24,
+"wr_ci": [
+0.46,
+0.75
+],
+"by_game": [
+10,
+17,
+4,
+8
+],
+"blind": 4,
+"counter": 35,
+"blind_pct": 0.1,
+"phase1_pct": 0.46,
+"blind_wr": [
+4,
+4,
+[
+0.51,
+1.0
+]
+],
+"counter_wr": [
+20,
+35,
+[
+0.41,
+0.72
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Hwei",
+"games": 36,
+"wins": 19,
+"wr_ci": [
+0.37,
+0.68
+],
+"by_game": [
+8,
+20,
+5,
+3
+],
+"blind": 19,
+"counter": 17,
+"blind_pct": 0.53,
+"phase1_pct": 0.58,
+"blind_wr": [
+11,
+19,
+[
+0.36,
+0.77
+]
+],
+"counter_wr": [
+8,
+17,
+[
+0.26,
+0.69
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Yasuo",
+"games": 33,
+"wins": 14,
+"wr_ci": [
+0.27,
+0.59
+],
+"by_game": [
+12,
+10,
+6,
+5
+],
+"blind": 6,
+"counter": 27,
+"blind_pct": 0.18,
+"phase1_pct": 0.39,
+"blind_wr": [
+4,
+6,
+[
+0.3,
+0.9
+]
+],
+"counter_wr": [
+10,
+27,
+[
+0.22,
+0.56
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Xerath",
+"games": 23,
+"wins": 13,
+"wr_ci": [
+0.37,
+0.74
+],
+"by_game": [
+8,
+9,
+4,
+2
+],
+"blind": 6,
+"counter": 17,
+"blind_pct": 0.26,
+"phase1_pct": 0.39,
+"blind_wr": [
+4,
+6,
+[
+0.3,
+0.9
+]
+],
+"counter_wr": [
+9,
+17,
+[
+0.31,
+0.74
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Locke",
+"games": 21,
+"wins": 12,
+"wr_ci": [
+0.37,
+0.76
+],
+"by_game": [
+14,
+5,
+2,
+0
+],
+"blind": 15,
+"counter": 6,
+"blind_pct": 0.71,
+"phase1_pct": 0.71,
+"blind_wr": [
+9,
+15,
+[
+0.36,
+0.8
+]
+],
+"counter_wr": [
+3,
+6,
+[
+0.19,
+0.81
+]
+],
+"gone_before_blind": [
+{
+"champ": "Poppy",
+"n": 8,
+"of": 15,
+"lift": 3.81
+}
+]
+},
+{
+"champ": "Twitch",
+"games": 19,
+"wins": 8,
+"wr_ci": [
+0.23,
+0.64
+],
+"by_game": [
+4,
+8,
+6,
+1
+],
+"blind": 2,
+"counter": 17,
+"blind_pct": 0.11,
+"phase1_pct": 0.26,
+"blind_wr": [
+1,
+2,
+[
+0.09,
+0.91
+]
+],
+"counter_wr": [
+7,
+17,
+[
+0.22,
+0.64
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Brand",
+"games": 18,
+"wins": 4,
+"wr_ci": [
+0.09,
+0.45
+],
+"by_game": [
+7,
+8,
+2,
+1
+],
+"blind": 6,
+"counter": 12,
+"blind_pct": 0.33,
+"phase1_pct": 0.61,
+"blind_wr": [
+2,
+6,
+[
+0.1,
+0.7
+]
+],
+"counter_wr": [
+2,
+12,
+[
+0.05,
+0.45
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Vladimir",
+"games": 18,
+"wins": 8,
+"wr_ci": [
+0.25,
+0.66
+],
+"by_game": [
+13,
+5,
+0,
+0
+],
+"blind": 3,
+"counter": 15,
+"blind_pct": 0.17,
+"phase1_pct": 0.11,
+"blind_wr": [
+0,
+3,
+[
+0.0,
+0.56
+]
+],
+"counter_wr": [
+8,
+15,
+[
+0.3,
+0.75
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Veigar",
+"games": 16,
+"wins": 6,
+"wr_ci": [
+0.18,
+0.61
+],
+"by_game": [
+8,
+6,
+0,
+2
+],
+"blind": 7,
+"counter": 9,
+"blind_pct": 0.44,
+"phase1_pct": 0.38,
+"blind_wr": [
+3,
+7,
+[
+0.16,
+0.75
+]
+],
+"counter_wr": [
+3,
+9,
+[
+0.12,
+0.65
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Sion",
+"games": 12,
+"wins": 6,
+"wr_ci": [
+0.25,
+0.75
+],
+"by_game": [
+7,
+2,
+3,
+0
+],
+"blind": 5,
+"counter": 7,
+"blind_pct": 0.42,
+"phase1_pct": 0.42,
+"blind_wr": [
+2,
+5,
+[
+0.12,
+0.77
+]
+],
+"counter_wr": [
+4,
+7,
+[
+0.25,
+0.84
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Vel'Koz",
+"games": 11,
+"wins": 7,
+"wr_ci": [
+0.35,
+0.85
+],
+"by_game": [
+3,
+6,
+1,
+1
+],
+"blind": 3,
+"counter": 8,
+"blind_pct": 0.27,
+"phase1_pct": 0.18,
+"blind_wr": [
+1,
+3,
+[
+0.06,
+0.79
+]
+],
+"counter_wr": [
+6,
+8,
+[
+0.41,
+0.93
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Lux",
+"games": 10,
+"wins": 5,
+"wr_ci": [
+0.24,
+0.76
+],
+"by_game": [
+7,
+2,
+1,
+0
+],
+"blind": 4,
+"counter": 6,
+"blind_pct": 0.4,
+"phase1_pct": 0.3,
+"blind_wr": [
+2,
+4,
+[
+0.15,
+0.85
+]
+],
+"counter_wr": [
+3,
+6,
+[
+0.19,
+0.81
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Akali",
+"games": 10,
+"wins": 4,
+"wr_ci": [
+0.17,
+0.69
+],
+"by_game": [
+5,
+5,
+0,
+0
+],
+"blind": 4,
+"counter": 6,
+"blind_pct": 0.4,
+"phase1_pct": 0.4,
+"blind_wr": [
+1,
+4,
+[
+0.05,
+0.7
+]
+],
+"counter_wr": [
+3,
+6,
+[
+0.19,
+0.81
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Swain",
+"games": 9,
+"wins": 5,
+"wr_ci": [
+0.27,
+0.81
+],
+"by_game": [
+2,
+4,
+3,
+0
+],
+"blind": 3,
+"counter": 6,
+"blind_pct": 0.33,
+"phase1_pct": 0.56,
+"blind_wr": [
+2,
+3,
+[
+0.21,
+0.94
+]
+],
+"counter_wr": [
+3,
+6,
+[
+0.19,
+0.81
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Malzahar",
+"games": 9,
+"wins": 6,
+"wr_ci": [
+0.35,
+0.88
+],
+"by_game": [
+7,
+1,
+1,
+0
+],
+"blind": 2,
+"counter": 7,
+"blind_pct": 0.22,
+"phase1_pct": 0.56,
+"blind_wr": [
+1,
+2,
+[
+0.09,
+0.91
+]
+],
+"counter_wr": [
+5,
+7,
+[
+0.36,
+0.92
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Sylas",
+"games": 9,
+"wins": 3,
+"wr_ci": [
+0.12,
+0.65
+],
+"by_game": [
+4,
+5,
+0,
+0
+],
+"blind": 1,
+"counter": 8,
+"blind_pct": 0.11,
+"phase1_pct": 0.33,
+"blind_wr": [
+0,
+1,
+[
+0.0,
+0.79
+]
+],
+"counter_wr": [
+3,
+8,
+[
+0.14,
+0.69
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Tahm Kench",
+"games": 8,
+"wins": 3,
+"wr_ci": [
+0.14,
+0.69
+],
+"by_game": [
+4,
+4,
+0,
+0
+],
+"blind": 3,
+"counter": 5,
+"blind_pct": 0.38,
+"phase1_pct": 0.12,
+"blind_wr": [
+1,
+3,
+[
+0.06,
+0.79
+]
+],
+"counter_wr": [
+2,
+5,
+[
+0.12,
+0.77
+]
+],
+"gone_before_blind": []
+}
+],
+"support": [
+{
+"champ": "Nautilus",
+"games": 2326,
+"wins": 1113,
+"wr_ci": [
+0.46,
+0.5
+],
+"by_game": [
+1210,
+745,
+294,
+77
+],
+"blind": 1044,
+"counter": 1282,
+"blind_pct": 0.45,
+"phase1_pct": 0.61,
+"blind_wr": [
+484,
+1044,
+[
+0.43,
+0.49
+]
+],
+"counter_wr": [
+629,
+1282,
+[
+0.46,
+0.52
+]
+],
+"gone_before_blind": [
+{
+"champ": "Braum",
+"n": 111,
+"of": 1044,
+"lift": 4.05
+},
+{
+"champ": "Udyr",
+"n": 14,
+"of": 1044,
+"lift": 3.06
+},
+{
+"champ": "Volibear",
+"n": 13,
+"of": 1044,
+"lift": 1.84
+},
+{
+"champ": "Xerath",
+"n": 16,
+"of": 1044,
+"lift": 1.83
+},
+{
+"champ": "Zed",
+"n": 16,
+"of": 1044,
+"lift": 1.79
+}
+]
+},
+{
+"champ": "Bard",
+"games": 1915,
+"wins": 1026,
+"wr_ci": [
+0.51,
+0.56
+],
+"by_game": [
+1038,
+558,
+255,
+64
+],
+"blind": 1122,
+"counter": 793,
+"blind_pct": 0.59,
+"phase1_pct": 0.69,
+"blind_wr": [
+599,
+1122,
+[
+0.5,
+0.56
+]
+],
+"counter_wr": [
+427,
+793,
+[
+0.5,
+0.57
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Lulu",
+"games": 1800,
+"wins": 894,
+"wr_ci": [
+0.47,
+0.52
+],
+"by_game": [
+721,
+687,
+309,
+83
+],
+"blind": 1131,
+"counter": 669,
+"blind_pct": 0.63,
+"phase1_pct": 0.74,
+"blind_wr": [
+554,
+1131,
+[
+0.46,
+0.52
+]
+],
+"counter_wr": [
+340,
+669,
+[
+0.47,
+0.55
+]
+],
+"gone_before_blind": [
+{
+"champ": "Jinx",
+"n": 19,
+"of": 1131,
+"lift": 2.4
+},
+{
+"champ": "Garen",
+"n": 10,
+"of": 1131,
+"lift": 2.03
+},
+{
+"champ": "Draven",
+"n": 25,
+"of": 1131,
+"lift": 1.74
+},
+{
+"champ": "Aphelios",
+"n": 48,
+"of": 1131,
+"lift": 1.58
+}
+]
+},
+{
+"champ": "Karma",
+"games": 1692,
+"wins": 793,
+"wr_ci": [
+0.44,
+0.49
+],
+"by_game": [
+919,
+514,
+192,
+67
+],
+"blind": 1202,
+"counter": 490,
+"blind_pct": 0.71,
+"phase1_pct": 0.78,
+"blind_wr": [
+582,
+1202,
+[
+0.46,
+0.51
+]
+],
+"counter_wr": [
+211,
+490,
+[
+0.39,
+0.47
+]
+],
+"gone_before_blind": [
+{
+"champ": "Smolder",
+"n": 19,
+"of": 1202,
+"lift": 2.04
+},
+{
+"champ": "Nautilus",
+"n": 366,
+"of": 1202,
+"lift": 1.81
+},
+{
+"champ": "Yasuo",
+"n": 25,
+"of": 1202,
+"lift": 1.61
+}
+]
+},
+{
+"champ": "Seraphine",
+"games": 1525,
+"wins": 820,
+"wr_ci": [
+0.51,
+0.56
+],
+"by_game": [
+729,
+517,
+217,
+62
+],
+"blind": 947,
+"counter": 578,
+"blind_pct": 0.62,
+"phase1_pct": 0.8,
+"blind_wr": [
+513,
+947,
+[
+0.51,
+0.57
+]
+],
+"counter_wr": [
+307,
+578,
+[
+0.49,
+0.57
+]
+],
+"gone_before_blind": [
+{
+"champ": "Mel",
+"n": 35,
+"of": 947,
+"lift": 1.74
+},
+{
+"champ": "Karma",
+"n": 401,
+"of": 947,
+"lift": 1.72
+},
+{
+"champ": "Nautilus",
+"n": 260,
+"of": 947,
+"lift": 1.67
+},
+{
+"champ": "Pyke",
+"n": 39,
+"of": 947,
+"lift": 1.59
+},
+{
+"champ": "Annie",
+"n": 44,
+"of": 947,
+"lift": 1.57
+}
+]
+},
+{
+"champ": "Rell",
+"games": 1420,
+"wins": 698,
+"wr_ci": [
+0.47,
+0.52
+],
+"by_game": [
+656,
+432,
+226,
+106
+],
+"blind": 523,
+"counter": 897,
+"blind_pct": 0.37,
+"phase1_pct": 0.4,
+"blind_wr": [
+265,
+523,
+[
+0.46,
+0.55
+]
+],
+"counter_wr": [
+433,
+897,
+[
+0.45,
+0.52
+]
+],
+"gone_before_blind": [
+{
+"champ": "Kassadin",
+"n": 8,
+"of": 523,
+"lift": 3.29
+},
+{
+"champ": "Diana",
+"n": 16,
+"of": 523,
+"lift": 3.21
+},
+{
+"champ": "Braum",
+"n": 56,
+"of": 523,
+"lift": 3.16
+},
+{
+"champ": "Rek'Sai",
+"n": 18,
+"of": 523,
+"lift": 3.05
+},
+{
+"champ": "Alistar",
+"n": 81,
+"of": 523,
+"lift": 2.8
+}
+]
+},
+{
+"champ": "Alistar",
+"games": 1373,
+"wins": 729,
+"wr_ci": [
+0.5,
+0.56
+],
+"by_game": [
+604,
+447,
+228,
+94
+],
+"blind": 570,
+"counter": 803,
+"blind_pct": 0.42,
+"phase1_pct": 0.29,
+"blind_wr": [
+325,
+570,
+[
+0.53,
+0.61
+]
+],
+"counter_wr": [
+404,
+803,
+[
+0.47,
+0.54
+]
+],
+"gone_before_blind": [
+{
+"champ": "Malphite",
+"n": 113,
+"of": 570,
+"lift": 2.62
+},
+{
+"champ": "Sivir",
+"n": 111,
+"of": 570,
+"lift": 2.2
+},
+{
+"champ": "Rakan",
+"n": 77,
+"of": 570,
+"lift": 2.19
+},
+{
+"champ": "Aphelios",
+"n": 58,
+"of": 570,
+"lift": 2.17
+},
+{
+"champ": "Braum",
+"n": 55,
+"of": 570,
+"lift": 2.14
+}
+]
+},
+{
+"champ": "Rakan",
+"games": 1287,
+"wins": 684,
+"wr_ci": [
+0.5,
+0.56
+],
+"by_game": [
+457,
+427,
+278,
+125
+],
+"blind": 584,
+"counter": 703,
+"blind_pct": 0.45,
+"phase1_pct": 0.33,
+"blind_wr": [
+321,
+584,
+[
+0.51,
+0.59
+]
+],
+"counter_wr": [
+363,
+703,
+[
+0.48,
+0.55
+]
+],
+"gone_before_blind": [
+{
+"champ": "Xayah",
+"n": 42,
+"of": 584,
+"lift": 2.14
+},
+{
+"champ": "Diana",
+"n": 12,
+"of": 584,
+"lift": 2.09
+},
+{
+"champ": "Smolder",
+"n": 15,
+"of": 584,
+"lift": 2.06
+},
+{
+"champ": "Alistar",
+"n": 72,
+"of": 584,
+"lift": 1.93
+},
+{
+"champ": "Neeko",
+"n": 160,
+"of": 584,
+"lift": 1.76
+}
+]
+},
+{
+"champ": "Neeko",
+"games": 1252,
+"wins": 622,
+"wr_ci": [
+0.47,
+0.52
+],
+"by_game": [
+545,
+412,
+213,
+82
+],
+"blind": 768,
+"counter": 484,
+"blind_pct": 0.61,
+"phase1_pct": 0.65,
+"blind_wr": [
+394,
+768,
+[
+0.48,
+0.55
+]
+],
+"counter_wr": [
+228,
+484,
+[
+0.43,
+0.52
+]
+],
+"gone_before_blind": [
+{
+"champ": "Elise",
+"n": 8,
+"of": 768,
+"lift": 2.36
+},
+{
+"champ": "Malphite",
+"n": 97,
+"of": 768,
+"lift": 2.03
+},
+{
+"champ": "Azir",
+"n": 143,
+"of": 768,
+"lift": 1.9
+},
+{
+"champ": "Aphelios",
+"n": 41,
+"of": 768,
+"lift": 1.84
+},
+{
+"champ": "Corki",
+"n": 64,
+"of": 768,
+"lift": 1.76
+}
+]
+},
+{
+"champ": "Milio",
+"games": 1234,
+"wins": 587,
+"wr_ci": [
+0.45,
+0.5
+],
+"by_game": [
+513,
+463,
+214,
+44
+],
+"blind": 709,
+"counter": 525,
+"blind_pct": 0.57,
+"phase1_pct": 0.82,
+"blind_wr": [
+339,
+709,
+[
+0.44,
+0.51
+]
+],
+"counter_wr": [
+248,
+525,
+[
+0.43,
+0.52
+]
+],
+"gone_before_blind": [
+{
+"champ": "Xayah",
+"n": 14,
+"of": 709,
+"lift": 2.11
+},
+{
+"champ": "Annie",
+"n": 39,
+"of": 709,
+"lift": 1.89
+},
+{
+"champ": "Cassiopeia",
+"n": 330,
+"of": 709,
+"lift": 1.82
+},
+{
+"champ": "Lee Sin",
+"n": 178,
+"of": 709,
+"lift": 1.81
+},
+{
+"champ": "Olaf",
+"n": 82,
+"of": 709,
+"lift": 1.58
+}
+]
+},
+{
+"champ": "Leona",
+"games": 1160,
+"wins": 565,
+"wr_ci": [
+0.46,
+0.52
+],
+"by_game": [
+546,
+351,
+185,
+78
+],
+"blind": 475,
+"counter": 685,
+"blind_pct": 0.41,
+"phase1_pct": 0.46,
+"blind_wr": [
+219,
+475,
+[
+0.42,
+0.51
+]
+],
+"counter_wr": [
+346,
+685,
+[
+0.47,
+0.54
+]
+],
+"gone_before_blind": [
+{
+"champ": "Heimerdinger",
+"n": 8,
+"of": 475,
+"lift": 3.55
+},
+{
+"champ": "Braum",
+"n": 43,
+"of": 475,
+"lift": 3.42
+},
+{
+"champ": "Ziggs",
+"n": 84,
+"of": 475,
+"lift": 2.63
+},
+{
+"champ": "Alistar",
+"n": 51,
+"of": 475,
+"lift": 2.5
+},
+{
+"champ": "Zed",
+"n": 10,
+"of": 475,
+"lift": 2.46
+}
+]
+},
+{
+"champ": "Nami",
+"games": 1042,
+"wins": 517,
+"wr_ci": [
+0.47,
+0.53
+],
+"by_game": [
+474,
+369,
+159,
+40
+],
+"blind": 451,
+"counter": 591,
+"blind_pct": 0.43,
+"phase1_pct": 0.65,
+"blind_wr": [
+219,
+451,
+[
+0.44,
+0.53
+]
+],
+"counter_wr": [
+298,
+591,
+[
+0.46,
+0.54
+]
+],
+"gone_before_blind": [
+{
+"champ": "Darius",
+"n": 10,
+"of": 451,
+"lift": 2.27
+},
+{
+"champ": "Corki",
+"n": 51,
+"of": 451,
+"lift": 2.21
+},
+{
+"champ": "Smolder",
+"n": 9,
+"of": 451,
+"lift": 2.16
+},
+{
+"champ": "Ornn",
+"n": 20,
+"of": 451,
+"lift": 2.0
+},
+{
+"champ": "Ashe",
+"n": 100,
+"of": 451,
+"lift": 1.94
+}
+]
+},
+{
+"champ": "Braum",
+"games": 546,
+"wins": 243,
+"wr_ci": [
+0.4,
+0.49
+],
+"by_game": [
+229,
+180,
+91,
+46
+],
+"blind": 121,
+"counter": 425,
+"blind_pct": 0.22,
+"phase1_pct": 0.36,
+"blind_wr": [
+49,
+121,
+[
+0.32,
+0.49
+]
+],
+"counter_wr": [
+194,
+425,
+[
+0.41,
+0.5
+]
+],
+"gone_before_blind": [
+{
+"champ": "Diana",
+"n": 11,
+"of": 121,
+"lift": 9.2
+},
+{
+"champ": "Miss Fortune",
+"n": 13,
+"of": 121,
+"lift": 4.51
+},
+{
+"champ": "Ornn",
+"n": 16,
+"of": 121,
+"lift": 3.47
+},
+{
+"champ": "Viego",
+"n": 8,
+"of": 121,
+"lift": 3.24
+},
+{
+"champ": "Aphelios",
+"n": 16,
+"of": 121,
+"lift": 3.03
+}
+]
+},
+{
+"champ": "Shen",
+"games": 495,
+"wins": 252,
+"wr_ci": [
+0.47,
+0.55
+],
+"by_game": [
+290,
+127,
+53,
+25
+],
+"blind": 217,
+"counter": 278,
+"blind_pct": 0.44,
+"phase1_pct": 0.66,
+"blind_wr": [
+112,
+217,
+[
+0.45,
+0.58
+]
+],
+"counter_wr": [
+140,
+278,
+[
+0.45,
+0.56
+]
+],
+"gone_before_blind": [
+{
+"champ": "Camille",
+"n": 79,
+"of": 217,
+"lift": 4.74
+},
+{
+"champ": "Poppy",
+"n": 113,
+"of": 217,
+"lift": 3.52
+},
+{
+"champ": "Locke",
+"n": 70,
+"of": 217,
+"lift": 3.36
+},
+{
+"champ": "Xayah",
+"n": 12,
+"of": 217,
+"lift": 3.16
+},
+{
+"champ": "Ziggs",
+"n": 34,
+"of": 217,
+"lift": 2.6
+}
+]
+},
+{
+"champ": "Renata Glasc",
+"games": 482,
+"wins": 247,
+"wr_ci": [
+0.47,
+0.56
+],
+"by_game": [
+138,
+170,
+106,
+68
+],
+"blind": 253,
+"counter": 229,
+"blind_pct": 0.52,
+"phase1_pct": 0.55,
+"blind_wr": [
+140,
+253,
+[
+0.49,
+0.61
+]
+],
+"counter_wr": [
+107,
+229,
+[
+0.4,
+0.53
+]
+],
+"gone_before_blind": [
+{
+"champ": "Qiyana",
+"n": 61,
+"of": 253,
+"lift": 3.32
+},
+{
+"champ": "Xayah",
+"n": 12,
+"of": 253,
+"lift": 2.92
+},
+{
+"champ": "Maokai",
+"n": 8,
+"of": 253,
+"lift": 2.88
+},
+{
+"champ": "Jhin",
+"n": 23,
+"of": 253,
+"lift": 2.49
+},
+{
+"champ": "Draven",
+"n": 8,
+"of": 253,
+"lift": 2.39
+}
+]
+},
+{
+"champ": "Camille",
+"games": 464,
+"wins": 237,
+"wr_ci": [
+0.47,
+0.56
+],
+"by_game": [
+292,
+102,
+54,
+16
+],
+"blind": 331,
+"counter": 133,
+"blind_pct": 0.71,
+"phase1_pct": 0.77,
+"blind_wr": [
+166,
+331,
+[
+0.45,
+0.56
+]
+],
+"counter_wr": [
+71,
+133,
+[
+0.45,
+0.62
+]
+],
+"gone_before_blind": [
+{
+"champ": "Poppy",
+"n": 219,
+"of": 331,
+"lift": 4.78
+},
+{
+"champ": "Locke",
+"n": 113,
+"of": 331,
+"lift": 3.77
+},
+{
+"champ": "Ziggs",
+"n": 62,
+"of": 331,
+"lift": 3.64
+},
+{
+"champ": "Shen",
+"n": 26,
+"of": 331,
+"lift": 3.37
+},
+{
+"champ": "Lee Sin",
+"n": 122,
+"of": 331,
+"lift": 2.72
+}
+]
+},
+{
+"champ": "Thresh",
+"games": 283,
+"wins": 134,
+"wr_ci": [
+0.42,
+0.53
+],
+"by_game": [
+74,
+95,
+72,
+42
+],
+"blind": 125,
+"counter": 158,
+"blind_pct": 0.44,
+"phase1_pct": 0.43,
+"blind_wr": [
+57,
+125,
+[
+0.37,
+0.54
+]
+],
+"counter_wr": [
+77,
+158,
+[
+0.41,
+0.56
+]
+],
+"gone_before_blind": [
+{
+"champ": "Miss Fortune",
+"n": 9,
+"of": 125,
+"lift": 3.5
+},
+{
+"champ": "Corki",
+"n": 25,
+"of": 125,
+"lift": 2.67
+},
+{
+"champ": "Aphelios",
+"n": 13,
+"of": 125,
+"lift": 2.58
+},
+{
+"champ": "Tristana",
+"n": 8,
+"of": 125,
+"lift": 2.16
+},
+{
+"champ": "Sylas",
+"n": 15,
+"of": 125,
+"lift": 2.14
+}
+]
+},
+{
+"champ": "Pyke",
+"games": 266,
+"wins": 131,
+"wr_ci": [
+0.43,
+0.55
+],
+"by_game": [
+98,
+109,
+41,
+18
+],
+"blind": 56,
+"counter": 210,
+"blind_pct": 0.21,
+"phase1_pct": 0.46,
+"blind_wr": [
+28,
+56,
+[
+0.37,
+0.63
+]
+],
+"counter_wr": [
+103,
+210,
+[
+0.42,
+0.56
+]
+],
+"gone_before_blind": [
+{
+"champ": "Sivir",
+"n": 9,
+"of": 56,
+"lift": 2.66
+},
+{
+"champ": "Camille",
+"n": 11,
+"of": 56,
+"lift": 2.3
+},
+{
+"champ": "Ziggs",
+"n": 8,
+"of": 56,
+"lift": 2.06
+},
+{
+"champ": "Ashe",
+"n": 14,
+"of": 56,
+"lift": 1.88
+}
+]
+},
+{
+"champ": "Poppy",
+"games": 239,
+"wins": 130,
+"wr_ci": [
+0.48,
+0.61
+],
+"by_game": [
+108,
+65,
+41,
+25
+],
+"blind": 47,
+"counter": 192,
+"blind_pct": 0.2,
+"phase1_pct": 0.26,
+"blind_wr": [
+30,
+47,
+[
+0.5,
+0.76
+]
+],
+"counter_wr": [
+100,
+192,
+[
+0.45,
+0.59
+]
+],
+"gone_before_blind": [
+{
+"champ": "Neeko",
+"n": 18,
+"of": 47,
+"lift": 2.54
+},
+{
+"champ": "Corki",
+"n": 9,
+"of": 47,
+"lift": 2.52
+},
+{
+"champ": "Camille",
+"n": 9,
+"of": 47,
+"lift": 2.15
+},
+{
+"champ": "Renekton",
+"n": 9,
+"of": 47,
+"lift": 2.13
+},
+{
+"champ": "Akali",
+"n": 18,
+"of": 47,
+"lift": 1.64
+}
+]
+},
+{
+"champ": "Yuumi",
+"games": 182,
+"wins": 80,
+"wr_ci": [
+0.37,
+0.51
+],
+"by_game": [
+53,
+42,
+57,
+30
+],
+"blind": 48,
+"counter": 134,
+"blind_pct": 0.26,
+"phase1_pct": 0.49,
+"blind_wr": [
+19,
+48,
+[
+0.27,
+0.54
+]
+],
+"counter_wr": [
+61,
+134,
+[
+0.37,
+0.54
+]
+],
+"gone_before_blind": [
+{
+"champ": "Ashe",
+"n": 12,
+"of": 48,
+"lift": 1.98
+}
+]
+},
+{
+"champ": "Blitzcrank",
+"games": 142,
+"wins": 74,
+"wr_ci": [
+0.44,
+0.6
+],
+"by_game": [
+33,
+50,
+36,
+23
+],
+"blind": 9,
+"counter": 133,
+"blind_pct": 0.06,
+"phase1_pct": 0.28,
+"blind_wr": [
+7,
+9,
+[
+0.45,
+0.94
+]
+],
+"counter_wr": [
+67,
+133,
+[
+0.42,
+0.59
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Anivia",
+"games": 103,
+"wins": 57,
+"wr_ci": [
+0.46,
+0.65
+],
+"by_game": [
+44,
+39,
+17,
+3
+],
+"blind": 30,
+"counter": 73,
+"blind_pct": 0.29,
+"phase1_pct": 0.57,
+"blind_wr": [
+15,
+30,
+[
+0.33,
+0.67
+]
+],
+"counter_wr": [
+42,
+73,
+[
+0.46,
+0.68
+]
+],
+"gone_before_blind": [
+{
+"champ": "Karma",
+"n": 22,
+"of": 30,
+"lift": 2.73
+},
+{
+"champ": "Neeko",
+"n": 9,
+"of": 30,
+"lift": 2.35
+},
+{
+"champ": "Bard",
+"n": 13,
+"of": 30,
+"lift": 2.13
+},
+{
+"champ": "Pantheon",
+"n": 12,
+"of": 30,
+"lift": 1.95
+},
+{
+"champ": "Rumble",
+"n": 17,
+"of": 30,
+"lift": 1.91
+}
+]
+},
+{
+"champ": "Lux",
+"games": 87,
+"wins": 57,
+"wr_ci": [
+0.55,
+0.75
+],
+"by_game": [
+20,
+37,
+21,
+9
+],
+"blind": 17,
+"counter": 70,
+"blind_pct": 0.2,
+"phase1_pct": 0.52,
+"blind_wr": [
+9,
+17,
+[
+0.31,
+0.74
+]
+],
+"counter_wr": [
+48,
+70,
+[
+0.57,
+0.78
+]
+],
+"gone_before_blind": [
+{
+"champ": "Karma",
+"n": 10,
+"of": 17,
+"lift": 2.27
+}
+]
+},
+{
+"champ": "Elise",
+"games": 76,
+"wins": 38,
+"wr_ci": [
+0.39,
+0.61
+],
+"by_game": [
+29,
+23,
+16,
+8
+],
+"blind": 22,
+"counter": 54,
+"blind_pct": 0.29,
+"phase1_pct": 0.5,
+"blind_wr": [
+16,
+22,
+[
+0.52,
+0.87
+]
+],
+"counter_wr": [
+22,
+54,
+[
+0.29,
+0.54
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Soraka",
+"games": 57,
+"wins": 30,
+"wr_ci": [
+0.4,
+0.65
+],
+"by_game": [
+16,
+17,
+9,
+15
+],
+"blind": 7,
+"counter": 50,
+"blind_pct": 0.12,
+"phase1_pct": 0.3,
+"blind_wr": [
+4,
+7,
+[
+0.25,
+0.84
+]
+],
+"counter_wr": [
+26,
+50,
+[
+0.39,
+0.65
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Pantheon",
+"games": 53,
+"wins": 26,
+"wr_ci": [
+0.36,
+0.62
+],
+"by_game": [
+18,
+16,
+14,
+5
+],
+"blind": 35,
+"counter": 18,
+"blind_pct": 0.66,
+"phase1_pct": 0.72,
+"blind_wr": [
+15,
+35,
+[
+0.28,
+0.59
+]
+],
+"counter_wr": [
+11,
+18,
+[
+0.39,
+0.8
+]
+],
+"gone_before_blind": [
+{
+"champ": "Naafiri",
+"n": 9,
+"of": 35,
+"lift": 3.08
+},
+{
+"champ": "Syndra",
+"n": 10,
+"of": 35,
+"lift": 1.91
+},
+{
+"champ": "Cassiopeia",
+"n": 15,
+"of": 35,
+"lift": 1.68
+}
+]
+},
+{
+"champ": "Amumu",
+"games": 44,
+"wins": 27,
+"wr_ci": [
+0.47,
+0.74
+],
+"by_game": [
+14,
+10,
+10,
+10
+],
+"blind": 18,
+"counter": 26,
+"blind_pct": 0.41,
+"phase1_pct": 0.34,
+"blind_wr": [
+11,
+18,
+[
+0.39,
+0.8
+]
+],
+"counter_wr": [
+16,
+26,
+[
+0.43,
+0.78
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Maokai",
+"games": 43,
+"wins": 17,
+"wr_ci": [
+0.26,
+0.54
+],
+"by_game": [
+17,
+9,
+9,
+8
+],
+"blind": 15,
+"counter": 28,
+"blind_pct": 0.35,
+"phase1_pct": 0.53,
+"blind_wr": [
+4,
+15,
+[
+0.11,
+0.52
+]
+],
+"counter_wr": [
+13,
+28,
+[
+0.3,
+0.64
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Tahm Kench",
+"games": 40,
+"wins": 14,
+"wr_ci": [
+0.22,
+0.5
+],
+"by_game": [
+14,
+10,
+4,
+12
+],
+"blind": 7,
+"counter": 33,
+"blind_pct": 0.17,
+"phase1_pct": 0.2,
+"blind_wr": [
+4,
+7,
+[
+0.25,
+0.84
+]
+],
+"counter_wr": [
+10,
+33,
+[
+0.17,
+0.47
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Senna",
+"games": 38,
+"wins": 20,
+"wr_ci": [
+0.37,
+0.68
+],
+"by_game": [
+15,
+15,
+5,
+3
+],
+"blind": 16,
+"counter": 22,
+"blind_pct": 0.42,
+"phase1_pct": 0.47,
+"blind_wr": [
+9,
+16,
+[
+0.33,
+0.77
+]
+],
+"counter_wr": [
+11,
+22,
+[
+0.31,
+0.69
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Taric",
+"games": 29,
+"wins": 9,
+"wr_ci": [
+0.17,
+0.49
+],
+"by_game": [
+11,
+8,
+7,
+3
+],
+"blind": 3,
+"counter": 26,
+"blind_pct": 0.1,
+"phase1_pct": 0.28,
+"blind_wr": [
+0,
+3,
+[
+0.0,
+0.56
+]
+],
+"counter_wr": [
+9,
+26,
+[
+0.19,
+0.54
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Galio",
+"games": 27,
+"wins": 12,
+"wr_ci": [
+0.28,
+0.63
+],
+"by_game": [
+12,
+10,
+4,
+1
+],
+"blind": 10,
+"counter": 17,
+"blind_pct": 0.37,
+"phase1_pct": 0.48,
+"blind_wr": [
+3,
+10,
+[
+0.11,
+0.6
+]
+],
+"counter_wr": [
+9,
+17,
+[
+0.31,
+0.74
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Zilean",
+"games": 23,
+"wins": 6,
+"wr_ci": [
+0.13,
+0.46
+],
+"by_game": [
+5,
+8,
+5,
+5
+],
+"blind": 3,
+"counter": 20,
+"blind_pct": 0.13,
+"phase1_pct": 0.3,
+"blind_wr": [
+2,
+3,
+[
+0.21,
+0.94
+]
+],
+"counter_wr": [
+4,
+20,
+[
+0.08,
+0.42
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Skarner",
+"games": 23,
+"wins": 11,
+"wr_ci": [
+0.29,
+0.67
+],
+"by_game": [
+10,
+7,
+4,
+2
+],
+"blind": 4,
+"counter": 19,
+"blind_pct": 0.17,
+"phase1_pct": 0.39,
+"blind_wr": [
+1,
+4,
+[
+0.05,
+0.7
+]
+],
+"counter_wr": [
+10,
+19,
+[
+0.32,
+0.73
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Sona",
+"games": 21,
+"wins": 8,
+"wr_ci": [
+0.21,
+0.59
+],
+"by_game": [
+4,
+5,
+7,
+5
+],
+"blind": 2,
+"counter": 19,
+"blind_pct": 0.1,
+"phase1_pct": 0.38,
+"blind_wr": [
+2,
+2,
+[
+0.34,
+1.0
+]
+],
+"counter_wr": [
+6,
+19,
+[
+0.15,
+0.54
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Morgana",
+"games": 16,
+"wins": 10,
+"wr_ci": [
+0.39,
+0.82
+],
+"by_game": [
+4,
+8,
+2,
+2
+],
+"blind": 3,
+"counter": 13,
+"blind_pct": 0.19,
+"phase1_pct": 0.31,
+"blind_wr": [
+3,
+3,
+[
+0.44,
+1.0
+]
+],
+"counter_wr": [
+7,
+13,
+[
+0.29,
+0.77
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Janna",
+"games": 14,
+"wins": 3,
+"wr_ci": [
+0.08,
+0.48
+],
+"by_game": [
+8,
+3,
+2,
+1
+],
+"blind": 4,
+"counter": 10,
+"blind_pct": 0.29,
+"phase1_pct": 0.14,
+"blind_wr": [
+0,
+4,
+[
+0.0,
+0.49
+]
+],
+"counter_wr": [
+3,
+10,
+[
+0.11,
+0.6
+]
+],
+"gone_before_blind": []
+},
+{
+"champ": "Zyra",
+"games": 12,
+"wins": 3,
+"wr_ci": [
+0.09,
+0.53
+],
+"by_game": [
+9,
+2,
+0,
+1
+],
+"blind": 3,
+"counter": 9,
+"blind_pct": 0.25,
+"phase1_pct": 0.33,
+"blind_wr": [
+0,
+3,
+[
+0.0,
+0.56
+]
+],
+"counter_wr": [
+3,
+9,
+[
+0.12,
+0.65
+]
+],
+"gone_before_blind": []
+}
+]
+}

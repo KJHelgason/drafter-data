@@ -1,0 +1,65 @@
+{
+ "name": "Smá Nibu",
+ "slug": "sma_nibu",
+ "region": "EUW",
+ "leagues": [
+  "Kia deild (IS)"
+ ],
+ "comp_team_names": [
+  "Smá Nibu",
+  "Sma nibu",
+  "Smá nibu"
+ ],
+ "lineup": {
+  "top": [
+   "boppa"
+  ],
+  "jungle": [
+   "sosa"
+  ],
+  "mid": [
+   "legions",
+   "zarzator"
+  ],
+  "bot": [
+   "redside hater",
+   "miq"
+  ],
+  "support": [
+   "red umbrella"
+  ]
+ },
+ "subs": [
+  "sosa",
+  "zarzator",
+  "miq"
+ ],
+ "riot_ids": {
+  "boppa": [
+   "Boppa#Big"
+  ],
+  "sosa": [
+   "Sosa#qwer"
+  ],
+  "zarzator": [
+   "Zarzator#EUW"
+  ],
+  "legions": [
+   "Legions1#EUW"
+  ],
+  "redside hater": [
+   "redside hater#EUWs"
+  ],
+  "red umbrella": [
+   "Red Umbrella#EUW"
+  ],
+  "miq": [
+   "MiQ#HZK"
+  ]
+ },
+ "aliases": {
+  "kristut": "redside hater",
+  "aqua umbrella": "red umbrella"
+ },
+ "notes": "Challengermode registered lineup: Boppa, Red Umbrella (Kiddi), redside hater (kristut), MiQ#HZK (Controversial, captain), Legions1; subs Sosa (Garðar), Zarzator. In the 10-26 playoffs Sosa jungled and Legions1 played mid. MiQ#HZK confirmed."
+}

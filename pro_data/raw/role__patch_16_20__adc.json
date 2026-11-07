@@ -1,0 +1,185 @@
+{
+ "slice_key": "R:P16.20.:ADC",
+ "kind": "role",
+ "tournament": "ALL",
+ "patch": "16.20",
+ "role": "ADC",
+ "source": "gol.gg",
+ "source_url": "https://gol.gg/champion/list/season-S16/split-ALL/tournament-ALL/",
+ "method": "POST (form-encoded, same as the page's #FilterForm)",
+ "post_params": {
+  "cbtournament": "ALL",
+  "patch": "16.20.",
+  "role": "ADC",
+  "leaguePost": "true",
+  "side": "ALL",
+  "draft": "ALL"
+ },
+ "fetched_at": "2026-11-06T10:46:28.677Z",
+ "fetch_date": "2026-11-06",
+ "games": 112,
+ "notes": "Only champions with >=1 pick or ban kept (role slices: >=1 pick). Role slices: bans are not role-specific, so only picks/wins. games = sum(picks)/10 (role slices: /2). blind_pick_pct = gol.gg 'BP%' (blind pick %), avg_pick_round = 'Avg RP', avg_ban_turn = 'Avg BT' (1 = first ban).",
+ "rows": [
+  {
+   "champion_id": "Ezreal",
+   "gol_icon": "Ezreal",
+   "picks": 29,
+   "wins": 14,
+   "losses": 15
+  },
+  {
+   "champion_id": "Cassiopeia",
+   "gol_icon": "Cassiopeia",
+   "picks": 1,
+   "wins": 1,
+   "losses": 0
+  },
+  {
+   "champion_id": "Caitlyn",
+   "gol_icon": "Caitlyn",
+   "picks": 9,
+   "wins": 2,
+   "losses": 7
+  },
+  {
+   "champion_id": "Jhin",
+   "gol_icon": "Jhin",
+   "picks": 22,
+   "wins": 12,
+   "losses": 10
+  },
+  {
+   "champion_id": "Kalista",
+   "gol_icon": "Kalista",
+   "picks": 22,
+   "wins": 11,
+   "losses": 11
+  },
+  {
+   "champion_id": "Lucian",
+   "gol_icon": "Lucian",
+   "picks": 23,
+   "wins": 10,
+   "losses": 13
+  },
+  {
+   "champion_id": "Yunara",
+   "gol_icon": "Yunara",
+   "picks": 21,
+   "wins": 12,
+   "losses": 9
+  },
+  {
+   "champion_id": "Ashe",
+   "gol_icon": "Ashe",
+   "picks": 17,
+   "wins": 12,
+   "losses": 5
+  },
+  {
+   "champion_id": "Kaisa",
+   "gol_icon": "Kaisa",
+   "picks": 12,
+   "wins": 6,
+   "losses": 6
+  },
+  {
+   "champion_id": "Viktor",
+   "gol_icon": "Viktor",
+   "picks": 1,
+   "wins": 1,
+   "losses": 0
+  },
+  {
+   "champion_id": "Draven",
+   "gol_icon": "Draven",
+   "picks": 2,
+   "wins": 1,
+   "losses": 1
+  },
+  {
+   "champion_id": "Varus",
+   "gol_icon": "Varus",
+   "picks": 5,
+   "wins": 3,
+   "losses": 2
+  },
+  {
+   "champion_id": "Corki",
+   "gol_icon": "Corki",
+   "picks": 8,
+   "wins": 4,
+   "losses": 4
+  },
+  {
+   "champion_id": "Xayah",
+   "gol_icon": "Xayah",
+   "picks": 11,
+   "wins": 7,
+   "losses": 4
+  },
+  {
+   "champion_id": "Tristana",
+   "gol_icon": "Tristana",
+   "picks": 7,
+   "wins": 3,
+   "losses": 4
+  },
+  {
+   "champion_id": "Zeri",
+   "gol_icon": "Zeri",
+   "picks": 5,
+   "wins": 3,
+   "losses": 2
+  },
+  {
+   "champion_id": "Sivir",
+   "gol_icon": "Sivir",
+   "picks": 4,
+   "wins": 2,
+   "losses": 2
+  },
+  {
+   "champion_id": "Ziggs",
+   "gol_icon": "Ziggs",
+   "picks": 7,
+   "wins": 1,
+   "losses": 6
+  },
+  {
+   "champion_id": "Aphelios",
+   "gol_icon": "Aphelios",
+   "picks": 6,
+   "wins": 3,
+   "losses": 3
+  },
+  {
+   "champion_id": "MissFortune",
+   "gol_icon": "MissFortune",
+   "picks": 6,
+   "wins": 2,
+   "losses": 4
+  },
+  {
+   "champion_id": "Mel",
+   "gol_icon": "Mel",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "Jinx",
+   "gol_icon": "Jinx",
+   "picks": 4,
+   "wins": 2,
+   "losses": 2
+  },
+  {
+   "champion_id": "Twitch",
+   "gol_icon": "Twitch",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  }
+ ]
+}

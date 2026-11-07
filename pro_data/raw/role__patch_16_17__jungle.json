@@ -1,0 +1,353 @@
+{
+ "slice_key": "R:P16.17.:JUNGLE",
+ "kind": "role",
+ "tournament": "ALL",
+ "patch": "16.17",
+ "role": "JUNGLE",
+ "source": "gol.gg",
+ "source_url": "https://gol.gg/champion/list/season-S16/split-ALL/tournament-ALL/",
+ "method": "POST (form-encoded, same as the page's #FilterForm)",
+ "post_params": {
+  "cbtournament": "ALL",
+  "patch": "16.17.",
+  "role": "JUNGLE",
+  "leaguePost": "true",
+  "side": "ALL",
+  "draft": "ALL"
+ },
+ "fetched_at": "2026-11-06T10:46:47.916Z",
+ "fetch_date": "2026-11-06",
+ "games": 567,
+ "notes": "Only champions with >=1 pick or ban kept (role slices: >=1 pick). Role slices: bans are not role-specific, so only picks/wins. games = sum(picks)/10 (role slices: /2). blind_pick_pct = gol.gg 'BP%' (blind pick %), avg_pick_round = 'Avg RP', avg_ban_turn = 'Avg BT' (1 = first ban).",
+ "rows": [
+  {
+   "champion_id": "Nocturne",
+   "gol_icon": "Nocturne",
+   "picks": 64,
+   "wins": 31,
+   "losses": 33
+  },
+  {
+   "champion_id": "Vi",
+   "gol_icon": "Vi",
+   "picks": 96,
+   "wins": 45,
+   "losses": 51
+  },
+  {
+   "champion_id": "JarvanIV",
+   "gol_icon": "JarvanIV",
+   "picks": 109,
+   "wins": 49,
+   "losses": 60
+  },
+  {
+   "champion_id": "LeeSin",
+   "gol_icon": "LeeSin",
+   "picks": 83,
+   "wins": 48,
+   "losses": 35
+  },
+  {
+   "champion_id": "Olaf",
+   "gol_icon": "Olaf",
+   "picks": 7,
+   "wins": 4,
+   "losses": 3
+  },
+  {
+   "champion_id": "Pantheon",
+   "gol_icon": "Pantheon",
+   "picks": 100,
+   "wins": 49,
+   "losses": 51
+  },
+  {
+   "champion_id": "Jayce",
+   "gol_icon": "Jayce",
+   "picks": 7,
+   "wins": 3,
+   "losses": 4
+  },
+  {
+   "champion_id": "MonkeyKing",
+   "gol_icon": "Wukong",
+   "picks": 98,
+   "wins": 50,
+   "losses": 48
+  },
+  {
+   "champion_id": "Naafiri",
+   "gol_icon": "Naafiri",
+   "picks": 74,
+   "wins": 34,
+   "losses": 40
+  },
+  {
+   "champion_id": "Nautilus",
+   "gol_icon": "Nautilus",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "XinZhao",
+   "gol_icon": "XinZhao",
+   "picks": 84,
+   "wins": 40,
+   "losses": 44
+  },
+  {
+   "champion_id": "Rumble",
+   "gol_icon": "Rumble",
+   "picks": 2,
+   "wins": 1,
+   "losses": 1
+  },
+  {
+   "champion_id": "Poppy",
+   "gol_icon": "Poppy",
+   "picks": 12,
+   "wins": 3,
+   "losses": 9
+  },
+  {
+   "champion_id": "Skarner",
+   "gol_icon": "Skarner",
+   "picks": 56,
+   "wins": 28,
+   "losses": 28
+  },
+  {
+   "champion_id": "Trundle",
+   "gol_icon": "Trundle",
+   "picks": 70,
+   "wins": 35,
+   "losses": 35
+  },
+  {
+   "champion_id": "Qiyana",
+   "gol_icon": "Qiyana",
+   "picks": 54,
+   "wins": 33,
+   "losses": 21
+  },
+  {
+   "champion_id": "Locke",
+   "gol_icon": "Locke",
+   "picks": 2,
+   "wins": 1,
+   "losses": 1
+  },
+  {
+   "champion_id": "Ambessa",
+   "gol_icon": "Ambessa",
+   "picks": 1,
+   "wins": 1,
+   "losses": 0
+  },
+  {
+   "champion_id": "Sylas",
+   "gol_icon": "Sylas",
+   "picks": 2,
+   "wins": 2,
+   "losses": 0
+  },
+  {
+   "champion_id": "Chogath",
+   "gol_icon": "Chogath",
+   "picks": 48,
+   "wins": 26,
+   "losses": 22
+  },
+  {
+   "champion_id": "Taliyah",
+   "gol_icon": "Taliyah",
+   "picks": 3,
+   "wins": 1,
+   "losses": 2
+  },
+  {
+   "champion_id": "Maokai",
+   "gol_icon": "Maokai",
+   "picks": 37,
+   "wins": 19,
+   "losses": 18
+  },
+  {
+   "champion_id": "Shyvana",
+   "gol_icon": "Shyvana",
+   "picks": 20,
+   "wins": 14,
+   "losses": 6
+  },
+  {
+   "champion_id": "Sejuani",
+   "gol_icon": "Sejuani",
+   "picks": 33,
+   "wins": 18,
+   "losses": 15
+  },
+  {
+   "champion_id": "Ornn",
+   "gol_icon": "Ornn",
+   "picks": 2,
+   "wins": 1,
+   "losses": 1
+  },
+  {
+   "champion_id": "Aatrox",
+   "gol_icon": "Aatrox",
+   "picks": 8,
+   "wins": 3,
+   "losses": 5
+  },
+  {
+   "champion_id": "Nasus",
+   "gol_icon": "Nasus",
+   "picks": 3,
+   "wins": 2,
+   "losses": 1
+  },
+  {
+   "champion_id": "Sion",
+   "gol_icon": "Sion",
+   "picks": 3,
+   "wins": 1,
+   "losses": 2
+  },
+  {
+   "champion_id": "Zaahen",
+   "gol_icon": "Zaahen",
+   "picks": 4,
+   "wins": 2,
+   "losses": 2
+  },
+  {
+   "champion_id": "Viego",
+   "gol_icon": "Viego",
+   "picks": 8,
+   "wins": 4,
+   "losses": 4
+  },
+  {
+   "champion_id": "DrMundo",
+   "gol_icon": "Dr.Mundo",
+   "picks": 4,
+   "wins": 2,
+   "losses": 2
+  },
+  {
+   "champion_id": "Khazix",
+   "gol_icon": "KhaZix",
+   "picks": 9,
+   "wins": 3,
+   "losses": 6
+  },
+  {
+   "champion_id": "Volibear",
+   "gol_icon": "Volibear",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "Graves",
+   "gol_icon": "Graves",
+   "picks": 3,
+   "wins": 3,
+   "losses": 0
+  },
+  {
+   "champion_id": "Nidalee",
+   "gol_icon": "Nidalee",
+   "picks": 3,
+   "wins": 1,
+   "losses": 2
+  },
+  {
+   "champion_id": "Lillia",
+   "gol_icon": "Lillia",
+   "picks": 3,
+   "wins": 1,
+   "losses": 2
+  },
+  {
+   "champion_id": "Zyra",
+   "gol_icon": "Zyra",
+   "picks": 2,
+   "wins": 1,
+   "losses": 1
+  },
+  {
+   "champion_id": "Ivern",
+   "gol_icon": "Ivern",
+   "picks": 7,
+   "wins": 4,
+   "losses": 3
+  },
+  {
+   "champion_id": "Kayn",
+   "gol_icon": "Kayn",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "Hecarim",
+   "gol_icon": "Hecarim",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "Kindred",
+   "gol_icon": "Kindred",
+   "picks": 1,
+   "wins": 1,
+   "losses": 0
+  },
+  {
+   "champion_id": "Zed",
+   "gol_icon": "Zed",
+   "picks": 3,
+   "wins": 1,
+   "losses": 2
+  },
+  {
+   "champion_id": "Rammus",
+   "gol_icon": "Rammus",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "RekSai",
+   "gol_icon": "RekSai",
+   "picks": 1,
+   "wins": 1,
+   "losses": 0
+  },
+  {
+   "champion_id": "Elise",
+   "gol_icon": "Elise",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "Zac",
+   "gol_icon": "Zac",
+   "picks": 1,
+   "wins": 1,
+   "losses": 0
+  },
+  {
+   "champion_id": "Belveth",
+   "gol_icon": "Belveth",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  }
+ ]
+}

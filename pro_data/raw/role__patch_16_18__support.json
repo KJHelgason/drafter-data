@@ -1,0 +1,255 @@
+{
+ "slice_key": "R:P16.18.:SUPPORT",
+ "kind": "role",
+ "tournament": "ALL",
+ "patch": "16.18",
+ "role": "SUPPORT",
+ "source": "gol.gg",
+ "source_url": "https://gol.gg/champion/list/season-S16/split-ALL/tournament-ALL/",
+ "method": "POST (form-encoded, same as the page's #FilterForm)",
+ "post_params": {
+  "cbtournament": "ALL",
+  "patch": "16.18.",
+  "role": "SUPPORT",
+  "leaguePost": "true",
+  "side": "ALL",
+  "draft": "ALL"
+ },
+ "fetched_at": "2026-11-06T10:46:06.239Z",
+ "fetch_date": "2026-11-06",
+ "games": 378,
+ "notes": "Only champions with >=1 pick or ban kept (role slices: >=1 pick). Role slices: bans are not role-specific, so only picks/wins. games = sum(picks)/10 (role slices: /2). blind_pick_pct = gol.gg 'BP%' (blind pick %), avg_pick_round = 'Avg RP', avg_ban_turn = 'Avg BT' (1 = first ban).",
+ "rows": [
+  {
+   "champion_id": "Lulu",
+   "gol_icon": "Lulu",
+   "picks": 117,
+   "wins": 70,
+   "losses": 47
+  },
+  {
+   "champion_id": "Nautilus",
+   "gol_icon": "Nautilus",
+   "picks": 62,
+   "wins": 23,
+   "losses": 39
+  },
+  {
+   "champion_id": "Seraphine",
+   "gol_icon": "Seraphine",
+   "picks": 73,
+   "wins": 34,
+   "losses": 39
+  },
+  {
+   "champion_id": "Bard",
+   "gol_icon": "Bard",
+   "picks": 72,
+   "wins": 38,
+   "losses": 34
+  },
+  {
+   "champion_id": "Karma",
+   "gol_icon": "Karma",
+   "picks": 50,
+   "wins": 24,
+   "losses": 26
+  },
+  {
+   "champion_id": "Milio",
+   "gol_icon": "Milio",
+   "picks": 105,
+   "wins": 49,
+   "losses": 56
+  },
+  {
+   "champion_id": "Renata",
+   "gol_icon": "RenataGlasc",
+   "picks": 53,
+   "wins": 30,
+   "losses": 23
+  },
+  {
+   "champion_id": "Pantheon",
+   "gol_icon": "Pantheon",
+   "picks": 3,
+   "wins": 2,
+   "losses": 1
+  },
+  {
+   "champion_id": "Rakan",
+   "gol_icon": "Rakan",
+   "picks": 49,
+   "wins": 26,
+   "losses": 23
+  },
+  {
+   "champion_id": "Alistar",
+   "gol_icon": "Alistar",
+   "picks": 34,
+   "wins": 22,
+   "losses": 12
+  },
+  {
+   "champion_id": "Poppy",
+   "gol_icon": "Poppy",
+   "picks": 6,
+   "wins": 4,
+   "losses": 2
+  },
+  {
+   "champion_id": "Galio",
+   "gol_icon": "Galio",
+   "picks": 1,
+   "wins": 1,
+   "losses": 0
+  },
+  {
+   "champion_id": "Rell",
+   "gol_icon": "Rell",
+   "picks": 29,
+   "wins": 9,
+   "losses": 20
+  },
+  {
+   "champion_id": "Leona",
+   "gol_icon": "Leona",
+   "picks": 22,
+   "wins": 13,
+   "losses": 9
+  },
+  {
+   "champion_id": "Camille",
+   "gol_icon": "Camille",
+   "picks": 9,
+   "wins": 7,
+   "losses": 2
+  },
+  {
+   "champion_id": "Leblanc",
+   "gol_icon": "LeBlanc",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "Yuumi",
+   "gol_icon": "Yuumi",
+   "picks": 9,
+   "wins": 4,
+   "losses": 5
+  },
+  {
+   "champion_id": "Neeko",
+   "gol_icon": "Neeko",
+   "picks": 9,
+   "wins": 3,
+   "losses": 6
+  },
+  {
+   "champion_id": "Maokai",
+   "gol_icon": "Maokai",
+   "picks": 1,
+   "wins": 1,
+   "losses": 0
+  },
+  {
+   "champion_id": "Shen",
+   "gol_icon": "Shen",
+   "picks": 8,
+   "wins": 2,
+   "losses": 6
+  },
+  {
+   "champion_id": "Braum",
+   "gol_icon": "Braum",
+   "picks": 8,
+   "wins": 4,
+   "losses": 4
+  },
+  {
+   "champion_id": "Pyke",
+   "gol_icon": "Pyke",
+   "picks": 6,
+   "wins": 2,
+   "losses": 4
+  },
+  {
+   "champion_id": "Thresh",
+   "gol_icon": "Thresh",
+   "picks": 7,
+   "wins": 3,
+   "losses": 4
+  },
+  {
+   "champion_id": "Lux",
+   "gol_icon": "Lux",
+   "picks": 3,
+   "wins": 1,
+   "losses": 2
+  },
+  {
+   "champion_id": "Elise",
+   "gol_icon": "Elise",
+   "picks": 2,
+   "wins": 1,
+   "losses": 1
+  },
+  {
+   "champion_id": "Blitzcrank",
+   "gol_icon": "Blitzcrank",
+   "picks": 7,
+   "wins": 3,
+   "losses": 4
+  },
+  {
+   "champion_id": "Soraka",
+   "gol_icon": "Soraka",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "Nami",
+   "gol_icon": "Nami",
+   "picks": 4,
+   "wins": 0,
+   "losses": 4
+  },
+  {
+   "champion_id": "Sona",
+   "gol_icon": "Sona",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "Amumu",
+   "gol_icon": "Amumu",
+   "picks": 1,
+   "wins": 1,
+   "losses": 0
+  },
+  {
+   "champion_id": "Senna",
+   "gol_icon": "Senna",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "Zilean",
+   "gol_icon": "Zilean",
+   "picks": 1,
+   "wins": 1,
+   "losses": 0
+  },
+  {
+   "champion_id": "TahmKench",
+   "gol_icon": "TahmKench",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  }
+ ]
+}

@@ -1,0 +1,8172 @@
+{
+ "meta": {
+  "source": "gol.gg (see README.md)",
+  "built_from": [
+   "patch__16_16__all_leagues.json",
+   "patch__16_17__all_leagues.json",
+   "patch__16_18__all_leagues.json",
+   "patch__16_20__all_leagues.json",
+   "role__patch_16_17__adc.json",
+   "role__patch_16_17__jungle.json",
+   "role__patch_16_17__mid.json",
+   "role__patch_16_17__support.json",
+   "role__patch_16_17__top.json",
+   "role__patch_16_18__adc.json",
+   "role__patch_16_18__jungle.json",
+   "role__patch_16_18__mid.json",
+   "role__patch_16_18__support.json",
+   "role__patch_16_18__top.json",
+   "role__patch_16_20__adc.json",
+   "role__patch_16_20__jungle.json",
+   "role__patch_16_20__mid.json",
+   "role__patch_16_20__support.json",
+   "role__patch_16_20__top.json",
+   "role__worlds_2026_main_event__adc.json",
+   "role__worlds_2026_main_event__jungle.json",
+   "role__worlds_2026_main_event__mid.json",
+   "role__worlds_2026_main_event__support.json",
+   "role__worlds_2026_main_event__top.json",
+   "tournament__cblol_2026_split_2_playoffs.json",
+   "tournament__demacia_cup_global_invitational_2026.json",
+   "tournament__emea_masters_2026_summer_lcq.json",
+   "tournament__emea_masters_2026_summer_main_event.json",
+   "tournament__lck_2026_season_playoffs.json",
+   "tournament__lck_cl_2026_season_playoffs.json",
+   "tournament__lcs_2026_summer_playoffs.json",
+   "tournament__lec_2026_summer_playoffs.json",
+   "tournament__lpl_2026_grand_finals.json",
+   "tournament__lpl_2026_regional_finals.json",
+   "tournament__vcs_2026_finals_stage_2.json",
+   "tournament__worlds_2026_main_event.json",
+   "tournament__worlds_2026_play_in.json"
+  ],
+  "fetched": [
+   "2026-11-06"
+  ],
+  "tournament_blend": {
+   "weight": 0.65,
+   "weighted_games": 422.25,
+   "slices": [
+    {
+     "slice": "T:CBLOL 2026 Split 2 Playoffs",
+     "weight": 0.4,
+     "games": 40
+    },
+    {
+     "slice": "T:Demacia Cup Global Invitational 2026",
+     "weight": 0.6,
+     "games": 71
+    },
+    {
+     "slice": "T:EMEA Masters 2026 Summer LCQ",
+     "weight": 0.4,
+     "games": 47
+    },
+    {
+     "slice": "T:EMEA Masters 2026 Summer Main Event",
+     "weight": 0.6,
+     "games": 193
+    },
+    {
+     "slice": "T:LCK 2026 Season Playoffs",
+     "weight": 0.8,
+     "games": 41
+    },
+    {
+     "slice": "T:LCK CL 2026 Season Playoffs",
+     "weight": 0.35,
+     "games": 40
+    },
+    {
+     "slice": "T:LCS 2026 Summer Playoffs",
+     "weight": 0.5,
+     "games": 39
+    },
+    {
+     "slice": "T:LEC 2026 Summer Playoffs",
+     "weight": 0.7,
+     "games": 31
+    },
+    {
+     "slice": "T:LPL 2026 Grand Finals",
+     "weight": 0.8,
+     "games": 55
+    },
+    {
+     "slice": "T:LPL 2026 Regional Finals",
+     "weight": 0.8,
+     "games": 12
+    },
+    {
+     "slice": "T:VCS 2026 Finals Stage 2",
+     "weight": 0.35,
+     "games": 19
+    },
+    {
+     "slice": "T:Worlds 2026 Main Event",
+     "weight": 1.0,
+     "games": 61
+    },
+    {
+     "slice": "T:Worlds 2026 Play-In",
+     "weight": 0.9,
+     "games": 22
+    }
+   ]
+  },
+  "patch_blend": {
+   "weight": 0.35,
+   "weighted_games": 782.75,
+   "slices": [
+    {
+     "slice": "P:16.16.ALL",
+     "weight": 0.25,
+     "games": 604
+    },
+    {
+     "slice": "P:16.17.ALL",
+     "weight": 0.45,
+     "games": 567
+    },
+    {
+     "slice": "P:16.18.ALL",
+     "weight": 0.7,
+     "games": 378
+    },
+    {
+     "slice": "P:16.20.ALL",
+     "weight": 1.0,
+     "games": 112
+    }
+   ]
+  },
+  "role_slices": [
+   {
+    "slice": "R:P16.17.:ADC",
+    "weight": 0.45
+   },
+   {
+    "slice": "R:P16.17.:JUNGLE",
+    "weight": 0.45
+   },
+   {
+    "slice": "R:P16.17.:MID",
+    "weight": 0.45
+   },
+   {
+    "slice": "R:P16.17.:SUPPORT",
+    "weight": 0.45
+   },
+   {
+    "slice": "R:P16.17.:TOP",
+    "weight": 0.45
+   },
+   {
+    "slice": "R:P16.18.:ADC",
+    "weight": 0.7
+   },
+   {
+    "slice": "R:P16.18.:JUNGLE",
+    "weight": 0.7
+   },
+   {
+    "slice": "R:P16.18.:MID",
+    "weight": 0.7
+   },
+   {
+    "slice": "R:P16.18.:SUPPORT",
+    "weight": 0.7
+   },
+   {
+    "slice": "R:P16.18.:TOP",
+    "weight": 0.7
+   },
+   {
+    "slice": "R:P16.20.:ADC",
+    "weight": 1.0
+   },
+   {
+    "slice": "R:P16.20.:JUNGLE",
+    "weight": 1.0
+   },
+   {
+    "slice": "R:P16.20.:MID",
+    "weight": 1.0
+   },
+   {
+    "slice": "R:P16.20.:SUPPORT",
+    "weight": 1.0
+   },
+   {
+    "slice": "R:P16.20.:TOP",
+    "weight": 1.0
+   },
+   {
+    "slice": "R:Worlds 2026 Main Event:ADC",
+    "weight": 1.0
+   },
+   {
+    "slice": "R:Worlds 2026 Main Event:JUNGLE",
+    "weight": 1.0
+   },
+   {
+    "slice": "R:Worlds 2026 Main Event:MID",
+    "weight": 1.0
+   },
+   {
+    "slice": "R:Worlds 2026 Main Event:SUPPORT",
+    "weight": 1.0
+   },
+   {
+    "slice": "R:Worlds 2026 Main Event:TOP",
+    "weight": 1.0
+   }
+  ],
+  "formulas": {
+   "weighted_pickrate": "BLEND_T*sum(w*picks)/sum(w*games) [tournaments] + BLEND_P*same [patches]",
+   "weighted_presence": "weighted_pickrate + weighted_banrate",
+   "weighted_games": "BLEND_T*sum_T(w*picks) + BLEND_P*sum_P(w*picks)",
+   "weighted_winrate": "(weighted_wins + 10.0*0.5) / (weighted_games + 10.0)",
+   "tier": {
+    "S": 0.6,
+    "A": 0.4,
+    "B": 0.25,
+    "C": 0.1,
+    "D": 0.0
+   }
+  }
+ },
+ "champions": {
+  "Nocturne": {
+   "name": "Nocturne",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "S",
+   "weighted_presence": 0.7993,
+   "weighted_pickrate": 0.1137,
+   "weighted_banrate": 0.6856,
+   "weighted_games": 62.89,
+   "weighted_winrate": 0.5296,
+   "weighted_winrate_unsmoothed": 0.5343,
+   "avg_pick_round": 2.02,
+   "blind_pick_pct": 85.25,
+   "avg_ban_turn": 3.61,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 73,
+     "bans": 471,
+     "wins": 39,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 198,
+     "bans": 1055,
+     "wins": 100,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 13,
+    "bans": 42,
+    "wins": 8,
+    "presence": 0.9016,
+    "winrate": 0.6154,
+    "avg_pick_round": 1.31,
+    "blind_pick_pct": 92.3,
+    "avg_ban_turn": 3.4
+   }
+  },
+  "Cassiopeia": {
+   "name": "Cassiopeia",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 0.975,
+    "bot": 0.025
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "S",
+   "weighted_presence": 0.7539,
+   "weighted_pickrate": 0.1223,
+   "weighted_banrate": 0.6316,
+   "weighted_games": 68.59,
+   "weighted_winrate": 0.5448,
+   "weighted_winrate_unsmoothed": 0.5513,
+   "avg_pick_round": 1.46,
+   "blind_pick_pct": 82.54,
+   "avg_ban_turn": 3.24,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 76,
+     "bans": 439,
+     "wins": 41,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 207,
+     "bans": 1059,
+     "wins": 119,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 11,
+    "bans": 33,
+    "wins": 5,
+    "presence": 0.7213,
+    "winrate": 0.4545,
+    "avg_pick_round": 1.09,
+    "blind_pick_pct": 72.7,
+    "avg_ban_turn": 3.6
+   }
+  },
+  "Vi": {
+   "name": "Vi",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "S",
+   "weighted_presence": 0.6888,
+   "weighted_pickrate": 0.1699,
+   "weighted_banrate": 0.5188,
+   "weighted_games": 94.84,
+   "weighted_winrate": 0.541,
+   "weighted_winrate_unsmoothed": 0.5453,
+   "avg_pick_round": 1.77,
+   "blind_pick_pct": 81.95,
+   "avg_ban_turn": 3.98,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 110,
+     "bans": 359,
+     "wins": 61,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 310,
+     "bans": 725,
+     "wins": 163,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 10,
+    "bans": 41,
+    "wins": 5,
+    "presence": 0.8361,
+    "winrate": 0.5,
+    "avg_pick_round": 1.3,
+    "blind_pick_pct": 80.0,
+    "avg_ban_turn": 3.6
+   }
+  },
+  "JarvanIV": {
+   "name": "Jarvan IV",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "A",
+   "weighted_presence": 0.5389,
+   "weighted_pickrate": 0.2241,
+   "weighted_banrate": 0.3148,
+   "weighted_games": 123.26,
+   "weighted_winrate": 0.4734,
+   "weighted_winrate_unsmoothed": 0.4712,
+   "avg_pick_round": 1.66,
+   "blind_pick_pct": 73.63,
+   "avg_ban_turn": 4.46,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 147,
+     "bans": 211,
+     "wins": 68,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 374,
+     "bans": 533,
+     "wins": 178,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 17,
+    "bans": 20,
+    "wins": 9,
+    "presence": 0.6066,
+    "winrate": 0.5294,
+    "avg_pick_round": 1.41,
+    "blind_pick_pct": 47.1,
+    "avg_ban_turn": 4.8
+   }
+  },
+  "Syndra": {
+   "name": "Syndra",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 0.971,
+    "bot": 0.029
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "A",
+   "weighted_presence": 0.5341,
+   "weighted_pickrate": 0.2262,
+   "weighted_banrate": 0.3079,
+   "weighted_games": 123.79,
+   "weighted_winrate": 0.5037,
+   "weighted_winrate_unsmoothed": 0.5039,
+   "avg_pick_round": 1.65,
+   "blind_pick_pct": 65.8,
+   "avg_ban_turn": 4.69,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 153,
+     "bans": 202,
+     "wins": 77,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 356,
+     "bans": 524,
+     "wins": 175,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 15,
+    "bans": 28,
+    "wins": 10,
+    "presence": 0.7049,
+    "winrate": 0.6667,
+    "avg_pick_round": 1.27,
+    "blind_pick_pct": 80.0,
+    "avg_ban_turn": 4.3
+   }
+  },
+  "Olaf": {
+   "name": "Olaf",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 0.944,
+    "jungle": 0.056
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "A",
+   "weighted_presence": 0.516,
+   "weighted_pickrate": 0.1768,
+   "weighted_banrate": 0.3392,
+   "weighted_games": 96.61,
+   "weighted_winrate": 0.5099,
+   "weighted_winrate_unsmoothed": 0.5109,
+   "avg_pick_round": 1.94,
+   "blind_pick_pct": 82.25,
+   "avg_ban_turn": 4.78,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 119,
+     "bans": 227,
+     "wins": 60,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 291,
+     "bans": 495,
+     "wins": 149,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 11,
+    "bans": 28,
+    "wins": 5,
+    "presence": 0.6393,
+    "winrate": 0.4545,
+    "avg_pick_round": 1.45,
+    "blind_pick_pct": 90.9,
+    "avg_ban_turn": 4.3
+   }
+  },
+  "Orianna": {
+   "name": "Orianna",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "A",
+   "weighted_presence": 0.5094,
+   "weighted_pickrate": 0.2109,
+   "weighted_banrate": 0.2985,
+   "weighted_games": 114.63,
+   "weighted_winrate": 0.5444,
+   "weighted_winrate_unsmoothed": 0.5483,
+   "avg_pick_round": 1.8,
+   "blind_pick_pct": 76.96,
+   "avg_ban_turn": 5.4,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 142,
+     "bans": 186,
+     "wins": 75,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 339,
+     "bans": 554,
+     "wins": 185,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 19,
+    "bans": 16,
+    "wins": 14,
+    "presence": 0.5738,
+    "winrate": 0.7368,
+    "avg_pick_round": 1.37,
+    "blind_pick_pct": 94.7,
+    "avg_ban_turn": 6.4
+   }
+  },
+  "LeeSin": {
+   "name": "Lee Sin",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "A",
+   "weighted_presence": 0.4929,
+   "weighted_pickrate": 0.2099,
+   "weighted_banrate": 0.2831,
+   "weighted_games": 113.75,
+   "weighted_winrate": 0.5186,
+   "weighted_winrate_unsmoothed": 0.5203,
+   "avg_pick_round": 1.65,
+   "blind_pick_pct": 61.68,
+   "avg_ban_turn": 4.54,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 140,
+     "bans": 190,
+     "wins": 72,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 313,
+     "bans": 472,
+     "wins": 164,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 21,
+    "bans": 15,
+    "wins": 10,
+    "presence": 0.5902,
+    "winrate": 0.4762,
+    "avg_pick_round": 1.24,
+    "blind_pick_pct": 52.4,
+    "avg_ban_turn": 5.1
+   }
+  },
+  "Akali": {
+   "name": "Akali",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 0.961,
+    "top": 0.039
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "A",
+   "weighted_presence": 0.4574,
+   "weighted_pickrate": 0.1262,
+   "weighted_banrate": 0.3312,
+   "weighted_games": 68.48,
+   "weighted_winrate": 0.4396,
+   "weighted_winrate_unsmoothed": 0.4307,
+   "avg_pick_round": 2.09,
+   "blind_pick_pct": 37.73,
+   "avg_ban_turn": 5.37,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 85,
+     "bans": 222,
+     "wins": 35,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 194,
+     "bans": 542,
+     "wins": 97,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 10,
+    "bans": 23,
+    "wins": 2,
+    "presence": 0.541,
+    "winrate": 0.2,
+    "avg_pick_round": 1.2,
+    "blind_pick_pct": 40.0,
+    "avg_ban_turn": 5.6
+   }
+  },
+  "Rumble": {
+   "name": "Rumble",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 0.99,
+    "mid": 0.005,
+    "jungle": 0.005
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "A",
+   "weighted_presence": 0.4554,
+   "weighted_pickrate": 0.2605,
+   "weighted_banrate": 0.1948,
+   "weighted_games": 142.46,
+   "weighted_winrate": 0.4526,
+   "weighted_winrate_unsmoothed": 0.4493,
+   "avg_pick_round": 1.54,
+   "blind_pick_pct": 92.51,
+   "avg_ban_turn": 5.16,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 175,
+     "bans": 135,
+     "wins": 77,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 408,
+     "bans": 259,
+     "wins": 209,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 17,
+    "bans": 18,
+    "wins": 3,
+    "presence": 0.5738,
+    "winrate": 0.1765,
+    "avg_pick_round": 1.24,
+    "blind_pick_pct": 94.1,
+    "avg_ban_turn": 6.6
+   }
+  },
+  "Qiyana": {
+   "name": "Qiyana",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "A",
+   "weighted_presence": 0.449,
+   "weighted_pickrate": 0.1684,
+   "weighted_banrate": 0.2806,
+   "weighted_games": 88.67,
+   "weighted_winrate": 0.5875,
+   "weighted_winrate_unsmoothed": 0.5973,
+   "avg_pick_round": 1.65,
+   "blind_pick_pct": 58.37,
+   "avg_ban_turn": 3.97,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 121,
+     "bans": 203,
+     "wins": 76,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 193,
+     "bans": 271,
+     "wins": 116,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 16,
+    "bans": 25,
+    "wins": 7,
+    "presence": 0.6721,
+    "winrate": 0.4375,
+    "avg_pick_round": 1.19,
+    "blind_pick_pct": 62.5,
+    "avg_ban_turn": 3.6
+   }
+  },
+  "Lucian": {
+   "name": "Lucian",
+   "roles": [
+    "bot"
+   ],
+   "role_share": {
+    "bot": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "A",
+   "weighted_presence": 0.4462,
+   "weighted_pickrate": 0.2264,
+   "weighted_banrate": 0.2198,
+   "weighted_games": 123.87,
+   "weighted_winrate": 0.4692,
+   "weighted_winrate_unsmoothed": 0.4667,
+   "avg_pick_round": 1.67,
+   "blind_pick_pct": 70.76,
+   "avg_ban_turn": 4.91,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 156,
+     "bans": 146,
+     "wins": 73,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 356,
+     "bans": 456,
+     "wins": 162,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 10,
+    "bans": 6,
+    "wins": 6,
+    "presence": 0.2623,
+    "winrate": 0.6,
+    "avg_pick_round": 2.4,
+    "blind_pick_pct": 40.0,
+    "avg_ban_turn": 5.0
+   }
+  },
+  "Ezreal": {
+   "name": "Ezreal",
+   "roles": [
+    "bot"
+   ],
+   "role_share": {
+    "bot": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "A",
+   "weighted_presence": 0.4287,
+   "weighted_pickrate": 0.2243,
+   "weighted_banrate": 0.2043,
+   "weighted_games": 123.16,
+   "weighted_winrate": 0.4797,
+   "weighted_winrate_unsmoothed": 0.4781,
+   "avg_pick_round": 1.67,
+   "blind_pick_pct": 71.78,
+   "avg_ban_turn": 4.66,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 147,
+     "bans": 133,
+     "wins": 73,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 387,
+     "bans": 367,
+     "wins": 186,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 20,
+    "bans": 14,
+    "wins": 8,
+    "presence": 0.5574,
+    "winrate": 0.4,
+    "avg_pick_round": 1.3,
+    "blind_pick_pct": 85.0,
+    "avg_ban_turn": 5.2
+   }
+  },
+  "Nautilus": {
+   "name": "Nautilus",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 0.997,
+    "jungle": 0.003
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "A",
+   "weighted_presence": 0.4154,
+   "weighted_pickrate": 0.1822,
+   "weighted_banrate": 0.2332,
+   "weighted_games": 100.6,
+   "weighted_winrate": 0.4695,
+   "weighted_winrate_unsmoothed": 0.4665,
+   "avg_pick_round": 1.8,
+   "blind_pick_pct": 41.1,
+   "avg_ban_turn": 6.36,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 118,
+     "bans": 157,
+     "wins": 55,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 306,
+     "bans": 415,
+     "wins": 137,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 19,
+    "bans": 11,
+    "wins": 13,
+    "presence": 0.4918,
+    "winrate": 0.6842,
+    "avg_pick_round": 1.21,
+    "blind_pick_pct": 63.2,
+    "avg_ban_turn": 7.0
+   }
+  },
+  "Lulu": {
+   "name": "Lulu",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "A",
+   "weighted_presence": 0.4078,
+   "weighted_pickrate": 0.2546,
+   "weighted_banrate": 0.1531,
+   "weighted_games": 137.53,
+   "weighted_winrate": 0.5713,
+   "weighted_winrate_unsmoothed": 0.5764,
+   "avg_pick_round": 1.69,
+   "blind_pick_pct": 73.28,
+   "avg_ban_turn": 6.45,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 178,
+     "bans": 102,
+     "wins": 101,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 362,
+     "bans": 233,
+     "wins": 205,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 15,
+    "bans": 9,
+    "wins": 8,
+    "presence": 0.3934,
+    "winrate": 0.5333,
+    "avg_pick_round": 1.8,
+    "blind_pick_pct": 66.7,
+    "avg_ban_turn": 8.2
+   }
+  },
+  "Jayce": {
+   "name": "Jayce",
+   "roles": [
+    "top",
+    "jungle"
+   ],
+   "role_share": {
+    "top": 0.795,
+    "jungle": 0.136,
+    "mid": 0.065,
+    "bot": 0.004
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "B",
+   "weighted_presence": 0.3726,
+   "weighted_pickrate": 0.1498,
+   "weighted_banrate": 0.2228,
+   "weighted_games": 82.11,
+   "weighted_winrate": 0.4381,
+   "weighted_winrate_unsmoothed": 0.4305,
+   "avg_pick_round": 1.99,
+   "blind_pick_pct": 83.94,
+   "avg_ban_turn": 4.85,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 100,
+     "bans": 144,
+     "wins": 39,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 255,
+     "bans": 391,
+     "wins": 116,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 10,
+    "bans": 24,
+    "wins": 5,
+    "presence": 0.5574,
+    "winrate": 0.5,
+    "avg_pick_round": 1.7,
+    "blind_pick_pct": 80.0,
+    "avg_ban_turn": 4.5
+   }
+  },
+  "Seraphine": {
+   "name": "Seraphine",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 0.964,
+    "bot": 0.036
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "B",
+   "weighted_presence": 0.3699,
+   "weighted_pickrate": 0.1975,
+   "weighted_banrate": 0.1724,
+   "weighted_games": 107.2,
+   "weighted_winrate": 0.5352,
+   "weighted_winrate_unsmoothed": 0.5385,
+   "avg_pick_round": 1.86,
+   "blind_pick_pct": 58.2,
+   "avg_ban_turn": 5.44,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 135,
+     "bans": 119,
+     "wins": 70,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 302,
+     "bans": 222,
+     "wins": 165,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 10,
+    "bans": 8,
+    "wins": 6,
+    "presence": 0.2951,
+    "winrate": 0.6,
+    "avg_pick_round": 1.7,
+    "blind_pick_pct": 70.0,
+    "avg_ban_turn": 6.8
+   }
+  },
+  "KSante": {
+   "name": "K'Sante",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 0.988,
+    "mid": 0.012
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "B",
+   "weighted_presence": 0.3663,
+   "weighted_pickrate": 0.2196,
+   "weighted_banrate": 0.1467,
+   "weighted_games": 119.61,
+   "weighted_winrate": 0.4303,
+   "weighted_winrate_unsmoothed": 0.4245,
+   "avg_pick_round": 1.64,
+   "blind_pick_pct": 42.69,
+   "avg_ban_turn": 7.17,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 149,
+     "bans": 97,
+     "wins": 59,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 341,
+     "bans": 201,
+     "wins": 163,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 15,
+    "bans": 12,
+    "wins": 7,
+    "presence": 0.4426,
+    "winrate": 0.4667,
+    "avg_pick_round": 1.73,
+    "blind_pick_pct": 40.0,
+    "avg_ban_turn": 7.7
+   }
+  },
+  "Ryze": {
+   "name": "Ryze",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 0.994,
+    "top": 0.006
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "B",
+   "weighted_presence": 0.3653,
+   "weighted_pickrate": 0.2281,
+   "weighted_banrate": 0.1372,
+   "weighted_games": 126.01,
+   "weighted_winrate": 0.4772,
+   "weighted_winrate_unsmoothed": 0.4754,
+   "avg_pick_round": 1.59,
+   "blind_pick_pct": 84.66,
+   "avg_ban_turn": 5.47,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 156,
+     "bans": 94,
+     "wins": 75,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 396,
+     "bans": 245,
+     "wins": 194,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 5,
+    "bans": 3,
+    "wins": 0,
+    "presence": 0.1311,
+    "winrate": 0.0,
+    "avg_pick_round": 1.8,
+    "blind_pick_pct": 40.0,
+    "avg_ban_turn": 7.7
+   }
+  },
+  "Caitlyn": {
+   "name": "Caitlyn",
+   "roles": [
+    "bot"
+   ],
+   "role_share": {
+    "bot": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "B",
+   "weighted_presence": 0.3631,
+   "weighted_pickrate": 0.1503,
+   "weighted_banrate": 0.2129,
+   "weighted_games": 82.55,
+   "weighted_winrate": 0.4502,
+   "weighted_winrate_unsmoothed": 0.4442,
+   "avg_pick_round": 1.98,
+   "blind_pick_pct": 45.4,
+   "avg_ban_turn": 5.18,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 103,
+     "bans": 154,
+     "wins": 46,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 258,
+     "bans": 300,
+     "wins": 119,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 7,
+    "bans": 6,
+    "wins": 2,
+    "presence": 0.2131,
+    "winrate": 0.2857,
+    "avg_pick_round": 1.86,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": 6.2
+   }
+  },
+  "MonkeyKing": {
+   "name": "Wukong",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 0.994,
+    "top": 0.006
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "B",
+   "weighted_presence": 0.3198,
+   "weighted_pickrate": 0.1726,
+   "weighted_banrate": 0.1472,
+   "weighted_games": 95.48,
+   "weighted_winrate": 0.5152,
+   "weighted_winrate_unsmoothed": 0.5168,
+   "avg_pick_round": 1.91,
+   "blind_pick_pct": 40.37,
+   "avg_ban_turn": 6.8,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 123,
+     "bans": 96,
+     "wins": 62,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 287,
+     "bans": 221,
+     "wins": 148,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 8,
+    "bans": 13,
+    "wins": 4,
+    "presence": 0.3443,
+    "winrate": 0.5,
+    "avg_pick_round": 1.38,
+    "blind_pick_pct": 37.5,
+    "avg_ban_turn": 5.8
+   }
+  },
+  "Karma": {
+   "name": "Karma",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 0.992,
+    "top": 0.008
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "B",
+   "weighted_presence": 0.3076,
+   "weighted_pickrate": 0.1683,
+   "weighted_banrate": 0.1393,
+   "weighted_games": 91.18,
+   "weighted_winrate": 0.4676,
+   "weighted_winrate_unsmoothed": 0.4641,
+   "avg_pick_round": 1.84,
+   "blind_pick_pct": 61.66,
+   "avg_ban_turn": 5.37,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 114,
+     "bans": 95,
+     "wins": 54,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 273,
+     "bans": 230,
+     "wins": 131,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 12,
+    "bans": 2,
+    "wins": 3,
+    "presence": 0.2295,
+    "winrate": 0.25,
+    "avg_pick_round": 1.5,
+    "blind_pick_pct": 41.7,
+    "avg_ban_turn": 5.5
+   }
+  },
+  "Viktor": {
+   "name": "Viktor",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 0.941,
+    "bot": 0.059
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "B",
+   "weighted_presence": 0.3065,
+   "weighted_pickrate": 0.1996,
+   "weighted_banrate": 0.1069,
+   "weighted_games": 108.79,
+   "weighted_winrate": 0.5059,
+   "weighted_winrate_unsmoothed": 0.5064,
+   "avg_pick_round": 2.0,
+   "blind_pick_pct": 45.91,
+   "avg_ban_turn": 6.43,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 136,
+     "bans": 72,
+     "wins": 67,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 314,
+     "bans": 177,
+     "wins": 163,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 12,
+    "bans": 6,
+    "wins": 5,
+    "presence": 0.2951,
+    "winrate": 0.4167,
+    "avg_pick_round": 1.75,
+    "blind_pick_pct": 33.3,
+    "avg_ban_turn": 7.0
+   }
+  },
+  "Pantheon": {
+   "name": "Pantheon",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 0.96,
+    "support": 0.024,
+    "top": 0.015
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "B",
+   "weighted_presence": 0.2918,
+   "weighted_pickrate": 0.1431,
+   "weighted_banrate": 0.1487,
+   "weighted_games": 79.63,
+   "weighted_winrate": 0.4473,
+   "weighted_winrate_unsmoothed": 0.4406,
+   "avg_pick_round": 2.1,
+   "blind_pick_pct": 50.51,
+   "avg_ban_turn": 5.48,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 90,
+     "bans": 104,
+     "wins": 36,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 269,
+     "bans": 252,
+     "wins": 124,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 13,
+    "bans": 5,
+    "wins": 7,
+    "presence": 0.2951,
+    "winrate": 0.5385,
+    "avg_pick_round": 1.92,
+    "blind_pick_pct": 38.5,
+    "avg_ban_turn": 5.0
+   }
+  },
+  "Yunara": {
+   "name": "Yunara",
+   "roles": [
+    "bot"
+   ],
+   "role_share": {
+    "bot": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "B",
+   "weighted_presence": 0.289,
+   "weighted_pickrate": 0.2368,
+   "weighted_banrate": 0.0522,
+   "weighted_games": 128.07,
+   "weighted_winrate": 0.5525,
+   "weighted_winrate_unsmoothed": 0.5566,
+   "avg_pick_round": 1.68,
+   "blind_pick_pct": 58.0,
+   "avg_ban_turn": 5.67,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 167,
+     "bans": 37,
+     "wins": 89,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 344,
+     "bans": 84,
+     "wins": 195,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 12,
+    "bans": 2,
+    "wins": 6,
+    "presence": 0.2295,
+    "winrate": 0.5,
+    "avg_pick_round": 1.75,
+    "blind_pick_pct": 66.7,
+    "avg_ban_turn": 7.0
+   }
+  },
+  "Bard": {
+   "name": "Bard",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "B",
+   "weighted_presence": 0.2883,
+   "weighted_pickrate": 0.1483,
+   "weighted_banrate": 0.14,
+   "weighted_games": 82.56,
+   "weighted_winrate": 0.4626,
+   "weighted_winrate_unsmoothed": 0.4581,
+   "avg_pick_round": 1.88,
+   "blind_pick_pct": 54.05,
+   "avg_ban_turn": 5.53,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 102,
+     "bans": 88,
+     "wins": 49,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 278,
+     "bans": 313,
+     "wins": 122,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 1,
+    "bans": 2,
+    "wins": 1,
+    "presence": 0.0492,
+    "winrate": 1.0,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 100.0,
+    "avg_ban_turn": 5.5
+   }
+  },
+  "Ambessa": {
+   "name": "Ambessa",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 0.956,
+    "jungle": 0.034,
+    "mid": 0.01
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "B",
+   "weighted_presence": 0.2862,
+   "weighted_pickrate": 0.1876,
+   "weighted_banrate": 0.0986,
+   "weighted_games": 104.36,
+   "weighted_winrate": 0.5318,
+   "weighted_winrate_unsmoothed": 0.5348,
+   "avg_pick_round": 1.87,
+   "blind_pick_pct": 47.89,
+   "avg_ban_turn": 7.06,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 121,
+     "bans": 61,
+     "wins": 67,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 317,
+     "bans": 195,
+     "wins": 165,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 17,
+    "bans": 8,
+    "wins": 9,
+    "presence": 0.4098,
+    "winrate": 0.5294,
+    "avg_pick_round": 1.35,
+    "blind_pick_pct": 64.7,
+    "avg_ban_turn": 7.3
+   }
+  },
+  "Kalista": {
+   "name": "Kalista",
+   "roles": [
+    "bot"
+   ],
+   "role_share": {
+    "bot": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "B",
+   "weighted_presence": 0.2689,
+   "weighted_pickrate": 0.1526,
+   "weighted_banrate": 0.1163,
+   "weighted_games": 81.1,
+   "weighted_winrate": 0.5203,
+   "weighted_winrate_unsmoothed": 0.5228,
+   "avg_pick_round": 2.04,
+   "blind_pick_pct": 66.36,
+   "avg_ban_turn": 5.31,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 105,
+     "bans": 84,
+     "wins": 56,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 196,
+     "bans": 169,
+     "wins": 102,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 14,
+    "bans": 2,
+    "wins": 8,
+    "presence": 0.2623,
+    "winrate": 0.5714,
+    "avg_pick_round": 1.5,
+    "blind_pick_pct": 64.3,
+    "avg_ban_turn": 7.0
+   }
+  },
+  "Renata": {
+   "name": "Renata Glasc",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "B",
+   "weighted_presence": 0.2668,
+   "weighted_pickrate": 0.1557,
+   "weighted_banrate": 0.1111,
+   "weighted_games": 82.73,
+   "weighted_winrate": 0.5455,
+   "weighted_winrate_unsmoothed": 0.551,
+   "avg_pick_round": 2.02,
+   "blind_pick_pct": 64.63,
+   "avg_ban_turn": 4.02,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 108,
+     "bans": 61,
+     "wins": 61,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 199,
+     "bans": 79,
+     "wins": 108,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 14,
+    "bans": 36,
+    "wins": 8,
+    "presence": 0.8197,
+    "winrate": 0.5714,
+    "avg_pick_round": 1.5,
+    "blind_pick_pct": 78.6,
+    "avg_ban_turn": 3.1
+   }
+  },
+  "Gnar": {
+   "name": "Gnar",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "B",
+   "weighted_presence": 0.2653,
+   "weighted_pickrate": 0.1477,
+   "weighted_banrate": 0.1176,
+   "weighted_games": 80.73,
+   "weighted_winrate": 0.5556,
+   "weighted_winrate_unsmoothed": 0.5625,
+   "avg_pick_round": 1.99,
+   "blind_pick_pct": 55.72,
+   "avg_ban_turn": 7.38,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 102,
+     "bans": 83,
+     "wins": 57,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 248,
+     "bans": 163,
+     "wins": 131,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 9,
+    "bans": 3,
+    "wins": 6,
+    "presence": 0.1967,
+    "winrate": 0.6667,
+    "avg_pick_round": 1.56,
+    "blind_pick_pct": 55.6,
+    "avg_ban_turn": 8.7
+   }
+  },
+  "Jhin": {
+   "name": "Jhin",
+   "roles": [
+    "bot"
+   ],
+   "role_share": {
+    "bot": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "B",
+   "weighted_presence": 0.2607,
+   "weighted_pickrate": 0.1778,
+   "weighted_banrate": 0.0829,
+   "weighted_games": 98.29,
+   "weighted_winrate": 0.4567,
+   "weighted_winrate_unsmoothed": 0.4523,
+   "avg_pick_round": 1.96,
+   "blind_pick_pct": 41.21,
+   "avg_ban_turn": 8.07,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 115,
+     "bans": 54,
+     "wins": 49,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 315,
+     "bans": 120,
+     "wins": 150,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 15,
+    "bans": 10,
+    "wins": 7,
+    "presence": 0.4098,
+    "winrate": 0.4667,
+    "avg_pick_round": 1.33,
+    "blind_pick_pct": 60.0,
+    "avg_ban_turn": 7.3
+   }
+  },
+  "Naafiri": {
+   "name": "Naafiri",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "B",
+   "weighted_presence": 0.2586,
+   "weighted_pickrate": 0.131,
+   "weighted_banrate": 0.1275,
+   "weighted_games": 71.53,
+   "weighted_winrate": 0.4727,
+   "weighted_winrate_unsmoothed": 0.4689,
+   "avg_pick_round": 2.23,
+   "blind_pick_pct": 40.32,
+   "avg_ban_turn": 5.92,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 89,
+     "bans": 92,
+     "wins": 43,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 231,
+     "bans": 227,
+     "wins": 111,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 2,
+    "bans": 4,
+    "wins": 2,
+    "presence": 0.0984,
+    "winrate": 1.0,
+    "avg_pick_round": 2.5,
+    "blind_pick_pct": 50.0,
+    "avg_ban_turn": 7.0
+   }
+  },
+  "Locke": {
+   "name": "Locke",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 0.972,
+    "jungle": 0.028
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "B",
+   "weighted_presence": 0.2557,
+   "weighted_pickrate": 0.0958,
+   "weighted_banrate": 0.1599,
+   "weighted_games": 52.75,
+   "weighted_winrate": 0.5526,
+   "weighted_winrate_unsmoothed": 0.5626,
+   "avg_pick_round": 1.96,
+   "blind_pick_pct": 24.12,
+   "avg_ban_turn": 5.78,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 63,
+     "bans": 95,
+     "wins": 36,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 163,
+     "bans": 272,
+     "wins": 82,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 8,
+    "bans": 23,
+    "wins": 5,
+    "presence": 0.5082,
+    "winrate": 0.625,
+    "avg_pick_round": 1.38,
+    "blind_pick_pct": 25.0,
+    "avg_ban_turn": 6.3
+   }
+  },
+  "XinZhao": {
+   "name": "Xin Zhao",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 0.992,
+    "top": 0.008
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.232,
+   "weighted_pickrate": 0.1288,
+   "weighted_banrate": 0.1032,
+   "weighted_games": 72.74,
+   "weighted_winrate": 0.5062,
+   "weighted_winrate_unsmoothed": 0.507,
+   "avg_pick_round": 2.11,
+   "blind_pick_pct": 31.19,
+   "avg_ban_turn": 7.94,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 85,
+     "bans": 74,
+     "wins": 45,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 256,
+     "bans": 166,
+     "wins": 117,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 5,
+    "bans": 3,
+    "wins": 3,
+    "presence": 0.1311,
+    "winrate": 0.6,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 20.0,
+    "avg_ban_turn": 8.3
+   }
+  },
+  "Ahri": {
+   "name": "Ahri",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.2295,
+   "weighted_pickrate": 0.1342,
+   "weighted_banrate": 0.0953,
+   "weighted_games": 73.69,
+   "weighted_winrate": 0.5481,
+   "weighted_winrate_unsmoothed": 0.5547,
+   "avg_pick_round": 2.26,
+   "blind_pick_pct": 42.69,
+   "avg_ban_turn": 7.93,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 94,
+     "bans": 66,
+     "wins": 51,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 228,
+     "bans": 157,
+     "wins": 125,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 2,
+    "bans": 5,
+    "wins": 2,
+    "presence": 0.1148,
+    "winrate": 1.0,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": 8.2
+   }
+  },
+  "Milio": {
+   "name": "Milio",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.2288,
+   "weighted_pickrate": 0.2162,
+   "weighted_banrate": 0.0126,
+   "weighted_games": 118.39,
+   "weighted_winrate": 0.4542,
+   "weighted_winrate_unsmoothed": 0.4503,
+   "avg_pick_round": 1.65,
+   "blind_pick_pct": 58.18,
+   "avg_ban_turn": 6.37,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 150,
+     "bans": 11,
+     "wins": 68,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 341,
+     "bans": 16,
+     "wins": 152,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 8,
+    "bans": 0,
+    "wins": 4,
+    "presence": 0.1311,
+    "winrate": 0.5,
+    "avg_pick_round": 2.63,
+    "blind_pick_pct": 62.5,
+    "avg_ban_turn": null
+   }
+  },
+  "Skarner": {
+   "name": "Skarner",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.2253,
+   "weighted_pickrate": 0.1054,
+   "weighted_banrate": 0.1198,
+   "weighted_games": 56.62,
+   "weighted_winrate": 0.526,
+   "weighted_winrate_unsmoothed": 0.5306,
+   "avg_pick_round": 2.25,
+   "blind_pick_pct": 17.81,
+   "avg_ban_turn": 6.91,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 75,
+     "bans": 81,
+     "wins": 41,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 163,
+     "bans": 176,
+     "wins": 88,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 3,
+    "bans": 6,
+    "wins": 0,
+    "presence": 0.1475,
+    "winrate": 0.0,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": 8.7
+   }
+  },
+  "Camille": {
+   "name": "Camille",
+   "roles": [
+    "top",
+    "support"
+   ],
+   "role_share": {
+    "top": 0.854,
+    "support": 0.146
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.2238,
+   "weighted_pickrate": 0.123,
+   "weighted_banrate": 0.1008,
+   "weighted_games": 67.14,
+   "weighted_winrate": 0.5723,
+   "weighted_winrate_unsmoothed": 0.583,
+   "avg_pick_round": 2.3,
+   "blind_pick_pct": 38.24,
+   "avg_ban_turn": 6.63,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 84,
+     "bans": 67,
+     "wins": 50,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 207,
+     "bans": 155,
+     "wins": 114,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 6,
+    "bans": 8,
+    "wins": 4,
+    "presence": 0.2295,
+    "winrate": 0.6667,
+    "avg_pick_round": 1.67,
+    "blind_pick_pct": 33.3,
+    "avg_ban_turn": 8.0
+   }
+  },
+  "Galio": {
+   "name": "Galio",
+   "roles": [
+    "mid",
+    "top"
+   ],
+   "role_share": {
+    "mid": 0.632,
+    "top": 0.35,
+    "support": 0.018
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.2168,
+   "weighted_pickrate": 0.1293,
+   "weighted_banrate": 0.0875,
+   "weighted_games": 70.31,
+   "weighted_winrate": 0.5636,
+   "weighted_winrate_unsmoothed": 0.5727,
+   "avg_pick_round": 1.87,
+   "blind_pick_pct": 12.06,
+   "avg_ban_turn": 6.79,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 85,
+     "bans": 57,
+     "wins": 51,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 203,
+     "bans": 148,
+     "wins": 100,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 11,
+    "bans": 13,
+    "wins": 8,
+    "presence": 0.3934,
+    "winrate": 0.7273,
+    "avg_pick_round": 1.45,
+    "blind_pick_pct": 27.3,
+    "avg_ban_turn": 5.2
+   }
+  },
+  "Ashe": {
+   "name": "Ashe",
+   "roles": [
+    "bot"
+   ],
+   "role_share": {
+    "bot": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.198,
+   "weighted_pickrate": 0.165,
+   "weighted_banrate": 0.0329,
+   "weighted_games": 89.37,
+   "weighted_winrate": 0.5351,
+   "weighted_winrate_unsmoothed": 0.539,
+   "avg_pick_round": 1.89,
+   "blind_pick_pct": 49.31,
+   "avg_ban_turn": 6.21,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 112,
+     "bans": 23,
+     "wins": 58,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 246,
+     "bans": 54,
+     "wins": 135,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 9,
+    "bans": 2,
+    "wins": 6,
+    "presence": 0.1803,
+    "winrate": 0.6667,
+    "avg_pick_round": 1.67,
+    "blind_pick_pct": 77.8,
+    "avg_ban_turn": 8.5
+   }
+  },
+  "Renekton": {
+   "name": "Renekton",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.1957,
+   "weighted_pickrate": 0.1023,
+   "weighted_banrate": 0.0933,
+   "weighted_games": 56.13,
+   "weighted_winrate": 0.5451,
+   "weighted_winrate_unsmoothed": 0.5532,
+   "avg_pick_round": 2.51,
+   "blind_pick_pct": 71.45,
+   "avg_ban_turn": 8.55,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 72,
+     "bans": 60,
+     "wins": 44,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 174,
+     "bans": 155,
+     "wins": 85,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 5,
+    "bans": 10,
+    "wins": 4,
+    "presence": 0.2459,
+    "winrate": 0.8,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 20.0,
+    "avg_ban_turn": 10.0
+   }
+  },
+  "Alistar": {
+   "name": "Alistar",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.1871,
+   "weighted_pickrate": 0.1321,
+   "weighted_banrate": 0.055,
+   "weighted_games": 71.14,
+   "weighted_winrate": 0.4955,
+   "weighted_winrate_unsmoothed": 0.4949,
+   "avg_pick_round": 2.26,
+   "blind_pick_pct": 38.14,
+   "avg_ban_turn": 8.41,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 85,
+     "bans": 37,
+     "wins": 45,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 195,
+     "bans": 99,
+     "wins": 94,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 19,
+    "bans": 2,
+    "wins": 6,
+    "presence": 0.3443,
+    "winrate": 0.3158,
+    "avg_pick_round": 1.32,
+    "blind_pick_pct": 42.1,
+    "avg_ban_turn": 9.5
+   }
+  },
+  "Trundle": {
+   "name": "Trundle",
+   "roles": [
+    "jungle",
+    "top"
+   ],
+   "role_share": {
+    "jungle": 0.84,
+    "top": 0.16
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.186,
+   "weighted_pickrate": 0.1082,
+   "weighted_banrate": 0.0778,
+   "weighted_games": 58.64,
+   "weighted_winrate": 0.5384,
+   "weighted_winrate_unsmoothed": 0.5449,
+   "avg_pick_round": 2.46,
+   "blind_pick_pct": 30.51,
+   "avg_ban_turn": 7.28,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 71,
+     "bans": 51,
+     "wins": 39,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 179,
+     "bans": 111,
+     "wins": 98,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 7,
+    "bans": 5,
+    "wins": 5,
+    "presence": 0.1967,
+    "winrate": 0.7143,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": 6.6
+   }
+  },
+  "Poppy": {
+   "name": "Poppy",
+   "roles": [
+    "jungle",
+    "support"
+   ],
+   "role_share": {
+    "jungle": 0.481,
+    "support": 0.437,
+    "top": 0.082
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.178,
+   "weighted_pickrate": 0.0398,
+   "weighted_banrate": 0.1383,
+   "weighted_games": 21.94,
+   "weighted_winrate": 0.5595,
+   "weighted_winrate_unsmoothed": 0.5866,
+   "avg_pick_round": 2.77,
+   "blind_pick_pct": 5.97,
+   "avg_ban_turn": 4.4,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 28,
+     "bans": 89,
+     "wins": 17,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 72,
+     "bans": 302,
+     "wins": 38,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 1,
+    "bans": 3,
+    "wins": 1,
+    "presence": 0.0656,
+    "winrate": 1.0,
+    "avg_pick_round": 1.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": 7.3
+   }
+  },
+  "Rakan": {
+   "name": "Rakan",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.1679,
+   "weighted_pickrate": 0.1282,
+   "weighted_banrate": 0.0398,
+   "weighted_games": 70.75,
+   "weighted_winrate": 0.5343,
+   "weighted_winrate_unsmoothed": 0.5391,
+   "avg_pick_round": 2.39,
+   "blind_pick_pct": 43.64,
+   "avg_ban_turn": 7.85,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 86,
+     "bans": 27,
+     "wins": 45,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 216,
+     "bans": 70,
+     "wins": 123,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 6,
+    "bans": 1,
+    "wins": 3,
+    "presence": 0.1148,
+    "winrate": 0.5,
+    "avg_pick_round": 1.67,
+    "blind_pick_pct": 16.7,
+    "avg_ban_turn": 9.0
+   }
+  },
+  "Sylas": {
+   "name": "Sylas",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 0.97,
+    "jungle": 0.02,
+    "top": 0.01
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.1512,
+   "weighted_pickrate": 0.0684,
+   "weighted_banrate": 0.0828,
+   "weighted_games": 37.18,
+   "weighted_winrate": 0.5153,
+   "weighted_winrate_unsmoothed": 0.5194,
+   "avg_pick_round": 2.73,
+   "blind_pick_pct": 17.23,
+   "avg_ban_turn": 7.73,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 49,
+     "bans": 57,
+     "wins": 26,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 109,
+     "bans": 131,
+     "wins": 59,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 3,
+    "bans": 4,
+    "wins": 1,
+    "presence": 0.1148,
+    "winrate": 0.3333,
+    "avg_pick_round": 1.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": 8.5
+   }
+  },
+  "Anivia": {
+   "name": "Anivia",
+   "roles": [
+    "mid",
+    "top"
+   ],
+   "role_share": {
+    "mid": 0.875,
+    "top": 0.125
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.146,
+   "weighted_pickrate": 0.0815,
+   "weighted_banrate": 0.0646,
+   "weighted_games": 44.81,
+   "weighted_winrate": 0.4646,
+   "weighted_winrate_unsmoothed": 0.4567,
+   "avg_pick_round": 2.19,
+   "blind_pick_pct": 33.41,
+   "avg_ban_turn": 6.97,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 51,
+     "bans": 40,
+     "wins": 25,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 139,
+     "bans": 130,
+     "wins": 65,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 6,
+    "bans": 4,
+    "wins": 1,
+    "presence": 0.1639,
+    "winrate": 0.1667,
+    "avg_pick_round": 1.5,
+    "blind_pick_pct": 50.0,
+    "avg_ban_turn": 6.8
+   }
+  },
+  "Xayah": {
+   "name": "Xayah",
+   "roles": [
+    "bot"
+   ],
+   "role_share": {
+    "bot": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.1443,
+   "weighted_pickrate": 0.1064,
+   "weighted_banrate": 0.0379,
+   "weighted_games": 58.88,
+   "weighted_winrate": 0.5858,
+   "weighted_winrate_unsmoothed": 0.6004,
+   "avg_pick_round": 2.49,
+   "blind_pick_pct": 41.58,
+   "avg_ban_turn": 7.8,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 72,
+     "bans": 26,
+     "wins": 44,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 180,
+     "bans": 72,
+     "wins": 105,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 4,
+    "bans": 0,
+    "wins": 3,
+    "presence": 0.0656,
+    "winrate": 0.75,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 50.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Jax": {
+   "name": "Jax",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 0.978,
+    "jungle": 0.022
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.1317,
+   "weighted_pickrate": 0.0658,
+   "weighted_banrate": 0.0659,
+   "weighted_games": 35.66,
+   "weighted_winrate": 0.4715,
+   "weighted_winrate_unsmoothed": 0.4635,
+   "avg_pick_round": 2.74,
+   "blind_pick_pct": 25.25,
+   "avg_ban_turn": 7.41,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 46,
+     "bans": 40,
+     "wins": 22,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 101,
+     "bans": 112,
+     "wins": 45,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 4,
+    "bans": 3,
+    "wins": 2,
+    "presence": 0.1148,
+    "winrate": 0.5,
+    "avg_pick_round": 1.75,
+    "blind_pick_pct": 25.0,
+    "avg_ban_turn": 9.7
+   }
+  },
+  "Varus": {
+   "name": "Varus",
+   "roles": [
+    "bot",
+    "top"
+   ],
+   "role_share": {
+    "bot": 0.716,
+    "top": 0.284
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.1283,
+   "weighted_pickrate": 0.0787,
+   "weighted_banrate": 0.0495,
+   "weighted_games": 44.13,
+   "weighted_winrate": 0.5304,
+   "weighted_winrate_unsmoothed": 0.5372,
+   "avg_pick_round": 2.62,
+   "blind_pick_pct": 45.75,
+   "avg_ban_turn": 6.33,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 51,
+     "bans": 32,
+     "wins": 28,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 160,
+     "bans": 103,
+     "wins": 78,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 1,
+    "bans": 0,
+    "wins": 1,
+    "presence": 0.0164,
+    "winrate": 1.0,
+    "avg_pick_round": 1.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Annie": {
+   "name": "Annie",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.1273,
+   "weighted_pickrate": 0.0709,
+   "weighted_banrate": 0.0563,
+   "weighted_games": 38.05,
+   "weighted_winrate": 0.5749,
+   "weighted_winrate_unsmoothed": 0.5946,
+   "avg_pick_round": 2.34,
+   "blind_pick_pct": 49.53,
+   "avg_ban_turn": 7.64,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 51,
+     "bans": 40,
+     "wins": 31,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 107,
+     "bans": 91,
+     "wins": 57,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 4,
+    "bans": 2,
+    "wins": 2,
+    "presence": 0.0984,
+    "winrate": 0.5,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 100.0,
+    "avg_ban_turn": 9.5
+   }
+  },
+  "Kaisa": {
+   "name": "Kai'Sa",
+   "roles": [
+    "bot"
+   ],
+   "role_share": {
+    "bot": 0.978,
+    "top": 0.022
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.126,
+   "weighted_pickrate": 0.077,
+   "weighted_banrate": 0.049,
+   "weighted_games": 43.42,
+   "weighted_winrate": 0.5218,
+   "weighted_winrate_unsmoothed": 0.5269,
+   "avg_pick_round": 2.27,
+   "blind_pick_pct": 20.86,
+   "avg_ban_turn": 7.97,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 49,
+     "bans": 31,
+     "wins": 26,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 150,
+     "bans": 110,
+     "wins": 83,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 8,
+    "bans": 3,
+    "wins": 4,
+    "presence": 0.1803,
+    "winrate": 0.5,
+    "avg_pick_round": 1.0,
+    "blind_pick_pct": 25.0,
+    "avg_ban_turn": 7.0
+   }
+  },
+  "Maokai": {
+   "name": "Maokai",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 0.982,
+    "support": 0.018
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.1179,
+   "weighted_pickrate": 0.0709,
+   "weighted_banrate": 0.047,
+   "weighted_games": 37.01,
+   "weighted_winrate": 0.4205,
+   "weighted_winrate_unsmoothed": 0.399,
+   "avg_pick_round": 2.95,
+   "blind_pick_pct": 42.52,
+   "avg_ban_turn": 7.54,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 51,
+     "bans": 31,
+     "wins": 21,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 94,
+     "bans": 47,
+     "wins": 41,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 3,
+    "bans": 2,
+    "wins": 0,
+    "presence": 0.082,
+    "winrate": 0.0,
+    "avg_pick_round": 3.33,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": 9.0
+   }
+  },
+  "Vayne": {
+   "name": "Vayne",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.1169,
+   "weighted_pickrate": 0.0186,
+   "weighted_banrate": 0.0983,
+   "weighted_games": 10.0,
+   "weighted_winrate": 0.4929,
+   "weighted_winrate_unsmoothed": 0.4858,
+   "avg_pick_round": 2.59,
+   "blind_pick_pct": 5.57,
+   "avg_ban_turn": 7.37,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 12,
+     "bans": 65,
+     "wins": 6,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 31,
+     "bans": 206,
+     "wins": 13,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 1,
+    "bans": 4,
+    "wins": 0,
+    "presence": 0.082,
+    "winrate": 0.0,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": 8.3
+   }
+  },
+  "Leblanc": {
+   "name": "LeBlanc",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 0.979,
+    "support": 0.021
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.1124,
+   "weighted_pickrate": 0.0439,
+   "weighted_banrate": 0.0685,
+   "weighted_games": 23.85,
+   "weighted_winrate": 0.5197,
+   "weighted_winrate_unsmoothed": 0.5279,
+   "avg_pick_round": 2.56,
+   "blind_pick_pct": 10.76,
+   "avg_ban_turn": 7.2,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 31,
+     "bans": 47,
+     "wins": 17,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 65,
+     "bans": 113,
+     "wins": 38,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 4,
+    "bans": 3,
+    "wins": 1,
+    "presence": 0.1148,
+    "winrate": 0.25,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": 8.3
+   }
+  },
+  "Rell": {
+   "name": "Rell",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.1079,
+   "weighted_pickrate": 0.0848,
+   "weighted_banrate": 0.0231,
+   "weighted_games": 49.51,
+   "weighted_winrate": 0.4123,
+   "weighted_winrate_unsmoothed": 0.3946,
+   "avg_pick_round": 2.65,
+   "blind_pick_pct": 31.03,
+   "avg_ban_turn": 8.75,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 51,
+     "bans": 13,
+     "wins": 14,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 203,
+     "bans": 70,
+     "wins": 103,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 2,
+    "bans": 0,
+    "wins": 0,
+    "presence": 0.0328,
+    "winrate": 0.0,
+    "avg_pick_round": 1.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Yone": {
+   "name": "Yone",
+   "roles": [
+    "mid",
+    "top"
+   ],
+   "role_share": {
+    "mid": 0.825,
+    "top": 0.175
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.1079,
+   "weighted_pickrate": 0.0486,
+   "weighted_banrate": 0.0593,
+   "weighted_games": 27.22,
+   "weighted_winrate": 0.4305,
+   "weighted_winrate_unsmoothed": 0.4049,
+   "avg_pick_round": 2.55,
+   "blind_pick_pct": 29.66,
+   "avg_ban_turn": 6.78,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 29,
+     "bans": 39,
+     "wins": 11,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 97,
+     "bans": 76,
+     "wins": 45,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 2,
+    "bans": 2,
+    "wins": 0,
+    "presence": 0.0656,
+    "winrate": 0.0,
+    "avg_pick_round": 3.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": 10.0
+   }
+  },
+  "TwistedFate": {
+   "name": "Twisted Fate",
+   "roles": [
+    "mid",
+    "top"
+   ],
+   "role_share": {
+    "mid": 0.741,
+    "top": 0.259
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.1072,
+   "weighted_pickrate": 0.0426,
+   "weighted_banrate": 0.0646,
+   "weighted_games": 22.32,
+   "weighted_winrate": 0.5618,
+   "weighted_winrate_unsmoothed": 0.5896,
+   "avg_pick_round": 2.56,
+   "blind_pick_pct": 28.74,
+   "avg_ban_turn": 8.47,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 32,
+     "bans": 49,
+     "wins": 21,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 61,
+     "bans": 70,
+     "wins": 31,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 0,
+    "bans": 4,
+    "wins": 0,
+    "presence": 0.0656,
+    "winrate": null,
+    "avg_pick_round": null,
+    "blind_pick_pct": null,
+    "avg_ban_turn": 9.0
+   }
+  },
+  "Sivir": {
+   "name": "Sivir",
+   "roles": [
+    "bot"
+   ],
+   "role_share": {
+    "bot": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.1052,
+   "weighted_pickrate": 0.0682,
+   "weighted_banrate": 0.037,
+   "weighted_games": 37.91,
+   "weighted_winrate": 0.5264,
+   "weighted_winrate_unsmoothed": 0.5334,
+   "avg_pick_round": 2.31,
+   "blind_pick_pct": 23.48,
+   "avg_ban_turn": 7.51,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 46,
+     "bans": 22,
+     "wins": 23,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 131,
+     "bans": 87,
+     "wins": 73,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 1,
+    "bans": 3,
+    "wins": 1,
+    "presence": 0.0656,
+    "winrate": 1.0,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": 7.7
+   }
+  },
+  "Taliyah": {
+   "name": "Taliyah",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 0.927,
+    "bot": 0.045,
+    "jungle": 0.027
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "C",
+   "weighted_presence": 0.104,
+   "weighted_pickrate": 0.0675,
+   "weighted_banrate": 0.0365,
+   "weighted_games": 37.16,
+   "weighted_winrate": 0.5539,
+   "weighted_winrate_unsmoothed": 0.5684,
+   "avg_pick_round": 2.49,
+   "blind_pick_pct": 19.45,
+   "avg_ban_turn": 7.26,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 44,
+     "bans": 24,
+     "wins": 26,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 115,
+     "bans": 68,
+     "wins": 56,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 6,
+    "bans": 3,
+    "wins": 5,
+    "presence": 0.1475,
+    "winrate": 0.8333,
+    "avg_pick_round": 2.67,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": 9.0
+   }
+  },
+  "Chogath": {
+   "name": "Cho'Gath",
+   "roles": [
+    "jungle",
+    "top"
+   ],
+   "role_share": {
+    "jungle": 0.887,
+    "top": 0.113
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0927,
+   "weighted_pickrate": 0.0708,
+   "weighted_banrate": 0.022,
+   "weighted_games": 37.46,
+   "weighted_winrate": 0.41,
+   "weighted_winrate_unsmoothed": 0.386,
+   "avg_pick_round": 2.51,
+   "blind_pick_pct": 12.33,
+   "avg_ban_turn": 7.97,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 51,
+     "bans": 16,
+     "wins": 16,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 100,
+     "bans": 34,
+     "wins": 48,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 1,
+    "bans": 0,
+    "wins": 0,
+    "presence": 0.0164,
+    "winrate": 0.0,
+    "avg_pick_round": 3.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Corki": {
+   "name": "Corki",
+   "roles": [
+    "bot"
+   ],
+   "role_share": {
+    "bot": 0.893,
+    "mid": 0.089,
+    "top": 0.019
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0906,
+   "weighted_pickrate": 0.0749,
+   "weighted_banrate": 0.0157,
+   "weighted_games": 41.86,
+   "weighted_winrate": 0.4274,
+   "weighted_winrate_unsmoothed": 0.4101,
+   "avg_pick_round": 2.58,
+   "blind_pick_pct": 29.14,
+   "avg_ban_turn": 8.96,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 47,
+     "bans": 10,
+     "wins": 21,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 145,
+     "bans": 41,
+     "wins": 57,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 6,
+    "bans": 2,
+    "wins": 3,
+    "presence": 0.1311,
+    "winrate": 0.5,
+    "avg_pick_round": 1.5,
+    "blind_pick_pct": 16.7,
+    "avg_ban_turn": 8.5
+   }
+  },
+  "Tristana": {
+   "name": "Tristana",
+   "roles": [
+    "bot",
+    "mid"
+   ],
+   "role_share": {
+    "bot": 0.641,
+    "mid": 0.291,
+    "top": 0.068
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0899,
+   "weighted_pickrate": 0.0646,
+   "weighted_banrate": 0.0253,
+   "weighted_games": 35.77,
+   "weighted_winrate": 0.5333,
+   "weighted_winrate_unsmoothed": 0.5427,
+   "avg_pick_round": 2.49,
+   "blind_pick_pct": 33.59,
+   "avg_ban_turn": 7.08,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 42,
+     "bans": 16,
+     "wins": 23,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 115,
+     "bans": 65,
+     "wins": 65,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 6,
+    "bans": 0,
+    "wins": 3,
+    "presence": 0.0984,
+    "winrate": 0.5,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Leona": {
+   "name": "Leona",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0876,
+   "weighted_pickrate": 0.0616,
+   "weighted_banrate": 0.026,
+   "weighted_games": 36.9,
+   "weighted_winrate": 0.575,
+   "weighted_winrate_unsmoothed": 0.5953,
+   "avg_pick_round": 2.22,
+   "blind_pick_pct": 41.96,
+   "avg_ban_turn": 8.28,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 34,
+     "bans": 14,
+     "wins": 23,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 165,
+     "bans": 84,
+     "wins": 85,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 3,
+    "bans": 1,
+    "wins": 3,
+    "presence": 0.0656,
+    "winrate": 1.0,
+    "avg_pick_round": 1.33,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": 7.0
+   }
+  },
+  "Yorick": {
+   "name": "Yorick",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0843,
+   "weighted_pickrate": 0.0556,
+   "weighted_banrate": 0.0287,
+   "weighted_games": 29.53,
+   "weighted_winrate": 0.4689,
+   "weighted_winrate_unsmoothed": 0.4584,
+   "avg_pick_round": 2.38,
+   "blind_pick_pct": 13.88,
+   "avg_ban_turn": 8.16,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 40,
+     "bans": 19,
+     "wins": 19,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 81,
+     "bans": 72,
+     "wins": 38,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Ziggs": {
+   "name": "Ziggs",
+   "roles": [
+    "bot"
+   ],
+   "role_share": {
+    "bot": 0.918,
+    "mid": 0.082
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0833,
+   "weighted_pickrate": 0.0401,
+   "weighted_banrate": 0.0432,
+   "weighted_games": 22.1,
+   "weighted_winrate": 0.4217,
+   "weighted_winrate_unsmoothed": 0.3863,
+   "avg_pick_round": 2.72,
+   "blind_pick_pct": 31.59,
+   "avg_ban_turn": 6.02,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 27,
+     "bans": 29,
+     "wins": 12,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 70,
+     "bans": 101,
+     "wins": 26,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 2,
+    "bans": 1,
+    "wins": 1,
+    "presence": 0.0492,
+    "winrate": 0.5,
+    "avg_pick_round": 1.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": 8.0
+   }
+  },
+  "Zeri": {
+   "name": "Zeri",
+   "roles": [
+    "bot"
+   ],
+   "role_share": {
+    "bot": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0828,
+   "weighted_pickrate": 0.0588,
+   "weighted_banrate": 0.0241,
+   "weighted_games": 31.68,
+   "weighted_winrate": 0.5125,
+   "weighted_winrate_unsmoothed": 0.5164,
+   "avg_pick_round": 2.51,
+   "blind_pick_pct": 44.43,
+   "avg_ban_turn": 7.64,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 41,
+     "bans": 19,
+     "wins": 22,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 89,
+     "bans": 26,
+     "wins": 43,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 2,
+    "bans": 1,
+    "wins": 1,
+    "presence": 0.0492,
+    "winrate": 0.5,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": 9.0
+   }
+  },
+  "Ornn": {
+   "name": "Ornn",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 0.982,
+    "jungle": 0.018
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0779,
+   "weighted_pickrate": 0.0626,
+   "weighted_banrate": 0.0153,
+   "weighted_games": 34.36,
+   "weighted_winrate": 0.5182,
+   "weighted_winrate_unsmoothed": 0.5235,
+   "avg_pick_round": 1.76,
+   "blind_pick_pct": 21.56,
+   "avg_ban_turn": 8.26,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 41,
+     "bans": 10,
+     "wins": 22,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 97,
+     "bans": 26,
+     "wins": 46,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 7,
+    "bans": 1,
+    "wins": 5,
+    "presence": 0.1311,
+    "winrate": 0.7143,
+    "avg_pick_round": 1.71,
+    "blind_pick_pct": 14.3,
+    "avg_ban_turn": 8.0
+   }
+  },
+  "Shen": {
+   "name": "Shen",
+   "roles": [
+    "support",
+    "top"
+   ],
+   "role_share": {
+    "support": 0.539,
+    "top": 0.461
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0744,
+   "weighted_pickrate": 0.052,
+   "weighted_banrate": 0.0224,
+   "weighted_games": 28.96,
+   "weighted_winrate": 0.5081,
+   "weighted_winrate_unsmoothed": 0.5109,
+   "avg_pick_round": 2.63,
+   "blind_pick_pct": 34.29,
+   "avg_ban_turn": 7.55,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 33,
+     "bans": 14,
+     "wins": 18,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 104,
+     "bans": 70,
+     "wins": 54,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 5,
+    "bans": 0,
+    "wins": 1,
+    "presence": 0.082,
+    "winrate": 0.2,
+    "avg_pick_round": 1.2,
+    "blind_pick_pct": 20.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Sion": {
+   "name": "Sion",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 0.961,
+    "jungle": 0.029,
+    "mid": 0.01
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0743,
+   "weighted_pickrate": 0.062,
+   "weighted_banrate": 0.0123,
+   "weighted_games": 34.85,
+   "weighted_winrate": 0.487,
+   "weighted_winrate_unsmoothed": 0.4833,
+   "avg_pick_round": 2.21,
+   "blind_pick_pct": 47.1,
+   "avg_ban_turn": 8.82,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 44,
+     "bans": 6,
+     "wins": 24,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 114,
+     "bans": 40,
+     "wins": 46,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 1,
+    "bans": 0,
+    "wins": 1,
+    "presence": 0.0164,
+    "winrate": 1.0,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Aurora": {
+   "name": "Aurora",
+   "roles": [
+    "mid",
+    "top"
+   ],
+   "role_share": {
+    "mid": 0.862,
+    "top": 0.138
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.073,
+   "weighted_pickrate": 0.0519,
+   "weighted_banrate": 0.0211,
+   "weighted_games": 28.7,
+   "weighted_winrate": 0.4139,
+   "weighted_winrate_unsmoothed": 0.3839,
+   "avg_pick_round": 2.43,
+   "blind_pick_pct": 44.96,
+   "avg_ban_turn": 8.06,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 33,
+     "bans": 12,
+     "wins": 10,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 93,
+     "bans": 49,
+     "wins": 39,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 5,
+    "bans": 1,
+    "wins": 3,
+    "presence": 0.0984,
+    "winrate": 0.6,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 60.0,
+    "avg_ban_turn": 10.0
+   }
+  },
+  "Neeko": {
+   "name": "Neeko",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0677,
+   "weighted_pickrate": 0.0386,
+   "weighted_banrate": 0.029,
+   "weighted_games": 21.12,
+   "weighted_winrate": 0.4477,
+   "weighted_winrate_unsmoothed": 0.4229,
+   "avg_pick_round": 2.89,
+   "blind_pick_pct": 30.87,
+   "avg_ban_turn": 7.14,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 27,
+     "bans": 23,
+     "wins": 14,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 73,
+     "bans": 49,
+     "wins": 30,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 2,
+    "bans": 0,
+    "wins": 0,
+    "presence": 0.0328,
+    "winrate": 0.0,
+    "avg_pick_round": 1.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Gwen": {
+   "name": "Gwen",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0659,
+   "weighted_pickrate": 0.0404,
+   "weighted_banrate": 0.0254,
+   "weighted_games": 21.89,
+   "weighted_winrate": 0.5472,
+   "weighted_winrate_unsmoothed": 0.5687,
+   "avg_pick_round": 2.45,
+   "blind_pick_pct": 11.84,
+   "avg_ban_turn": 8.84,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 29,
+     "bans": 19,
+     "wins": 17,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 73,
+     "bans": 31,
+     "wins": 38,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 1,
+    "bans": 2,
+    "wins": 1,
+    "presence": 0.0492,
+    "winrate": 1.0,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": 9.5
+   }
+  },
+  "Zaahen": {
+   "name": "Zaahen",
+   "roles": [
+    "top",
+    "jungle"
+   ],
+   "role_share": {
+    "top": 0.755,
+    "jungle": 0.245
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0634,
+   "weighted_pickrate": 0.0502,
+   "weighted_banrate": 0.0132,
+   "weighted_games": 28.69,
+   "weighted_winrate": 0.4718,
+   "weighted_winrate_unsmoothed": 0.462,
+   "avg_pick_round": 2.54,
+   "blind_pick_pct": 11.34,
+   "avg_ban_turn": 7.65,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 31,
+     "bans": 8,
+     "wins": 13,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 90,
+     "bans": 27,
+     "wins": 45,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 1,
+    "bans": 0,
+    "wins": 0,
+    "presence": 0.0164,
+    "winrate": 0.0,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Aatrox": {
+   "name": "Aatrox",
+   "roles": [
+    "top",
+    "jungle"
+   ],
+   "role_share": {
+    "top": 0.755,
+    "jungle": 0.245
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0552,
+   "weighted_pickrate": 0.0456,
+   "weighted_banrate": 0.0095,
+   "weighted_games": 25.16,
+   "weighted_winrate": 0.4433,
+   "weighted_winrate_unsmoothed": 0.4207,
+   "avg_pick_round": 2.77,
+   "blind_pick_pct": 19.66,
+   "avg_ban_turn": 6.31,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 30,
+     "bans": 4,
+     "wins": 12,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 82,
+     "bans": 40,
+     "wins": 34,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 2,
+    "bans": 0,
+    "wins": 1,
+    "presence": 0.0328,
+    "winrate": 0.5,
+    "avg_pick_round": 3.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Sejuani": {
+   "name": "Sejuani",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0543,
+   "weighted_pickrate": 0.0423,
+   "weighted_banrate": 0.0121,
+   "weighted_games": 23.31,
+   "weighted_winrate": 0.4634,
+   "weighted_winrate_unsmoothed": 0.4478,
+   "avg_pick_round": 2.66,
+   "blind_pick_pct": 19.63,
+   "avg_ban_turn": 8.91,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 27,
+     "bans": 10,
+     "wins": 12,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 69,
+     "bans": 17,
+     "wins": 34,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 2,
+    "bans": 0,
+    "wins": 0,
+    "presence": 0.0328,
+    "winrate": 0.0,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "MissFortune": {
+   "name": "Miss Fortune",
+   "roles": [
+    "bot"
+   ],
+   "role_share": {
+    "bot": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0513,
+   "weighted_pickrate": 0.0383,
+   "weighted_banrate": 0.0129,
+   "weighted_games": 20.23,
+   "weighted_winrate": 0.4599,
+   "weighted_winrate_unsmoothed": 0.44,
+   "avg_pick_round": 2.92,
+   "blind_pick_pct": 25.75,
+   "avg_ban_turn": 8.04,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 27,
+     "bans": 11,
+     "wins": 11,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 53,
+     "bans": 22,
+     "wins": 24,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 2,
+    "bans": 0,
+    "wins": 0,
+    "presence": 0.0328,
+    "winrate": 0.0,
+    "avg_pick_round": 1.5,
+    "blind_pick_pct": 50.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Shyvana": {
+   "name": "Shyvana",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 0.909,
+    "top": 0.091
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0502,
+   "weighted_pickrate": 0.0214,
+   "weighted_banrate": 0.0288,
+   "weighted_games": 12.09,
+   "weighted_winrate": 0.4941,
+   "weighted_winrate_unsmoothed": 0.4892,
+   "avg_pick_round": 2.62,
+   "blind_pick_pct": 24.9,
+   "avg_ban_turn": 4.68,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 14,
+     "bans": 19,
+     "wins": 6,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 38,
+     "bans": 49,
+     "wins": 20,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Draven": {
+   "name": "Draven",
+   "roles": [
+    "bot"
+   ],
+   "role_share": {
+    "bot": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0469,
+   "weighted_pickrate": 0.0058,
+   "weighted_banrate": 0.0412,
+   "weighted_games": 3.36,
+   "weighted_winrate": 0.5167,
+   "weighted_winrate_unsmoothed": 0.5662,
+   "avg_pick_round": 2.08,
+   "blind_pick_pct": 11.54,
+   "avg_ban_turn": 4.12,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 3,
+     "bans": 30,
+     "wins": 2,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 10,
+     "bans": 50,
+     "wins": 5,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 0,
+    "bans": 4,
+    "wins": 0,
+    "presence": 0.0656,
+    "winrate": null,
+    "avg_pick_round": null,
+    "blind_pick_pct": null,
+    "avg_ban_turn": 7.0
+   }
+  },
+  "Kled": {
+   "name": "Kled",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0464,
+   "weighted_pickrate": 0.0253,
+   "weighted_banrate": 0.021,
+   "weighted_games": 13.66,
+   "weighted_winrate": 0.5405,
+   "weighted_winrate_unsmoothed": 0.5701,
+   "avg_pick_round": 2.22,
+   "blind_pick_pct": 14.15,
+   "avg_ban_turn": 6.19,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 16,
+     "bans": 13,
+     "wins": 9,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 43,
+     "bans": 38,
+     "wins": 24,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 2,
+    "bans": 1,
+    "wins": 2,
+    "presence": 0.0492,
+    "winrate": 1.0,
+    "avg_pick_round": 1.5,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": 8.0
+   }
+  },
+  "Lissandra": {
+   "name": "Lissandra",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0464,
+   "weighted_pickrate": 0.0309,
+   "weighted_banrate": 0.0155,
+   "weighted_games": 16.22,
+   "weighted_winrate": 0.4585,
+   "weighted_winrate_unsmoothed": 0.433,
+   "avg_pick_round": 3.05,
+   "blind_pick_pct": 18.15,
+   "avg_ban_turn": 7.76,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 24,
+     "bans": 13,
+     "wins": 11,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 43,
+     "bans": 24,
+     "wins": 21,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 2,
+    "bans": 0,
+    "wins": 1,
+    "presence": 0.0328,
+    "winrate": 0.5,
+    "avg_pick_round": 1.5,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Yuumi": {
+   "name": "Yuumi",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.046,
+   "weighted_pickrate": 0.0345,
+   "weighted_banrate": 0.0114,
+   "weighted_games": 18.06,
+   "weighted_winrate": 0.4764,
+   "weighted_winrate_unsmoothed": 0.4634,
+   "avg_pick_round": 2.76,
+   "blind_pick_pct": 14.03,
+   "avg_ban_turn": 7.48,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 25,
+     "bans": 9,
+     "wins": 11,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 46,
+     "bans": 17,
+     "wins": 21,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 2,
+    "bans": 0,
+    "wins": 1,
+    "presence": 0.0328,
+    "winrate": 0.5,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Aphelios": {
+   "name": "Aphelios",
+   "roles": [
+    "bot"
+   ],
+   "role_share": {
+    "bot": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0434,
+   "weighted_pickrate": 0.0342,
+   "weighted_banrate": 0.0092,
+   "weighted_games": 17.56,
+   "weighted_winrate": 0.4681,
+   "weighted_winrate_unsmoothed": 0.45,
+   "avg_pick_round": 3.31,
+   "blind_pick_pct": 26.84,
+   "avg_ban_turn": 8.01,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 25,
+     "bans": 5,
+     "wins": 11,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 38,
+     "bans": 14,
+     "wins": 18,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 2,
+    "bans": 1,
+    "wins": 1,
+    "presence": 0.0492,
+    "winrate": 0.5,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": 8.0
+   }
+  },
+  "Jinx": {
+   "name": "Jinx",
+   "roles": [
+    "bot"
+   ],
+   "role_share": {
+    "bot": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0421,
+   "weighted_pickrate": 0.0361,
+   "weighted_banrate": 0.006,
+   "weighted_games": 19.24,
+   "weighted_winrate": 0.5085,
+   "weighted_winrate_unsmoothed": 0.5129,
+   "avg_pick_round": 3.36,
+   "blind_pick_pct": 20.45,
+   "avg_ban_turn": 9.48,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 26,
+     "bans": 4,
+     "wins": 14,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 50,
+     "bans": 11,
+     "wins": 25,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 1,
+    "bans": 0,
+    "wins": 0,
+    "presence": 0.0164,
+    "winrate": 0.0,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Thresh": {
+   "name": "Thresh",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0391,
+   "weighted_pickrate": 0.0293,
+   "weighted_banrate": 0.0098,
+   "weighted_games": 14.84,
+   "weighted_winrate": 0.4763,
+   "weighted_winrate_unsmoothed": 0.4603,
+   "avg_pick_round": 3.33,
+   "blind_pick_pct": 15.33,
+   "avg_ban_turn": 8.6,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 22,
+     "bans": 7,
+     "wins": 10,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 30,
+     "bans": 12,
+     "wins": 15,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 1,
+    "bans": 0,
+    "wins": 0,
+    "presence": 0.0164,
+    "winrate": 0.0,
+    "avg_pick_round": 3.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Azir": {
+   "name": "Azir",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 0.973,
+    "bot": 0.027
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0385,
+   "weighted_pickrate": 0.024,
+   "weighted_banrate": 0.0145,
+   "weighted_games": 14.03,
+   "weighted_winrate": 0.4019,
+   "weighted_winrate_unsmoothed": 0.332,
+   "avg_pick_round": 2.99,
+   "blind_pick_pct": 39.43,
+   "avg_ban_turn": 8.19,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 13,
+     "bans": 8,
+     "wins": 4,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 65,
+     "bans": 36,
+     "wins": 23,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Kennen": {
+   "name": "Kennen",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0377,
+   "weighted_pickrate": 0.0243,
+   "weighted_banrate": 0.0134,
+   "weighted_games": 12.64,
+   "weighted_winrate": 0.5178,
+   "weighted_winrate_unsmoothed": 0.5319,
+   "avg_pick_round": 2.98,
+   "blind_pick_pct": 17.92,
+   "avg_ban_turn": 8.2,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 18,
+     "bans": 11,
+     "wins": 9,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 30,
+     "bans": 18,
+     "wins": 18,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 2,
+    "bans": 0,
+    "wins": 1,
+    "presence": 0.0328,
+    "winrate": 0.5,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Hwei": {
+   "name": "Hwei",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 0.932,
+    "bot": 0.068
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0376,
+   "weighted_pickrate": 0.0269,
+   "weighted_banrate": 0.0107,
+   "weighted_games": 15.38,
+   "weighted_winrate": 0.3954,
+   "weighted_winrate_unsmoothed": 0.3274,
+   "avg_pick_round": 2.74,
+   "blind_pick_pct": 22.59,
+   "avg_ban_turn": 6.68,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 17,
+     "bans": 4,
+     "wins": 4,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 55,
+     "bans": 41,
+     "wins": 24,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Pyke": {
+   "name": "Pyke",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0368,
+   "weighted_pickrate": 0.0149,
+   "weighted_banrate": 0.0218,
+   "weighted_games": 8.55,
+   "weighted_winrate": 0.361,
+   "weighted_winrate_unsmoothed": 0.1984,
+   "avg_pick_round": 2.31,
+   "blind_pick_pct": 10.72,
+   "avg_ban_turn": 5.46,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 9,
+     "bans": 13,
+     "wins": 1,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 28,
+     "bans": 56,
+     "wins": 10,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 1,
+    "bans": 0,
+    "wins": 0,
+    "presence": 0.0164,
+    "winrate": 0.0,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "DrMundo": {
+   "name": "Dr. Mundo",
+   "roles": [
+    "top",
+    "jungle"
+   ],
+   "role_share": {
+    "top": 0.871,
+    "jungle": 0.129
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0324,
+   "weighted_pickrate": 0.0261,
+   "weighted_banrate": 0.0063,
+   "weighted_games": 14.9,
+   "weighted_winrate": 0.4781,
+   "weighted_winrate_unsmoothed": 0.4633,
+   "avg_pick_round": 2.68,
+   "blind_pick_pct": 4.97,
+   "avg_ban_turn": 7.82,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 16,
+     "bans": 3,
+     "wins": 5,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 54,
+     "bans": 17,
+     "wins": 30,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Mel": {
+   "name": "Mel",
+   "roles": [
+    "bot",
+    "mid"
+   ],
+   "role_share": {
+    "bot": 0.529,
+    "mid": 0.471
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0319,
+   "weighted_pickrate": 0.0159,
+   "weighted_banrate": 0.016,
+   "weighted_games": 9.42,
+   "weighted_winrate": 0.3964,
+   "weighted_winrate_unsmoothed": 0.2864,
+   "avg_pick_round": 2.47,
+   "blind_pick_pct": 12.85,
+   "avg_ban_turn": 5.57,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 8,
+     "bans": 12,
+     "wins": 2,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 39,
+     "bans": 31,
+     "wins": 15,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 1,
+    "bans": 0,
+    "wins": 0,
+    "presence": 0.0164,
+    "winrate": 0.0,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Khazix": {
+   "name": "Kha'Zix",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0271,
+   "weighted_pickrate": 0.0147,
+   "weighted_banrate": 0.0123,
+   "weighted_games": 8.43,
+   "weighted_winrate": 0.5186,
+   "weighted_winrate_unsmoothed": 0.5406,
+   "avg_pick_round": 2.08,
+   "blind_pick_pct": 14.52,
+   "avg_ban_turn": 7.63,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 10,
+     "bans": 8,
+     "wins": 6,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 26,
+     "bans": 16,
+     "wins": 12,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 0,
+    "bans": 1,
+    "wins": 0,
+    "presence": 0.0164,
+    "winrate": null,
+    "avg_pick_round": null,
+    "blind_pick_pct": null,
+    "avg_ban_turn": 5.0
+   }
+  },
+  "Braum": {
+   "name": "Braum",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0254,
+   "weighted_pickrate": 0.0166,
+   "weighted_banrate": 0.0088,
+   "weighted_games": 9.95,
+   "weighted_winrate": 0.4297,
+   "weighted_winrate_unsmoothed": 0.359,
+   "avg_pick_round": 2.64,
+   "blind_pick_pct": 11.32,
+   "avg_ban_turn": 8.25,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 10,
+     "bans": 5,
+     "wins": 3,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 44,
+     "bans": 20,
+     "wins": 20,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Nasus": {
+   "name": "Nasus",
+   "roles": [
+    "top",
+    "jungle",
+    "mid"
+   ],
+   "role_share": {
+    "top": 0.589,
+    "jungle": 0.245,
+    "mid": 0.167
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0241,
+   "weighted_pickrate": 0.0139,
+   "weighted_banrate": 0.0102,
+   "weighted_games": 8.07,
+   "weighted_winrate": 0.4396,
+   "weighted_winrate_unsmoothed": 0.3647,
+   "avg_pick_round": 2.93,
+   "blind_pick_pct": 11.98,
+   "avg_ban_turn": 5.1,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 7,
+     "bans": 8,
+     "wins": 3,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 35,
+     "bans": 28,
+     "wins": 14,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Gragas": {
+   "name": "Gragas",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 0.872,
+    "support": 0.075,
+    "jungle": 0.053
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.022,
+   "weighted_pickrate": 0.0188,
+   "weighted_banrate": 0.0032,
+   "weighted_games": 10.52,
+   "weighted_winrate": 0.4343,
+   "weighted_winrate_unsmoothed": 0.372,
+   "avg_pick_round": 2.73,
+   "blind_pick_pct": 29.39,
+   "avg_ban_turn": 9.63,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 13,
+     "bans": 3,
+     "wins": 4,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 36,
+     "bans": 4,
+     "wins": 16,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Irelia": {
+   "name": "Irelia",
+   "roles": [
+    "top",
+    "mid"
+   ],
+   "role_share": {
+    "top": 0.778,
+    "mid": 0.222
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.022,
+   "weighted_pickrate": 0.012,
+   "weighted_banrate": 0.01,
+   "weighted_games": 6.97,
+   "weighted_winrate": 0.5846,
+   "weighted_winrate_unsmoothed": 0.706,
+   "avg_pick_round": 2.62,
+   "blind_pick_pct": 14.24,
+   "avg_ban_turn": 5.33,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 7,
+     "bans": 5,
+     "wins": 5,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 23,
+     "bans": 30,
+     "wins": 14,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 1,
+    "bans": 0,
+    "wins": 1,
+    "presence": 0.0164,
+    "winrate": 1.0,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Fiora": {
+   "name": "Fiora",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.021,
+   "weighted_pickrate": 0.0107,
+   "weighted_banrate": 0.0103,
+   "weighted_games": 6.07,
+   "weighted_winrate": 0.4753,
+   "weighted_winrate_unsmoothed": 0.4347,
+   "avg_pick_round": 2.27,
+   "blind_pick_pct": 11.64,
+   "avg_ban_turn": 6.91,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 7,
+     "bans": 5,
+     "wins": 3,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 21,
+     "bans": 31,
+     "wins": 9,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Zoe": {
+   "name": "Zoe",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0197,
+   "weighted_pickrate": 0.0041,
+   "weighted_banrate": 0.0157,
+   "weighted_games": 2.4,
+   "weighted_winrate": 0.487,
+   "weighted_winrate_unsmoothed": 0.4327,
+   "avg_pick_round": 1.78,
+   "blind_pick_pct": 4.43,
+   "avg_ban_turn": 2.99,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 2,
+     "bans": 8,
+     "wins": 1,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 12,
+     "bans": 46,
+     "wins": 4,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Lux": {
+   "name": "Lux",
+   "roles": [
+    "support",
+    "mid"
+   ],
+   "role_share": {
+    "support": 0.786,
+    "mid": 0.162,
+    "bot": 0.052
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0189,
+   "weighted_pickrate": 0.0123,
+   "weighted_banrate": 0.0066,
+   "weighted_games": 6.78,
+   "weighted_winrate": 0.5867,
+   "weighted_winrate_unsmoothed": 0.7146,
+   "avg_pick_round": 2.01,
+   "blind_pick_pct": 3.51,
+   "avg_ban_turn": 7.01,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 7,
+     "bans": 5,
+     "wins": 5,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 22,
+     "bans": 7,
+     "wins": 15,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 1,
+    "bans": 0,
+    "wins": 1,
+    "presence": 0.0164,
+    "winrate": 1.0,
+    "avg_pick_round": 3.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Nami": {
+   "name": "Nami",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0187,
+   "weighted_pickrate": 0.0166,
+   "weighted_banrate": 0.0021,
+   "weighted_games": 9.19,
+   "weighted_winrate": 0.4446,
+   "weighted_winrate_unsmoothed": 0.3843,
+   "avg_pick_round": 2.7,
+   "blind_pick_pct": 21.37,
+   "avg_ban_turn": 8.96,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 10,
+     "bans": 1,
+     "wins": 4,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 28,
+     "bans": 4,
+     "wins": 10,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 2,
+    "bans": 0,
+    "wins": 2,
+    "presence": 0.0328,
+    "winrate": 1.0,
+    "avg_pick_round": 1.5,
+    "blind_pick_pct": 50.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Nidalee": {
+   "name": "Nidalee",
+   "roles": [
+    "jungle",
+    "top"
+   ],
+   "role_share": {
+    "jungle": 0.786,
+    "top": 0.214
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0172,
+   "weighted_pickrate": 0.0085,
+   "weighted_banrate": 0.0087,
+   "weighted_games": 4.84,
+   "weighted_winrate": 0.5478,
+   "weighted_winrate_unsmoothed": 0.6464,
+   "avg_pick_round": 3.72,
+   "blind_pick_pct": 37.09,
+   "avg_ban_turn": 4.76,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 6,
+     "bans": 6,
+     "wins": 4,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 15,
+     "bans": 12,
+     "wins": 10,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Malphite": {
+   "name": "Malphite",
+   "roles": [
+    "top",
+    "jungle"
+   ],
+   "role_share": {
+    "top": 0.772,
+    "jungle": 0.228
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.016,
+   "weighted_pickrate": 0.0131,
+   "weighted_banrate": 0.0029,
+   "weighted_games": 7.93,
+   "weighted_winrate": 0.4997,
+   "weighted_winrate_unsmoothed": 0.4992,
+   "avg_pick_round": 2.37,
+   "blind_pick_pct": 12.18,
+   "avg_ban_turn": 8.12,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 7,
+     "bans": 1,
+     "wins": 4,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 33,
+     "bans": 13,
+     "wins": 13,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Blitzcrank": {
+   "name": "Blitzcrank",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0143,
+   "weighted_pickrate": 0.0092,
+   "weighted_banrate": 0.0051,
+   "weighted_games": 5.4,
+   "weighted_winrate": 0.4995,
+   "weighted_winrate_unsmoothed": 0.4986,
+   "avg_pick_round": 2.8,
+   "blind_pick_pct": 10.24,
+   "avg_ban_turn": 8.43,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 5,
+     "bans": 5,
+     "wins": 2,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 19,
+     "bans": 11,
+     "wins": 11,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Viego": {
+   "name": "Viego",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.014,
+   "weighted_pickrate": 0.0051,
+   "weighted_banrate": 0.0089,
+   "weighted_games": 3.32,
+   "weighted_winrate": 0.4425,
+   "weighted_winrate_unsmoothed": 0.269,
+   "avg_pick_round": 3.12,
+   "blind_pick_pct": 24.84,
+   "avg_ban_turn": 3.57,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 2,
+     "bans": 6,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 19,
+     "bans": 14,
+     "wins": 7,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Gangplank": {
+   "name": "Gangplank",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0125,
+   "weighted_pickrate": 0.0056,
+   "weighted_banrate": 0.0069,
+   "weighted_games": 3.24,
+   "weighted_winrate": 0.4266,
+   "weighted_winrate_unsmoothed": 0.2,
+   "avg_pick_round": 2.82,
+   "blind_pick_pct": 33.54,
+   "avg_ban_turn": 5.09,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 3,
+     "bans": 4,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 11,
+     "bans": 21,
+     "wins": 5,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 1,
+    "bans": 0,
+    "wins": 0,
+    "presence": 0.0164,
+    "winrate": 0.0,
+    "avg_pick_round": 3.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "KogMaw": {
+   "name": "Kog'Maw",
+   "roles": [
+    "mid",
+    "bot"
+   ],
+   "role_share": {
+    "mid": 0.52,
+    "bot": 0.48
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0113,
+   "weighted_pickrate": 0.0092,
+   "weighted_banrate": 0.0021,
+   "weighted_games": 5.52,
+   "weighted_winrate": 0.5284,
+   "weighted_winrate_unsmoothed": 0.5798,
+   "avg_pick_round": 2.57,
+   "blind_pick_pct": 37.8,
+   "avg_ban_turn": 6.69,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 4,
+     "bans": 1,
+     "wins": 3,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 23,
+     "bans": 3,
+     "wins": 11,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Volibear": {
+   "name": "Volibear",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 0.915,
+    "jungle": 0.085
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0109,
+   "weighted_pickrate": 0.0057,
+   "weighted_banrate": 0.0052,
+   "weighted_games": 3.46,
+   "weighted_winrate": 0.4942,
+   "weighted_winrate_unsmoothed": 0.4773,
+   "avg_pick_round": 2.95,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": 8.99,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 3,
+     "bans": 4,
+     "wins": 1,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 15,
+     "bans": 8,
+     "wins": 6,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 0,
+    "bans": 1,
+    "wins": 0,
+    "presence": 0.0164,
+    "winrate": null,
+    "avg_pick_round": null,
+    "blind_pick_pct": null,
+    "avg_ban_turn": 10.0
+   }
+  },
+  "TahmKench": {
+   "name": "Tahm Kench",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0102,
+   "weighted_pickrate": 0.0083,
+   "weighted_banrate": 0.0019,
+   "weighted_games": 4.09,
+   "weighted_winrate": 0.4511,
+   "weighted_winrate_unsmoothed": 0.3315,
+   "avg_pick_round": 3.8,
+   "blind_pick_pct": 19.5,
+   "avg_ban_turn": 7.33,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 6,
+     "bans": 1,
+     "wins": 2,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 8,
+     "bans": 5,
+     "wins": 2,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 1,
+    "bans": 0,
+    "wins": 0,
+    "presence": 0.0164,
+    "winrate": 0.0,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Yasuo": {
+   "name": "Yasuo",
+   "roles": [
+    "top",
+    "bot",
+    "mid"
+   ],
+   "role_share": {
+    "top": 0.437,
+    "bot": 0.281,
+    "mid": 0.281
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.008,
+   "weighted_pickrate": 0.0033,
+   "weighted_banrate": 0.0047,
+   "weighted_games": 1.97,
+   "weighted_winrate": 0.5401,
+   "weighted_winrate_unsmoothed": 0.743,
+   "avg_pick_round": 2.82,
+   "blind_pick_pct": 6.09,
+   "avg_ban_turn": 7.6,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 3,
+     "bans": 4,
+     "wins": 3,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 11,
+     "bans": 9,
+     "wins": 6,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Swain": {
+   "name": "Swain",
+   "roles": [
+    "mid",
+    "bot"
+   ],
+   "role_share": {
+    "mid": 0.677,
+    "bot": 0.323
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0076,
+   "weighted_pickrate": 0.0054,
+   "weighted_banrate": 0.0022,
+   "weighted_games": 3.22,
+   "weighted_winrate": 0.4922,
+   "weighted_winrate_unsmoothed": 0.4682,
+   "avg_pick_round": 2.62,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": 5.64,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 3,
+     "bans": 1,
+     "wins": 1,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 15,
+     "bans": 11,
+     "wins": 6,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 1,
+    "bans": 0,
+    "wins": 1,
+    "presence": 0.0164,
+    "winrate": 1.0,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Zyra": {
+   "name": "Zyra",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0074,
+   "weighted_pickrate": 0.0022,
+   "weighted_banrate": 0.0052,
+   "weighted_games": 1.39,
+   "weighted_winrate": 0.524,
+   "weighted_winrate_unsmoothed": 0.6973,
+   "avg_pick_round": 1.96,
+   "blind_pick_pct": 55.8,
+   "avg_ban_turn": 6.05,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 1,
+     "bans": 3,
+     "wins": 1,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 8,
+     "bans": 8,
+     "wins": 4,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Ivern": {
+   "name": "Ivern",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0073,
+   "weighted_pickrate": 0.0053,
+   "weighted_banrate": 0.002,
+   "weighted_games": 3.22,
+   "weighted_winrate": 0.4636,
+   "weighted_winrate_unsmoothed": 0.3507,
+   "avg_pick_round": 3.01,
+   "blind_pick_pct": 31.63,
+   "avg_ban_turn": 6.11,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 3,
+     "bans": 1,
+     "wins": 1,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 15,
+     "bans": 8,
+     "wins": 6,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Soraka": {
+   "name": "Soraka",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0068,
+   "weighted_pickrate": 0.0046,
+   "weighted_banrate": 0.0022,
+   "weighted_games": 2.47,
+   "weighted_winrate": 0.4275,
+   "weighted_winrate_unsmoothed": 0.1345,
+   "avg_pick_round": 2.52,
+   "blind_pick_pct": 8.41,
+   "avg_ban_turn": 8.73,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 3,
+     "bans": 2,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 7,
+     "bans": 3,
+     "wins": 3,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Zed": {
+   "name": "Zed",
+   "roles": [
+    "jungle",
+    "mid"
+   ],
+   "role_share": {
+    "jungle": 0.526,
+    "mid": 0.474
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0067,
+   "weighted_pickrate": 0.0049,
+   "weighted_banrate": 0.0018,
+   "weighted_games": 2.93,
+   "weighted_winrate": 0.5073,
+   "weighted_winrate_unsmoothed": 0.5324,
+   "avg_pick_round": 2.92,
+   "blind_pick_pct": 17.14,
+   "avg_ban_turn": 6.04,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 3,
+     "bans": 1,
+     "wins": 2,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 13,
+     "bans": 6,
+     "wins": 6,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Lillia": {
+   "name": "Lillia",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0065,
+   "weighted_pickrate": 0.0037,
+   "weighted_banrate": 0.0028,
+   "weighted_games": 2.17,
+   "weighted_winrate": 0.438,
+   "weighted_winrate_unsmoothed": 0.1529,
+   "avg_pick_round": 3.47,
+   "blind_pick_pct": 21.57,
+   "avg_ban_turn": 8.76,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 2,
+     "bans": 2,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 8,
+     "bans": 5,
+     "wins": 3,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Heimerdinger": {
+   "name": "Heimerdinger",
+   "roles": [
+    "bot"
+   ],
+   "role_share": {
+    "bot": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0055,
+   "weighted_pickrate": 0.0003,
+   "weighted_banrate": 0.0051,
+   "weighted_games": 0.24,
+   "weighted_winrate": 0.4966,
+   "weighted_winrate_unsmoothed": 0.3571,
+   "avg_pick_round": 1.0,
+   "blind_pick_pct": 64.29,
+   "avg_ban_turn": 2.12,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 4,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 2,
+     "bans": 12,
+     "wins": 1,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Kindred": {
+   "name": "Kindred",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0055,
+   "weighted_pickrate": 0.0028,
+   "weighted_banrate": 0.0027,
+   "weighted_games": 1.57,
+   "weighted_winrate": 0.4983,
+   "weighted_winrate_unsmoothed": 0.4873,
+   "avg_pick_round": 3.7,
+   "blind_pick_pct": 12.86,
+   "avg_ban_turn": 8.41,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 2,
+     "bans": 1,
+     "wins": 1,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 5,
+     "bans": 6,
+     "wins": 2,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Elise": {
+   "name": "Elise",
+   "roles": [
+    "support",
+    "jungle"
+   ],
+   "role_share": {
+    "support": 0.895,
+    "jungle": 0.105
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0053,
+   "weighted_pickrate": 0.0046,
+   "weighted_banrate": 0.0007,
+   "weighted_games": 2.72,
+   "weighted_winrate": 0.4467,
+   "weighted_winrate_unsmoothed": 0.2509,
+   "avg_pick_round": 2.15,
+   "blind_pick_pct": 7.8,
+   "avg_ban_turn": 8.0,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 2,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 11,
+     "bans": 3,
+     "wins": 6,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 1,
+    "bans": 0,
+    "wins": 0,
+    "presence": 0.0164,
+    "winrate": 0.0,
+    "avg_pick_round": 1.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Rengar": {
+   "name": "Rengar",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0049,
+   "weighted_pickrate": 0.001,
+   "weighted_banrate": 0.0039,
+   "weighted_games": 0.59,
+   "weighted_winrate": 0.5197,
+   "weighted_winrate_unsmoothed": 0.8523,
+   "avg_pick_round": 1.0,
+   "blind_pick_pct": 18.52,
+   "avg_ban_turn": 2.08,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 1,
+     "bans": 1,
+     "wins": 1,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 2,
+     "bans": 18,
+     "wins": 1,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Vex": {
+   "name": "Vex",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0047,
+   "weighted_pickrate": 0.0039,
+   "weighted_banrate": 0.0008,
+   "weighted_games": 1.99,
+   "weighted_winrate": 0.5353,
+   "weighted_winrate_unsmoothed": 0.7132,
+   "avg_pick_round": 3.96,
+   "blind_pick_pct": 12.35,
+   "avg_ban_turn": 8.5,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 3,
+     "bans": 0,
+     "wins": 2,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 6,
+     "bans": 4,
+     "wins": 4,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Amumu": {
+   "name": "Amumu",
+   "roles": [
+    "support",
+    "jungle"
+   ],
+   "role_share": {
+    "support": 0.745,
+    "jungle": 0.255
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.004,
+   "weighted_pickrate": 0.0038,
+   "weighted_banrate": 0.0001,
+   "weighted_games": 2.07,
+   "weighted_winrate": 0.5069,
+   "weighted_winrate_unsmoothed": 0.5405,
+   "avg_pick_round": 3.34,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": 10.0,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 3,
+     "bans": 0,
+     "wins": 2,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 5,
+     "bans": 1,
+     "wins": 2,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Mordekaiser": {
+   "name": "Mordekaiser",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.004,
+   "weighted_pickrate": 0.0019,
+   "weighted_banrate": 0.0021,
+   "weighted_games": 1.47,
+   "weighted_winrate": 0.5076,
+   "weighted_winrate_unsmoothed": 0.5595,
+   "avg_pick_round": 2.49,
+   "blind_pick_pct": 10.74,
+   "avg_ban_turn": 9.59,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 1,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 12,
+     "bans": 6,
+     "wins": 7,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Senna": {
+   "name": "Senna",
+   "roles": [
+    "support",
+    "bot"
+   ],
+   "role_share": {
+    "support": 0.696,
+    "bot": 0.304
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0039,
+   "weighted_pickrate": 0.0033,
+   "weighted_banrate": 0.0006,
+   "weighted_games": 1.93,
+   "weighted_winrate": 0.46,
+   "weighted_winrate_unsmoothed": 0.2532,
+   "avg_pick_round": 1.73,
+   "blind_pick_pct": 48.89,
+   "avg_ban_turn": 7.46,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 2,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 8,
+     "bans": 4,
+     "wins": 4,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Tryndamere": {
+   "name": "Tryndamere",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0039,
+   "weighted_pickrate": 0.0021,
+   "weighted_banrate": 0.0018,
+   "weighted_games": 1.17,
+   "weighted_winrate": 0.4697,
+   "weighted_winrate_unsmoothed": 0.2099,
+   "avg_pick_round": 2.08,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": 6.69,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 2,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 4,
+     "bans": 10,
+     "wins": 2,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Diana": {
+   "name": "Diana",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0035,
+   "weighted_pickrate": 0.002,
+   "weighted_banrate": 0.0015,
+   "weighted_games": 1.0,
+   "weighted_winrate": 0.4545,
+   "weighted_winrate_unsmoothed": 0.0,
+   "avg_pick_round": 2.0,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": 10.0,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 1,
+     "bans": 1,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 1,
+     "bans": 2,
+     "wins": 0,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": {
+    "picks": 1,
+    "bans": 0,
+    "wins": 0,
+    "presence": 0.0164,
+    "winrate": 0.0,
+    "avg_pick_round": 2.0,
+    "blind_pick_pct": 0.0,
+    "avg_ban_turn": null
+   }
+  },
+  "Graves": {
+   "name": "Graves",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0034,
+   "weighted_pickrate": 0.0027,
+   "weighted_banrate": 0.0007,
+   "weighted_games": 1.81,
+   "weighted_winrate": 0.4931,
+   "weighted_winrate_unsmoothed": 0.455,
+   "avg_pick_round": 2.85,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": 5.9,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 1,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 12,
+     "bans": 4,
+     "wins": 7,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Vladimir": {
+   "name": "Vladimir",
+   "roles": [
+    "top",
+    "mid"
+   ],
+   "role_share": {
+    "top": 0.804,
+    "mid": 0.196
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0034,
+   "weighted_pickrate": 0.003,
+   "weighted_banrate": 0.0004,
+   "weighted_games": 1.8,
+   "weighted_winrate": 0.4812,
+   "weighted_winrate_unsmoothed": 0.3767,
+   "avg_pick_round": 2.72,
+   "blind_pick_pct": 10.47,
+   "avg_ban_turn": 6.0,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 2,
+     "bans": 0,
+     "wins": 1,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 8,
+     "bans": 2,
+     "wins": 3,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Velkoz": {
+   "name": "Vel'Koz",
+   "roles": [
+    "support",
+    "bot"
+   ],
+   "role_share": {
+    "support": 0.763,
+    "bot": 0.237
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0033,
+   "weighted_pickrate": 0.0033,
+   "weighted_banrate": 0.0,
+   "weighted_games": 1.71,
+   "weighted_winrate": 0.5594,
+   "weighted_winrate_unsmoothed": 0.9076,
+   "avg_pick_round": 2.91,
+   "blind_pick_pct": null,
+   "avg_ban_turn": null,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 2,
+     "bans": 0,
+     "wins": 2,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 3,
+     "bans": 0,
+     "wins": 2,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Zilean": {
+   "name": "Zilean",
+   "roles": [
+    "support",
+    "top"
+   ],
+   "role_share": {
+    "support": 0.5,
+    "top": 0.5
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0031,
+   "weighted_pickrate": 0.0025,
+   "weighted_banrate": 0.0006,
+   "weighted_games": 1.27,
+   "weighted_winrate": 0.5563,
+   "weighted_winrate_unsmoothed": 1.0,
+   "avg_pick_round": 3.0,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": 1.7,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 2,
+     "bans": 0,
+     "wins": 2,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 2,
+     "bans": 3,
+     "wins": 2,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Smolder": {
+   "name": "Smolder",
+   "roles": [
+    "mid",
+    "bot"
+   ],
+   "role_share": {
+    "mid": 0.588,
+    "bot": 0.412
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0029,
+   "weighted_pickrate": 0.0029,
+   "weighted_banrate": 0.0,
+   "weighted_games": 1.64,
+   "weighted_winrate": 0.4917,
+   "weighted_winrate_unsmoothed": 0.4412,
+   "avg_pick_round": 3.78,
+   "blind_pick_pct": 10.63,
+   "avg_ban_turn": null,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 2,
+     "bans": 0,
+     "wins": 1,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 5,
+     "bans": 0,
+     "wins": 2,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Hecarim": {
+   "name": "Hecarim",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0024,
+   "weighted_pickrate": 0.0022,
+   "weighted_banrate": 0.0002,
+   "weighted_games": 1.27,
+   "weighted_winrate": 0.4436,
+   "weighted_winrate_unsmoothed": 0.0,
+   "avg_pick_round": 3.76,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": 9.0,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 1,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 6,
+     "bans": 1,
+     "wins": 0,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "RekSai": {
+   "name": "Rek'Sai",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0023,
+   "weighted_pickrate": 0.0015,
+   "weighted_banrate": 0.0008,
+   "weighted_games": 0.88,
+   "weighted_winrate": 0.4821,
+   "weighted_winrate_unsmoothed": 0.2784,
+   "avg_pick_round": 2.75,
+   "blind_pick_pct": 65.0,
+   "avg_ban_turn": 2.7,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 1,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 3,
+     "bans": 7,
+     "wins": 2,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Twitch": {
+   "name": "Twitch",
+   "roles": [
+    "bot"
+   ],
+   "role_share": {
+    "bot": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0023,
+   "weighted_pickrate": 0.0023,
+   "weighted_banrate": 0.0,
+   "weighted_games": 1.27,
+   "weighted_winrate": 0.4515,
+   "weighted_winrate_unsmoothed": 0.069,
+   "avg_pick_round": 3.0,
+   "blind_pick_pct": 8.77,
+   "avg_ban_turn": null,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 1,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 3,
+     "bans": 0,
+     "wins": 1,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Darius": {
+   "name": "Darius",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0021,
+   "weighted_pickrate": 0.0004,
+   "weighted_banrate": 0.0017,
+   "weighted_games": 0.33,
+   "weighted_winrate": 0.4924,
+   "weighted_winrate_unsmoothed": 0.2632,
+   "avg_pick_round": 1.74,
+   "blind_pick_pct": 26.32,
+   "avg_ban_turn": 8.79,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 1,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 3,
+     "bans": 7,
+     "wins": 1,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Veigar": {
+   "name": "Veigar",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0021,
+   "weighted_pickrate": 0.002,
+   "weighted_banrate": 0.0001,
+   "weighted_games": 1.23,
+   "weighted_winrate": 0.5189,
+   "weighted_winrate_unsmoothed": 0.6728,
+   "avg_pick_round": 2.98,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": 8.0,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 1,
+     "bans": 0,
+     "wins": 1,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 5,
+     "bans": 1,
+     "wins": 2,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Garen": {
+   "name": "Garen",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0019,
+   "weighted_pickrate": 0.0019,
+   "weighted_banrate": 0.0,
+   "weighted_games": 1.2,
+   "weighted_winrate": 0.5036,
+   "weighted_winrate_unsmoothed": 0.5333,
+   "avg_pick_round": 3.23,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": null,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 1,
+     "bans": 0,
+     "wins": 1,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 6,
+     "bans": 0,
+     "wins": 2,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Urgot": {
+   "name": "Urgot",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 1.0
+   },
+   "role_source": "champion_tags.json fallback (no pro picks in role slices)",
+   "tier": "D",
+   "weighted_presence": 0.0019,
+   "weighted_pickrate": 0.0004,
+   "weighted_banrate": 0.0015,
+   "weighted_games": 0.35,
+   "weighted_winrate": 0.5,
+   "weighted_winrate_unsmoothed": 0.5,
+   "avg_pick_round": 1.75,
+   "blind_pick_pct": 25.0,
+   "avg_ban_turn": 4.4,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 4,
+     "bans": 9,
+     "wins": 2,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Xerath": {
+   "name": "Xerath",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0019,
+   "weighted_pickrate": 0.0008,
+   "weighted_banrate": 0.0011,
+   "weighted_games": 0.59,
+   "weighted_winrate": 0.505,
+   "weighted_winrate_unsmoothed": 0.5882,
+   "avg_pick_round": 2.56,
+   "blind_pick_pct": 55.88,
+   "avg_ban_turn": 3.21,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 6,
+     "bans": 7,
+     "wins": 4,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Sona": {
+   "name": "Sona",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0018,
+   "weighted_pickrate": 0.0015,
+   "weighted_banrate": 0.0002,
+   "weighted_games": 0.88,
+   "weighted_winrate": 0.4821,
+   "weighted_winrate_unsmoothed": 0.2784,
+   "avg_pick_round": 1.57,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": 9.0,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 1,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 3,
+     "bans": 1,
+     "wins": 2,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "AurelionSol": {
+   "name": "Aurelion Sol",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0017,
+   "weighted_pickrate": 0.0013,
+   "weighted_banrate": 0.0004,
+   "weighted_games": 1.03,
+   "weighted_winrate": 0.4754,
+   "weighted_winrate_unsmoothed": 0.2373,
+   "avg_pick_round": 2.54,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": 7.0,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 7,
+     "bans": 2,
+     "wins": 2,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Warwick": {
+   "name": "Warwick",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0016,
+   "weighted_pickrate": 0.0015,
+   "weighted_banrate": 0.0001,
+   "weighted_games": 0.81,
+   "weighted_winrate": 0.5375,
+   "weighted_winrate_unsmoothed": 1.0,
+   "avg_pick_round": 1.83,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": 7.0,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 1,
+     "bans": 0,
+     "wins": 1,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 3,
+     "bans": 1,
+     "wins": 3,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Karthus": {
+   "name": "Karthus",
+   "roles": [
+    "bot",
+    "jungle"
+   ],
+   "role_share": {
+    "bot": 0.5,
+    "jungle": 0.5
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0015,
+   "weighted_pickrate": 0.0015,
+   "weighted_banrate": 0.0,
+   "weighted_games": 0.88,
+   "weighted_winrate": 0.5179,
+   "weighted_winrate_unsmoothed": 0.7216,
+   "avg_pick_round": 2.3,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": null,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 1,
+     "bans": 0,
+     "wins": 1,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 2,
+     "bans": 0,
+     "wins": 1,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Nilah": {
+   "name": "Nilah",
+   "roles": [
+    "bot"
+   ],
+   "role_share": {
+    "bot": 1.0
+   },
+   "role_source": "champion_tags.json fallback (no pro picks in role slices)",
+   "tier": "D",
+   "weighted_presence": 0.0008,
+   "weighted_pickrate": 0.0,
+   "weighted_banrate": 0.0008,
+   "weighted_games": 0.0,
+   "weighted_winrate": 0.5,
+   "weighted_winrate_unsmoothed": null,
+   "avg_pick_round": null,
+   "blind_pick_pct": null,
+   "avg_ban_turn": 8.0,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 1,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 0,
+     "bans": 1,
+     "wins": 0,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Illaoi": {
+   "name": "Illaoi",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0007,
+   "weighted_pickrate": 0.0004,
+   "weighted_banrate": 0.0003,
+   "weighted_games": 0.32,
+   "weighted_winrate": 0.5,
+   "weighted_winrate_unsmoothed": 0.5,
+   "avg_pick_round": 2.5,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": 8.71,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 2,
+     "bans": 2,
+     "wins": 1,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Kayn": {
+   "name": "Kayn",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0007,
+   "weighted_pickrate": 0.0003,
+   "weighted_banrate": 0.0004,
+   "weighted_games": 0.24,
+   "weighted_winrate": 0.4966,
+   "weighted_winrate_unsmoothed": 0.3571,
+   "avg_pick_round": 2.93,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": 6.5,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 2,
+     "bans": 2,
+     "wins": 1,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Ekko": {
+   "name": "Ekko",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0006,
+   "weighted_pickrate": 0.0005,
+   "weighted_banrate": 0.0001,
+   "weighted_games": 0.4,
+   "weighted_winrate": 0.4958,
+   "weighted_winrate_unsmoothed": 0.3913,
+   "avg_pick_round": 2.0,
+   "blind_pick_pct": 21.74,
+   "avg_ban_turn": 5.0,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 3,
+     "bans": 1,
+     "wins": 1,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Sett": {
+   "name": "Sett",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0006,
+   "weighted_pickrate": 0.0005,
+   "weighted_banrate": 0.0001,
+   "weighted_games": 0.4,
+   "weighted_winrate": 0.5109,
+   "weighted_winrate_unsmoothed": 0.7826,
+   "avg_pick_round": 4.17,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": 10.0,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 3,
+     "bans": 1,
+     "wins": 2,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Shaco": {
+   "name": "Shaco",
+   "roles": [
+    "jungle",
+    "support"
+   ],
+   "role_share": {
+    "jungle": 0.5,
+    "support": 0.5
+   },
+   "role_source": "champion_tags.json fallback (no pro picks in role slices)",
+   "tier": "D",
+   "weighted_presence": 0.0006,
+   "weighted_pickrate": 0.0,
+   "weighted_banrate": 0.0006,
+   "weighted_games": 0.0,
+   "weighted_winrate": 0.5,
+   "weighted_winrate_unsmoothed": null,
+   "avg_pick_round": null,
+   "blind_pick_pct": null,
+   "avg_ban_turn": 1.6,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 0,
+     "bans": 5,
+     "wins": 0,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Singed": {
+   "name": "Singed",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0005,
+   "weighted_pickrate": 0.0002,
+   "weighted_banrate": 0.0003,
+   "weighted_games": 0.16,
+   "weighted_winrate": 0.5078,
+   "weighted_winrate_unsmoothed": 1.0,
+   "avg_pick_round": 3.0,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": 8.36,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 1,
+     "bans": 2,
+     "wins": 1,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Morgana": {
+   "name": "Morgana",
+   "roles": [
+    "support",
+    "jungle"
+   ],
+   "role_share": {
+    "support": 0.5,
+    "jungle": 0.5
+   },
+   "role_source": "champion_tags.json fallback (no pro picks in role slices)",
+   "tier": "D",
+   "weighted_presence": 0.0004,
+   "weighted_pickrate": 0.0001,
+   "weighted_banrate": 0.0003,
+   "weighted_games": 0.09,
+   "weighted_winrate": 0.5043,
+   "weighted_winrate_unsmoothed": 1.0,
+   "avg_pick_round": 3.0,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": 10.0,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 1,
+     "bans": 1,
+     "wins": 1,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Akshan": {
+   "name": "Akshan",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 1.0
+   },
+   "role_source": "champion_tags.json fallback (no pro picks in role slices)",
+   "tier": "D",
+   "weighted_presence": 0.0002,
+   "weighted_pickrate": 0.0,
+   "weighted_banrate": 0.0002,
+   "weighted_games": 0.0,
+   "weighted_winrate": 0.5,
+   "weighted_winrate_unsmoothed": null,
+   "avg_pick_round": null,
+   "blind_pick_pct": null,
+   "avg_ban_turn": 3.0,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 0,
+     "bans": 2,
+     "wins": 0,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Belveth": {
+   "name": "Bel'Veth",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0002,
+   "weighted_pickrate": 0.0002,
+   "weighted_banrate": 0.0,
+   "weighted_games": 0.16,
+   "weighted_winrate": 0.4922,
+   "weighted_winrate_unsmoothed": 0.0,
+   "avg_pick_round": 5.0,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": null,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 1,
+     "bans": 0,
+     "wins": 0,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Malzahar": {
+   "name": "Malzahar",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0002,
+   "weighted_pickrate": 0.0002,
+   "weighted_banrate": 0.0,
+   "weighted_games": 0.16,
+   "weighted_winrate": 0.4922,
+   "weighted_winrate_unsmoothed": 0.0,
+   "avg_pick_round": 5.0,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": null,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 1,
+     "bans": 0,
+     "wins": 0,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Nunu": {
+   "name": "Nunu & Willump",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "champion_tags.json fallback (no pro picks in role slices)",
+   "tier": "D",
+   "weighted_presence": 0.0002,
+   "weighted_pickrate": 0.0001,
+   "weighted_banrate": 0.0001,
+   "weighted_games": 0.09,
+   "weighted_winrate": 0.5043,
+   "weighted_winrate_unsmoothed": 1.0,
+   "avg_pick_round": 1.0,
+   "blind_pick_pct": null,
+   "avg_ban_turn": 3.0,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 1,
+     "bans": 1,
+     "wins": 1,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Rammus": {
+   "name": "Rammus",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0002,
+   "weighted_pickrate": 0.0002,
+   "weighted_banrate": 0.0,
+   "weighted_games": 0.16,
+   "weighted_winrate": 0.4922,
+   "weighted_winrate_unsmoothed": 0.0,
+   "avg_pick_round": 3.0,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": null,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 1,
+     "bans": 0,
+     "wins": 0,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Riven": {
+   "name": "Riven",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 1.0
+   },
+   "role_source": "champion_tags.json fallback (no pro picks in role slices)",
+   "tier": "D",
+   "weighted_presence": 0.0002,
+   "weighted_pickrate": 0.0001,
+   "weighted_banrate": 0.0001,
+   "weighted_games": 0.09,
+   "weighted_winrate": 0.4957,
+   "weighted_winrate_unsmoothed": 0.0,
+   "avg_pick_round": 2.0,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": 10.0,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 1,
+     "bans": 1,
+     "wins": 0,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Samira": {
+   "name": "Samira",
+   "roles": [
+    "bot"
+   ],
+   "role_share": {
+    "bot": 1.0
+   },
+   "role_source": "champion_tags.json fallback (no pro picks in role slices)",
+   "tier": "D",
+   "weighted_presence": 0.0002,
+   "weighted_pickrate": 0.0001,
+   "weighted_banrate": 0.0001,
+   "weighted_games": 0.09,
+   "weighted_winrate": 0.4957,
+   "weighted_winrate_unsmoothed": 0.0,
+   "avg_pick_round": 2.0,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": 3.0,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 1,
+     "bans": 1,
+     "wins": 0,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Teemo": {
+   "name": "Teemo",
+   "roles": [
+    "top"
+   ],
+   "role_share": {
+    "top": 1.0
+   },
+   "role_source": "champion_tags.json fallback (no pro picks in role slices)",
+   "tier": "D",
+   "weighted_presence": 0.0002,
+   "weighted_pickrate": 0.0,
+   "weighted_banrate": 0.0002,
+   "weighted_games": 0.0,
+   "weighted_winrate": 0.5,
+   "weighted_winrate_unsmoothed": null,
+   "avg_pick_round": null,
+   "blind_pick_pct": null,
+   "avg_ban_turn": 3.0,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 0,
+     "bans": 1,
+     "wins": 0,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Zac": {
+   "name": "Zac",
+   "roles": [
+    "jungle"
+   ],
+   "role_share": {
+    "jungle": 1.0
+   },
+   "role_source": "gol.gg role filter",
+   "tier": "D",
+   "weighted_presence": 0.0002,
+   "weighted_pickrate": 0.0002,
+   "weighted_banrate": 0.0,
+   "weighted_games": 0.16,
+   "weighted_winrate": 0.5078,
+   "weighted_winrate_unsmoothed": 1.0,
+   "avg_pick_round": 5.0,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": null,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 1,
+     "bans": 0,
+     "wins": 1,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Kassadin": {
+   "name": "Kassadin",
+   "roles": [
+    "mid"
+   ],
+   "role_share": {
+    "mid": 1.0
+   },
+   "role_source": "champion_tags.json fallback (no pro picks in role slices)",
+   "tier": "D",
+   "weighted_presence": 0.0001,
+   "weighted_pickrate": 0.0,
+   "weighted_banrate": 0.0001,
+   "weighted_games": 0.0,
+   "weighted_winrate": 0.5,
+   "weighted_winrate_unsmoothed": null,
+   "avg_pick_round": null,
+   "blind_pick_pct": null,
+   "avg_ban_turn": 8.0,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 0,
+     "bans": 1,
+     "wins": 0,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Talon": {
+   "name": "Talon",
+   "roles": [
+    "mid",
+    "jungle"
+   ],
+   "role_share": {
+    "mid": 0.5,
+    "jungle": 0.5
+   },
+   "role_source": "champion_tags.json fallback (no pro picks in role slices)",
+   "tier": "D",
+   "weighted_presence": 0.0001,
+   "weighted_pickrate": 0.0001,
+   "weighted_banrate": 0.0,
+   "weighted_games": 0.09,
+   "weighted_winrate": 0.4957,
+   "weighted_winrate_unsmoothed": 0.0,
+   "avg_pick_round": 3.0,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": null,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 1,
+     "bans": 0,
+     "wins": 0,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  },
+  "Taric": {
+   "name": "Taric",
+   "roles": [
+    "support"
+   ],
+   "role_share": {
+    "support": 1.0
+   },
+   "role_source": "champion_tags.json fallback (no pro picks in role slices)",
+   "tier": "D",
+   "weighted_presence": 0.0001,
+   "weighted_pickrate": 0.0001,
+   "weighted_banrate": 0.0,
+   "weighted_games": 0.09,
+   "weighted_winrate": 0.4957,
+   "weighted_winrate_unsmoothed": 0.0,
+   "avg_pick_round": 2.0,
+   "blind_pick_pct": 0.0,
+   "avg_ban_turn": null,
+   "raw_totals": {
+    "tournament_slices": {
+     "picks": 0,
+     "bans": 0,
+     "wins": 0,
+     "games": 671
+    },
+    "patch_slices": {
+     "picks": 1,
+     "bans": 0,
+     "wins": 0,
+     "games": 1661
+    }
+   },
+   "worlds_2026_main_event": null
+  }
+ },
+ "by_role": {
+  "top": [
+   {
+    "id": "Olaf",
+    "role_pickrate": 0.1669,
+    "presence": 0.516,
+    "winrate": 0.5099
+   },
+   {
+    "id": "Rumble",
+    "role_pickrate": 0.2579,
+    "presence": 0.4554,
+    "winrate": 0.4526
+   },
+   {
+    "id": "Jayce",
+    "role_pickrate": 0.1191,
+    "presence": 0.3726,
+    "winrate": 0.4381
+   },
+   {
+    "id": "KSante",
+    "role_pickrate": 0.217,
+    "presence": 0.3663,
+    "winrate": 0.4303
+   },
+   {
+    "id": "Ambessa",
+    "role_pickrate": 0.1793,
+    "presence": 0.2862,
+    "winrate": 0.5318
+   },
+   {
+    "id": "Gnar",
+    "role_pickrate": 0.1477,
+    "presence": 0.2653,
+    "winrate": 0.5556
+   },
+   {
+    "id": "Camille",
+    "role_pickrate": 0.105,
+    "presence": 0.2238,
+    "winrate": 0.5723
+   },
+   {
+    "id": "Galio",
+    "role_pickrate": 0.0453,
+    "presence": 0.2168,
+    "winrate": 0.5636
+   },
+   {
+    "id": "Renekton",
+    "role_pickrate": 0.1023,
+    "presence": 0.1957,
+    "winrate": 0.5451
+   },
+   {
+    "id": "Trundle",
+    "role_pickrate": 0.0173,
+    "presence": 0.186,
+    "winrate": 0.5384
+   },
+   {
+    "id": "Anivia",
+    "role_pickrate": 0.0102,
+    "presence": 0.146,
+    "winrate": 0.4646
+   },
+   {
+    "id": "Jax",
+    "role_pickrate": 0.0644,
+    "presence": 0.1317,
+    "winrate": 0.4715
+   },
+   {
+    "id": "Varus",
+    "role_pickrate": 0.0224,
+    "presence": 0.1283,
+    "winrate": 0.5304
+   },
+   {
+    "id": "Vayne",
+    "role_pickrate": 0.0186,
+    "presence": 0.1169,
+    "winrate": 0.4929
+   },
+   {
+    "id": "Yone",
+    "role_pickrate": 0.0085,
+    "presence": 0.1079,
+    "winrate": 0.4305
+   },
+   {
+    "id": "TwistedFate",
+    "role_pickrate": 0.011,
+    "presence": 0.1072,
+    "winrate": 0.5618
+   },
+   {
+    "id": "Chogath",
+    "role_pickrate": 0.008,
+    "presence": 0.0927,
+    "winrate": 0.41
+   },
+   {
+    "id": "Yorick",
+    "role_pickrate": 0.0556,
+    "presence": 0.0843,
+    "winrate": 0.4689
+   },
+   {
+    "id": "Ornn",
+    "role_pickrate": 0.0615,
+    "presence": 0.0779,
+    "winrate": 0.5182
+   },
+   {
+    "id": "Shen",
+    "role_pickrate": 0.024,
+    "presence": 0.0744,
+    "winrate": 0.5081
+   },
+   {
+    "id": "Sion",
+    "role_pickrate": 0.0596,
+    "presence": 0.0743,
+    "winrate": 0.487
+   },
+   {
+    "id": "Aurora",
+    "role_pickrate": 0.0072,
+    "presence": 0.073,
+    "winrate": 0.4139
+   },
+   {
+    "id": "Gwen",
+    "role_pickrate": 0.0404,
+    "presence": 0.0659,
+    "winrate": 0.5472
+   },
+   {
+    "id": "Zaahen",
+    "role_pickrate": 0.0379,
+    "presence": 0.0634,
+    "winrate": 0.4718
+   },
+   {
+    "id": "Aatrox",
+    "role_pickrate": 0.0344,
+    "presence": 0.0552,
+    "winrate": 0.4433
+   }
+  ],
+  "jungle": [
+   {
+    "id": "Nocturne",
+    "role_pickrate": 0.1137,
+    "presence": 0.7993,
+    "winrate": 0.5296
+   },
+   {
+    "id": "Vi",
+    "role_pickrate": 0.1699,
+    "presence": 0.6888,
+    "winrate": 0.541
+   },
+   {
+    "id": "JarvanIV",
+    "role_pickrate": 0.2241,
+    "presence": 0.5389,
+    "winrate": 0.4734
+   },
+   {
+    "id": "LeeSin",
+    "role_pickrate": 0.2099,
+    "presence": 0.4929,
+    "winrate": 0.5186
+   },
+   {
+    "id": "Qiyana",
+    "role_pickrate": 0.1684,
+    "presence": 0.449,
+    "winrate": 0.5875
+   },
+   {
+    "id": "Jayce",
+    "role_pickrate": 0.0204,
+    "presence": 0.3726,
+    "winrate": 0.4381
+   },
+   {
+    "id": "MonkeyKing",
+    "role_pickrate": 0.1716,
+    "presence": 0.3198,
+    "winrate": 0.5152
+   },
+   {
+    "id": "Pantheon",
+    "role_pickrate": 0.1374,
+    "presence": 0.2918,
+    "winrate": 0.4473
+   },
+   {
+    "id": "Naafiri",
+    "role_pickrate": 0.131,
+    "presence": 0.2586,
+    "winrate": 0.4727
+   },
+   {
+    "id": "XinZhao",
+    "role_pickrate": 0.1278,
+    "presence": 0.232,
+    "winrate": 0.5062
+   },
+   {
+    "id": "Skarner",
+    "role_pickrate": 0.1054,
+    "presence": 0.2253,
+    "winrate": 0.526
+   },
+   {
+    "id": "Trundle",
+    "role_pickrate": 0.0909,
+    "presence": 0.186,
+    "winrate": 0.5384
+   },
+   {
+    "id": "Poppy",
+    "role_pickrate": 0.0191,
+    "presence": 0.178,
+    "winrate": 0.5595
+   },
+   {
+    "id": "Maokai",
+    "role_pickrate": 0.0696,
+    "presence": 0.1179,
+    "winrate": 0.4205
+   },
+   {
+    "id": "Chogath",
+    "role_pickrate": 0.0628,
+    "presence": 0.0927,
+    "winrate": 0.41
+   },
+   {
+    "id": "Zaahen",
+    "role_pickrate": 0.0123,
+    "presence": 0.0634,
+    "winrate": 0.4718
+   },
+   {
+    "id": "Aatrox",
+    "role_pickrate": 0.0112,
+    "presence": 0.0552,
+    "winrate": 0.4433
+   },
+   {
+    "id": "Sejuani",
+    "role_pickrate": 0.0423,
+    "presence": 0.0543,
+    "winrate": 0.4634
+   },
+   {
+    "id": "Shyvana",
+    "role_pickrate": 0.0195,
+    "presence": 0.0502,
+    "winrate": 0.4941
+   },
+   {
+    "id": "DrMundo",
+    "role_pickrate": 0.0034,
+    "presence": 0.0324,
+    "winrate": 0.4781
+   },
+   {
+    "id": "Khazix",
+    "role_pickrate": 0.0147,
+    "presence": 0.0271,
+    "winrate": 0.5186
+   },
+   {
+    "id": "Nasus",
+    "role_pickrate": 0.0034,
+    "presence": 0.0241,
+    "winrate": 0.4396
+   },
+   {
+    "id": "Nidalee",
+    "role_pickrate": 0.0067,
+    "presence": 0.0172,
+    "winrate": 0.5478
+   },
+   {
+    "id": "Malphite",
+    "role_pickrate": 0.003,
+    "presence": 0.016,
+    "winrate": 0.4997
+   },
+   {
+    "id": "Viego",
+    "role_pickrate": 0.0051,
+    "presence": 0.014,
+    "winrate": 0.4425
+   }
+  ],
+  "mid": [
+   {
+    "id": "Cassiopeia",
+    "role_pickrate": 0.1192,
+    "presence": 0.7539,
+    "winrate": 0.5448
+   },
+   {
+    "id": "Syndra",
+    "role_pickrate": 0.2196,
+    "presence": 0.5341,
+    "winrate": 0.5037
+   },
+   {
+    "id": "Orianna",
+    "role_pickrate": 0.2109,
+    "presence": 0.5094,
+    "winrate": 0.5444
+   },
+   {
+    "id": "Akali",
+    "role_pickrate": 0.1213,
+    "presence": 0.4574,
+    "winrate": 0.4396
+   },
+   {
+    "id": "Ryze",
+    "role_pickrate": 0.2267,
+    "presence": 0.3653,
+    "winrate": 0.4772
+   },
+   {
+    "id": "Viktor",
+    "role_pickrate": 0.1878,
+    "presence": 0.3065,
+    "winrate": 0.5059
+   },
+   {
+    "id": "Locke",
+    "role_pickrate": 0.0931,
+    "presence": 0.2557,
+    "winrate": 0.5526
+   },
+   {
+    "id": "Ahri",
+    "role_pickrate": 0.1342,
+    "presence": 0.2295,
+    "winrate": 0.5481
+   },
+   {
+    "id": "Galio",
+    "role_pickrate": 0.0817,
+    "presence": 0.2168,
+    "winrate": 0.5636
+   },
+   {
+    "id": "Sylas",
+    "role_pickrate": 0.0663,
+    "presence": 0.1512,
+    "winrate": 0.5153
+   },
+   {
+    "id": "Anivia",
+    "role_pickrate": 0.0713,
+    "presence": 0.146,
+    "winrate": 0.4646
+   },
+   {
+    "id": "Annie",
+    "role_pickrate": 0.0709,
+    "presence": 0.1273,
+    "winrate": 0.5749
+   },
+   {
+    "id": "Leblanc",
+    "role_pickrate": 0.043,
+    "presence": 0.1124,
+    "winrate": 0.5197
+   },
+   {
+    "id": "Yone",
+    "role_pickrate": 0.0401,
+    "presence": 0.1079,
+    "winrate": 0.4305
+   },
+   {
+    "id": "TwistedFate",
+    "role_pickrate": 0.0316,
+    "presence": 0.1072,
+    "winrate": 0.5618
+   },
+   {
+    "id": "Taliyah",
+    "role_pickrate": 0.0626,
+    "presence": 0.104,
+    "winrate": 0.5539
+   },
+   {
+    "id": "Tristana",
+    "role_pickrate": 0.0188,
+    "presence": 0.0899,
+    "winrate": 0.5333
+   },
+   {
+    "id": "Aurora",
+    "role_pickrate": 0.0447,
+    "presence": 0.073,
+    "winrate": 0.4139
+   },
+   {
+    "id": "Lissandra",
+    "role_pickrate": 0.0309,
+    "presence": 0.0464,
+    "winrate": 0.4585
+   },
+   {
+    "id": "Azir",
+    "role_pickrate": 0.0234,
+    "presence": 0.0385,
+    "winrate": 0.4019
+   },
+   {
+    "id": "Hwei",
+    "role_pickrate": 0.0251,
+    "presence": 0.0376,
+    "winrate": 0.3954
+   },
+   {
+    "id": "Mel",
+    "role_pickrate": 0.0075,
+    "presence": 0.0319,
+    "winrate": 0.3964
+   },
+   {
+    "id": "Nasus",
+    "role_pickrate": 0.0023,
+    "presence": 0.0241,
+    "winrate": 0.4396
+   },
+   {
+    "id": "Irelia",
+    "role_pickrate": 0.0027,
+    "presence": 0.022,
+    "winrate": 0.5846
+   },
+   {
+    "id": "Zoe",
+    "role_pickrate": 0.0041,
+    "presence": 0.0197,
+    "winrate": 0.487
+   }
+  ],
+  "bot": [
+   {
+    "id": "Lucian",
+    "role_pickrate": 0.2264,
+    "presence": 0.4462,
+    "winrate": 0.4692
+   },
+   {
+    "id": "Ezreal",
+    "role_pickrate": 0.2243,
+    "presence": 0.4287,
+    "winrate": 0.4797
+   },
+   {
+    "id": "Caitlyn",
+    "role_pickrate": 0.1503,
+    "presence": 0.3631,
+    "winrate": 0.4502
+   },
+   {
+    "id": "Yunara",
+    "role_pickrate": 0.2368,
+    "presence": 0.289,
+    "winrate": 0.5525
+   },
+   {
+    "id": "Kalista",
+    "role_pickrate": 0.1526,
+    "presence": 0.2689,
+    "winrate": 0.5203
+   },
+   {
+    "id": "Jhin",
+    "role_pickrate": 0.1778,
+    "presence": 0.2607,
+    "winrate": 0.4567
+   },
+   {
+    "id": "Ashe",
+    "role_pickrate": 0.165,
+    "presence": 0.198,
+    "winrate": 0.5351
+   },
+   {
+    "id": "Xayah",
+    "role_pickrate": 0.1064,
+    "presence": 0.1443,
+    "winrate": 0.5858
+   },
+   {
+    "id": "Varus",
+    "role_pickrate": 0.0563,
+    "presence": 0.1283,
+    "winrate": 0.5304
+   },
+   {
+    "id": "Kaisa",
+    "role_pickrate": 0.0753,
+    "presence": 0.126,
+    "winrate": 0.5218
+   },
+   {
+    "id": "Sivir",
+    "role_pickrate": 0.0682,
+    "presence": 0.1052,
+    "winrate": 0.5264
+   },
+   {
+    "id": "Corki",
+    "role_pickrate": 0.0669,
+    "presence": 0.0906,
+    "winrate": 0.4274
+   },
+   {
+    "id": "Tristana",
+    "role_pickrate": 0.0414,
+    "presence": 0.0899,
+    "winrate": 0.5333
+   },
+   {
+    "id": "Ziggs",
+    "role_pickrate": 0.0368,
+    "presence": 0.0833,
+    "winrate": 0.4217
+   },
+   {
+    "id": "Zeri",
+    "role_pickrate": 0.0588,
+    "presence": 0.0828,
+    "winrate": 0.5125
+   },
+   {
+    "id": "MissFortune",
+    "role_pickrate": 0.0383,
+    "presence": 0.0513,
+    "winrate": 0.4599
+   },
+   {
+    "id": "Draven",
+    "role_pickrate": 0.0058,
+    "presence": 0.0469,
+    "winrate": 0.5167
+   },
+   {
+    "id": "Aphelios",
+    "role_pickrate": 0.0342,
+    "presence": 0.0434,
+    "winrate": 0.4681
+   },
+   {
+    "id": "Jinx",
+    "role_pickrate": 0.0361,
+    "presence": 0.0421,
+    "winrate": 0.5085
+   },
+   {
+    "id": "Mel",
+    "role_pickrate": 0.0084,
+    "presence": 0.0319,
+    "winrate": 0.3964
+   },
+   {
+    "id": "KogMaw",
+    "role_pickrate": 0.0044,
+    "presence": 0.0113,
+    "winrate": 0.5284
+   },
+   {
+    "id": "Yasuo",
+    "role_pickrate": 0.0009,
+    "presence": 0.008,
+    "winrate": 0.5401
+   },
+   {
+    "id": "Swain",
+    "role_pickrate": 0.0017,
+    "presence": 0.0076,
+    "winrate": 0.4922
+   },
+   {
+    "id": "Heimerdinger",
+    "role_pickrate": 0.0003,
+    "presence": 0.0055,
+    "winrate": 0.4966
+   },
+   {
+    "id": "Senna",
+    "role_pickrate": 0.001,
+    "presence": 0.0039,
+    "winrate": 0.46
+   }
+  ],
+  "support": [
+   {
+    "id": "Nautilus",
+    "role_pickrate": 0.1817,
+    "presence": 0.4154,
+    "winrate": 0.4695
+   },
+   {
+    "id": "Lulu",
+    "role_pickrate": 0.2546,
+    "presence": 0.4078,
+    "winrate": 0.5713
+   },
+   {
+    "id": "Seraphine",
+    "role_pickrate": 0.1904,
+    "presence": 0.3699,
+    "winrate": 0.5352
+   },
+   {
+    "id": "Karma",
+    "role_pickrate": 0.167,
+    "presence": 0.3076,
+    "winrate": 0.4676
+   },
+   {
+    "id": "Bard",
+    "role_pickrate": 0.1483,
+    "presence": 0.2883,
+    "winrate": 0.4626
+   },
+   {
+    "id": "Renata",
+    "role_pickrate": 0.1557,
+    "presence": 0.2668,
+    "winrate": 0.5455
+   },
+   {
+    "id": "Milio",
+    "role_pickrate": 0.2162,
+    "presence": 0.2288,
+    "winrate": 0.4542
+   },
+   {
+    "id": "Camille",
+    "role_pickrate": 0.018,
+    "presence": 0.2238,
+    "winrate": 0.5723
+   },
+   {
+    "id": "Alistar",
+    "role_pickrate": 0.1321,
+    "presence": 0.1871,
+    "winrate": 0.4955
+   },
+   {
+    "id": "Poppy",
+    "role_pickrate": 0.0174,
+    "presence": 0.178,
+    "winrate": 0.5595
+   },
+   {
+    "id": "Rakan",
+    "role_pickrate": 0.1282,
+    "presence": 0.1679,
+    "winrate": 0.5343
+   },
+   {
+    "id": "Rell",
+    "role_pickrate": 0.0848,
+    "presence": 0.1079,
+    "winrate": 0.4123
+   },
+   {
+    "id": "Leona",
+    "role_pickrate": 0.0616,
+    "presence": 0.0876,
+    "winrate": 0.575
+   },
+   {
+    "id": "Shen",
+    "role_pickrate": 0.028,
+    "presence": 0.0744,
+    "winrate": 0.5081
+   },
+   {
+    "id": "Neeko",
+    "role_pickrate": 0.0386,
+    "presence": 0.0677,
+    "winrate": 0.4477
+   },
+   {
+    "id": "Yuumi",
+    "role_pickrate": 0.0345,
+    "presence": 0.046,
+    "winrate": 0.4764
+   },
+   {
+    "id": "Thresh",
+    "role_pickrate": 0.0293,
+    "presence": 0.0391,
+    "winrate": 0.4763
+   },
+   {
+    "id": "Pyke",
+    "role_pickrate": 0.0149,
+    "presence": 0.0368,
+    "winrate": 0.361
+   },
+   {
+    "id": "Braum",
+    "role_pickrate": 0.0166,
+    "presence": 0.0254,
+    "winrate": 0.4297
+   },
+   {
+    "id": "Lux",
+    "role_pickrate": 0.0097,
+    "presence": 0.0189,
+    "winrate": 0.5867
+   },
+   {
+    "id": "Nami",
+    "role_pickrate": 0.0166,
+    "presence": 0.0187,
+    "winrate": 0.4446
+   },
+   {
+    "id": "Blitzcrank",
+    "role_pickrate": 0.0092,
+    "presence": 0.0143,
+    "winrate": 0.4995
+   },
+   {
+    "id": "TahmKench",
+    "role_pickrate": 0.0083,
+    "presence": 0.0102,
+    "winrate": 0.4511
+   },
+   {
+    "id": "Soraka",
+    "role_pickrate": 0.0046,
+    "presence": 0.0068,
+    "winrate": 0.4275
+   },
+   {
+    "id": "Elise",
+    "role_pickrate": 0.0041,
+    "presence": 0.0053,
+    "winrate": 0.4467
+   }
+  ]
+ },
+ "worlds_2026_main_event_by_role": {
+  "bot": [
+   {
+    "id": "Ezreal",
+    "picks": 20,
+    "wins": 8
+   },
+   {
+    "id": "Jhin",
+    "picks": 15,
+    "wins": 7
+   },
+   {
+    "id": "Kalista",
+    "picks": 14,
+    "wins": 8
+   },
+   {
+    "id": "Yunara",
+    "picks": 12,
+    "wins": 6
+   },
+   {
+    "id": "Lucian",
+    "picks": 10,
+    "wins": 6
+   },
+   {
+    "id": "Ashe",
+    "picks": 9,
+    "wins": 6
+   },
+   {
+    "id": "Kaisa",
+    "picks": 8,
+    "wins": 4
+   },
+   {
+    "id": "Caitlyn",
+    "picks": 7,
+    "wins": 2
+   },
+   {
+    "id": "Corki",
+    "picks": 6,
+    "wins": 3
+   },
+   {
+    "id": "Tristana",
+    "picks": 4,
+    "wins": 2
+   },
+   {
+    "id": "Xayah",
+    "picks": 4,
+    "wins": 3
+   },
+   {
+    "id": "Ziggs",
+    "picks": 2,
+    "wins": 1
+   },
+   {
+    "id": "Aphelios",
+    "picks": 2,
+    "wins": 1
+   },
+   {
+    "id": "Zeri",
+    "picks": 2,
+    "wins": 1
+   },
+   {
+    "id": "MissFortune",
+    "picks": 2,
+    "wins": 0
+   },
+   {
+    "id": "Cassiopeia",
+    "picks": 1,
+    "wins": 1
+   },
+   {
+    "id": "Sivir",
+    "picks": 1,
+    "wins": 1
+   },
+   {
+    "id": "Varus",
+    "picks": 1,
+    "wins": 1
+   },
+   {
+    "id": "Jinx",
+    "picks": 1,
+    "wins": 0
+   },
+   {
+    "id": "Mel",
+    "picks": 1,
+    "wins": 0
+   }
+  ],
+  "jungle": [
+   {
+    "id": "LeeSin",
+    "picks": 21,
+    "wins": 10
+   },
+   {
+    "id": "JarvanIV",
+    "picks": 17,
+    "wins": 9
+   },
+   {
+    "id": "Qiyana",
+    "picks": 16,
+    "wins": 7
+   },
+   {
+    "id": "Nocturne",
+    "picks": 13,
+    "wins": 8
+   },
+   {
+    "id": "Pantheon",
+    "picks": 13,
+    "wins": 7
+   },
+   {
+    "id": "Vi",
+    "picks": 10,
+    "wins": 5
+   },
+   {
+    "id": "MonkeyKing",
+    "picks": 8,
+    "wins": 4
+   },
+   {
+    "id": "Trundle",
+    "picks": 6,
+    "wins": 4
+   },
+   {
+    "id": "XinZhao",
+    "picks": 5,
+    "wins": 3
+   },
+   {
+    "id": "Skarner",
+    "picks": 3,
+    "wins": 0
+   },
+   {
+    "id": "Maokai",
+    "picks": 3,
+    "wins": 0
+   },
+   {
+    "id": "Jayce",
+    "picks": 2,
+    "wins": 2
+   },
+   {
+    "id": "Naafiri",
+    "picks": 2,
+    "wins": 2
+   },
+   {
+    "id": "Sejuani",
+    "picks": 2,
+    "wins": 0
+   },
+   {
+    "id": "Chogath",
+    "picks": 1,
+    "wins": 0
+   }
+  ],
+  "mid": [
+   {
+    "id": "Orianna",
+    "picks": 19,
+    "wins": 14
+   },
+   {
+    "id": "Syndra",
+    "picks": 15,
+    "wins": 10
+   },
+   {
+    "id": "Viktor",
+    "picks": 12,
+    "wins": 5
+   },
+   {
+    "id": "Cassiopeia",
+    "picks": 10,
+    "wins": 4
+   },
+   {
+    "id": "Akali",
+    "picks": 10,
+    "wins": 2
+   },
+   {
+    "id": "Locke",
+    "picks": 8,
+    "wins": 5
+   },
+   {
+    "id": "Galio",
+    "picks": 8,
+    "wins": 6
+   },
+   {
+    "id": "Anivia",
+    "picks": 6,
+    "wins": 1
+   },
+   {
+    "id": "Taliyah",
+    "picks": 6,
+    "wins": 5
+   },
+   {
+    "id": "Ryze",
+    "picks": 5,
+    "wins": 0
+   },
+   {
+    "id": "Leblanc",
+    "picks": 4,
+    "wins": 1
+   },
+   {
+    "id": "Annie",
+    "picks": 4,
+    "wins": 2
+   },
+   {
+    "id": "Sylas",
+    "picks": 3,
+    "wins": 1
+   },
+   {
+    "id": "Aurora",
+    "picks": 3,
+    "wins": 1
+   },
+   {
+    "id": "Ahri",
+    "picks": 2,
+    "wins": 2
+   },
+   {
+    "id": "Yone",
+    "picks": 2,
+    "wins": 0
+   },
+   {
+    "id": "Lissandra",
+    "picks": 2,
+    "wins": 1
+   },
+   {
+    "id": "Diana",
+    "picks": 1,
+    "wins": 0
+   },
+   {
+    "id": "Swain",
+    "picks": 1,
+    "wins": 1
+   },
+   {
+    "id": "Tristana",
+    "picks": 1,
+    "wins": 0
+   }
+  ],
+  "support": [
+   {
+    "id": "Nautilus",
+    "picks": 19,
+    "wins": 13
+   },
+   {
+    "id": "Alistar",
+    "picks": 19,
+    "wins": 6
+   },
+   {
+    "id": "Lulu",
+    "picks": 15,
+    "wins": 8
+   },
+   {
+    "id": "Renata",
+    "picks": 14,
+    "wins": 8
+   },
+   {
+    "id": "Karma",
+    "picks": 12,
+    "wins": 3
+   },
+   {
+    "id": "Seraphine",
+    "picks": 10,
+    "wins": 6
+   },
+   {
+    "id": "Milio",
+    "picks": 8,
+    "wins": 4
+   },
+   {
+    "id": "Rakan",
+    "picks": 6,
+    "wins": 3
+   },
+   {
+    "id": "Leona",
+    "picks": 3,
+    "wins": 3
+   },
+   {
+    "id": "Neeko",
+    "picks": 2,
+    "wins": 0
+   },
+   {
+    "id": "Rell",
+    "picks": 2,
+    "wins": 0
+   },
+   {
+    "id": "Nami",
+    "picks": 2,
+    "wins": 2
+   },
+   {
+    "id": "Yuumi",
+    "picks": 2,
+    "wins": 1
+   },
+   {
+    "id": "Poppy",
+    "picks": 1,
+    "wins": 1
+   },
+   {
+    "id": "Bard",
+    "picks": 1,
+    "wins": 1
+   },
+   {
+    "id": "Elise",
+    "picks": 1,
+    "wins": 0
+   },
+   {
+    "id": "Shen",
+    "picks": 1,
+    "wins": 1
+   },
+   {
+    "id": "TahmKench",
+    "picks": 1,
+    "wins": 0
+   },
+   {
+    "id": "Pyke",
+    "picks": 1,
+    "wins": 0
+   },
+   {
+    "id": "Lux",
+    "picks": 1,
+    "wins": 1
+   },
+   {
+    "id": "Thresh",
+    "picks": 1,
+    "wins": 0
+   }
+  ],
+  "top": [
+   {
+    "id": "Rumble",
+    "picks": 17,
+    "wins": 3
+   },
+   {
+    "id": "Ambessa",
+    "picks": 17,
+    "wins": 9
+   },
+   {
+    "id": "KSante",
+    "picks": 15,
+    "wins": 7
+   },
+   {
+    "id": "Olaf",
+    "picks": 11,
+    "wins": 5
+   },
+   {
+    "id": "Gnar",
+    "picks": 9,
+    "wins": 6
+   },
+   {
+    "id": "Jayce",
+    "picks": 8,
+    "wins": 3
+   },
+   {
+    "id": "Ornn",
+    "picks": 7,
+    "wins": 5
+   },
+   {
+    "id": "Camille",
+    "picks": 6,
+    "wins": 4
+   },
+   {
+    "id": "Renekton",
+    "picks": 5,
+    "wins": 4
+   },
+   {
+    "id": "Jax",
+    "picks": 4,
+    "wins": 2
+   },
+   {
+    "id": "Shen",
+    "picks": 4,
+    "wins": 0
+   },
+   {
+    "id": "Galio",
+    "picks": 3,
+    "wins": 2
+   },
+   {
+    "id": "Kled",
+    "picks": 2,
+    "wins": 2
+   },
+   {
+    "id": "Aurora",
+    "picks": 2,
+    "wins": 2
+   },
+   {
+    "id": "Kennen",
+    "picks": 2,
+    "wins": 1
+   },
+   {
+    "id": "Aatrox",
+    "picks": 2,
+    "wins": 1
+   },
+   {
+    "id": "Trundle",
+    "picks": 1,
+    "wins": 1
+   },
+   {
+    "id": "Vayne",
+    "picks": 1,
+    "wins": 0
+   },
+   {
+    "id": "Gwen",
+    "picks": 1,
+    "wins": 1
+   },
+   {
+    "id": "Irelia",
+    "picks": 1,
+    "wins": 1
+   },
+   {
+    "id": "Sion",
+    "picks": 1,
+    "wins": 1
+   },
+   {
+    "id": "Zaahen",
+    "picks": 1,
+    "wins": 0
+   },
+   {
+    "id": "Gangplank",
+    "picks": 1,
+    "wins": 0
+   },
+   {
+    "id": "Tristana",
+    "picks": 1,
+    "wins": 1
+   }
+  ]
+ }
+}

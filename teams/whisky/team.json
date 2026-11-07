@@ -1,0 +1,60 @@
+{
+ "name": "Whisky",
+ "slug": "whisky",
+ "region": "EUW",
+ "leagues": [
+  "Kia deild (IS)",
+  "Danish league (upcoming)"
+ ],
+ "comp_team_names": [
+  "Whisky",
+  "Whisky Tango Foxtrot"
+ ],
+ "lineup": {
+  "top": [
+   "baunadós"
+  ],
+  "jungle": [
+   "icelandic hero"
+  ],
+  "mid": [
+   "sigginn"
+  ],
+  "bot": [
+   "meoki"
+  ],
+  "support": [
+   "catmaniac"
+  ]
+ },
+ "subs": [
+  "oyq",
+  "lyklabord"
+ ],
+ "riot_ids": {
+  "baunadós": [
+   "Baunadós#123"
+  ],
+  "icelandic hero": [
+   "Icelandic Hero#ice",
+   "Icelandic Hero#ISL"
+  ],
+  "sigginn": [
+   "SigginnV2#whsk",
+   "Sigginn#80085"
+  ],
+  "meoki": [
+   "Meoki#EUW"
+  ],
+  "catmaniac": [
+   "Catmaniac#whsk"
+  ],
+  "oyq": [
+   "OYQ#EUW"
+  ],
+  "lyklabord": [
+   "Lyklabord#sjö"
+  ]
+ },
+ "notes": "Challengermode subs: OYQ#EUW (OYQ), Lyklabord#sjö (PatrickPVC)."
+}

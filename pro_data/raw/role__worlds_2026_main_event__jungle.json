@@ -1,0 +1,129 @@
+{
+ "slice_key": "R:Worlds 2026 Main Event:JUNGLE",
+ "kind": "role",
+ "tournament": "Worlds 2026 Main Event",
+ "patch": "ALL",
+ "role": "JUNGLE",
+ "source": "gol.gg",
+ "source_url": "https://gol.gg/champion/list/season-S16/split-ALL/tournament-Worlds%202026%20Main%20Event/",
+ "method": "POST (form-encoded, same as the page's #FilterForm)",
+ "post_params": {
+  "cbtournament": "Worlds 2026 Main Event",
+  "patch": "ALL",
+  "role": "JUNGLE",
+  "leaguePost": "true",
+  "side": "ALL",
+  "draft": "ALL"
+ },
+ "fetched_at": "2026-11-06T10:45:27.320Z",
+ "fetch_date": "2026-11-06",
+ "games": 61,
+ "notes": "Only champions with >=1 pick or ban kept (role slices: >=1 pick). Role slices: bans are not role-specific, so only picks/wins. games = sum(picks)/10 (role slices: /2). blind_pick_pct = gol.gg 'BP%' (blind pick %), avg_pick_round = 'Avg RP', avg_ban_turn = 'Avg BT' (1 = first ban).",
+ "rows": [
+  {
+   "champion_id": "Nocturne",
+   "gol_icon": "Nocturne",
+   "picks": 13,
+   "wins": 8,
+   "losses": 5
+  },
+  {
+   "champion_id": "Vi",
+   "gol_icon": "Vi",
+   "picks": 10,
+   "wins": 5,
+   "losses": 5
+  },
+  {
+   "champion_id": "Qiyana",
+   "gol_icon": "Qiyana",
+   "picks": 16,
+   "wins": 7,
+   "losses": 9
+  },
+  {
+   "champion_id": "JarvanIV",
+   "gol_icon": "JarvanIV",
+   "picks": 17,
+   "wins": 9,
+   "losses": 8
+  },
+  {
+   "champion_id": "LeeSin",
+   "gol_icon": "LeeSin",
+   "picks": 21,
+   "wins": 10,
+   "losses": 11
+  },
+  {
+   "champion_id": "Jayce",
+   "gol_icon": "Jayce",
+   "picks": 2,
+   "wins": 2,
+   "losses": 0
+  },
+  {
+   "champion_id": "MonkeyKing",
+   "gol_icon": "Wukong",
+   "picks": 8,
+   "wins": 4,
+   "losses": 4
+  },
+  {
+   "champion_id": "Pantheon",
+   "gol_icon": "Pantheon",
+   "picks": 13,
+   "wins": 7,
+   "losses": 6
+  },
+  {
+   "champion_id": "Trundle",
+   "gol_icon": "Trundle",
+   "picks": 6,
+   "wins": 4,
+   "losses": 2
+  },
+  {
+   "champion_id": "Skarner",
+   "gol_icon": "Skarner",
+   "picks": 3,
+   "wins": 0,
+   "losses": 3
+  },
+  {
+   "champion_id": "XinZhao",
+   "gol_icon": "XinZhao",
+   "picks": 5,
+   "wins": 3,
+   "losses": 2
+  },
+  {
+   "champion_id": "Naafiri",
+   "gol_icon": "Naafiri",
+   "picks": 2,
+   "wins": 2,
+   "losses": 0
+  },
+  {
+   "champion_id": "Maokai",
+   "gol_icon": "Maokai",
+   "picks": 3,
+   "wins": 0,
+   "losses": 3
+  },
+  {
+   "champion_id": "Sejuani",
+   "gol_icon": "Sejuani",
+   "picks": 2,
+   "wins": 0,
+   "losses": 2
+  },
+  {
+   "champion_id": "Chogath",
+   "gol_icon": "Chogath",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  }
+ ]
+}

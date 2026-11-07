@@ -1,0 +1,3301 @@
+{
+"meta": {
+"games": 671,
+"series": 269,
+"games_by_number": {
+"1": 269,
+"2": 178,
+"3": 131,
+"4": 93
+},
+"note": "Leaguepedia pro games 26.16-26.20 (Worlds and regional leagues); game 4 includes 5"
+},
+"1": [
+{
+"champ": "Vi",
+"b1": 34,
+"b1_wins": 18,
+"rot1": 42,
+"p1ban": 145,
+"avail": 124,
+"b1_when_avail": 0.274,
+"presence": 0.695
+},
+{
+"champ": "Lee Sin",
+"b1": 27,
+"b1_wins": 11,
+"rot1": 42,
+"p1ban": 76,
+"avail": 192,
+"b1_when_avail": 0.141,
+"presence": 0.439
+},
+{
+"champ": "Ryze",
+"b1": 27,
+"b1_wins": 12,
+"rot1": 43,
+"p1ban": 21,
+"avail": 242,
+"b1_when_avail": 0.112,
+"presence": 0.238
+},
+{
+"champ": "Cassiopeia",
+"b1": 26,
+"b1_wins": 13,
+"rot1": 32,
+"p1ban": 158,
+"avail": 111,
+"b1_when_avail": 0.234,
+"presence": 0.706
+},
+{
+"champ": "Qiyana",
+"b1": 20,
+"b1_wins": 11,
+"rot1": 40,
+"p1ban": 91,
+"avail": 178,
+"b1_when_avail": 0.112,
+"presence": 0.487
+},
+{
+"champ": "Jarvan IV",
+"b1": 20,
+"b1_wins": 8,
+"rot1": 41,
+"p1ban": 88,
+"avail": 181,
+"b1_when_avail": 0.11,
+"presence": 0.48
+},
+{
+"champ": "Rumble",
+"b1": 18,
+"b1_wins": 6,
+"rot1": 42,
+"p1ban": 48,
+"avail": 221,
+"b1_when_avail": 0.081,
+"presence": 0.335
+},
+{
+"champ": "Nocturne",
+"b1": 14,
+"b1_wins": 9,
+"rot1": 21,
+"p1ban": 204,
+"avail": 65,
+"b1_when_avail": 0.215,
+"presence": 0.836
+},
+{
+"champ": "Ezreal",
+"b1": 14,
+"b1_wins": 8,
+"rot1": 44,
+"p1ban": 43,
+"avail": 224,
+"b1_when_avail": 0.062,
+"presence": 0.323
+},
+{
+"champ": "Syndra",
+"b1": 12,
+"b1_wins": 4,
+"rot1": 27,
+"p1ban": 70,
+"avail": 199,
+"b1_when_avail": 0.06,
+"presence": 0.361
+},
+{
+"champ": "Lulu",
+"b1": 11,
+"b1_wins": 9,
+"rot1": 41,
+"p1ban": 17,
+"avail": 251,
+"b1_when_avail": 0.044,
+"presence": 0.216
+},
+{
+"champ": "Orianna",
+"b1": 10,
+"b1_wins": 1,
+"rot1": 26,
+"p1ban": 55,
+"avail": 214,
+"b1_when_avail": 0.047,
+"presence": 0.301
+},
+{
+"champ": "Lucian",
+"b1": 8,
+"b1_wins": 3,
+"rot1": 43,
+"p1ban": 43,
+"avail": 225,
+"b1_when_avail": 0.036,
+"presence": 0.32
+},
+{
+"champ": "Karma",
+"b1": 6,
+"b1_wins": 4,
+"rot1": 29,
+"p1ban": 24,
+"avail": 242,
+"b1_when_avail": 0.025,
+"presence": 0.197
+},
+{
+"champ": "Wukong",
+"b1": 6,
+"b1_wins": 5,
+"rot1": 19,
+"p1ban": 13,
+"avail": 251,
+"b1_when_avail": 0.024,
+"presence": 0.119
+},
+{
+"champ": "Olaf",
+"b1": 5,
+"b1_wins": 1,
+"rot1": 7,
+"p1ban": 64,
+"avail": 205,
+"b1_when_avail": 0.024,
+"presence": 0.264
+},
+{
+"champ": "Seraphine",
+"b1": 4,
+"b1_wins": 2,
+"rot1": 22,
+"p1ban": 33,
+"avail": 233,
+"b1_when_avail": 0.017,
+"presence": 0.204
+},
+{
+"champ": "Milio",
+"b1": 2,
+"b1_wins": 1,
+"rot1": 36,
+"p1ban": 1,
+"avail": 266,
+"b1_when_avail": 0.008,
+"presence": 0.138
+},
+{
+"champ": "Viktor",
+"b1": 2,
+"b1_wins": 1,
+"rot1": 11,
+"p1ban": 7,
+"avail": 258,
+"b1_when_avail": 0.008,
+"presence": 0.067
+},
+{
+"champ": "Caitlyn",
+"b1": 1,
+"b1_wins": 0,
+"rot1": 20,
+"p1ban": 40,
+"avail": 223,
+"b1_when_avail": 0.004,
+"presence": 0.223
+},
+{
+"champ": "Yunara",
+"b1": 1,
+"b1_wins": 0,
+"rot1": 36,
+"p1ban": 16,
+"avail": 252,
+"b1_when_avail": 0.004,
+"presence": 0.193
+},
+{
+"champ": "Kalista",
+"b1": 1,
+"b1_wins": 0,
+"rot1": 19,
+"p1ban": 15,
+"avail": 254,
+"b1_when_avail": 0.004,
+"presence": 0.126
+},
+{
+"champ": "Akali",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 45,
+"avail": 224,
+"b1_when_avail": 0.0,
+"presence": 0.171
+},
+{
+"champ": "Nautilus",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 7,
+"p1ban": 35,
+"avail": 233,
+"b1_when_avail": 0.0,
+"presence": 0.156
+},
+{
+"champ": "Jayce",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 4,
+"p1ban": 35,
+"avail": 234,
+"b1_when_avail": 0.0,
+"presence": 0.145
+},
+{
+"champ": "Renata Glasc",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 19,
+"p1ban": 20,
+"avail": 249,
+"b1_when_avail": 0.0,
+"presence": 0.145
+},
+{
+"champ": "Bard",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 15,
+"p1ban": 16,
+"avail": 244,
+"b1_when_avail": 0.0,
+"presence": 0.115
+},
+{
+"champ": "Pantheon",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 9,
+"p1ban": 17,
+"avail": 250,
+"b1_when_avail": 0.0,
+"presence": 0.097
+},
+{
+"champ": "Ashe",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 16,
+"p1ban": 6,
+"avail": 260,
+"b1_when_avail": 0.0,
+"presence": 0.082
+},
+{
+"champ": "K'Sante",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 7,
+"p1ban": 13,
+"avail": 251,
+"b1_when_avail": 0.0,
+"presence": 0.074
+},
+{
+"champ": "Skarner",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 5,
+"p1ban": 10,
+"avail": 258,
+"b1_when_avail": 0.0,
+"presence": 0.056
+},
+{
+"champ": "Poppy",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 15,
+"avail": 247,
+"b1_when_avail": 0.0,
+"presence": 0.056
+},
+{
+"champ": "Naafiri",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 4,
+"p1ban": 9,
+"avail": 254,
+"b1_when_avail": 0.0,
+"presence": 0.048
+},
+{
+"champ": "Galio",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 11,
+"avail": 257,
+"b1_when_avail": 0.0,
+"presence": 0.045
+},
+{
+"champ": "Locke",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 10,
+"avail": 257,
+"b1_when_avail": 0.0,
+"presence": 0.045
+},
+{
+"champ": "Draven",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 12,
+"avail": 250,
+"b1_when_avail": 0.0,
+"presence": 0.045
+},
+{
+"champ": "Jhin",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 9,
+"p1ban": 1,
+"avail": 264,
+"b1_when_avail": 0.0,
+"presence": 0.037
+},
+{
+"champ": "Camille",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 7,
+"avail": 261,
+"b1_when_avail": 0.0,
+"presence": 0.03
+},
+{
+"champ": "Gnar",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 6,
+"avail": 259,
+"b1_when_avail": 0.0,
+"presence": 0.026
+},
+{
+"champ": "Ahri",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 4,
+"avail": 258,
+"b1_when_avail": 0.0,
+"presence": 0.022
+},
+{
+"champ": "Xin Zhao",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 3,
+"p1ban": 3,
+"avail": 253,
+"b1_when_avail": 0.0,
+"presence": 0.022
+},
+{
+"champ": "Zoe",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 5,
+"avail": 206,
+"b1_when_avail": 0.0,
+"presence": 0.019
+},
+{
+"champ": "Shyvana",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 5,
+"avail": 206,
+"b1_when_avail": 0.0,
+"presence": 0.019
+},
+{
+"champ": "Trundle",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 4,
+"avail": 258,
+"b1_when_avail": 0.0,
+"presence": 0.015
+},
+{
+"champ": "Anivia",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 3,
+"avail": 258,
+"b1_when_avail": 0.0,
+"presence": 0.015
+},
+{
+"champ": "Pyke",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 4,
+"avail": 252,
+"b1_when_avail": 0.0,
+"presence": 0.015
+},
+{
+"champ": "Vayne",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 4,
+"avail": 245,
+"b1_when_avail": 0.0,
+"presence": 0.015
+},
+{
+"champ": "Viego",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 4,
+"avail": 167,
+"b1_when_avail": 0.0,
+"presence": 0.015
+},
+{
+"champ": "Jax",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 3,
+"avail": 266,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Ambessa",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 2,
+"avail": 266,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Ziggs",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 2,
+"avail": 260,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Taliyah",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 2,
+"avail": 257,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Kled",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 2,
+"avail": 265,
+"b1_when_avail": 0.0,
+"presence": 0.007
+},
+{
+"champ": "Renekton",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 1,
+"avail": 265,
+"b1_when_avail": 0.0,
+"presence": 0.007
+},
+{
+"champ": "Tristana",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 1,
+"avail": 263,
+"b1_when_avail": 0.0,
+"presence": 0.007
+},
+{
+"champ": "Kai'Sa",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 1,
+"avail": 263,
+"b1_when_avail": 0.0,
+"presence": 0.007
+},
+{
+"champ": "Mel",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 2,
+"avail": 254,
+"b1_when_avail": 0.0,
+"presence": 0.007
+},
+{
+"champ": "Gangplank",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 2,
+"avail": 254,
+"b1_when_avail": 0.0,
+"presence": 0.007
+},
+{
+"champ": "Sivir",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 2,
+"avail": 253,
+"b1_when_avail": 0.0,
+"presence": 0.007
+},
+{
+"champ": "Lux",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 1,
+"avail": 250,
+"b1_when_avail": 0.0,
+"presence": 0.007
+},
+{
+"champ": "Zeri",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 0,
+"avail": 249,
+"b1_when_avail": 0.0,
+"presence": 0.007
+},
+{
+"champ": "Yuumi",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 0,
+"avail": 249,
+"b1_when_avail": 0.0,
+"presence": 0.007
+},
+{
+"champ": "Cho'Gath",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 0,
+"avail": 246,
+"b1_when_avail": 0.0,
+"presence": 0.007
+},
+{
+"champ": "Heimerdinger",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 2,
+"avail": 25,
+"b1_when_avail": 0.0,
+"presence": 0.007
+},
+{
+"champ": "Neeko",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 268,
+"b1_when_avail": 0.0,
+"presence": 0.004
+},
+{
+"champ": "Xayah",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 266,
+"b1_when_avail": 0.0,
+"presence": 0.004
+},
+{
+"champ": "LeBlanc",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 263,
+"b1_when_avail": 0.0,
+"presence": 0.004
+},
+{
+"champ": "Yone",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 263,
+"b1_when_avail": 0.0,
+"presence": 0.004
+},
+{
+"champ": "Aatrox",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 263,
+"b1_when_avail": 0.0,
+"presence": 0.004
+},
+{
+"champ": "Rell",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 263,
+"b1_when_avail": 0.0,
+"presence": 0.004
+},
+{
+"champ": "Leona",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 261,
+"b1_when_avail": 0.0,
+"presence": 0.004
+},
+{
+"champ": "Ornn",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 260,
+"b1_when_avail": 0.0,
+"presence": 0.004
+},
+{
+"champ": "Irelia",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 259,
+"b1_when_avail": 0.0,
+"presence": 0.004
+},
+{
+"champ": "Sion",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 256,
+"b1_when_avail": 0.0,
+"presence": 0.004
+},
+{
+"champ": "Zaahen",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 251,
+"b1_when_avail": 0.0,
+"presence": 0.004
+},
+{
+"champ": "Varus",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 233,
+"b1_when_avail": 0.0,
+"presence": 0.004
+},
+{
+"champ": "Nasus",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 229,
+"b1_when_avail": 0.0,
+"presence": 0.004
+},
+{
+"champ": "Hwei",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 226,
+"b1_when_avail": 0.0,
+"presence": 0.004
+},
+{
+"champ": "Soraka",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 225,
+"b1_when_avail": 0.0,
+"presence": 0.004
+},
+{
+"champ": "Rengar",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 22,
+"b1_when_avail": 0.0,
+"presence": 0.004
+}
+],
+"2": [
+{
+"champ": "Vi",
+"b1": 21,
+"b1_wins": 10,
+"rot1": 25,
+"p1ban": 84,
+"avail": 53,
+"b1_when_avail": 0.396,
+"presence": 0.612
+},
+{
+"champ": "Jarvan IV",
+"b1": 19,
+"b1_wins": 10,
+"rot1": 32,
+"p1ban": 43,
+"avail": 90,
+"b1_when_avail": 0.211,
+"presence": 0.421
+},
+{
+"champ": "Orianna",
+"b1": 19,
+"b1_wins": 10,
+"rot1": 23,
+"p1ban": 36,
+"avail": 99,
+"b1_when_avail": 0.192,
+"presence": 0.331
+},
+{
+"champ": "Lee Sin",
+"b1": 16,
+"b1_wins": 8,
+"rot1": 23,
+"p1ban": 38,
+"avail": 87,
+"b1_when_avail": 0.184,
+"presence": 0.343
+},
+{
+"champ": "Rumble",
+"b1": 12,
+"b1_wins": 7,
+"rot1": 20,
+"p1ban": 22,
+"avail": 88,
+"b1_when_avail": 0.136,
+"presence": 0.236
+},
+{
+"champ": "Nocturne",
+"b1": 11,
+"b1_wins": 6,
+"rot1": 15,
+"p1ban": 131,
+"avail": 34,
+"b1_when_avail": 0.324,
+"presence": 0.82
+},
+{
+"champ": "Qiyana",
+"b1": 10,
+"b1_wins": 4,
+"rot1": 14,
+"p1ban": 44,
+"avail": 85,
+"b1_when_avail": 0.118,
+"presence": 0.326
+},
+{
+"champ": "Ryze",
+"b1": 10,
+"b1_wins": 7,
+"rot1": 15,
+"p1ban": 29,
+"avail": 79,
+"b1_when_avail": 0.127,
+"presence": 0.247
+},
+{
+"champ": "Lulu",
+"b1": 9,
+"b1_wins": 7,
+"rot1": 43,
+"p1ban": 14,
+"avail": 108,
+"b1_when_avail": 0.083,
+"presence": 0.32
+},
+{
+"champ": "Syndra",
+"b1": 7,
+"b1_wins": 3,
+"rot1": 13,
+"p1ban": 36,
+"avail": 79,
+"b1_when_avail": 0.089,
+"presence": 0.275
+},
+{
+"champ": "Cassiopeia",
+"b1": 6,
+"b1_wins": 3,
+"rot1": 6,
+"p1ban": 111,
+"avail": 32,
+"b1_when_avail": 0.188,
+"presence": 0.657
+},
+{
+"champ": "Ezreal",
+"b1": 6,
+"b1_wins": 2,
+"rot1": 16,
+"p1ban": 33,
+"avail": 90,
+"b1_when_avail": 0.067,
+"presence": 0.275
+},
+{
+"champ": "Lucian",
+"b1": 4,
+"b1_wins": 2,
+"rot1": 35,
+"p1ban": 34,
+"avail": 89,
+"b1_when_avail": 0.045,
+"presence": 0.388
+},
+{
+"champ": "Karma",
+"b1": 4,
+"b1_wins": 2,
+"rot1": 12,
+"p1ban": 20,
+"avail": 118,
+"b1_when_avail": 0.034,
+"presence": 0.18
+},
+{
+"champ": "Olaf",
+"b1": 3,
+"b1_wins": 1,
+"rot1": 6,
+"p1ban": 38,
+"avail": 103,
+"b1_when_avail": 0.029,
+"presence": 0.247
+},
+{
+"champ": "Seraphine",
+"b1": 3,
+"b1_wins": 1,
+"rot1": 20,
+"p1ban": 24,
+"avail": 108,
+"b1_when_avail": 0.028,
+"presence": 0.247
+},
+{
+"champ": "Pantheon",
+"b1": 3,
+"b1_wins": 0,
+"rot1": 11,
+"p1ban": 19,
+"avail": 133,
+"b1_when_avail": 0.023,
+"presence": 0.169
+},
+{
+"champ": "Viktor",
+"b1": 3,
+"b1_wins": 3,
+"rot1": 7,
+"p1ban": 7,
+"avail": 143,
+"b1_when_avail": 0.021,
+"presence": 0.079
+},
+{
+"champ": "Wukong",
+"b1": 3,
+"b1_wins": 1,
+"rot1": 5,
+"p1ban": 8,
+"avail": 128,
+"b1_when_avail": 0.023,
+"presence": 0.073
+},
+{
+"champ": "Caitlyn",
+"b1": 2,
+"b1_wins": 0,
+"rot1": 10,
+"p1ban": 25,
+"avail": 130,
+"b1_when_avail": 0.015,
+"presence": 0.197
+},
+{
+"champ": "Jayce",
+"b1": 2,
+"b1_wins": 0,
+"rot1": 3,
+"p1ban": 27,
+"avail": 120,
+"b1_when_avail": 0.017,
+"presence": 0.169
+},
+{
+"champ": "Maokai",
+"b1": 2,
+"b1_wins": 0,
+"rot1": 5,
+"p1ban": 2,
+"avail": 171,
+"b1_when_avail": 0.012,
+"presence": 0.039
+},
+{
+"champ": "Trundle",
+"b1": 2,
+"b1_wins": 1,
+"rot1": 3,
+"p1ban": 2,
+"avail": 163,
+"b1_when_avail": 0.012,
+"presence": 0.028
+},
+{
+"champ": "Annie",
+"b1": 1,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 0,
+"avail": 166,
+"b1_when_avail": 0.006,
+"presence": 0.011
+},
+{
+"champ": "Akali",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 39,
+"avail": 120,
+"b1_when_avail": 0.0,
+"presence": 0.225
+},
+{
+"champ": "Yunara",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 33,
+"p1ban": 7,
+"avail": 121,
+"b1_when_avail": 0.0,
+"presence": 0.225
+},
+{
+"champ": "Renata Glasc",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 19,
+"p1ban": 15,
+"avail": 133,
+"b1_when_avail": 0.0,
+"presence": 0.191
+},
+{
+"champ": "Milio",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 27,
+"p1ban": 1,
+"avail": 124,
+"b1_when_avail": 0.0,
+"presence": 0.157
+},
+{
+"champ": "Kalista",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 14,
+"p1ban": 12,
+"avail": 138,
+"b1_when_avail": 0.0,
+"presence": 0.146
+},
+{
+"champ": "Bard",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 11,
+"p1ban": 13,
+"avail": 135,
+"b1_when_avail": 0.0,
+"presence": 0.135
+},
+{
+"champ": "Ashe",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 18,
+"p1ban": 5,
+"avail": 135,
+"b1_when_avail": 0.0,
+"presence": 0.129
+},
+{
+"champ": "Nautilus",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 19,
+"avail": 118,
+"b1_when_avail": 0.0,
+"presence": 0.118
+},
+{
+"champ": "Poppy",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 18,
+"avail": 152,
+"b1_when_avail": 0.0,
+"presence": 0.101
+},
+{
+"champ": "Locke",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 13,
+"avail": 147,
+"b1_when_avail": 0.0,
+"presence": 0.084
+},
+{
+"champ": "Naafiri",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 12,
+"avail": 145,
+"b1_when_avail": 0.0,
+"presence": 0.079
+},
+{
+"champ": "Skarner",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 4,
+"p1ban": 7,
+"avail": 154,
+"b1_when_avail": 0.0,
+"presence": 0.062
+},
+{
+"champ": "Xin Zhao",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 6,
+"p1ban": 4,
+"avail": 151,
+"b1_when_avail": 0.0,
+"presence": 0.056
+},
+{
+"champ": "K'Sante",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 7,
+"avail": 112,
+"b1_when_avail": 0.0,
+"presence": 0.051
+},
+{
+"champ": "Ambessa",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 8,
+"avail": 133,
+"b1_when_avail": 0.0,
+"presence": 0.045
+},
+{
+"champ": "Xayah",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 5,
+"p1ban": 2,
+"avail": 163,
+"b1_when_avail": 0.0,
+"presence": 0.039
+},
+{
+"champ": "Camille",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 5,
+"avail": 157,
+"b1_when_avail": 0.0,
+"presence": 0.034
+},
+{
+"champ": "Rakan",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 4,
+"p1ban": 1,
+"avail": 160,
+"b1_when_avail": 0.0,
+"presence": 0.028
+},
+{
+"champ": "Galio",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 3,
+"avail": 154,
+"b1_when_avail": 0.0,
+"presence": 0.028
+},
+{
+"champ": "Jhin",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 5,
+"p1ban": 0,
+"avail": 146,
+"b1_when_avail": 0.0,
+"presence": 0.028
+},
+{
+"champ": "Tristana",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 3,
+"avail": 164,
+"b1_when_avail": 0.0,
+"presence": 0.028
+},
+{
+"champ": "Draven",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 5,
+"avail": 168,
+"b1_when_avail": 0.0,
+"presence": 0.028
+},
+{
+"champ": "LeBlanc",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 3,
+"avail": 173,
+"b1_when_avail": 0.0,
+"presence": 0.017
+},
+{
+"champ": "Gnar",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 3,
+"avail": 142,
+"b1_when_avail": 0.0,
+"presence": 0.017
+},
+{
+"champ": "Ahri",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 2,
+"avail": 154,
+"b1_when_avail": 0.0,
+"presence": 0.017
+},
+{
+"champ": "Anivia",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 2,
+"avail": 159,
+"b1_when_avail": 0.0,
+"presence": 0.017
+},
+{
+"champ": "Vayne",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 3,
+"avail": 164,
+"b1_when_avail": 0.0,
+"presence": 0.017
+},
+{
+"champ": "Shyvana",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 3,
+"avail": 136,
+"b1_when_avail": 0.0,
+"presence": 0.017
+},
+{
+"champ": "Kled",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 2,
+"avail": 174,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Sylas",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 2,
+"avail": 171,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Ornn",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 0,
+"avail": 159,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Mel",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 2,
+"avail": 170,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Pyke",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 2,
+"avail": 170,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Taliyah",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 2,
+"avail": 161,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Gangplank",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 2,
+"avail": 169,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Varus",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 1,
+"avail": 155,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Nasus",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 2,
+"avail": 157,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Heimerdinger",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 2,
+"avail": 25,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Jax",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 172,
+"b1_when_avail": 0.0,
+"presence": 0.006
+},
+{
+"champ": "Nami",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 177,
+"b1_when_avail": 0.0,
+"presence": 0.006
+},
+{
+"champ": "Yone",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 174,
+"b1_when_avail": 0.0,
+"presence": 0.006
+},
+{
+"champ": "Ziggs",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 169,
+"b1_when_avail": 0.0,
+"presence": 0.006
+},
+{
+"champ": "Irelia",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 172,
+"b1_when_avail": 0.0,
+"presence": 0.006
+},
+{
+"champ": "Sion",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 162,
+"b1_when_avail": 0.0,
+"presence": 0.006
+},
+{
+"champ": "Sivir",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 157,
+"b1_when_avail": 0.0,
+"presence": 0.006
+},
+{
+"champ": "Zaahen",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 164,
+"b1_when_avail": 0.0,
+"presence": 0.006
+},
+{
+"champ": "Lux",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 164,
+"b1_when_avail": 0.0,
+"presence": 0.006
+},
+{
+"champ": "Twisted Fate",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 155,
+"b1_when_avail": 0.0,
+"presence": 0.006
+},
+{
+"champ": "Hwei",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 157,
+"b1_when_avail": 0.0,
+"presence": 0.006
+},
+{
+"champ": "Zoe",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 140,
+"b1_when_avail": 0.0,
+"presence": 0.006
+},
+{
+"champ": "Viego",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 110,
+"b1_when_avail": 0.0,
+"presence": 0.006
+},
+{
+"champ": "Senna",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 81,
+"b1_when_avail": 0.0,
+"presence": 0.006
+}
+],
+"3": [
+{
+"champ": "Nocturne",
+"b1": 13,
+"b1_wins": 7,
+"rot1": 16,
+"p1ban": 77,
+"avail": 29,
+"b1_when_avail": 0.448,
+"presence": 0.71
+},
+{
+"champ": "Jayce",
+"b1": 10,
+"b1_wins": 4,
+"rot1": 13,
+"p1ban": 21,
+"avail": 69,
+"b1_when_avail": 0.145,
+"presence": 0.26
+},
+{
+"champ": "Pantheon",
+"b1": 9,
+"b1_wins": 3,
+"rot1": 12,
+"p1ban": 15,
+"avail": 85,
+"b1_when_avail": 0.106,
+"presence": 0.206
+},
+{
+"champ": "Ryze",
+"b1": 8,
+"b1_wins": 5,
+"rot1": 10,
+"p1ban": 11,
+"avail": 38,
+"b1_when_avail": 0.211,
+"presence": 0.16
+},
+{
+"champ": "Jarvan IV",
+"b1": 7,
+"b1_wins": 4,
+"rot1": 12,
+"p1ban": 30,
+"avail": 33,
+"b1_when_avail": 0.212,
+"presence": 0.321
+},
+{
+"champ": "Vi",
+"b1": 6,
+"b1_wins": 3,
+"rot1": 9,
+"p1ban": 58,
+"avail": 17,
+"b1_when_avail": 0.353,
+"presence": 0.511
+},
+{
+"champ": "Orianna",
+"b1": 6,
+"b1_wins": 5,
+"rot1": 12,
+"p1ban": 20,
+"avail": 42,
+"b1_when_avail": 0.143,
+"presence": 0.244
+},
+{
+"champ": "Ezreal",
+"b1": 6,
+"b1_wins": 4,
+"rot1": 14,
+"p1ban": 14,
+"avail": 46,
+"b1_when_avail": 0.13,
+"presence": 0.214
+},
+{
+"champ": "Olaf",
+"b1": 5,
+"b1_wins": 2,
+"rot1": 7,
+"p1ban": 36,
+"avail": 40,
+"b1_when_avail": 0.125,
+"presence": 0.328
+},
+{
+"champ": "Lee Sin",
+"b1": 5,
+"b1_wins": 4,
+"rot1": 11,
+"p1ban": 25,
+"avail": 43,
+"b1_when_avail": 0.116,
+"presence": 0.275
+},
+{
+"champ": "Viktor",
+"b1": 5,
+"b1_wins": 2,
+"rot1": 10,
+"p1ban": 8,
+"avail": 76,
+"b1_when_avail": 0.066,
+"presence": 0.137
+},
+{
+"champ": "Syndra",
+"b1": 4,
+"b1_wins": 0,
+"rot1": 9,
+"p1ban": 28,
+"avail": 44,
+"b1_when_avail": 0.091,
+"presence": 0.282
+},
+{
+"champ": "Karma",
+"b1": 4,
+"b1_wins": 2,
+"rot1": 14,
+"p1ban": 14,
+"avail": 69,
+"b1_when_avail": 0.058,
+"presence": 0.214
+},
+{
+"champ": "Seraphine",
+"b1": 4,
+"b1_wins": 4,
+"rot1": 13,
+"p1ban": 15,
+"avail": 43,
+"b1_when_avail": 0.093,
+"presence": 0.214
+},
+{
+"champ": "Lulu",
+"b1": 4,
+"b1_wins": 3,
+"rot1": 13,
+"p1ban": 12,
+"avail": 29,
+"b1_when_avail": 0.138,
+"presence": 0.191
+},
+{
+"champ": "Naafiri",
+"b1": 4,
+"b1_wins": 0,
+"rot1": 11,
+"p1ban": 7,
+"avail": 93,
+"b1_when_avail": 0.043,
+"presence": 0.137
+},
+{
+"champ": "Cassiopeia",
+"b1": 3,
+"b1_wins": 0,
+"rot1": 4,
+"p1ban": 80,
+"avail": 20,
+"b1_when_avail": 0.15,
+"presence": 0.641
+},
+{
+"champ": "Qiyana",
+"b1": 3,
+"b1_wins": 3,
+"rot1": 9,
+"p1ban": 27,
+"avail": 42,
+"b1_when_avail": 0.071,
+"presence": 0.275
+},
+{
+"champ": "Rumble",
+"b1": 3,
+"b1_wins": 1,
+"rot1": 5,
+"p1ban": 18,
+"avail": 23,
+"b1_when_avail": 0.13,
+"presence": 0.176
+},
+{
+"champ": "Annie",
+"b1": 3,
+"b1_wins": 2,
+"rot1": 5,
+"p1ban": 3,
+"avail": 109,
+"b1_when_avail": 0.028,
+"presence": 0.061
+},
+{
+"champ": "Renata Glasc",
+"b1": 2,
+"b1_wins": 1,
+"rot1": 10,
+"p1ban": 9,
+"avail": 70,
+"b1_when_avail": 0.029,
+"presence": 0.145
+},
+{
+"champ": "Milio",
+"b1": 2,
+"b1_wins": 1,
+"rot1": 11,
+"p1ban": 3,
+"avail": 56,
+"b1_when_avail": 0.036,
+"presence": 0.107
+},
+{
+"champ": "Camille",
+"b1": 2,
+"b1_wins": 1,
+"rot1": 3,
+"p1ban": 7,
+"avail": 94,
+"b1_when_avail": 0.021,
+"presence": 0.076
+},
+{
+"champ": "Trundle",
+"b1": 2,
+"b1_wins": 1,
+"rot1": 4,
+"p1ban": 2,
+"avail": 104,
+"b1_when_avail": 0.019,
+"presence": 0.046
+},
+{
+"champ": "Lucian",
+"b1": 1,
+"b1_wins": 1,
+"rot1": 14,
+"p1ban": 24,
+"avail": 32,
+"b1_when_avail": 0.031,
+"presence": 0.29
+},
+{
+"champ": "Akali",
+"b1": 1,
+"b1_wins": 1,
+"rot1": 1,
+"p1ban": 24,
+"avail": 73,
+"b1_when_avail": 0.014,
+"presence": 0.191
+},
+{
+"champ": "Bard",
+"b1": 1,
+"b1_wins": 0,
+"rot1": 13,
+"p1ban": 10,
+"avail": 81,
+"b1_when_avail": 0.012,
+"presence": 0.176
+},
+{
+"champ": "Ashe",
+"b1": 1,
+"b1_wins": 0,
+"rot1": 10,
+"p1ban": 4,
+"avail": 69,
+"b1_when_avail": 0.014,
+"presence": 0.107
+},
+{
+"champ": "Varus",
+"b1": 1,
+"b1_wins": 1,
+"rot1": 7,
+"p1ban": 6,
+"avail": 101,
+"b1_when_avail": 0.01,
+"presence": 0.099
+},
+{
+"champ": "Jhin",
+"b1": 1,
+"b1_wins": 0,
+"rot1": 9,
+"p1ban": 1,
+"avail": 89,
+"b1_when_avail": 0.011,
+"presence": 0.076
+},
+{
+"champ": "Maokai",
+"b1": 1,
+"b1_wins": 0,
+"rot1": 7,
+"p1ban": 2,
+"avail": 117,
+"b1_when_avail": 0.009,
+"presence": 0.069
+},
+{
+"champ": "Gnar",
+"b1": 1,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 6,
+"avail": 79,
+"b1_when_avail": 0.013,
+"presence": 0.053
+},
+{
+"champ": "Ambessa",
+"b1": 1,
+"b1_wins": 1,
+"rot1": 3,
+"p1ban": 1,
+"avail": 81,
+"b1_when_avail": 0.012,
+"presence": 0.031
+},
+{
+"champ": "Ahri",
+"b1": 1,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 2,
+"avail": 89,
+"b1_when_avail": 0.011,
+"presence": 0.031
+},
+{
+"champ": "Nidalee",
+"b1": 1,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 1,
+"avail": 86,
+"b1_when_avail": 0.012,
+"presence": 0.015
+},
+{
+"champ": "Caitlyn",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 10,
+"p1ban": 27,
+"avail": 69,
+"b1_when_avail": 0.0,
+"presence": 0.282
+},
+{
+"champ": "Kalista",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 9,
+"p1ban": 20,
+"avail": 61,
+"b1_when_avail": 0.0,
+"presence": 0.221
+},
+{
+"champ": "Poppy",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 15,
+"avail": 109,
+"b1_when_avail": 0.0,
+"presence": 0.122
+},
+{
+"champ": "Locke",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 12,
+"avail": 91,
+"b1_when_avail": 0.0,
+"presence": 0.107
+},
+{
+"champ": "Nautilus",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 12,
+"avail": 67,
+"b1_when_avail": 0.0,
+"presence": 0.099
+},
+{
+"champ": "Skarner",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 10,
+"avail": 89,
+"b1_when_avail": 0.0,
+"presence": 0.092
+},
+{
+"champ": "Wukong",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 5,
+"p1ban": 7,
+"avail": 81,
+"b1_when_avail": 0.0,
+"presence": 0.092
+},
+{
+"champ": "Yunara",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 7,
+"p1ban": 3,
+"avail": 39,
+"b1_when_avail": 0.0,
+"presence": 0.076
+},
+{
+"champ": "Yone",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 3,
+"p1ban": 6,
+"avail": 119,
+"b1_when_avail": 0.0,
+"presence": 0.069
+},
+{
+"champ": "Rakan",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 8,
+"p1ban": 0,
+"avail": 106,
+"b1_when_avail": 0.0,
+"presence": 0.061
+},
+{
+"champ": "Xayah",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 6,
+"p1ban": 1,
+"avail": 108,
+"b1_when_avail": 0.0,
+"presence": 0.053
+},
+{
+"champ": "K'Sante",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 6,
+"avail": 55,
+"b1_when_avail": 0.0,
+"presence": 0.046
+},
+{
+"champ": "Shyvana",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 3,
+"avail": 96,
+"b1_when_avail": 0.0,
+"presence": 0.038
+},
+{
+"champ": "Sylas",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 4,
+"avail": 116,
+"b1_when_avail": 0.0,
+"presence": 0.031
+},
+{
+"champ": "Neeko",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 3,
+"avail": 124,
+"b1_when_avail": 0.0,
+"presence": 0.031
+},
+{
+"champ": "LeBlanc",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 3,
+"avail": 120,
+"b1_when_avail": 0.0,
+"presence": 0.031
+},
+{
+"champ": "Anivia",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 2,
+"avail": 106,
+"b1_when_avail": 0.0,
+"presence": 0.031
+},
+{
+"champ": "Draven",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 4,
+"avail": 122,
+"b1_when_avail": 0.0,
+"presence": 0.031
+},
+{
+"champ": "Xin Zhao",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 3,
+"p1ban": 1,
+"avail": 94,
+"b1_when_avail": 0.0,
+"presence": 0.031
+},
+{
+"champ": "Kai'Sa",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 1,
+"avail": 119,
+"b1_when_avail": 0.0,
+"presence": 0.023
+},
+{
+"champ": "Sivir",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 2,
+"avail": 109,
+"b1_when_avail": 0.0,
+"presence": 0.023
+},
+{
+"champ": "Pyke",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 3,
+"avail": 122,
+"b1_when_avail": 0.0,
+"presence": 0.023
+},
+{
+"champ": "Lux",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 1,
+"avail": 124,
+"b1_when_avail": 0.0,
+"presence": 0.023
+},
+{
+"champ": "Zeri",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 3,
+"avail": 112,
+"b1_when_avail": 0.0,
+"presence": 0.023
+},
+{
+"champ": "Galio",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 2,
+"avail": 92,
+"b1_when_avail": 0.0,
+"presence": 0.015
+},
+{
+"champ": "Tristana",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 1,
+"avail": 119,
+"b1_when_avail": 0.0,
+"presence": 0.015
+},
+{
+"champ": "Jax",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 2,
+"avail": 119,
+"b1_when_avail": 0.0,
+"presence": 0.015
+},
+{
+"champ": "Taliyah",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 1,
+"avail": 111,
+"b1_when_avail": 0.0,
+"presence": 0.015
+},
+{
+"champ": "Ziggs",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 1,
+"avail": 121,
+"b1_when_avail": 0.0,
+"presence": 0.015
+},
+{
+"champ": "Corki",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 0,
+"avail": 121,
+"b1_when_avail": 0.0,
+"presence": 0.015
+},
+{
+"champ": "Mel",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 2,
+"avail": 124,
+"b1_when_avail": 0.0,
+"presence": 0.015
+},
+{
+"champ": "Leona",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 1,
+"avail": 122,
+"b1_when_avail": 0.0,
+"presence": 0.015
+},
+{
+"champ": "Lissandra",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 0,
+"avail": 125,
+"b1_when_avail": 0.0,
+"presence": 0.015
+},
+{
+"champ": "Zaahen",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 0,
+"avail": 120,
+"b1_when_avail": 0.0,
+"presence": 0.015
+},
+{
+"champ": "Cho'Gath",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 0,
+"avail": 107,
+"b1_when_avail": 0.0,
+"presence": 0.015
+},
+{
+"champ": "Nami",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 128,
+"b1_when_avail": 0.0,
+"presence": 0.008
+},
+{
+"champ": "Aphelios",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 126,
+"b1_when_avail": 0.0,
+"presence": 0.008
+},
+{
+"champ": "Alistar",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 109,
+"b1_when_avail": 0.0,
+"presence": 0.008
+},
+{
+"champ": "Kennen",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 127,
+"b1_when_avail": 0.0,
+"presence": 0.008
+},
+{
+"champ": "Rell",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 123,
+"b1_when_avail": 0.0,
+"presence": 0.008
+},
+{
+"champ": "Aurora",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 116,
+"b1_when_avail": 0.0,
+"presence": 0.008
+},
+{
+"champ": "Shen",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 122,
+"b1_when_avail": 0.0,
+"presence": 0.008
+},
+{
+"champ": "Yuumi",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 119,
+"b1_when_avail": 0.0,
+"presence": 0.008
+},
+{
+"champ": "Kha'Zix",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 119,
+"b1_when_avail": 0.0,
+"presence": 0.008
+},
+{
+"champ": "Twisted Fate",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 111,
+"b1_when_avail": 0.0,
+"presence": 0.008
+},
+{
+"champ": "Nasus",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 118,
+"b1_when_avail": 0.0,
+"presence": 0.008
+},
+{
+"champ": "Yorick",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 103,
+"b1_when_avail": 0.0,
+"presence": 0.008
+},
+{
+"champ": "Hwei",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 113,
+"b1_when_avail": 0.0,
+"presence": 0.008
+},
+{
+"champ": "Ivern",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 58,
+"b1_when_avail": 0.0,
+"presence": 0.008
+}
+],
+"4": [
+{
+"champ": "Vi",
+"b1": 10,
+"b1_wins": 7,
+"rot1": 11,
+"p1ban": 42,
+"avail": 14,
+"b1_when_avail": 0.714,
+"presence": 0.57
+},
+{
+"champ": "Nocturne",
+"b1": 8,
+"b1_wins": 3,
+"rot1": 10,
+"p1ban": 52,
+"avail": 13,
+"b1_when_avail": 0.615,
+"presence": 0.667
+},
+{
+"champ": "Olaf",
+"b1": 6,
+"b1_wins": 5,
+"rot1": 6,
+"p1ban": 23,
+"avail": 15,
+"b1_when_avail": 0.4,
+"presence": 0.312
+},
+{
+"champ": "Jarvan IV",
+"b1": 6,
+"b1_wins": 3,
+"rot1": 7,
+"p1ban": 13,
+"avail": 11,
+"b1_when_avail": 0.545,
+"presence": 0.215
+},
+{
+"champ": "Qiyana",
+"b1": 5,
+"b1_wins": 2,
+"rot1": 6,
+"p1ban": 21,
+"avail": 19,
+"b1_when_avail": 0.263,
+"presence": 0.29
+},
+{
+"champ": "Syndra",
+"b1": 4,
+"b1_wins": 1,
+"rot1": 7,
+"p1ban": 10,
+"avail": 20,
+"b1_when_avail": 0.2,
+"presence": 0.183
+},
+{
+"champ": "Lulu",
+"b1": 4,
+"b1_wins": 3,
+"rot1": 6,
+"p1ban": 9,
+"avail": 7,
+"b1_when_avail": 0.571,
+"presence": 0.161
+},
+{
+"champ": "Trundle",
+"b1": 4,
+"b1_wins": 2,
+"rot1": 7,
+"p1ban": 4,
+"avail": 52,
+"b1_when_avail": 0.077,
+"presence": 0.118
+},
+{
+"champ": "Pantheon",
+"b1": 3,
+"b1_wins": 2,
+"rot1": 6,
+"p1ban": 14,
+"avail": 40,
+"b1_when_avail": 0.075,
+"presence": 0.215
+},
+{
+"champ": "Orianna",
+"b1": 3,
+"b1_wins": 1,
+"rot1": 6,
+"p1ban": 10,
+"avail": 13,
+"b1_when_avail": 0.231,
+"presence": 0.172
+},
+{
+"champ": "Viktor",
+"b1": 3,
+"b1_wins": 2,
+"rot1": 8,
+"p1ban": 6,
+"avail": 35,
+"b1_when_avail": 0.086,
+"presence": 0.151
+},
+{
+"champ": "Lucian",
+"b1": 3,
+"b1_wins": 2,
+"rot1": 4,
+"p1ban": 9,
+"avail": 7,
+"b1_when_avail": 0.429,
+"presence": 0.14
+},
+{
+"champ": "Renata Glasc",
+"b1": 3,
+"b1_wins": 1,
+"rot1": 9,
+"p1ban": 4,
+"avail": 31,
+"b1_when_avail": 0.097,
+"presence": 0.14
+},
+{
+"champ": "Ambessa",
+"b1": 3,
+"b1_wins": 2,
+"rot1": 4,
+"p1ban": 5,
+"avail": 39,
+"b1_when_avail": 0.077,
+"presence": 0.097
+},
+{
+"champ": "Caitlyn",
+"b1": 2,
+"b1_wins": 1,
+"rot1": 9,
+"p1ban": 23,
+"avail": 31,
+"b1_when_avail": 0.065,
+"presence": 0.344
+},
+{
+"champ": "Jayce",
+"b1": 2,
+"b1_wins": 0,
+"rot1": 5,
+"p1ban": 16,
+"avail": 15,
+"b1_when_avail": 0.133,
+"presence": 0.226
+},
+{
+"champ": "Varus",
+"b1": 2,
+"b1_wins": 1,
+"rot1": 8,
+"p1ban": 8,
+"avail": 52,
+"b1_when_avail": 0.038,
+"presence": 0.172
+},
+{
+"champ": "Naafiri",
+"b1": 2,
+"b1_wins": 0,
+"rot1": 5,
+"p1ban": 8,
+"avail": 32,
+"b1_when_avail": 0.062,
+"presence": 0.14
+},
+{
+"champ": "Maokai",
+"b1": 2,
+"b1_wins": 0,
+"rot1": 8,
+"p1ban": 2,
+"avail": 64,
+"b1_when_avail": 0.031,
+"presence": 0.108
+},
+{
+"champ": "Wukong",
+"b1": 2,
+"b1_wins": 1,
+"rot1": 9,
+"p1ban": 1,
+"avail": 45,
+"b1_when_avail": 0.044,
+"presence": 0.108
+},
+{
+"champ": "Cassiopeia",
+"b1": 1,
+"b1_wins": 1,
+"rot1": 2,
+"p1ban": 71,
+"avail": 4,
+"b1_when_avail": 0.25,
+"presence": 0.785
+},
+{
+"champ": "Kalista",
+"b1": 1,
+"b1_wins": 1,
+"rot1": 9,
+"p1ban": 9,
+"avail": 27,
+"b1_when_avail": 0.037,
+"presence": 0.194
+},
+{
+"champ": "Rumble",
+"b1": 1,
+"b1_wins": 1,
+"rot1": 6,
+"p1ban": 9,
+"avail": 11,
+"b1_when_avail": 0.091,
+"presence": 0.161
+},
+{
+"champ": "Lee Sin",
+"b1": 1,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 11,
+"avail": 17,
+"b1_when_avail": 0.059,
+"presence": 0.14
+},
+{
+"champ": "Rakan",
+"b1": 1,
+"b1_wins": 0,
+"rot1": 8,
+"p1ban": 3,
+"avail": 49,
+"b1_when_avail": 0.02,
+"presence": 0.118
+},
+{
+"champ": "Xayah",
+"b1": 1,
+"b1_wins": 1,
+"rot1": 8,
+"p1ban": 2,
+"avail": 52,
+"b1_when_avail": 0.019,
+"presence": 0.108
+},
+{
+"champ": "Xin Zhao",
+"b1": 1,
+"b1_wins": 1,
+"rot1": 7,
+"p1ban": 1,
+"avail": 62,
+"b1_when_avail": 0.016,
+"presence": 0.086
+},
+{
+"champ": "Neeko",
+"b1": 1,
+"b1_wins": 1,
+"rot1": 2,
+"p1ban": 5,
+"avail": 74,
+"b1_when_avail": 0.014,
+"presence": 0.075
+},
+{
+"champ": "Skarner",
+"b1": 1,
+"b1_wins": 1,
+"rot1": 3,
+"p1ban": 3,
+"avail": 47,
+"b1_when_avail": 0.021,
+"presence": 0.065
+},
+{
+"champ": "Anivia",
+"b1": 1,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 3,
+"avail": 64,
+"b1_when_avail": 0.016,
+"presence": 0.054
+},
+{
+"champ": "Ryze",
+"b1": 1,
+"b1_wins": 1,
+"rot1": 2,
+"p1ban": 3,
+"avail": 11,
+"b1_when_avail": 0.091,
+"presence": 0.054
+},
+{
+"champ": "K'Sante",
+"b1": 1,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 2,
+"avail": 16,
+"b1_when_avail": 0.062,
+"presence": 0.043
+},
+{
+"champ": "Gnar",
+"b1": 1,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 3,
+"avail": 48,
+"b1_when_avail": 0.021,
+"presence": 0.043
+},
+{
+"champ": "Tristana",
+"b1": 1,
+"b1_wins": 1,
+"rot1": 3,
+"p1ban": 0,
+"avail": 77,
+"b1_when_avail": 0.013,
+"presence": 0.032
+},
+{
+"champ": "Rell",
+"b1": 1,
+"b1_wins": 1,
+"rot1": 2,
+"p1ban": 0,
+"avail": 74,
+"b1_when_avail": 0.014,
+"presence": 0.022
+},
+{
+"champ": "Cho'Gath",
+"b1": 1,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 67,
+"b1_when_avail": 0.015,
+"presence": 0.011
+},
+{
+"champ": "Bard",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 5,
+"p1ban": 12,
+"avail": 36,
+"b1_when_avail": 0.0,
+"presence": 0.183
+},
+{
+"champ": "Seraphine",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 4,
+"p1ban": 11,
+"avail": 14,
+"b1_when_avail": 0.0,
+"presence": 0.161
+},
+{
+"champ": "Akali",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 3,
+"p1ban": 10,
+"avail": 41,
+"b1_when_avail": 0.0,
+"presence": 0.14
+},
+{
+"champ": "Poppy",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 10,
+"avail": 73,
+"b1_when_avail": 0.0,
+"presence": 0.129
+},
+{
+"champ": "Karma",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 3,
+"p1ban": 7,
+"avail": 24,
+"b1_when_avail": 0.0,
+"presence": 0.108
+},
+{
+"champ": "Annie",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 4,
+"p1ban": 6,
+"avail": 55,
+"b1_when_avail": 0.0,
+"presence": 0.108
+},
+{
+"champ": "Ziggs",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 7,
+"avail": 75,
+"b1_when_avail": 0.0,
+"presence": 0.097
+},
+{
+"champ": "Locke",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 9,
+"avail": 46,
+"b1_when_avail": 0.0,
+"presence": 0.097
+},
+{
+"champ": "Ezreal",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 8,
+"avail": 8,
+"b1_when_avail": 0.0,
+"presence": 0.097
+},
+{
+"champ": "Camille",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 3,
+"p1ban": 5,
+"avail": 47,
+"b1_when_avail": 0.0,
+"presence": 0.086
+},
+{
+"champ": "Yone",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 8,
+"avail": 66,
+"b1_when_avail": 0.0,
+"presence": 0.086
+},
+{
+"champ": "Jhin",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 6,
+"p1ban": 1,
+"avail": 37,
+"b1_when_avail": 0.0,
+"presence": 0.075
+},
+{
+"champ": "Zeri",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 5,
+"p1ban": 2,
+"avail": 79,
+"b1_when_avail": 0.0,
+"presence": 0.075
+},
+{
+"champ": "Sylas",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 5,
+"avail": 72,
+"b1_when_avail": 0.0,
+"presence": 0.065
+},
+{
+"champ": "Yuumi",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 4,
+"p1ban": 2,
+"avail": 79,
+"b1_when_avail": 0.0,
+"presence": 0.065
+},
+{
+"champ": "Renekton",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 4,
+"avail": 53,
+"b1_when_avail": 0.0,
+"presence": 0.065
+},
+{
+"champ": "Shen",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 3,
+"p1ban": 2,
+"avail": 73,
+"b1_when_avail": 0.0,
+"presence": 0.054
+},
+{
+"champ": "Jax",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 3,
+"avail": 79,
+"b1_when_avail": 0.0,
+"presence": 0.054
+},
+{
+"champ": "Galio",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 4,
+"avail": 54,
+"b1_when_avail": 0.0,
+"presence": 0.054
+},
+{
+"champ": "Twisted Fate",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 4,
+"avail": 76,
+"b1_when_avail": 0.0,
+"presence": 0.054
+},
+{
+"champ": "Vayne",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 4,
+"avail": 82,
+"b1_when_avail": 0.0,
+"presence": 0.043
+},
+{
+"champ": "Aphelios",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 3,
+"p1ban": 0,
+"avail": 87,
+"b1_when_avail": 0.0,
+"presence": 0.032
+},
+{
+"champ": "LeBlanc",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 3,
+"avail": 80,
+"b1_when_avail": 0.0,
+"presence": 0.032
+},
+{
+"champ": "Corki",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 3,
+"p1ban": 0,
+"avail": 74,
+"b1_when_avail": 0.0,
+"presence": 0.032
+},
+{
+"champ": "Draven",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 3,
+"avail": 89,
+"b1_when_avail": 0.0,
+"presence": 0.032
+},
+{
+"champ": "Milio",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 2,
+"avail": 18,
+"b1_when_avail": 0.0,
+"presence": 0.032
+},
+{
+"champ": "Nautilus",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 2,
+"avail": 40,
+"b1_when_avail": 0.0,
+"presence": 0.032
+},
+{
+"champ": "Ashe",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 3,
+"p1ban": 0,
+"avail": 38,
+"b1_when_avail": 0.0,
+"presence": 0.032
+},
+{
+"champ": "Nidalee",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 3,
+"avail": 55,
+"b1_when_avail": 0.0,
+"presence": 0.032
+},
+{
+"champ": "Miss Fortune",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 1,
+"avail": 79,
+"b1_when_avail": 0.0,
+"presence": 0.022
+},
+{
+"champ": "Taliyah",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 2,
+"avail": 71,
+"b1_when_avail": 0.0,
+"presence": 0.022
+},
+{
+"champ": "Yunara",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 0,
+"avail": 18,
+"b1_when_avail": 0.0,
+"presence": 0.022
+},
+{
+"champ": "Sejuani",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 2,
+"p1ban": 0,
+"avail": 80,
+"b1_when_avail": 0.0,
+"presence": 0.022
+},
+{
+"champ": "Yorick",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 2,
+"avail": 58,
+"b1_when_avail": 0.0,
+"presence": 0.022
+},
+{
+"champ": "Nasus",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 2,
+"avail": 83,
+"b1_when_avail": 0.0,
+"presence": 0.022
+},
+{
+"champ": "Azir",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 1,
+"avail": 79,
+"b1_when_avail": 0.0,
+"presence": 0.022
+},
+{
+"champ": "Shyvana",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 2,
+"avail": 65,
+"b1_when_avail": 0.0,
+"presence": 0.022
+},
+{
+"champ": "Mel",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 87,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Jinx",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 89,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Kled",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 83,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Kennen",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 85,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Thresh",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 86,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Alistar",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 59,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Ahri",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 53,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Sivir",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 70,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Tahm Kench",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 93,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Gwen",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 74,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Kai'Sa",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 68,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Hwei",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 82,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Braum",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 1,
+"p1ban": 0,
+"avail": 60,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Zyra",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 52,
+"b1_when_avail": 0.0,
+"presence": 0.011
+},
+{
+"champ": "Yasuo",
+"b1": 0,
+"b1_wins": 0,
+"rot1": 0,
+"p1ban": 1,
+"avail": 15,
+"b1_when_avail": 0.0,
+"presence": 0.011
+}
+]
+}

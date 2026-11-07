@@ -1,0 +1,7627 @@
+{
+ "Aatrox": {
+  "name": "Aatrox",
+  "class": [
+   "FIGHTER",
+   "JUGGERNAUT",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.88,
+   "magic": 0.08,
+   "true": 0.04,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.876,
+   "magic": 0.079,
+   "true": 0.045,
+   "taken_rel": 1.1,
+   "taken_per_death_rel": 1.13,
+   "heal_rel": 1.56,
+   "dmg_rel": 1.01,
+   "soloq_games": 41343,
+   "roles": {
+    "top": 41343
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "W",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "Q"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "P"
+  ],
+  "pct_hp_max_current": [
+   "P"
+  ],
+  "pct_hp_missing": []
+ },
+ "Ahri": {
+  "name": "Ahri",
+  "class": [
+   "ASSASSIN",
+   "BURST",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.07,
+   "magic": 0.72,
+   "true": 0.21,
+   "label": "AP + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.068,
+   "magic": 0.718,
+   "true": 0.214,
+   "taken_rel": 0.94,
+   "taken_per_death_rel": 1.04,
+   "heal_rel": 1.21,
+   "dmg_rel": 0.99,
+   "soloq_games": 69469,
+   "roles": {
+    "mid": 69469
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [
+   "Q"
+  ],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Akali": {
+  "name": "Akali",
+  "class": [
+   "ASSASSIN"
+  ],
+  "damage": {
+   "physical": 0.06,
+   "magic": 0.86,
+   "true": 0.08,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.061,
+   "magic": 0.863,
+   "true": 0.077,
+   "taken_rel": 1.07,
+   "taken_per_death_rel": 1.11,
+   "heal_rel": 0.99,
+   "dmg_rel": 1.01,
+   "soloq_games": 76799,
+   "roles": {
+    "mid": 53220,
+    "top": 23579
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E",
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Akshan": {
+  "name": "Akshan",
+  "class": [
+   "ASSASSIN",
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.86,
+   "magic": 0.08,
+   "true": 0.06,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.86,
+   "magic": 0.081,
+   "true": 0.058,
+   "taken_rel": 0.93,
+   "taken_per_death_rel": 0.86,
+   "heal_rel": 0.88,
+   "dmg_rel": 1.07,
+   "soloq_games": 13956,
+   "roles": {
+    "mid": 13956
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Alistar": {
+  "name": "Alistar",
+  "class": [
+   "SUPPORT",
+   "TANK",
+   "VANGUARD"
+  ],
+  "damage": {
+   "physical": 0.15,
+   "magic": 0.79,
+   "true": 0.07,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.146,
+   "magic": 0.789,
+   "true": 0.065,
+   "taken_rel": 1.2,
+   "taken_per_death_rel": 1.26,
+   "heal_rel": 1.62,
+   "dmg_rel": 0.58,
+   "soloq_games": 43371,
+   "roles": {
+    "support": 43371
+   }
+  },
+  "hard_cc_slots": [
+   "P",
+   "Q",
+   "W",
+   "E"
+  ],
+  "aoe_hard_cc": [
+   "Q"
+  ],
+  "point_click_hard_cc": [
+   "W"
+  ],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Ambessa": {
+  "name": "Ambessa",
+  "class": [
+   "ASSASSIN",
+   "DIVER",
+   "FIGHTER",
+   "SKIRMISHER"
+  ],
+  "damage": {
+   "physical": 0.92,
+   "magic": 0.02,
+   "true": 0.06,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.922,
+   "magic": 0.018,
+   "true": 0.06,
+   "taken_rel": 0.9,
+   "taken_per_death_rel": 0.95,
+   "heal_rel": 0.8,
+   "dmg_rel": 1.01,
+   "soloq_games": 34000,
+   "roles": {
+    "top": 29048,
+    "jungle": 4952
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E",
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "Q"
+  ],
+  "pct_hp_max_current": [
+   "Q"
+  ],
+  "pct_hp_missing": []
+ },
+ "Amumu": {
+  "name": "Amumu",
+  "class": [
+   "SUPPORT",
+   "TANK",
+   "VANGUARD"
+  ],
+  "damage": {
+   "physical": 0.09,
+   "magic": 0.76,
+   "true": 0.14,
+   "label": "AP + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.094,
+   "magic": 0.764,
+   "true": 0.143,
+   "taken_rel": 0.98,
+   "taken_per_death_rel": 0.88,
+   "heal_rel": 0.58,
+   "dmg_rel": 0.86,
+   "soloq_games": 15164,
+   "roles": {
+    "jungle": 11047,
+    "support": 4117
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [
+   "P"
+  ],
+  "pct_hp_damage": [
+   "W"
+  ],
+  "pct_hp_max_current": [
+   "W"
+  ],
+  "pct_hp_missing": []
+ },
+ "Anivia": {
+  "name": "Anivia",
+  "class": [
+   "BATTLEMAGE",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.06,
+   "magic": 0.89,
+   "true": 0.05,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.064,
+   "magic": 0.885,
+   "true": 0.051,
+   "taken_rel": 1.23,
+   "taken_per_death_rel": 1.53,
+   "heal_rel": 1.05,
+   "dmg_rel": 0.88,
+   "soloq_games": 14879,
+   "roles": {
+    "mid": 14879
+   }
+  },
+  "hard_cc_slots": [
+   "Q"
+  ],
+  "aoe_hard_cc": [
+   "Q"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Annie": {
+  "name": "Annie",
+  "class": [
+   "BURST",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.04,
+   "magic": 0.91,
+   "true": 0.05,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.038,
+   "magic": 0.909,
+   "true": 0.053,
+   "taken_rel": 0.83,
+   "taken_per_death_rel": 0.75,
+   "heal_rel": 0.4,
+   "dmg_rel": 1.08,
+   "soloq_games": 14144,
+   "roles": {
+    "mid": 12303,
+    "support": 1841
+   }
+  },
+  "hard_cc_slots": [
+   "P",
+   "R"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Aphelios": {
+  "name": "Aphelios",
+  "class": [
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.94,
+   "magic": 0.04,
+   "true": 0.02,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.939,
+   "magic": 0.044,
+   "true": 0.017,
+   "taken_rel": 0.96,
+   "taken_per_death_rel": 0.95,
+   "heal_rel": 1.2,
+   "dmg_rel": 0.99,
+   "soloq_games": 41323,
+   "roles": {
+    "bot": 41323
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Ashe": {
+  "name": "Ashe",
+  "class": [
+   "MARKSMAN",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.86,
+   "magic": 0.12,
+   "true": 0.02,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.86,
+   "magic": 0.12,
+   "true": 0.02,
+   "taken_rel": 0.89,
+   "taken_per_death_rel": 0.84,
+   "heal_rel": 0.56,
+   "dmg_rel": 0.92,
+   "soloq_games": 42142,
+   "roles": {
+    "bot": 37354,
+    "support": 4788
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "AurelionSol": {
+  "name": "Aurelion Sol",
+  "class": [
+   "BATTLEMAGE",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.01,
+   "magic": 0.96,
+   "true": 0.03,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.01,
+   "magic": 0.964,
+   "true": 0.026,
+   "taken_rel": 0.98,
+   "taken_per_death_rel": 1.0,
+   "heal_rel": 0.63,
+   "dmg_rel": 1.06,
+   "soloq_games": 13081,
+   "roles": {
+    "mid": 13081
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "E",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "E",
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "Q"
+  ],
+  "pct_hp_max_current": [
+   "Q"
+  ],
+  "pct_hp_missing": []
+ },
+ "Aurora": {
+  "name": "Aurora",
+  "class": [
+   "ASSASSIN",
+   "BURST",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.06,
+   "magic": 0.89,
+   "true": 0.05,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.058,
+   "magic": 0.891,
+   "true": 0.052,
+   "taken_rel": 0.9,
+   "taken_per_death_rel": 0.99,
+   "heal_rel": 0.84,
+   "dmg_rel": 1.13,
+   "soloq_games": 21076,
+   "roles": {
+    "mid": 17006,
+    "top": 4070
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "W",
+   "E",
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "Q"
+  ],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": [
+   "Q"
+  ]
+ },
+ "Azir": {
+  "name": "Azir",
+  "class": [
+   "MAGE",
+   "MARKSMAN",
+   "SPECIALIST"
+  ],
+  "damage": {
+   "physical": 0.03,
+   "magic": 0.95,
+   "true": 0.02,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.027,
+   "magic": 0.954,
+   "true": 0.019,
+   "taken_rel": 0.91,
+   "taken_per_death_rel": 0.89,
+   "heal_rel": 0.51,
+   "dmg_rel": 1.05,
+   "soloq_games": 10924,
+   "roles": {
+    "mid": 10924
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E",
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Bard": {
+  "name": "Bard",
+  "class": [
+   "CATCHER",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.3,
+   "magic": 0.6,
+   "true": 0.09,
+   "label": "AP-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.303,
+   "magic": 0.603,
+   "true": 0.094,
+   "taken_rel": 1.01,
+   "taken_per_death_rel": 1.16,
+   "heal_rel": 0.99,
+   "dmg_rel": 0.85,
+   "soloq_games": 25682,
+   "roles": {
+    "support": 25682
+   }
+  },
+  "hard_cc_slots": [
+   "Q"
+  ],
+  "aoe_hard_cc": [
+   "Q"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Belveth": {
+  "name": "Bel'Veth",
+  "class": [
+   "FIGHTER",
+   "SKIRMISHER"
+  ],
+  "damage": {
+   "physical": 0.69,
+   "magic": 0.09,
+   "true": 0.22,
+   "label": "AD + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.694,
+   "magic": 0.09,
+   "true": 0.216,
+   "taken_rel": 0.97,
+   "taken_per_death_rel": 1.02,
+   "heal_rel": 1.07,
+   "dmg_rel": 0.89,
+   "soloq_games": 16440,
+   "roles": {
+    "jungle": 16440
+   }
+  },
+  "hard_cc_slots": [
+   "W"
+  ],
+  "aoe_hard_cc": [
+   "W"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "Q"
+  ],
+  "true_damage": [
+   "R"
+  ],
+  "pct_hp_damage": [
+   "E"
+  ],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": [
+   "E"
+  ]
+ },
+ "Blitzcrank": {
+  "name": "Blitzcrank",
+  "class": [
+   "CATCHER",
+   "SUPPORT",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.3,
+   "magic": 0.62,
+   "true": 0.08,
+   "label": "AP-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.302,
+   "magic": 0.616,
+   "true": 0.082,
+   "taken_rel": 1.05,
+   "taken_per_death_rel": 1.08,
+   "heal_rel": 0.48,
+   "dmg_rel": 0.69,
+   "soloq_games": 47741,
+   "roles": {
+    "support": 47741
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "E"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Brand": {
+  "name": "Brand",
+  "class": [
+   "BURST",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.04,
+   "magic": 0.92,
+   "true": 0.04,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.038,
+   "magic": 0.923,
+   "true": 0.039,
+   "taken_rel": 1.07,
+   "taken_per_death_rel": 0.85,
+   "heal_rel": 0.44,
+   "dmg_rel": 1.52,
+   "soloq_games": 19499,
+   "roles": {
+    "support": 14188,
+    "mid": 3820,
+    "jungle": 1491
+   }
+  },
+  "hard_cc_slots": [
+   "Q"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Braum": {
+  "name": "Braum",
+  "class": [
+   "SUPPORT",
+   "TANK",
+   "WARDEN"
+  ],
+  "damage": {
+   "physical": 0.18,
+   "magic": 0.77,
+   "true": 0.04,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.185,
+   "magic": 0.774,
+   "true": 0.041,
+   "taken_rel": 1.09,
+   "taken_per_death_rel": 1.21,
+   "heal_rel": 0.7,
+   "dmg_rel": 0.58,
+   "soloq_games": 31865,
+   "roles": {
+    "support": 31865
+   }
+  },
+  "hard_cc_slots": [
+   "P",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "W"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Briar": {
+  "name": "Briar",
+  "class": [
+   "ASSASSIN",
+   "DIVER",
+   "FIGHTER"
+  ],
+  "damage": {
+   "physical": 0.81,
+   "magic": 0.09,
+   "true": 0.1,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.813,
+   "magic": 0.091,
+   "true": 0.096,
+   "taken_rel": 1.11,
+   "taken_per_death_rel": 0.88,
+   "heal_rel": 2.1,
+   "dmg_rel": 1.18,
+   "soloq_games": 25702,
+   "roles": {
+    "jungle": 25702
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "W",
+   "E",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "E",
+   "R"
+  ],
+  "point_click_hard_cc": [
+   "Q"
+  ],
+  "dashes": [
+   "Q",
+   "W"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "W"
+  ],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": [
+   "W"
+  ]
+ },
+ "Caitlyn": {
+  "name": "Caitlyn",
+  "class": [
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.95,
+   "magic": 0.03,
+   "true": 0.02,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.952,
+   "magic": 0.029,
+   "true": 0.019,
+   "taken_rel": 0.93,
+   "taken_per_death_rel": 0.91,
+   "heal_rel": 0.9,
+   "dmg_rel": 0.96,
+   "soloq_games": 78105,
+   "roles": {
+    "bot": 78105
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Camille": {
+  "name": "Camille",
+  "class": [
+   "ASSASSIN",
+   "DIVER",
+   "FIGHTER"
+  ],
+  "damage": {
+   "physical": 0.61,
+   "magic": 0.06,
+   "true": 0.33,
+   "label": "AD + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.609,
+   "magic": 0.058,
+   "true": 0.332,
+   "taken_rel": 0.99,
+   "taken_per_death_rel": 0.99,
+   "heal_rel": 0.95,
+   "dmg_rel": 1.02,
+   "soloq_games": 27267,
+   "roles": {
+    "top": 27267
+   }
+  },
+  "hard_cc_slots": [
+   "E",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "E"
+  ],
+  "point_click_hard_cc": [
+   "R"
+  ],
+  "dashes": [
+   "E",
+   "R"
+  ],
+  "true_damage": [
+   "Q"
+  ],
+  "pct_hp_damage": [
+   "W",
+   "R"
+  ],
+  "pct_hp_max_current": [
+   "W",
+   "R"
+  ],
+  "pct_hp_missing": []
+ },
+ "Cassiopeia": {
+  "name": "Cassiopeia",
+  "class": [
+   "BATTLEMAGE",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.02,
+   "magic": 0.96,
+   "true": 0.02,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.018,
+   "magic": 0.965,
+   "true": 0.017,
+   "taken_rel": 1.08,
+   "taken_per_death_rel": 1.05,
+   "heal_rel": 1.32,
+   "dmg_rel": 0.95,
+   "soloq_games": 11458,
+   "roles": {
+    "mid": 8852,
+    "top": 2606
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Chogath": {
+  "name": "Cho'Gath",
+  "class": [
+   "MAGE",
+   "SPECIALIST",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.16,
+   "magic": 0.59,
+   "true": 0.24,
+   "label": "AP-leaning mixed + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.164,
+   "magic": 0.594,
+   "true": 0.241,
+   "taken_rel": 1.39,
+   "taken_per_death_rel": 1.43,
+   "heal_rel": 1.19,
+   "dmg_rel": 1.01,
+   "soloq_games": 20575,
+   "roles": {
+    "top": 17295,
+    "mid": 3280
+   }
+  },
+  "hard_cc_slots": [
+   "Q"
+  ],
+  "aoe_hard_cc": [
+   "Q"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [
+   "R"
+  ],
+  "pct_hp_damage": [
+   "E"
+  ],
+  "pct_hp_max_current": [
+   "E"
+  ],
+  "pct_hp_missing": []
+ },
+ "Corki": {
+  "name": "Corki",
+  "class": [
+   "MAGE",
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.67,
+   "magic": 0.19,
+   "true": 0.14,
+   "label": "AD-leaning mixed + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.666,
+   "magic": 0.19,
+   "true": 0.145,
+   "taken_rel": 0.96,
+   "taken_per_death_rel": 0.89,
+   "heal_rel": 0.85,
+   "dmg_rel": 1.08,
+   "soloq_games": 2888,
+   "roles": {
+    "mid": 2888
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [
+   "P"
+  ],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Darius": {
+  "name": "Darius",
+  "class": [
+   "FIGHTER",
+   "JUGGERNAUT",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.78,
+   "magic": 0.0,
+   "true": 0.22,
+   "label": "AD + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.775,
+   "magic": 0.002,
+   "true": 0.223,
+   "taken_rel": 1.02,
+   "taken_per_death_rel": 0.99,
+   "heal_rel": 0.91,
+   "dmg_rel": 0.95,
+   "soloq_games": 45972,
+   "roles": {
+    "top": 45972
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [
+   "R"
+  ],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Diana": {
+  "name": "Diana",
+  "class": [
+   "ASSASSIN",
+   "DIVER",
+   "FIGHTER"
+  ],
+  "damage": {
+   "physical": 0.1,
+   "magic": 0.83,
+   "true": 0.07,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.102,
+   "magic": 0.828,
+   "true": 0.07,
+   "taken_rel": 0.91,
+   "taken_per_death_rel": 0.83,
+   "heal_rel": 0.54,
+   "dmg_rel": 1.03,
+   "soloq_games": 42092,
+   "roles": {
+    "jungle": 20850,
+    "mid": 21242
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "DrMundo": {
+  "name": "Dr. Mundo",
+  "class": [
+   "FIGHTER",
+   "JUGGERNAUT",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.45,
+   "magic": 0.53,
+   "true": 0.02,
+   "label": "mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.452,
+   "magic": 0.532,
+   "true": 0.016,
+   "taken_rel": 1.85,
+   "taken_per_death_rel": 2.29,
+   "heal_rel": 1.76,
+   "dmg_rel": 1.09,
+   "soloq_games": 24069,
+   "roles": {
+    "top": 21588,
+    "jungle": 2481
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "Q"
+  ],
+  "pct_hp_max_current": [
+   "Q"
+  ],
+  "pct_hp_missing": []
+ },
+ "Draven": {
+  "name": "Draven",
+  "class": [
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.98,
+   "magic": 0.0,
+   "true": 0.02,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.98,
+   "magic": 0.003,
+   "true": 0.017,
+   "taken_rel": 1.01,
+   "taken_per_death_rel": 0.92,
+   "heal_rel": 1.16,
+   "dmg_rel": 1.03,
+   "soloq_games": 24723,
+   "roles": {
+    "bot": 24723
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [
+   "E"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Ekko": {
+  "name": "Ekko",
+  "class": [
+   "ASSASSIN",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.11,
+   "magic": 0.78,
+   "true": 0.11,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.108,
+   "magic": 0.778,
+   "true": 0.114,
+   "taken_rel": 1.15,
+   "taken_per_death_rel": 1.21,
+   "heal_rel": 1.37,
+   "dmg_rel": 1.03,
+   "soloq_games": 59888,
+   "roles": {
+    "jungle": 27635,
+    "mid": 32253
+   }
+  },
+  "hard_cc_slots": [
+   "W"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E",
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "W"
+  ],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": [
+   "W"
+  ]
+ },
+ "Elise": {
+  "name": "Elise",
+  "class": [
+   "ASSASSIN",
+   "DIVER",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.07,
+   "magic": 0.84,
+   "true": 0.09,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.068,
+   "magic": 0.843,
+   "true": 0.089,
+   "taken_rel": 0.86,
+   "taken_per_death_rel": 0.87,
+   "heal_rel": 0.83,
+   "dmg_rel": 1.0,
+   "soloq_games": 17963,
+   "roles": {
+    "jungle": 17963
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "Q"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "Q"
+  ],
+  "pct_hp_max_current": [
+   "Q"
+  ],
+  "pct_hp_missing": []
+ },
+ "Evelynn": {
+  "name": "Evelynn",
+  "class": [
+   "ASSASSIN",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.03,
+   "magic": 0.91,
+   "true": 0.07,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.028,
+   "magic": 0.907,
+   "true": 0.066,
+   "taken_rel": 0.88,
+   "taken_per_death_rel": 0.9,
+   "heal_rel": 0.82,
+   "dmg_rel": 1.15,
+   "soloq_games": 24720,
+   "roles": {
+    "jungle": 24720
+   }
+  },
+  "hard_cc_slots": [
+   "W"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [
+   "W"
+  ],
+  "dashes": [
+   "E",
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "E"
+  ],
+  "pct_hp_max_current": [
+   "E"
+  ],
+  "pct_hp_missing": []
+ },
+ "Ezreal": {
+  "name": "Ezreal",
+  "class": [
+   "MAGE",
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.7,
+   "magic": 0.29,
+   "true": 0.02,
+   "label": "AD-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.696,
+   "magic": 0.287,
+   "true": 0.016,
+   "taken_rel": 1.08,
+   "taken_per_death_rel": 1.19,
+   "heal_rel": 1.13,
+   "dmg_rel": 1.06,
+   "soloq_games": 91104,
+   "roles": {
+    "bot": 91104
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Fiddlesticks": {
+  "name": "Fiddlesticks",
+  "class": [
+   "MAGE",
+   "SPECIALIST",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.01,
+   "magic": 0.92,
+   "true": 0.07,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.011,
+   "magic": 0.924,
+   "true": 0.066,
+   "taken_rel": 1.0,
+   "taken_per_death_rel": 1.0,
+   "heal_rel": 1.09,
+   "dmg_rel": 1.02,
+   "soloq_games": 11606,
+   "roles": {
+    "jungle": 11606
+   }
+  },
+  "hard_cc_slots": [
+   "Q"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [
+   "Q"
+  ],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "Q",
+   "W"
+  ],
+  "pct_hp_max_current": [
+   "Q"
+  ],
+  "pct_hp_missing": [
+   "W"
+  ]
+ },
+ "Fiora": {
+  "name": "Fiora",
+  "class": [
+   "ASSASSIN",
+   "FIGHTER",
+   "SKIRMISHER"
+  ],
+  "damage": {
+   "physical": 0.59,
+   "magic": 0.05,
+   "true": 0.36,
+   "label": "AD + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.591,
+   "magic": 0.048,
+   "true": 0.361,
+   "taken_rel": 1.06,
+   "taken_per_death_rel": 0.98,
+   "heal_rel": 1.82,
+   "dmg_rel": 1.02,
+   "soloq_games": 26463,
+   "roles": {
+    "top": 26463
+   }
+  },
+  "hard_cc_slots": [
+   "W"
+  ],
+  "aoe_hard_cc": [
+   "W"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "Q"
+  ],
+  "true_damage": [
+   "R"
+  ],
+  "pct_hp_damage": [
+   "R"
+  ],
+  "pct_hp_max_current": [
+   "R"
+  ],
+  "pct_hp_missing": []
+ },
+ "Fizz": {
+  "name": "Fizz",
+  "class": [
+   "ASSASSIN",
+   "FIGHTER"
+  ],
+  "damage": {
+   "physical": 0.11,
+   "magic": 0.79,
+   "true": 0.09,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.114,
+   "magic": 0.793,
+   "true": 0.093,
+   "taken_rel": 0.96,
+   "taken_per_death_rel": 0.92,
+   "heal_rel": 0.64,
+   "dmg_rel": 0.96,
+   "soloq_games": 30791,
+   "roles": {
+    "mid": 30791
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "Q",
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Galio": {
+  "name": "Galio",
+  "class": [
+   "MAGE",
+   "TANK",
+   "WARDEN"
+  ],
+  "damage": {
+   "physical": 0.02,
+   "magic": 0.94,
+   "true": 0.03,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.023,
+   "magic": 0.945,
+   "true": 0.032,
+   "taken_rel": 1.07,
+   "taken_per_death_rel": 1.19,
+   "heal_rel": 0.59,
+   "dmg_rel": 0.78,
+   "soloq_games": 37957,
+   "roles": {
+    "mid": 30031,
+    "support": 5443,
+    "top": 2483
+   }
+  },
+  "hard_cc_slots": [
+   "W",
+   "E",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "W",
+   "E",
+   "R"
+  ],
+  "point_click_hard_cc": [
+   "R"
+  ],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "Q"
+  ],
+  "pct_hp_max_current": [
+   "Q"
+  ],
+  "pct_hp_missing": []
+ },
+ "Gangplank": {
+  "name": "Gangplank",
+  "class": [
+   "FIGHTER",
+   "SPECIALIST"
+  ],
+  "damage": {
+   "physical": 0.66,
+   "magic": 0.18,
+   "true": 0.16,
+   "label": "AD-leaning mixed + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.658,
+   "magic": 0.18,
+   "true": 0.162,
+   "taken_rel": 0.83,
+   "taken_per_death_rel": 0.79,
+   "heal_rel": 0.82,
+   "dmg_rel": 1.2,
+   "soloq_games": 31599,
+   "roles": {
+    "top": 31599
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [
+   "R"
+  ],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Garen": {
+  "name": "Garen",
+  "class": [
+   "FIGHTER",
+   "JUGGERNAUT",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.77,
+   "magic": 0.0,
+   "true": 0.23,
+   "label": "AD + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.771,
+   "magic": 0.002,
+   "true": 0.227,
+   "taken_rel": 1.04,
+   "taken_per_death_rel": 1.1,
+   "heal_rel": 0.34,
+   "dmg_rel": 0.97,
+   "soloq_games": 37261,
+   "roles": {
+    "top": 37261
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [
+   "R"
+  ],
+  "pct_hp_damage": [
+   "R"
+  ],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": [
+   "R"
+  ]
+ },
+ "Gnar": {
+  "name": "Gnar",
+  "class": [
+   "FIGHTER",
+   "SPECIALIST",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.81,
+   "magic": 0.17,
+   "true": 0.02,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.815,
+   "magic": 0.166,
+   "true": 0.019,
+   "taken_rel": 0.93,
+   "taken_per_death_rel": 0.96,
+   "heal_rel": 0.61,
+   "dmg_rel": 1.0,
+   "soloq_games": 24184,
+   "roles": {
+    "top": 24184
+   }
+  },
+  "hard_cc_slots": [
+   "W",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "W",
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "W"
+  ],
+  "pct_hp_max_current": [
+   "W"
+  ],
+  "pct_hp_missing": []
+ },
+ "Gragas": {
+  "name": "Gragas",
+  "class": [
+   "FIGHTER",
+   "MAGE",
+   "VANGUARD"
+  ],
+  "damage": {
+   "physical": 0.08,
+   "magic": 0.88,
+   "true": 0.04,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.076,
+   "magic": 0.883,
+   "true": 0.041,
+   "taken_rel": 0.99,
+   "taken_per_death_rel": 1.09,
+   "heal_rel": 1.23,
+   "dmg_rel": 0.98,
+   "soloq_games": 24924,
+   "roles": {
+    "jungle": 5067,
+    "top": 15158,
+    "support": 1490,
+    "mid": 3209
+   }
+  },
+  "hard_cc_slots": [
+   "E",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "E",
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "Q",
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "W"
+  ],
+  "pct_hp_max_current": [
+   "W"
+  ],
+  "pct_hp_missing": []
+ },
+ "Graves": {
+  "name": "Graves",
+  "class": [
+   "MARKSMAN",
+   "SPECIALIST"
+  ],
+  "damage": {
+   "physical": 0.85,
+   "magic": 0.04,
+   "true": 0.11,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.853,
+   "magic": 0.035,
+   "true": 0.112,
+   "taken_rel": 0.81,
+   "taken_per_death_rel": 0.79,
+   "heal_rel": 0.63,
+   "dmg_rel": 1.13,
+   "soloq_games": 48081,
+   "roles": {
+    "jungle": 48081
+   }
+  },
+  "hard_cc_slots": [
+   "P"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Gwen": {
+  "name": "Gwen",
+  "class": [
+   "ASSASSIN",
+   "FIGHTER",
+   "SKIRMISHER"
+  ],
+  "damage": {
+   "physical": 0.13,
+   "magic": 0.7,
+   "true": 0.18,
+   "label": "AP + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.128,
+   "magic": 0.696,
+   "true": 0.176,
+   "taken_rel": 1.05,
+   "taken_per_death_rel": 1.07,
+   "heal_rel": 1.08,
+   "dmg_rel": 1.11,
+   "soloq_games": 20017,
+   "roles": {
+    "top": 14984,
+    "jungle": 5033
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [
+   "Q"
+  ],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Hecarim": {
+  "name": "Hecarim",
+  "class": [
+   "DIVER",
+   "FIGHTER",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.82,
+   "magic": 0.15,
+   "true": 0.03,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.82,
+   "magic": 0.148,
+   "true": 0.032,
+   "taken_rel": 1.18,
+   "taken_per_death_rel": 1.23,
+   "heal_rel": 1.32,
+   "dmg_rel": 0.99,
+   "soloq_games": 33663,
+   "roles": {
+    "jungle": 33663
+   }
+  },
+  "hard_cc_slots": [
+   "E",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Heimerdinger": {
+  "name": "Heimerdinger",
+  "class": [
+   "MAGE",
+   "SPECIALIST",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.04,
+   "magic": 0.93,
+   "true": 0.03,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.042,
+   "magic": 0.933,
+   "true": 0.025,
+   "taken_rel": 0.73,
+   "taken_per_death_rel": 0.72,
+   "heal_rel": 0.32,
+   "dmg_rel": 1.3,
+   "soloq_games": 9993,
+   "roles": {
+    "support": 1224,
+    "mid": 1539,
+    "top": 7230
+   }
+  },
+  "hard_cc_slots": [
+   "E",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "E"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Hwei": {
+  "name": "Hwei",
+  "class": [
+   "ARTILLERY",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.04,
+   "magic": 0.95,
+   "true": 0.01,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.037,
+   "magic": 0.949,
+   "true": 0.014,
+   "taken_rel": 0.85,
+   "taken_per_death_rel": 0.88,
+   "heal_rel": 0.48,
+   "dmg_rel": 1.19,
+   "soloq_games": 25932,
+   "roles": {
+    "mid": 22023,
+    "support": 3909
+   }
+  },
+  "hard_cc_slots": [
+   "W",
+   "E"
+  ],
+  "aoe_hard_cc": [
+   "E"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "Q"
+  ],
+  "pct_hp_max_current": [
+   "Q"
+  ],
+  "pct_hp_missing": [
+   "Q"
+  ]
+ },
+ "Illaoi": {
+  "name": "Illaoi",
+  "class": [
+   "FIGHTER",
+   "JUGGERNAUT",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.95,
+   "magic": 0.03,
+   "true": 0.02,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.952,
+   "magic": 0.031,
+   "true": 0.017,
+   "taken_rel": 1.22,
+   "taken_per_death_rel": 1.15,
+   "heal_rel": 1.25,
+   "dmg_rel": 1.24,
+   "soloq_games": 15826,
+   "roles": {
+    "top": 15826
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "W"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "W"
+  ],
+  "pct_hp_max_current": [
+   "W"
+  ],
+  "pct_hp_missing": []
+ },
+ "Irelia": {
+  "name": "Irelia",
+  "class": [
+   "ASSASSIN",
+   "DIVER",
+   "FIGHTER"
+  ],
+  "damage": {
+   "physical": 0.72,
+   "magic": 0.24,
+   "true": 0.05,
+   "label": "AD-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.717,
+   "magic": 0.237,
+   "true": 0.046,
+   "taken_rel": 1.11,
+   "taken_per_death_rel": 0.92,
+   "heal_rel": 1.67,
+   "dmg_rel": 0.97,
+   "soloq_games": 45356,
+   "roles": {
+    "top": 28452,
+    "mid": 16904
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [
+   "E"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "Q"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Ivern": {
+  "name": "Ivern",
+  "class": [
+   "CATCHER",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.27,
+   "magic": 0.62,
+   "true": 0.11,
+   "label": "AP-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.266,
+   "magic": 0.62,
+   "true": 0.113,
+   "taken_rel": 0.52,
+   "taken_per_death_rel": 0.66,
+   "heal_rel": 0.51,
+   "dmg_rel": 0.52,
+   "soloq_games": 5663,
+   "roles": {
+    "jungle": 5663
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "Q",
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Janna": {
+  "name": "Janna",
+  "class": [
+   "ENCHANTER",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.14,
+   "magic": 0.8,
+   "true": 0.06,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.143,
+   "magic": 0.8,
+   "true": 0.057,
+   "taken_rel": 0.82,
+   "taken_per_death_rel": 1.03,
+   "heal_rel": 1.45,
+   "dmg_rel": 0.58,
+   "soloq_games": 28468,
+   "roles": {
+    "support": 28468
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "Q"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "JarvanIV": {
+  "name": "Jarvan IV",
+  "class": [
+   "DIVER",
+   "FIGHTER",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.85,
+   "magic": 0.07,
+   "true": 0.08,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.854,
+   "magic": 0.066,
+   "true": 0.08,
+   "taken_rel": 0.84,
+   "taken_per_death_rel": 0.81,
+   "heal_rel": 0.62,
+   "dmg_rel": 0.89,
+   "soloq_games": 53243,
+   "roles": {
+    "jungle": 52684,
+    "top": 559
+   }
+  },
+  "hard_cc_slots": [
+   "Q"
+  ],
+  "aoe_hard_cc": [
+   "Q"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "P"
+  ],
+  "pct_hp_max_current": [
+   "P"
+  ],
+  "pct_hp_missing": []
+ },
+ "Jax": {
+  "name": "Jax",
+  "class": [
+   "ASSASSIN",
+   "FIGHTER",
+   "SKIRMISHER"
+  ],
+  "damage": {
+   "physical": 0.52,
+   "magic": 0.43,
+   "true": 0.05,
+   "label": "mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.523,
+   "magic": 0.431,
+   "true": 0.046,
+   "taken_rel": 0.94,
+   "taken_per_death_rel": 0.91,
+   "heal_rel": 0.71,
+   "dmg_rel": 0.94,
+   "soloq_games": 42714,
+   "roles": {
+    "top": 37592,
+    "jungle": 5122
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [
+   "E"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "Q",
+   "W"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "E"
+  ],
+  "pct_hp_max_current": [
+   "E"
+  ],
+  "pct_hp_missing": []
+ },
+ "Jayce": {
+  "name": "Jayce",
+  "class": [
+   "ARTILLERY",
+   "FIGHTER",
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.78,
+   "magic": 0.19,
+   "true": 0.04,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.775,
+   "magic": 0.19,
+   "true": 0.035,
+   "taken_rel": 0.78,
+   "taken_per_death_rel": 0.72,
+   "heal_rel": 0.45,
+   "dmg_rel": 1.07,
+   "soloq_games": 44399,
+   "roles": {
+    "top": 39561,
+    "mid": 4838
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [
+   "E"
+  ],
+  "dashes": [
+   "Q"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "E"
+  ],
+  "pct_hp_max_current": [
+   "E"
+  ],
+  "pct_hp_missing": []
+ },
+ "Jhin": {
+  "name": "Jhin",
+  "class": [
+   "CATCHER",
+   "MAGE",
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.93,
+   "magic": 0.06,
+   "true": 0.02,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.926,
+   "magic": 0.058,
+   "true": 0.017,
+   "taken_rel": 0.91,
+   "taken_per_death_rel": 1.1,
+   "heal_rel": 0.9,
+   "dmg_rel": 0.91,
+   "soloq_games": 121660,
+   "roles": {
+    "bot": 121660
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Jinx": {
+  "name": "Jinx",
+  "class": [
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.95,
+   "magic": 0.03,
+   "true": 0.02,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.952,
+   "magic": 0.031,
+   "true": 0.016,
+   "taken_rel": 0.92,
+   "taken_per_death_rel": 0.92,
+   "heal_rel": 0.88,
+   "dmg_rel": 0.94,
+   "soloq_games": 70421,
+   "roles": {
+    "bot": 70421
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "R"
+  ],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": [
+   "R"
+  ]
+ },
+ "KSante": {
+  "name": "K'Sante",
+  "class": [
+   "FIGHTER",
+   "SKIRMISHER",
+   "TANK",
+   "WARDEN"
+  ],
+  "damage": {
+   "physical": 0.85,
+   "magic": 0.09,
+   "true": 0.06,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.852,
+   "magic": 0.087,
+   "true": 0.061,
+   "taken_rel": 1.01,
+   "taken_per_death_rel": 1.19,
+   "heal_rel": 0.69,
+   "dmg_rel": 0.86,
+   "soloq_games": 26790,
+   "roles": {
+    "top": 26790
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "W",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "Q",
+   "W"
+  ],
+  "point_click_hard_cc": [
+   "R"
+  ],
+  "dashes": [
+   "W",
+   "E",
+   "R"
+  ],
+  "true_damage": [
+   "W"
+  ],
+  "pct_hp_damage": [
+   "W"
+  ],
+  "pct_hp_max_current": [
+   "W"
+  ],
+  "pct_hp_missing": []
+ },
+ "Kaisa": {
+  "name": "Kai'Sa",
+  "class": [
+   "MAGE",
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.57,
+   "magic": 0.42,
+   "true": 0.02,
+   "label": "mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.566,
+   "magic": 0.418,
+   "true": 0.016,
+   "taken_rel": 0.98,
+   "taken_per_death_rel": 1.02,
+   "heal_rel": 0.91,
+   "dmg_rel": 0.97,
+   "soloq_games": 159760,
+   "roles": {
+    "bot": 159760
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Kalista": {
+  "name": "Kalista",
+  "class": [
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.75,
+   "magic": 0.17,
+   "true": 0.08,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.75,
+   "magic": 0.17,
+   "true": 0.08,
+   "taken_rel": 1.04,
+   "taken_per_death_rel": 0.93,
+   "heal_rel": 0.97,
+   "dmg_rel": 0.97,
+   "soloq_games": 31149,
+   "roles": {
+    "bot": 29325,
+    "top": 1824
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "Q",
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "W"
+  ],
+  "pct_hp_max_current": [
+   "W"
+  ],
+  "pct_hp_missing": []
+ },
+ "Karma": {
+  "name": "Karma",
+  "class": [
+   "BURST",
+   "ENCHANTER",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.09,
+   "magic": 0.89,
+   "true": 0.03,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.087,
+   "magic": 0.887,
+   "true": 0.026,
+   "taken_rel": 0.89,
+   "taken_per_death_rel": 1.01,
+   "heal_rel": 0.93,
+   "dmg_rel": 0.76,
+   "soloq_games": 51095,
+   "roles": {
+    "support": 49073,
+    "mid": 923,
+    "top": 1099
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Karthus": {
+  "name": "Karthus",
+  "class": [
+   "BATTLEMAGE",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.01,
+   "magic": 0.93,
+   "true": 0.07,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.007,
+   "magic": 0.925,
+   "true": 0.068,
+   "taken_rel": 0.99,
+   "taken_per_death_rel": 0.74,
+   "heal_rel": 0.56,
+   "dmg_rel": 1.6,
+   "soloq_games": 11815,
+   "roles": {
+    "jungle": 8247,
+    "bot": 3568
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Kassadin": {
+  "name": "Kassadin",
+  "class": [
+   "ASSASSIN",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.08,
+   "magic": 0.85,
+   "true": 0.07,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.08,
+   "magic": 0.855,
+   "true": 0.065,
+   "taken_rel": 1.21,
+   "taken_per_death_rel": 1.33,
+   "heal_rel": 1.18,
+   "dmg_rel": 1.03,
+   "soloq_games": 17921,
+   "roles": {
+    "mid": 17921
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Katarina": {
+  "name": "Katarina",
+  "class": [
+   "ASSASSIN",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.18,
+   "magic": 0.75,
+   "true": 0.07,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": true,
+  "soloq": {
+   "physical": 0.18,
+   "magic": 0.746,
+   "true": 0.074,
+   "taken_rel": 1.09,
+   "taken_per_death_rel": 0.97,
+   "heal_rel": 1.02,
+   "dmg_rel": 1.07,
+   "soloq_games": 39757,
+   "roles": {
+    "mid": 39757
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Kayle": {
+  "name": "Kayle",
+  "class": [
+   "MAGE",
+   "MARKSMAN",
+   "SPECIALIST"
+  ],
+  "damage": {
+   "physical": 0.26,
+   "magic": 0.72,
+   "true": 0.02,
+   "label": "AP-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.264,
+   "magic": 0.717,
+   "true": 0.019,
+   "taken_rel": 0.79,
+   "taken_per_death_rel": 0.78,
+   "heal_rel": 1.0,
+   "dmg_rel": 0.95,
+   "soloq_games": 17243,
+   "roles": {
+    "top": 17243
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "E"
+  ],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": [
+   "E"
+  ]
+ },
+ "Kayn": {
+  "name": "Kayn",
+  "class": [
+   "ASSASSIN",
+   "FIGHTER",
+   "SKIRMISHER"
+  ],
+  "damage": {
+   "physical": 0.86,
+   "magic": 0.06,
+   "true": 0.08,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.864,
+   "magic": 0.055,
+   "true": 0.081,
+   "taken_rel": 1.1,
+   "taken_per_death_rel": 0.96,
+   "heal_rel": 1.11,
+   "dmg_rel": 1.14,
+   "soloq_games": 42062,
+   "roles": {
+    "jungle": 42062
+   }
+  },
+  "hard_cc_slots": [
+   "W"
+  ],
+  "aoe_hard_cc": [
+   "W"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "Q"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "Q",
+   "R"
+  ],
+  "pct_hp_max_current": [
+   "Q",
+   "R"
+  ],
+  "pct_hp_missing": []
+ },
+ "Kennen": {
+  "name": "Kennen",
+  "class": [
+   "MAGE",
+   "MARKSMAN",
+   "SPECIALIST"
+  ],
+  "damage": {
+   "physical": 0.12,
+   "magic": 0.84,
+   "true": 0.04,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.121,
+   "magic": 0.838,
+   "true": 0.04,
+   "taken_rel": 0.76,
+   "taken_per_death_rel": 0.79,
+   "heal_rel": 0.56,
+   "dmg_rel": 1.03,
+   "soloq_games": 13862,
+   "roles": {
+    "top": 11745,
+    "mid": 2117
+   }
+  },
+  "hard_cc_slots": [
+   "P"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Khazix": {
+  "name": "Kha'Zix",
+  "class": [
+   "ASSASSIN"
+  ],
+  "damage": {
+   "physical": 0.82,
+   "magic": 0.06,
+   "true": 0.12,
+   "label": "AD + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.823,
+   "magic": 0.057,
+   "true": 0.121,
+   "taken_rel": 0.96,
+   "taken_per_death_rel": 0.92,
+   "heal_rel": 0.9,
+   "dmg_rel": 1.15,
+   "soloq_games": 39163,
+   "roles": {
+    "jungle": 39163
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "R"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [
+   "Q"
+  ],
+  "dashes": [
+   "E",
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Kindred": {
+  "name": "Kindred",
+  "class": [
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.76,
+   "magic": 0.14,
+   "true": 0.1,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.759,
+   "magic": 0.138,
+   "true": 0.103,
+   "taken_rel": 0.91,
+   "taken_per_death_rel": 0.81,
+   "heal_rel": 1.04,
+   "dmg_rel": 1.15,
+   "soloq_games": 16033,
+   "roles": {
+    "jungle": 16033
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "Q",
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "W",
+   "E"
+  ],
+  "pct_hp_max_current": [
+   "W"
+  ],
+  "pct_hp_missing": [
+   "E"
+  ]
+ },
+ "Kled": {
+  "name": "Kled",
+  "class": [
+   "FIGHTER",
+   "SKIRMISHER",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.88,
+   "magic": 0.06,
+   "true": 0.05,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.884,
+   "magic": 0.064,
+   "true": 0.053,
+   "taken_rel": 1.26,
+   "taken_per_death_rel": 1.33,
+   "heal_rel": 0.78,
+   "dmg_rel": 0.99,
+   "soloq_games": 10906,
+   "roles": {
+    "top": 10906
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "R"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E",
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "W",
+   "R"
+  ],
+  "pct_hp_max_current": [
+   "W",
+   "R"
+  ],
+  "pct_hp_missing": []
+ },
+ "KogMaw": {
+  "name": "Kog'Maw",
+  "class": [
+   "MAGE",
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.33,
+   "magic": 0.56,
+   "true": 0.1,
+   "label": "AP-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.331,
+   "magic": 0.565,
+   "true": 0.103,
+   "taken_rel": 1.09,
+   "taken_per_death_rel": 0.99,
+   "heal_rel": 1.04,
+   "dmg_rel": 1.22,
+   "soloq_games": 14951,
+   "roles": {
+    "bot": 14951
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [
+   "P"
+  ],
+  "pct_hp_damage": [
+   "W",
+   "R"
+  ],
+  "pct_hp_max_current": [
+   "W"
+  ],
+  "pct_hp_missing": [
+   "R"
+  ]
+ },
+ "Leblanc": {
+  "name": "LeBlanc",
+  "class": [
+   "ASSASSIN",
+   "BURST",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.05,
+   "magic": 0.86,
+   "true": 0.09,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.051,
+   "magic": 0.862,
+   "true": 0.087,
+   "taken_rel": 0.94,
+   "taken_per_death_rel": 1.06,
+   "heal_rel": 0.74,
+   "dmg_rel": 1.04,
+   "soloq_games": 35854,
+   "roles": {
+    "mid": 35854
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "W"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "LeeSin": {
+  "name": "Lee Sin",
+  "class": [
+   "ASSASSIN",
+   "DIVER",
+   "FIGHTER"
+  ],
+  "damage": {
+   "physical": 0.78,
+   "magic": 0.14,
+   "true": 0.08,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.78,
+   "magic": 0.137,
+   "true": 0.083,
+   "taken_rel": 0.95,
+   "taken_per_death_rel": 0.95,
+   "heal_rel": 0.92,
+   "dmg_rel": 0.9,
+   "soloq_games": 81391,
+   "roles": {
+    "jungle": 81391
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [
+   "R"
+  ],
+  "dashes": [
+   "Q",
+   "W"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "Q",
+   "R"
+  ],
+  "pct_hp_max_current": [
+   "R"
+  ],
+  "pct_hp_missing": [
+   "Q"
+  ]
+ },
+ "Leona": {
+  "name": "Leona",
+  "class": [
+   "SUPPORT",
+   "TANK",
+   "VANGUARD"
+  ],
+  "damage": {
+   "physical": 0.28,
+   "magic": 0.65,
+   "true": 0.07,
+   "label": "AP-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.278,
+   "magic": 0.651,
+   "true": 0.071,
+   "taken_rel": 1.1,
+   "taken_per_death_rel": 1.12,
+   "heal_rel": 0.6,
+   "dmg_rel": 0.71,
+   "soloq_games": 53724,
+   "roles": {
+    "support": 53724
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Lillia": {
+  "name": "Lillia",
+  "class": [
+   "FIGHTER",
+   "MAGE",
+   "SKIRMISHER"
+  ],
+  "damage": {
+   "physical": 0.04,
+   "magic": 0.76,
+   "true": 0.21,
+   "label": "AP + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.036,
+   "magic": 0.756,
+   "true": 0.208,
+   "taken_rel": 1.18,
+   "taken_per_death_rel": 1.3,
+   "heal_rel": 1.39,
+   "dmg_rel": 1.11,
+   "soloq_games": 30314,
+   "roles": {
+    "jungle": 29997,
+    "top": 317
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [
+   "Q"
+  ],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Lissandra": {
+  "name": "Lissandra",
+  "class": [
+   "BURST",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.05,
+   "magic": 0.91,
+   "true": 0.04,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.05,
+   "magic": 0.907,
+   "true": 0.043,
+   "taken_rel": 0.98,
+   "taken_per_death_rel": 0.94,
+   "heal_rel": 0.79,
+   "dmg_rel": 0.95,
+   "soloq_games": 38594,
+   "roles": {
+    "mid": 35239,
+    "top": 3355
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [
+   "R"
+  ],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Locke": {
+  "name": "Locke",
+  "class": [
+   "ASSASSIN",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.05,
+   "magic": 0.85,
+   "true": 0.1,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.049,
+   "magic": 0.846,
+   "true": 0.105,
+   "taken_rel": 1.13,
+   "taken_per_death_rel": 1.03,
+   "heal_rel": 2.01,
+   "dmg_rel": 0.94,
+   "soloq_games": 34013,
+   "roles": {
+    "mid": 34013
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [
+   "W"
+  ],
+  "pct_hp_damage": [
+   "P",
+   "W"
+  ],
+  "pct_hp_max_current": [
+   "W"
+  ],
+  "pct_hp_missing": [
+   "P"
+  ]
+ },
+ "Lucian": {
+  "name": "Lucian",
+  "class": [
+   "ASSASSIN",
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.89,
+   "magic": 0.09,
+   "true": 0.02,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.89,
+   "magic": 0.091,
+   "true": 0.019,
+   "taken_rel": 1.06,
+   "taken_per_death_rel": 1.09,
+   "heal_rel": 1.08,
+   "dmg_rel": 1.01,
+   "soloq_games": 57020,
+   "roles": {
+    "bot": 54567,
+    "mid": 2453
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Lulu": {
+  "name": "Lulu",
+  "class": [
+   "ENCHANTER",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.16,
+   "magic": 0.82,
+   "true": 0.02,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.156,
+   "magic": 0.821,
+   "true": 0.023,
+   "taken_rel": 0.74,
+   "taken_per_death_rel": 0.92,
+   "heal_rel": 0.56,
+   "dmg_rel": 0.5,
+   "soloq_games": 79320,
+   "roles": {
+    "support": 79196,
+    "mid": 124
+   }
+  },
+  "hard_cc_slots": [
+   "W",
+   "R"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [
+   "W",
+   "R"
+  ],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Lux": {
+  "name": "Lux",
+  "class": [
+   "ARTILLERY",
+   "BURST",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.06,
+   "magic": 0.9,
+   "true": 0.04,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.057,
+   "magic": 0.898,
+   "true": 0.045,
+   "taken_rel": 0.75,
+   "taken_per_death_rel": 0.75,
+   "heal_rel": 0.35,
+   "dmg_rel": 1.27,
+   "soloq_games": 63086,
+   "roles": {
+    "support": 39818,
+    "mid": 23268
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Malphite": {
+  "name": "Malphite",
+  "class": [
+   "MAGE",
+   "TANK",
+   "VANGUARD"
+  ],
+  "damage": {
+   "physical": 0.26,
+   "magic": 0.71,
+   "true": 0.03,
+   "label": "AP-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.264,
+   "magic": 0.712,
+   "true": 0.025,
+   "taken_rel": 0.78,
+   "taken_per_death_rel": 0.98,
+   "heal_rel": 0.38,
+   "dmg_rel": 0.92,
+   "soloq_games": 44392,
+   "roles": {
+    "top": 42567,
+    "support": 1825
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Malzahar": {
+  "name": "Malzahar",
+  "class": [
+   "ASSASSIN",
+   "BATTLEMAGE",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.02,
+   "magic": 0.96,
+   "true": 0.02,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.023,
+   "magic": 0.959,
+   "true": 0.018,
+   "taken_rel": 0.83,
+   "taken_per_death_rel": 0.84,
+   "heal_rel": 0.37,
+   "dmg_rel": 0.96,
+   "soloq_games": 29167,
+   "roles": {
+    "mid": 29167
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [
+   "R"
+  ],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "R"
+  ],
+  "pct_hp_max_current": [
+   "R"
+  ],
+  "pct_hp_missing": []
+ },
+ "Maokai": {
+  "name": "Maokai",
+  "class": [
+   "SUPPORT",
+   "TANK",
+   "VANGUARD"
+  ],
+  "damage": {
+   "physical": 0.12,
+   "magic": 0.82,
+   "true": 0.06,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.115,
+   "magic": 0.823,
+   "true": 0.062,
+   "taken_rel": 1.22,
+   "taken_per_death_rel": 1.25,
+   "heal_rel": 1.25,
+   "dmg_rel": 0.94,
+   "soloq_games": 21732,
+   "roles": {
+    "jungle": 5277,
+    "support": 12343,
+    "top": 4112
+   }
+  },
+  "hard_cc_slots": [
+   "Q"
+  ],
+  "aoe_hard_cc": [
+   "Q"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "W"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "Q"
+  ],
+  "pct_hp_max_current": [
+   "Q"
+  ],
+  "pct_hp_missing": []
+ },
+ "MasterYi": {
+  "name": "Master Yi",
+  "class": [
+   "ASSASSIN",
+   "FIGHTER",
+   "SKIRMISHER"
+  ],
+  "damage": {
+   "physical": 0.67,
+   "magic": 0.02,
+   "true": 0.3,
+   "label": "AD + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.671,
+   "magic": 0.024,
+   "true": 0.304,
+   "taken_rel": 0.88,
+   "taken_per_death_rel": 0.77,
+   "heal_rel": 0.72,
+   "dmg_rel": 1.09,
+   "soloq_games": 37443,
+   "roles": {
+    "jungle": 37443
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "Q"
+  ],
+  "true_damage": [
+   "E"
+  ],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Mel": {
+  "name": "Mel",
+  "class": [
+   "ARTILLERY",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.07,
+   "magic": 0.89,
+   "true": 0.04,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.067,
+   "magic": 0.89,
+   "true": 0.043,
+   "taken_rel": 0.86,
+   "taken_per_death_rel": 0.85,
+   "heal_rel": 0.48,
+   "dmg_rel": 1.11,
+   "soloq_games": 16227,
+   "roles": {
+    "mid": 10996,
+    "support": 5231
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Milio": {
+  "name": "Milio",
+  "class": [
+   "ENCHANTER",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.18,
+   "magic": 0.79,
+   "true": 0.03,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.181,
+   "magic": 0.791,
+   "true": 0.028,
+   "taken_rel": 0.73,
+   "taken_per_death_rel": 1.05,
+   "heal_rel": 1.69,
+   "dmg_rel": 0.4,
+   "soloq_games": 38357,
+   "roles": {
+    "support": 38357
+   }
+  },
+  "hard_cc_slots": [
+   "Q"
+  ],
+  "aoe_hard_cc": [
+   "Q"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "MissFortune": {
+  "name": "Miss Fortune",
+  "class": [
+   "MAGE",
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.92,
+   "magic": 0.05,
+   "true": 0.03,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.921,
+   "magic": 0.048,
+   "true": 0.031,
+   "taken_rel": 0.95,
+   "taken_per_death_rel": 0.94,
+   "heal_rel": 0.97,
+   "dmg_rel": 1.0,
+   "soloq_games": 47742,
+   "roles": {
+    "bot": 47742
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "MonkeyKing": {
+  "name": "Wukong",
+  "class": [
+   "DIVER",
+   "FIGHTER",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.79,
+   "magic": 0.14,
+   "true": 0.07,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.79,
+   "magic": 0.136,
+   "true": 0.074,
+   "taken_rel": 0.98,
+   "taken_per_death_rel": 1.07,
+   "heal_rel": 0.67,
+   "dmg_rel": 0.92,
+   "soloq_games": 45266,
+   "roles": {
+    "jungle": 39560,
+    "top": 5706
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "W",
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "R"
+  ],
+  "pct_hp_max_current": [
+   "R"
+  ],
+  "pct_hp_missing": []
+ },
+ "Mordekaiser": {
+  "name": "Mordekaiser",
+  "class": [
+   "FIGHTER",
+   "JUGGERNAUT",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.12,
+   "magic": 0.83,
+   "true": 0.05,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.118,
+   "magic": 0.832,
+   "true": 0.051,
+   "taken_rel": 1.03,
+   "taken_per_death_rel": 1.04,
+   "heal_rel": 1.1,
+   "dmg_rel": 1.06,
+   "soloq_games": 32309,
+   "roles": {
+    "top": 32309
+   }
+  },
+  "hard_cc_slots": [
+   "E",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "E"
+  ],
+  "point_click_hard_cc": [
+   "R"
+  ],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Morgana": {
+  "name": "Morgana",
+  "class": [
+   "CATCHER",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.06,
+   "magic": 0.88,
+   "true": 0.06,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.058,
+   "magic": 0.881,
+   "true": 0.061,
+   "taken_rel": 0.99,
+   "taken_per_death_rel": 0.98,
+   "heal_rel": 0.7,
+   "dmg_rel": 1.13,
+   "soloq_games": 26995,
+   "roles": {
+    "support": 25289,
+    "jungle": 1706
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Naafiri": {
+  "name": "Naafiri",
+  "class": [
+   "ASSASSIN",
+   "FIGHTER"
+  ],
+  "damage": {
+   "physical": 0.86,
+   "magic": 0.06,
+   "true": 0.08,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.862,
+   "magic": 0.057,
+   "true": 0.081,
+   "taken_rel": 1.06,
+   "taken_per_death_rel": 1.06,
+   "heal_rel": 1.23,
+   "dmg_rel": 1.03,
+   "soloq_games": 6204,
+   "roles": {
+    "mid": 6204
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "Q",
+   "E",
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "Q"
+  ],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": [
+   "Q"
+  ]
+ },
+ "Nami": {
+  "name": "Nami",
+  "class": [
+   "ENCHANTER",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.12,
+   "magic": 0.86,
+   "true": 0.02,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.12,
+   "magic": 0.859,
+   "true": 0.021,
+   "taken_rel": 0.8,
+   "taken_per_death_rel": 1.0,
+   "heal_rel": 2.57,
+   "dmg_rel": 0.66,
+   "soloq_games": 53620,
+   "roles": {
+    "support": 53620
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "Q",
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Nasus": {
+  "name": "Nasus",
+  "class": [
+   "FIGHTER",
+   "JUGGERNAUT",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.75,
+   "magic": 0.24,
+   "true": 0.01,
+   "label": "AD-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.746,
+   "magic": 0.239,
+   "true": 0.015,
+   "taken_rel": 1.22,
+   "taken_per_death_rel": 1.36,
+   "heal_rel": 1.56,
+   "dmg_rel": 0.88,
+   "soloq_games": 21783,
+   "roles": {
+    "top": 21783
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "R"
+  ],
+  "pct_hp_max_current": [
+   "R"
+  ],
+  "pct_hp_missing": []
+ },
+ "Nautilus": {
+  "name": "Nautilus",
+  "class": [
+   "SUPPORT",
+   "TANK",
+   "VANGUARD"
+  ],
+  "damage": {
+   "physical": 0.29,
+   "magic": 0.64,
+   "true": 0.07,
+   "label": "AP-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.29,
+   "magic": 0.641,
+   "true": 0.069,
+   "taken_rel": 1.0,
+   "taken_per_death_rel": 0.97,
+   "heal_rel": 0.45,
+   "dmg_rel": 0.67,
+   "soloq_games": 73910,
+   "roles": {
+    "support": 73481,
+    "jungle": 429
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [
+   "R"
+  ],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Neeko": {
+  "name": "Neeko",
+  "class": [
+   "BURST",
+   "CATCHER",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.07,
+   "magic": 0.89,
+   "true": 0.04,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.07,
+   "magic": 0.89,
+   "true": 0.04,
+   "taken_rel": 0.97,
+   "taken_per_death_rel": 0.97,
+   "heal_rel": 0.48,
+   "dmg_rel": 1.16,
+   "soloq_games": 12502,
+   "roles": {
+    "mid": 1773,
+    "support": 10729
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Nidalee": {
+  "name": "Nidalee",
+  "class": [
+   "ASSASSIN",
+   "MAGE",
+   "SPECIALIST"
+  ],
+  "damage": {
+   "physical": 0.07,
+   "magic": 0.81,
+   "true": 0.12,
+   "label": "AP + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.066,
+   "magic": 0.814,
+   "true": 0.121,
+   "taken_rel": 0.94,
+   "taken_per_death_rel": 1.05,
+   "heal_rel": 1.32,
+   "dmg_rel": 0.96,
+   "soloq_games": 15965,
+   "roles": {
+    "jungle": 15965
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "W"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Nilah": {
+  "name": "Nilah",
+  "class": [
+   "ASSASSIN",
+   "FIGHTER",
+   "SKIRMISHER"
+  ],
+  "damage": {
+   "physical": 0.97,
+   "magic": 0.0,
+   "true": 0.03,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.967,
+   "magic": 0.004,
+   "true": 0.029,
+   "taken_rel": 1.16,
+   "taken_per_death_rel": 1.13,
+   "heal_rel": 1.6,
+   "dmg_rel": 0.86,
+   "soloq_games": 6598,
+   "roles": {
+    "bot": 6598
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Nocturne": {
+  "name": "Nocturne",
+  "class": [
+   "ASSASSIN",
+   "FIGHTER"
+  ],
+  "damage": {
+   "physical": 0.83,
+   "magic": 0.06,
+   "true": 0.11,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.835,
+   "magic": 0.055,
+   "true": 0.11,
+   "taken_rel": 1.09,
+   "taken_per_death_rel": 1.03,
+   "heal_rel": 0.98,
+   "dmg_rel": 0.98,
+   "soloq_games": 25478,
+   "roles": {
+    "jungle": 25478
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [
+   "E"
+  ],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Nunu": {
+  "name": "Nunu & Willump",
+  "class": [
+   "MAGE",
+   "TANK",
+   "VANGUARD"
+  ],
+  "damage": {
+   "physical": 0.06,
+   "magic": 0.89,
+   "true": 0.05,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.061,
+   "magic": 0.891,
+   "true": 0.047,
+   "taken_rel": 1.13,
+   "taken_per_death_rel": 1.09,
+   "heal_rel": 1.3,
+   "dmg_rel": 0.82,
+   "soloq_games": 12720,
+   "roles": {
+    "jungle": 12720
+   }
+  },
+  "hard_cc_slots": [
+   "W"
+  ],
+  "aoe_hard_cc": [
+   "W"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "W"
+  ],
+  "true_damage": [
+   "Q"
+  ],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Olaf": {
+  "name": "Olaf",
+  "class": [
+   "DIVER",
+   "FIGHTER",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.7,
+   "magic": 0.0,
+   "true": 0.29,
+   "label": "AD + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.703,
+   "magic": 0.003,
+   "true": 0.295,
+   "taken_rel": 0.99,
+   "taken_per_death_rel": 0.93,
+   "heal_rel": 1.55,
+   "dmg_rel": 1.03,
+   "soloq_games": 21494,
+   "roles": {
+    "top": 19214,
+    "jungle": 2280
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [
+   "E"
+  ],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Orianna": {
+  "name": "Orianna",
+  "class": [
+   "BURST",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.05,
+   "magic": 0.94,
+   "true": 0.01,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.05,
+   "magic": 0.939,
+   "true": 0.012,
+   "taken_rel": 0.84,
+   "taken_per_death_rel": 0.9,
+   "heal_rel": 0.5,
+   "dmg_rel": 0.93,
+   "soloq_games": 32235,
+   "roles": {
+    "mid": 32235
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Ornn": {
+  "name": "Ornn",
+  "class": [
+   "FIGHTER",
+   "TANK",
+   "VANGUARD"
+  ],
+  "damage": {
+   "physical": 0.34,
+   "magic": 0.64,
+   "true": 0.02,
+   "label": "AP-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.34,
+   "magic": 0.639,
+   "true": 0.021,
+   "taken_rel": 1.07,
+   "taken_per_death_rel": 1.34,
+   "heal_rel": 0.61,
+   "dmg_rel": 0.85,
+   "soloq_games": 24393,
+   "roles": {
+    "top": 24393
+   }
+  },
+  "hard_cc_slots": [
+   "W",
+   "E",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "W",
+   "E",
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "W"
+  ],
+  "pct_hp_max_current": [
+   "W"
+  ],
+  "pct_hp_missing": []
+ },
+ "Pantheon": {
+  "name": "Pantheon",
+  "class": [
+   "ASSASSIN",
+   "DIVER",
+   "FIGHTER"
+  ],
+  "damage": {
+   "physical": 0.89,
+   "magic": 0.04,
+   "true": 0.08,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.889,
+   "magic": 0.035,
+   "true": 0.076,
+   "taken_rel": 0.95,
+   "taken_per_death_rel": 0.82,
+   "heal_rel": 0.58,
+   "dmg_rel": 1.2,
+   "soloq_games": 56872,
+   "roles": {
+    "jungle": 6989,
+    "support": 20662,
+    "top": 23380,
+    "mid": 5841
+   }
+  },
+  "hard_cc_slots": [
+   "W"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [
+   "W"
+  ],
+  "dashes": [
+   "W",
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "W"
+  ],
+  "pct_hp_max_current": [
+   "W"
+  ],
+  "pct_hp_missing": []
+ },
+ "Poppy": {
+  "name": "Poppy",
+  "class": [
+   "FIGHTER",
+   "TANK",
+   "WARDEN"
+  ],
+  "damage": {
+   "physical": 0.78,
+   "magic": 0.14,
+   "true": 0.07,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.784,
+   "magic": 0.145,
+   "true": 0.071,
+   "taken_rel": 1.03,
+   "taken_per_death_rel": 1.09,
+   "heal_rel": 0.59,
+   "dmg_rel": 0.94,
+   "soloq_games": 18158,
+   "roles": {
+    "jungle": 2186,
+    "top": 5585,
+    "support": 10387
+   }
+  },
+  "hard_cc_slots": [
+   "E",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [
+   "E"
+  ],
+  "dashes": [
+   "W",
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "Q"
+  ],
+  "pct_hp_max_current": [
+   "Q"
+  ],
+  "pct_hp_missing": []
+ },
+ "Pyke": {
+  "name": "Pyke",
+  "class": [
+   "ASSASSIN",
+   "CATCHER",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.74,
+   "magic": 0.0,
+   "true": 0.26,
+   "label": "AD + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.737,
+   "magic": 0.001,
+   "true": 0.262,
+   "taken_rel": 0.97,
+   "taken_per_death_rel": 0.82,
+   "heal_rel": 0.76,
+   "dmg_rel": 0.93,
+   "soloq_games": 35772,
+   "roles": {
+    "support": 35772
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "E"
+  ],
+  "aoe_hard_cc": [
+   "E"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E",
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Qiyana": {
+  "name": "Qiyana",
+  "class": [
+   "ASSASSIN",
+   "FIGHTER"
+  ],
+  "damage": {
+   "physical": 0.79,
+   "magic": 0.07,
+   "true": 0.14,
+   "label": "AD + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.793,
+   "magic": 0.071,
+   "true": 0.135,
+   "taken_rel": 0.93,
+   "taken_per_death_rel": 0.84,
+   "heal_rel": 0.67,
+   "dmg_rel": 1.07,
+   "soloq_games": 59537,
+   "roles": {
+    "jungle": 45090,
+    "mid": 14447
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "W",
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "R"
+  ],
+  "pct_hp_max_current": [
+   "R"
+  ],
+  "pct_hp_missing": []
+ },
+ "Quinn": {
+  "name": "Quinn",
+  "class": [
+   "ASSASSIN",
+   "MARKSMAN",
+   "SPECIALIST"
+  ],
+  "damage": {
+   "physical": 0.91,
+   "magic": 0.01,
+   "true": 0.09,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.906,
+   "magic": 0.007,
+   "true": 0.087,
+   "taken_rel": 0.78,
+   "taken_per_death_rel": 0.65,
+   "heal_rel": 0.5,
+   "dmg_rel": 1.1,
+   "soloq_games": 5019,
+   "roles": {
+    "top": 5019
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [
+   "E"
+  ],
+  "dashes": [
+   "E",
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Rakan": {
+  "name": "Rakan",
+  "class": [
+   "CATCHER",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.21,
+   "magic": 0.73,
+   "true": 0.06,
+   "label": "AP-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.207,
+   "magic": 0.735,
+   "true": 0.057,
+   "taken_rel": 0.96,
+   "taken_per_death_rel": 1.15,
+   "heal_rel": 1.17,
+   "dmg_rel": 0.5,
+   "soloq_games": 29759,
+   "roles": {
+    "support": 29759
+   }
+  },
+  "hard_cc_slots": [
+   "W",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "W",
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "W",
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Rammus": {
+  "name": "Rammus",
+  "class": [
+   "FIGHTER",
+   "TANK",
+   "VANGUARD"
+  ],
+  "damage": {
+   "physical": 0.31,
+   "magic": 0.65,
+   "true": 0.04,
+   "label": "AP-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.307,
+   "magic": 0.651,
+   "true": 0.042,
+   "taken_rel": 0.98,
+   "taken_per_death_rel": 1.13,
+   "heal_rel": 0.77,
+   "dmg_rel": 0.7,
+   "soloq_games": 8918,
+   "roles": {
+    "jungle": 8918
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "E",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "Q",
+   "R"
+  ],
+  "point_click_hard_cc": [
+   "E"
+  ],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "RekSai": {
+  "name": "Rek'Sai",
+  "class": [
+   "DIVER",
+   "FIGHTER",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.61,
+   "magic": 0.13,
+   "true": 0.26,
+   "label": "AD + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.612,
+   "magic": 0.131,
+   "true": 0.257,
+   "taken_rel": 1.18,
+   "taken_per_death_rel": 1.33,
+   "heal_rel": 1.46,
+   "dmg_rel": 0.89,
+   "soloq_games": 8226,
+   "roles": {
+    "jungle": 8226
+   }
+  },
+  "hard_cc_slots": [
+   "W"
+  ],
+  "aoe_hard_cc": [
+   "W"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [
+   "E"
+  ],
+  "pct_hp_damage": [
+   "R"
+  ],
+  "pct_hp_max_current": [
+   "R"
+  ],
+  "pct_hp_missing": []
+ },
+ "Rell": {
+  "name": "Rell",
+  "class": [
+   "SUPPORT",
+   "TANK",
+   "VANGUARD"
+  ],
+  "damage": {
+   "physical": 0.22,
+   "magic": 0.72,
+   "true": 0.06,
+   "label": "AP-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.219,
+   "magic": 0.722,
+   "true": 0.059,
+   "taken_rel": 1.0,
+   "taken_per_death_rel": 1.05,
+   "heal_rel": 0.5,
+   "dmg_rel": 0.65,
+   "soloq_games": 25411,
+   "roles": {
+    "support": 25390,
+    "jungle": 21
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "W",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "Q",
+   "W",
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "W"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "E"
+  ],
+  "pct_hp_max_current": [
+   "E"
+  ],
+  "pct_hp_missing": []
+ },
+ "Renata": {
+  "name": "Renata Glasc",
+  "class": [
+   "ENCHANTER",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.17,
+   "magic": 0.63,
+   "true": 0.2,
+   "label": "AP-leaning mixed + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.17,
+   "magic": 0.626,
+   "true": 0.204,
+   "taken_rel": 0.9,
+   "taken_per_death_rel": 1.0,
+   "heal_rel": 0.54,
+   "dmg_rel": 0.64,
+   "soloq_games": 14227,
+   "roles": {
+    "support": 14227
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "R"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Renekton": {
+  "name": "Renekton",
+  "class": [
+   "DIVER",
+   "FIGHTER",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.77,
+   "magic": 0.17,
+   "true": 0.05,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.772,
+   "magic": 0.175,
+   "true": 0.053,
+   "taken_rel": 1.14,
+   "taken_per_death_rel": 1.18,
+   "heal_rel": 1.09,
+   "dmg_rel": 0.97,
+   "soloq_games": 39298,
+   "roles": {
+    "top": 39298
+   }
+  },
+  "hard_cc_slots": [
+   "W"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Rengar": {
+  "name": "Rengar",
+  "class": [
+   "ASSASSIN",
+   "DIVER",
+   "FIGHTER"
+  ],
+  "damage": {
+   "physical": 0.85,
+   "magic": 0.05,
+   "true": 0.1,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.852,
+   "magic": 0.049,
+   "true": 0.099,
+   "taken_rel": 1.02,
+   "taken_per_death_rel": 0.89,
+   "heal_rel": 1.06,
+   "dmg_rel": 1.11,
+   "soloq_games": 26701,
+   "roles": {
+    "jungle": 24933,
+    "top": 1768
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Riven": {
+  "name": "Riven",
+  "class": [
+   "ASSASSIN",
+   "FIGHTER",
+   "SKIRMISHER"
+  ],
+  "damage": {
+   "physical": 0.93,
+   "magic": 0.0,
+   "true": 0.07,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.933,
+   "magic": 0.001,
+   "true": 0.066,
+   "taken_rel": 0.79,
+   "taken_per_death_rel": 0.76,
+   "heal_rel": 0.68,
+   "dmg_rel": 0.85,
+   "soloq_games": 14627,
+   "roles": {
+    "top": 14627
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "W"
+  ],
+  "aoe_hard_cc": [
+   "Q",
+   "W"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "Q",
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "R"
+  ],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": [
+   "R"
+  ]
+ },
+ "Rumble": {
+  "name": "Rumble",
+  "class": [
+   "BATTLEMAGE",
+   "FIGHTER",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.04,
+   "magic": 0.92,
+   "true": 0.04,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.038,
+   "magic": 0.917,
+   "true": 0.045,
+   "taken_rel": 0.82,
+   "taken_per_death_rel": 0.81,
+   "heal_rel": 0.37,
+   "dmg_rel": 1.08,
+   "soloq_games": 13602,
+   "roles": {
+    "top": 11900,
+    "jungle": 818,
+    "mid": 884
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "Q"
+  ],
+  "pct_hp_max_current": [
+   "Q"
+  ],
+  "pct_hp_missing": []
+ },
+ "Ryze": {
+  "name": "Ryze",
+  "class": [
+   "BATTLEMAGE",
+   "FIGHTER",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.04,
+   "magic": 0.95,
+   "true": 0.01,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.039,
+   "magic": 0.948,
+   "true": 0.013,
+   "taken_rel": 1.09,
+   "taken_per_death_rel": 1.2,
+   "heal_rel": 0.98,
+   "dmg_rel": 1.0,
+   "soloq_games": 16469,
+   "roles": {
+    "mid": 12963,
+    "top": 3506
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Samira": {
+  "name": "Samira",
+  "class": [
+   "ASSASSIN",
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.87,
+   "magic": 0.1,
+   "true": 0.03,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.869,
+   "magic": 0.102,
+   "true": 0.029,
+   "taken_rel": 1.19,
+   "taken_per_death_rel": 1.08,
+   "heal_rel": 1.65,
+   "dmg_rel": 1.03,
+   "soloq_games": 21857,
+   "roles": {
+    "bot": 21857
+   }
+  },
+  "hard_cc_slots": [
+   "P"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Sejuani": {
+  "name": "Sejuani",
+  "class": [
+   "FIGHTER",
+   "TANK",
+   "VANGUARD"
+  ],
+  "damage": {
+   "physical": 0.58,
+   "magic": 0.37,
+   "true": 0.05,
+   "label": "AD-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.578,
+   "magic": 0.368,
+   "true": 0.053,
+   "taken_rel": 1.19,
+   "taken_per_death_rel": 1.43,
+   "heal_rel": 0.83,
+   "dmg_rel": 0.86,
+   "soloq_games": 13340,
+   "roles": {
+    "jungle": 13340
+   }
+  },
+  "hard_cc_slots": [
+   "P",
+   "Q",
+   "W",
+   "E",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "Q",
+   "W"
+  ],
+  "point_click_hard_cc": [
+   "E"
+  ],
+  "dashes": [
+   "Q"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Senna": {
+  "name": "Senna",
+  "class": [
+   "ENCHANTER",
+   "MARKSMAN",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.89,
+   "magic": 0.09,
+   "true": 0.02,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.888,
+   "magic": 0.094,
+   "true": 0.018,
+   "taken_rel": 0.97,
+   "taken_per_death_rel": 0.98,
+   "heal_rel": 1.86,
+   "dmg_rel": 1.33,
+   "soloq_games": 37092,
+   "roles": {
+    "support": 34901,
+    "bot": 2191
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Seraphine": {
+  "name": "Seraphine",
+  "class": [
+   "BURST",
+   "ENCHANTER",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.11,
+   "magic": 0.87,
+   "true": 0.02,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.11,
+   "magic": 0.874,
+   "true": 0.016,
+   "taken_rel": 0.87,
+   "taken_per_death_rel": 0.95,
+   "heal_rel": 1.26,
+   "dmg_rel": 0.91,
+   "soloq_games": 43684,
+   "roles": {
+    "support": 40070,
+    "mid": 797,
+    "bot": 2817
+   }
+  },
+  "hard_cc_slots": [
+   "E",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "E",
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "Q"
+  ],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": [
+   "Q"
+  ]
+ },
+ "Sett": {
+  "name": "Sett",
+  "class": [
+   "FIGHTER",
+   "JUGGERNAUT",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.74,
+   "magic": 0.0,
+   "true": 0.25,
+   "label": "AD + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.742,
+   "magic": 0.004,
+   "true": 0.254,
+   "taken_rel": 1.21,
+   "taken_per_death_rel": 1.09,
+   "heal_rel": 0.64,
+   "dmg_rel": 1.09,
+   "soloq_games": 39489,
+   "roles": {
+    "top": 38145,
+    "support": 1344
+   }
+  },
+  "hard_cc_slots": [
+   "E",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "E",
+   "R"
+  ],
+  "point_click_hard_cc": [
+   "R"
+  ],
+  "dashes": [],
+  "true_damage": [
+   "W"
+  ],
+  "pct_hp_damage": [
+   "Q",
+   "R"
+  ],
+  "pct_hp_max_current": [
+   "Q",
+   "R"
+  ],
+  "pct_hp_missing": []
+ },
+ "Shaco": {
+  "name": "Shaco",
+  "class": [
+   "ASSASSIN"
+  ],
+  "damage": {
+   "physical": 0.32,
+   "magic": 0.54,
+   "true": 0.15,
+   "label": "AP-leaning mixed + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.317,
+   "magic": 0.537,
+   "true": 0.146,
+   "taken_rel": 0.83,
+   "taken_per_death_rel": 0.82,
+   "heal_rel": 0.55,
+   "dmg_rel": 1.15,
+   "soloq_games": 33236,
+   "roles": {
+    "jungle": 26113,
+    "support": 7123
+   }
+  },
+  "hard_cc_slots": [
+   "W",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "W"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "Q"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Shen": {
+  "name": "Shen",
+  "class": [
+   "TANK",
+   "WARDEN"
+  ],
+  "damage": {
+   "physical": 0.52,
+   "magic": 0.41,
+   "true": 0.06,
+   "label": "mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.522,
+   "magic": 0.415,
+   "true": 0.063,
+   "taken_rel": 1.03,
+   "taken_per_death_rel": 1.18,
+   "heal_rel": 0.52,
+   "dmg_rel": 0.83,
+   "soloq_games": 26975,
+   "roles": {
+    "top": 22506,
+    "support": 4469
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [
+   "E"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E",
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "Q"
+  ],
+  "pct_hp_max_current": [
+   "Q"
+  ],
+  "pct_hp_missing": []
+ },
+ "Shyvana": {
+  "name": "Shyvana",
+  "class": [
+   "FIGHTER",
+   "JUGGERNAUT",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.46,
+   "magic": 0.36,
+   "true": 0.18,
+   "label": "mixed + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.456,
+   "magic": 0.36,
+   "true": 0.183,
+   "taken_rel": 0.96,
+   "taken_per_death_rel": 1.07,
+   "heal_rel": 0.77,
+   "dmg_rel": 1.06,
+   "soloq_games": 23545,
+   "roles": {
+    "jungle": 23545
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "W",
+   "E",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "W",
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [
+   "Q"
+  ],
+  "pct_hp_damage": [
+   "Q",
+   "E"
+  ],
+  "pct_hp_max_current": [
+   "Q",
+   "E"
+  ],
+  "pct_hp_missing": []
+ },
+ "Singed": {
+  "name": "Singed",
+  "class": [
+   "MAGE",
+   "SPECIALIST",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.04,
+   "magic": 0.92,
+   "true": 0.04,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": true,
+  "soloq": {
+   "physical": 0.042,
+   "magic": 0.922,
+   "true": 0.035,
+   "taken_rel": 1.06,
+   "taken_per_death_rel": 1.03,
+   "heal_rel": 0.65,
+   "dmg_rel": 0.93,
+   "soloq_games": 13231,
+   "roles": {
+    "top": 13231
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "E"
+  ],
+  "pct_hp_max_current": [
+   "E"
+  ],
+  "pct_hp_missing": []
+ },
+ "Sion": {
+  "name": "Sion",
+  "class": [
+   "FIGHTER",
+   "TANK",
+   "VANGUARD"
+  ],
+  "damage": {
+   "physical": 0.61,
+   "magic": 0.36,
+   "true": 0.02,
+   "label": "AD-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.615,
+   "magic": 0.363,
+   "true": 0.022,
+   "taken_rel": 1.47,
+   "taken_per_death_rel": 1.53,
+   "heal_rel": 1.12,
+   "dmg_rel": 0.99,
+   "soloq_games": 24236,
+   "roles": {
+    "top": 24236
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "E",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "Q",
+   "E",
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "P",
+   "W"
+  ],
+  "pct_hp_max_current": [
+   "P",
+   "W"
+  ],
+  "pct_hp_missing": []
+ },
+ "Sivir": {
+  "name": "Sivir",
+  "class": [
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.98,
+   "magic": 0.01,
+   "true": 0.01,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.977,
+   "magic": 0.008,
+   "true": 0.015,
+   "taken_rel": 0.96,
+   "taken_per_death_rel": 1.03,
+   "heal_rel": 1.0,
+   "dmg_rel": 1.0,
+   "soloq_games": 28019,
+   "roles": {
+    "bot": 28019
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Skarner": {
+  "name": "Skarner",
+  "class": [
+   "FIGHTER",
+   "JUGGERNAUT",
+   "TANK",
+   "VANGUARD"
+  ],
+  "damage": {
+   "physical": 0.63,
+   "magic": 0.32,
+   "true": 0.06,
+   "label": "AD-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.628,
+   "magic": 0.317,
+   "true": 0.055,
+   "taken_rel": 1.19,
+   "taken_per_death_rel": 1.37,
+   "heal_rel": 0.76,
+   "dmg_rel": 0.95,
+   "soloq_games": 6755,
+   "roles": {
+    "jungle": 5880,
+    "top": 875
+   }
+  },
+  "hard_cc_slots": [
+   "E",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "Q"
+  ],
+  "pct_hp_max_current": [
+   "Q"
+  ],
+  "pct_hp_missing": []
+ },
+ "Smolder": {
+  "name": "Smolder",
+  "class": [
+   "MAGE",
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.69,
+   "magic": 0.2,
+   "true": 0.11,
+   "label": "AD-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.693,
+   "magic": 0.201,
+   "true": 0.106,
+   "taken_rel": 1.08,
+   "taken_per_death_rel": 1.12,
+   "heal_rel": 1.03,
+   "dmg_rel": 1.12,
+   "soloq_games": 37815,
+   "roles": {
+    "bot": 32735,
+    "mid": 3375,
+    "top": 1705
+   }
+  },
+  "hard_cc_slots": [
+   "P",
+   "Q"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [
+   "Q"
+  ],
+  "dashes": [],
+  "true_damage": [
+   "Q"
+  ],
+  "pct_hp_damage": [
+   "Q"
+  ],
+  "pct_hp_max_current": [
+   "Q"
+  ],
+  "pct_hp_missing": []
+ },
+ "Sona": {
+  "name": "Sona",
+  "class": [
+   "ENCHANTER",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.21,
+   "magic": 0.77,
+   "true": 0.02,
+   "label": "AP-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.213,
+   "magic": 0.771,
+   "true": 0.016,
+   "taken_rel": 0.92,
+   "taken_per_death_rel": 1.03,
+   "heal_rel": 2.68,
+   "dmg_rel": 0.77,
+   "soloq_games": 17679,
+   "roles": {
+    "support": 17679
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Soraka": {
+  "name": "Soraka",
+  "class": [
+   "ENCHANTER",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.13,
+   "magic": 0.82,
+   "true": 0.06,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.126,
+   "magic": 0.818,
+   "true": 0.056,
+   "taken_rel": 0.71,
+   "taken_per_death_rel": 0.81,
+   "heal_rel": 4.0,
+   "dmg_rel": 0.39,
+   "soloq_games": 27454,
+   "roles": {
+    "support": 27454
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Swain": {
+  "name": "Swain",
+  "class": [
+   "BATTLEMAGE",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.07,
+   "magic": 0.88,
+   "true": 0.05,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.075,
+   "magic": 0.878,
+   "true": 0.046,
+   "taken_rel": 1.42,
+   "taken_per_death_rel": 1.38,
+   "heal_rel": 1.75,
+   "dmg_rel": 1.26,
+   "soloq_games": 27308,
+   "roles": {
+    "mid": 5131,
+    "support": 18035,
+    "top": 4142
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [
+   "E"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Sylas": {
+  "name": "Sylas",
+  "class": [
+   "ASSASSIN",
+   "BURST",
+   "MAGE",
+   "SKIRMISHER"
+  ],
+  "damage": {
+   "physical": 0.03,
+   "magic": 0.9,
+   "true": 0.07,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.029,
+   "magic": 0.902,
+   "true": 0.069,
+   "taken_rel": 1.29,
+   "taken_per_death_rel": 1.2,
+   "heal_rel": 1.41,
+   "dmg_rel": 0.98,
+   "soloq_games": 90359,
+   "roles": {
+    "mid": 43448,
+    "jungle": 39417,
+    "top": 7494
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "W",
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Syndra": {
+  "name": "Syndra",
+  "class": [
+   "BURST",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.03,
+   "magic": 0.91,
+   "true": 0.06,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.033,
+   "magic": 0.907,
+   "true": 0.06,
+   "taken_rel": 0.81,
+   "taken_per_death_rel": 0.82,
+   "heal_rel": 0.43,
+   "dmg_rel": 1.02,
+   "soloq_games": 57488,
+   "roles": {
+    "mid": 57488
+   }
+  },
+  "hard_cc_slots": [
+   "W",
+   "E"
+  ],
+  "aoe_hard_cc": [
+   "W",
+   "E"
+  ],
+  "point_click_hard_cc": [
+   "W"
+  ],
+  "dashes": [],
+  "true_damage": [
+   "P",
+   "W"
+  ],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "TahmKench": {
+  "name": "Tahm Kench",
+  "class": [
+   "SUPPORT",
+   "TANK",
+   "WARDEN"
+  ],
+  "damage": {
+   "physical": 0.2,
+   "magic": 0.75,
+   "true": 0.05,
+   "label": "AP-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.205,
+   "magic": 0.749,
+   "true": 0.046,
+   "taken_rel": 1.56,
+   "taken_per_death_rel": 1.66,
+   "heal_rel": 1.74,
+   "dmg_rel": 1.09,
+   "soloq_games": 24474,
+   "roles": {
+    "top": 10893,
+    "support": 13581
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "W"
+  ],
+  "aoe_hard_cc": [
+   "W"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "W"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "R"
+  ],
+  "pct_hp_max_current": [
+   "R"
+  ],
+  "pct_hp_missing": []
+ },
+ "Taliyah": {
+  "name": "Taliyah",
+  "class": [
+   "BATTLEMAGE",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.03,
+   "magic": 0.91,
+   "true": 0.06,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.033,
+   "magic": 0.907,
+   "true": 0.06,
+   "taken_rel": 0.79,
+   "taken_per_death_rel": 0.74,
+   "heal_rel": 0.47,
+   "dmg_rel": 1.09,
+   "soloq_games": 33188,
+   "roles": {
+    "jungle": 18613,
+    "mid": 14575
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "W",
+   "E"
+  ],
+  "aoe_hard_cc": [
+   "W",
+   "E"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Talon": {
+  "name": "Talon",
+  "class": [
+   "ASSASSIN"
+  ],
+  "damage": {
+   "physical": 0.9,
+   "magic": 0.0,
+   "true": 0.1,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.896,
+   "magic": 0.002,
+   "true": 0.102,
+   "taken_rel": 1.05,
+   "taken_per_death_rel": 0.99,
+   "heal_rel": 0.97,
+   "dmg_rel": 1.15,
+   "soloq_games": 41209,
+   "roles": {
+    "mid": 9876,
+    "jungle": 31333
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "Q",
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Taric": {
+  "name": "Taric",
+  "class": [
+   "ENCHANTER",
+   "SUPPORT",
+   "TANK",
+   "WARDEN"
+  ],
+  "damage": {
+   "physical": 0.32,
+   "magic": 0.62,
+   "true": 0.06,
+   "label": "AP-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.321,
+   "magic": 0.623,
+   "true": 0.056,
+   "taken_rel": 1.1,
+   "taken_per_death_rel": 1.19,
+   "heal_rel": 2.08,
+   "dmg_rel": 0.48,
+   "soloq_games": 7084,
+   "roles": {
+    "support": 7084
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [
+   "E"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Teemo": {
+  "name": "Teemo",
+  "class": [
+   "MAGE",
+   "MARKSMAN",
+   "SPECIALIST"
+  ],
+  "damage": {
+   "physical": 0.16,
+   "magic": 0.78,
+   "true": 0.06,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.161,
+   "magic": 0.782,
+   "true": 0.057,
+   "taken_rel": 0.77,
+   "taken_per_death_rel": 0.7,
+   "heal_rel": 0.41,
+   "dmg_rel": 1.21,
+   "soloq_games": 23443,
+   "roles": {
+    "top": 23443
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Thresh": {
+  "name": "Thresh",
+  "class": [
+   "CATCHER",
+   "SUPPORT",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.14,
+   "magic": 0.79,
+   "true": 0.07,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.144,
+   "magic": 0.786,
+   "true": 0.07,
+   "taken_rel": 1.02,
+   "taken_per_death_rel": 1.08,
+   "heal_rel": 0.52,
+   "dmg_rel": 0.63,
+   "soloq_games": 88343,
+   "roles": {
+    "support": 88343
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "E"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "W"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Tristana": {
+  "name": "Tristana",
+  "class": [
+   "ASSASSIN",
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.9,
+   "magic": 0.08,
+   "true": 0.02,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.897,
+   "magic": 0.083,
+   "true": 0.02,
+   "taken_rel": 0.97,
+   "taken_per_death_rel": 1.0,
+   "heal_rel": 1.01,
+   "dmg_rel": 0.94,
+   "soloq_games": 44055,
+   "roles": {
+    "bot": 39703,
+    "mid": 4352
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [
+   "R"
+  ],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Trundle": {
+  "name": "Trundle",
+  "class": [
+   "FIGHTER",
+   "JUGGERNAUT",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.82,
+   "magic": 0.13,
+   "true": 0.05,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.822,
+   "magic": 0.129,
+   "true": 0.048,
+   "taken_rel": 1.18,
+   "taken_per_death_rel": 1.14,
+   "heal_rel": 1.69,
+   "dmg_rel": 0.86,
+   "soloq_games": 17209,
+   "roles": {
+    "jungle": 5664,
+    "top": 10872,
+    "support": 673
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "R"
+  ],
+  "pct_hp_max_current": [
+   "R"
+  ],
+  "pct_hp_missing": []
+ },
+ "Tryndamere": {
+  "name": "Tryndamere",
+  "class": [
+   "ASSASSIN",
+   "FIGHTER",
+   "SKIRMISHER"
+  ],
+  "damage": {
+   "physical": 0.89,
+   "magic": 0.01,
+   "true": 0.1,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.894,
+   "magic": 0.007,
+   "true": 0.099,
+   "taken_rel": 1.14,
+   "taken_per_death_rel": 1.05,
+   "heal_rel": 1.73,
+   "dmg_rel": 1.0,
+   "soloq_games": 17700,
+   "roles": {
+    "top": 17700
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "TwistedFate": {
+  "name": "Twisted Fate",
+  "class": [
+   "BURST",
+   "MAGE",
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.1,
+   "magic": 0.87,
+   "true": 0.03,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.105,
+   "magic": 0.869,
+   "true": 0.025,
+   "taken_rel": 0.98,
+   "taken_per_death_rel": 1.1,
+   "heal_rel": 0.87,
+   "dmg_rel": 0.78,
+   "soloq_games": 31622,
+   "roles": {
+    "mid": 31622
+   }
+  },
+  "hard_cc_slots": [
+   "W"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Twitch": {
+  "name": "Twitch",
+  "class": [
+   "ASSASSIN",
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.81,
+   "magic": 0.04,
+   "true": 0.15,
+   "label": "AD + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.81,
+   "magic": 0.04,
+   "true": 0.149,
+   "taken_rel": 0.95,
+   "taken_per_death_rel": 0.85,
+   "heal_rel": 0.66,
+   "dmg_rel": 1.11,
+   "soloq_games": 33852,
+   "roles": {
+    "bot": 31853,
+    "support": 1999
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [
+   "P"
+  ],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Udyr": {
+  "name": "Udyr",
+  "class": [
+   "FIGHTER",
+   "JUGGERNAUT",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.55,
+   "magic": 0.4,
+   "true": 0.05,
+   "label": "mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.55,
+   "magic": 0.403,
+   "true": 0.046,
+   "taken_rel": 0.99,
+   "taken_per_death_rel": 1.1,
+   "heal_rel": 0.95,
+   "dmg_rel": 0.92,
+   "soloq_games": 14286,
+   "roles": {
+    "jungle": 10906,
+    "top": 3380
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "Q",
+   "R"
+  ],
+  "pct_hp_max_current": [
+   "Q",
+   "R"
+  ],
+  "pct_hp_missing": []
+ },
+ "Urgot": {
+  "name": "Urgot",
+  "class": [
+   "FIGHTER",
+   "JUGGERNAUT",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.88,
+   "magic": 0.01,
+   "true": 0.11,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.884,
+   "magic": 0.008,
+   "true": 0.108,
+   "taken_rel": 0.92,
+   "taken_per_death_rel": 0.96,
+   "heal_rel": 0.61,
+   "dmg_rel": 1.0,
+   "soloq_games": 13099,
+   "roles": {
+    "top": 13099
+   }
+  },
+  "hard_cc_slots": [
+   "E",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "E"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Varus": {
+  "name": "Varus",
+  "class": [
+   "ARTILLERY",
+   "MAGE",
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.59,
+   "magic": 0.39,
+   "true": 0.02,
+   "label": "AD-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": true,
+  "soloq": {
+   "physical": 0.594,
+   "magic": 0.389,
+   "true": 0.016,
+   "taken_rel": 0.94,
+   "taken_per_death_rel": 0.92,
+   "heal_rel": 0.77,
+   "dmg_rel": 1.0,
+   "soloq_games": 23747,
+   "roles": {
+    "bot": 22443,
+    "mid": 1304
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "W"
+  ],
+  "pct_hp_max_current": [
+   "W"
+  ],
+  "pct_hp_missing": [
+   "W"
+  ]
+ },
+ "Vayne": {
+  "name": "Vayne",
+  "class": [
+   "ASSASSIN",
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.74,
+   "magic": 0.04,
+   "true": 0.21,
+   "label": "AD + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.744,
+   "magic": 0.045,
+   "true": 0.211,
+   "taken_rel": 0.96,
+   "taken_per_death_rel": 0.92,
+   "heal_rel": 0.93,
+   "dmg_rel": 0.97,
+   "soloq_games": 28919,
+   "roles": {
+    "bot": 20743,
+    "top": 8176
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [
+   "E"
+  ],
+  "dashes": [
+   "Q",
+   "R"
+  ],
+  "true_damage": [
+   "W"
+  ],
+  "pct_hp_damage": [
+   "W"
+  ],
+  "pct_hp_max_current": [
+   "W"
+  ],
+  "pct_hp_missing": []
+ },
+ "Veigar": {
+  "name": "Veigar",
+  "class": [
+   "BURST",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.03,
+   "magic": 0.95,
+   "true": 0.02,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.028,
+   "magic": 0.949,
+   "true": 0.023,
+   "taken_rel": 0.93,
+   "taken_per_death_rel": 0.98,
+   "heal_rel": 0.64,
+   "dmg_rel": 1.03,
+   "soloq_games": 24906,
+   "roles": {
+    "mid": 19276,
+    "bot": 5630
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "R"
+  ],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": [
+   "R"
+  ]
+ },
+ "Velkoz": {
+  "name": "Vel'Koz",
+  "class": [
+   "ARTILLERY",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.02,
+   "magic": 0.72,
+   "true": 0.26,
+   "label": "AP + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.022,
+   "magic": 0.716,
+   "true": 0.262,
+   "taken_rel": 0.84,
+   "taken_per_death_rel": 0.81,
+   "heal_rel": 0.43,
+   "dmg_rel": 1.6,
+   "soloq_games": 26936,
+   "roles": {
+    "support": 19709,
+    "mid": 7227
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [
+   "E"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [
+   "P",
+   "R"
+  ],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Vex": {
+  "name": "Vex",
+  "class": [
+   "BURST",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.06,
+   "magic": 0.9,
+   "true": 0.04,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.06,
+   "magic": 0.903,
+   "true": 0.037,
+   "taken_rel": 0.85,
+   "taken_per_death_rel": 0.81,
+   "heal_rel": 0.52,
+   "dmg_rel": 1.06,
+   "soloq_games": 18560,
+   "roles": {
+    "mid": 18560
+   }
+  },
+  "hard_cc_slots": [
+   "P"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Vi": {
+  "name": "Vi",
+  "class": [
+   "ASSASSIN",
+   "DIVER",
+   "FIGHTER"
+  ],
+  "damage": {
+   "physical": 0.91,
+   "magic": 0.0,
+   "true": 0.09,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.913,
+   "magic": 0.002,
+   "true": 0.085,
+   "taken_rel": 0.9,
+   "taken_per_death_rel": 0.86,
+   "heal_rel": 0.61,
+   "dmg_rel": 0.88,
+   "soloq_games": 30025,
+   "roles": {
+    "jungle": 30025
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "Q"
+  ],
+  "point_click_hard_cc": [
+   "R"
+  ],
+  "dashes": [
+   "Q",
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "W"
+  ],
+  "pct_hp_max_current": [
+   "W"
+  ],
+  "pct_hp_missing": []
+ },
+ "Viego": {
+  "name": "Viego",
+  "class": [
+   "ASSASSIN",
+   "FIGHTER",
+   "SKIRMISHER"
+  ],
+  "damage": {
+   "physical": 0.82,
+   "magic": 0.09,
+   "true": 0.09,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.825,
+   "magic": 0.085,
+   "true": 0.09,
+   "taken_rel": 0.94,
+   "taken_per_death_rel": 0.91,
+   "heal_rel": 0.97,
+   "dmg_rel": 1.01,
+   "soloq_games": 49315,
+   "roles": {
+    "jungle": 49315
+   }
+  },
+  "hard_cc_slots": [
+   "W",
+   "R"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "W",
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "Q",
+   "R"
+  ],
+  "pct_hp_max_current": [
+   "Q"
+  ],
+  "pct_hp_missing": [
+   "R"
+  ]
+ },
+ "Viktor": {
+  "name": "Viktor",
+  "class": [
+   "BATTLEMAGE",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.02,
+   "magic": 0.96,
+   "true": 0.01,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.024,
+   "magic": 0.963,
+   "true": 0.013,
+   "taken_rel": 0.83,
+   "taken_per_death_rel": 0.85,
+   "heal_rel": 0.42,
+   "dmg_rel": 1.11,
+   "soloq_games": 46488,
+   "roles": {
+    "mid": 46488
+   }
+  },
+  "hard_cc_slots": [
+   "W"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Vladimir": {
+  "name": "Vladimir",
+  "class": [
+   "BATTLEMAGE",
+   "FIGHTER",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.03,
+   "magic": 0.95,
+   "true": 0.02,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.033,
+   "magic": 0.947,
+   "true": 0.02,
+   "taken_rel": 1.32,
+   "taken_per_death_rel": 1.49,
+   "heal_rel": 5.01,
+   "dmg_rel": 1.12,
+   "soloq_games": 32732,
+   "roles": {
+    "mid": 24891,
+    "top": 7841
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Volibear": {
+  "name": "Volibear",
+  "class": [
+   "FIGHTER",
+   "JUGGERNAUT",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.5,
+   "magic": 0.46,
+   "true": 0.04,
+   "label": "mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.497,
+   "magic": 0.458,
+   "true": 0.045,
+   "taken_rel": 1.05,
+   "taken_per_death_rel": 0.95,
+   "heal_rel": 0.92,
+   "dmg_rel": 0.99,
+   "soloq_games": 29838,
+   "roles": {
+    "top": 23734,
+    "jungle": 6104
+   }
+  },
+  "hard_cc_slots": [
+   "Q"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "E"
+  ],
+  "pct_hp_max_current": [
+   "E"
+  ],
+  "pct_hp_missing": []
+ },
+ "Warwick": {
+  "name": "Warwick",
+  "class": [
+   "DIVER",
+   "FIGHTER",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.49,
+   "magic": 0.47,
+   "true": 0.04,
+   "label": "mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.494,
+   "magic": 0.47,
+   "true": 0.036,
+   "taken_rel": 1.21,
+   "taken_per_death_rel": 1.03,
+   "heal_rel": 1.59,
+   "dmg_rel": 0.94,
+   "soloq_games": 26217,
+   "roles": {
+    "jungle": 17586,
+    "top": 8631
+   }
+  },
+  "hard_cc_slots": [
+   "E",
+   "R"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "Q",
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "Q"
+  ],
+  "pct_hp_max_current": [
+   "Q"
+  ],
+  "pct_hp_missing": []
+ },
+ "Xayah": {
+  "name": "Xayah",
+  "class": [
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.98,
+   "magic": 0.01,
+   "true": 0.01,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.978,
+   "magic": 0.006,
+   "true": 0.015,
+   "taken_rel": 0.99,
+   "taken_per_death_rel": 1.09,
+   "heal_rel": 1.07,
+   "dmg_rel": 0.98,
+   "soloq_games": 53232,
+   "roles": {
+    "bot": 53232
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Xerath": {
+  "name": "Xerath",
+  "class": [
+   "ARTILLERY",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.03,
+   "magic": 0.95,
+   "true": 0.02,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.027,
+   "magic": 0.955,
+   "true": 0.018,
+   "taken_rel": 0.75,
+   "taken_per_death_rel": 0.81,
+   "heal_rel": 0.38,
+   "dmg_rel": 1.38,
+   "soloq_games": 42924,
+   "roles": {
+    "mid": 25213,
+    "support": 17711
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "XinZhao": {
+  "name": "Xin Zhao",
+  "class": [
+   "DIVER",
+   "FIGHTER",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.86,
+   "magic": 0.08,
+   "true": 0.06,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.865,
+   "magic": 0.077,
+   "true": 0.059,
+   "taken_rel": 1.23,
+   "taken_per_death_rel": 1.18,
+   "heal_rel": 1.38,
+   "dmg_rel": 0.99,
+   "soloq_games": 19744,
+   "roles": {
+    "jungle": 19744
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "R"
+  ],
+  "pct_hp_max_current": [
+   "R"
+  ],
+  "pct_hp_missing": []
+ },
+ "Yasuo": {
+  "name": "Yasuo",
+  "class": [
+   "ASSASSIN",
+   "FIGHTER",
+   "SKIRMISHER"
+  ],
+  "damage": {
+   "physical": 0.88,
+   "magic": 0.09,
+   "true": 0.03,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.884,
+   "magic": 0.085,
+   "true": 0.031,
+   "taken_rel": 1.02,
+   "taken_per_death_rel": 0.87,
+   "heal_rel": 1.09,
+   "dmg_rel": 0.91,
+   "soloq_games": 86709,
+   "roles": {
+    "mid": 52469,
+    "top": 20908,
+    "bot": 13332
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [
+   "R"
+  ],
+  "dashes": [
+   "Q",
+   "E",
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Yone": {
+  "name": "Yone",
+  "class": [
+   "ASSASSIN",
+   "FIGHTER",
+   "SKIRMISHER"
+  ],
+  "damage": {
+   "physical": 0.71,
+   "magic": 0.16,
+   "true": 0.13,
+   "label": "AD + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.713,
+   "magic": 0.157,
+   "true": 0.13,
+   "taken_rel": 1.02,
+   "taken_per_death_rel": 0.89,
+   "heal_rel": 1.17,
+   "dmg_rel": 1.04,
+   "soloq_games": 94952,
+   "roles": {
+    "mid": 47297,
+    "top": 47655
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "Q",
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "W"
+  ],
+  "pct_hp_max_current": [
+   "W"
+  ],
+  "pct_hp_missing": []
+ },
+ "Yorick": {
+  "name": "Yorick",
+  "class": [
+   "FIGHTER",
+   "JUGGERNAUT",
+   "TANK"
+  ],
+  "damage": {
+   "physical": 0.66,
+   "magic": 0.31,
+   "true": 0.03,
+   "label": "AD-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.658,
+   "magic": 0.314,
+   "true": 0.028,
+   "taken_rel": 1.0,
+   "taken_per_death_rel": 1.19,
+   "heal_rel": 1.09,
+   "dmg_rel": 1.02,
+   "soloq_games": 17307,
+   "roles": {
+    "top": 17307
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "E",
+   "R"
+  ],
+  "pct_hp_max_current": [
+   "E",
+   "R"
+  ],
+  "pct_hp_missing": []
+ },
+ "Yunara": {
+  "name": "Yunara",
+  "class": [
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.66,
+   "magic": 0.32,
+   "true": 0.02,
+   "label": "AD-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.659,
+   "magic": 0.323,
+   "true": 0.017,
+   "taken_rel": 1.01,
+   "taken_per_death_rel": 1.0,
+   "heal_rel": 1.06,
+   "dmg_rel": 1.0,
+   "soloq_games": 70870,
+   "roles": {
+    "bot": 70870
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Yuumi": {
+  "name": "Yuumi",
+  "class": [
+   "ENCHANTER",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.04,
+   "magic": 0.93,
+   "true": 0.03,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.043,
+   "magic": 0.929,
+   "true": 0.028,
+   "taken_rel": 0.41,
+   "taken_per_death_rel": 0.65,
+   "heal_rel": 1.27,
+   "dmg_rel": 0.59,
+   "soloq_games": 34812,
+   "roles": {
+    "support": 34812
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "W"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Zaahen": {
+  "name": "Zaahen",
+  "class": [
+   "FIGHTER"
+  ],
+  "damage": {
+   "physical": 0.89,
+   "magic": 0.05,
+   "true": 0.06,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.892,
+   "magic": 0.049,
+   "true": 0.059,
+   "taken_rel": 1.19,
+   "taken_per_death_rel": 1.21,
+   "heal_rel": 1.41,
+   "dmg_rel": 1.02,
+   "soloq_games": 22386,
+   "roles": {
+    "top": 22386
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "W"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "E"
+  ],
+  "pct_hp_max_current": [
+   "E"
+  ],
+  "pct_hp_missing": []
+ },
+ "Zac": {
+  "name": "Zac",
+  "class": [
+   "FIGHTER",
+   "TANK",
+   "VANGUARD"
+  ],
+  "damage": {
+   "physical": 0.07,
+   "magic": 0.87,
+   "true": 0.06,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.071,
+   "magic": 0.872,
+   "true": 0.057,
+   "taken_rel": 1.3,
+   "taken_per_death_rel": 1.52,
+   "heal_rel": 3.83,
+   "dmg_rel": 0.86,
+   "soloq_games": 20326,
+   "roles": {
+    "jungle": 15385,
+    "top": 3081,
+    "support": 1860
+   }
+  },
+  "hard_cc_slots": [
+   "Q",
+   "E",
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "E",
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [
+   "W"
+  ],
+  "pct_hp_max_current": [
+   "W"
+  ],
+  "pct_hp_missing": []
+ },
+ "Zed": {
+  "name": "Zed",
+  "class": [
+   "ASSASSIN"
+  ],
+  "damage": {
+   "physical": 0.88,
+   "magic": 0.04,
+   "true": 0.09,
+   "label": "AD",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.876,
+   "magic": 0.035,
+   "true": 0.089,
+   "taken_rel": 0.98,
+   "taken_per_death_rel": 0.94,
+   "heal_rel": 0.78,
+   "dmg_rel": 1.12,
+   "soloq_games": 52191,
+   "roles": {
+    "mid": 52191
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "W",
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Zeri": {
+  "name": "Zeri",
+  "class": [
+   "MARKSMAN"
+  ],
+  "damage": {
+   "physical": 0.77,
+   "magic": 0.21,
+   "true": 0.02,
+   "label": "AD-leaning mixed",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.767,
+   "magic": 0.21,
+   "true": 0.023,
+   "taken_rel": 1.05,
+   "taken_per_death_rel": 1.09,
+   "heal_rel": 1.07,
+   "dmg_rel": 1.03,
+   "soloq_games": 28092,
+   "roles": {
+    "bot": 28092
+   }
+  },
+  "hard_cc_slots": [],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "E"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Ziggs": {
+  "name": "Ziggs",
+  "class": [
+   "ARTILLERY",
+   "MAGE"
+  ],
+  "damage": {
+   "physical": 0.03,
+   "magic": 0.95,
+   "true": 0.02,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.032,
+   "magic": 0.952,
+   "true": 0.016,
+   "taken_rel": 0.82,
+   "taken_per_death_rel": 0.94,
+   "heal_rel": 0.37,
+   "dmg_rel": 1.16,
+   "soloq_games": 12823,
+   "roles": {
+    "mid": 3859,
+    "bot": 8964
+   }
+  },
+  "hard_cc_slots": [
+   "W"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Zilean": {
+  "name": "Zilean",
+  "class": [
+   "MAGE",
+   "SPECIALIST",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.13,
+   "magic": 0.83,
+   "true": 0.04,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.129,
+   "magic": 0.829,
+   "true": 0.042,
+   "taken_rel": 0.87,
+   "taken_per_death_rel": 1.15,
+   "heal_rel": 1.26,
+   "dmg_rel": 0.67,
+   "soloq_games": 18455,
+   "roles": {
+    "support": 16880,
+    "mid": 1575
+   }
+  },
+  "hard_cc_slots": [
+   "Q"
+  ],
+  "aoe_hard_cc": [
+   "Q"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Zoe": {
+  "name": "Zoe",
+  "class": [
+   "BURST",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.08,
+   "magic": 0.76,
+   "true": 0.17,
+   "label": "AP + true",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.076,
+   "magic": 0.759,
+   "true": 0.165,
+   "taken_rel": 0.82,
+   "taken_per_death_rel": 0.89,
+   "heal_rel": 0.55,
+   "dmg_rel": 1.04,
+   "soloq_games": 17490,
+   "roles": {
+    "mid": 17490
+   }
+  },
+  "hard_cc_slots": [
+   "E"
+  ],
+  "aoe_hard_cc": [],
+  "point_click_hard_cc": [],
+  "dashes": [
+   "R"
+  ],
+  "true_damage": [
+   "E"
+  ],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ },
+ "Zyra": {
+  "name": "Zyra",
+  "class": [
+   "CATCHER",
+   "MAGE",
+   "SUPPORT"
+  ],
+  "damage": {
+   "physical": 0.05,
+   "magic": 0.88,
+   "true": 0.07,
+   "label": "AP",
+   "source": "soloQ 16.22"
+  },
+  "anti_heal": false,
+  "soloq": {
+   "physical": 0.049,
+   "magic": 0.88,
+   "true": 0.071,
+   "taken_rel": 0.81,
+   "taken_per_death_rel": 0.81,
+   "heal_rel": 0.42,
+   "dmg_rel": 1.41,
+   "soloq_games": 27543,
+   "roles": {
+    "support": 15845,
+    "jungle": 11698
+   }
+  },
+  "hard_cc_slots": [
+   "R"
+  ],
+  "aoe_hard_cc": [
+   "R"
+  ],
+  "point_click_hard_cc": [],
+  "dashes": [],
+  "true_damage": [],
+  "pct_hp_damage": [],
+  "pct_hp_max_current": [],
+  "pct_hp_missing": []
+ }
+}

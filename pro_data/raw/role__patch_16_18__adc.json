@@ -1,0 +1,227 @@
+{
+ "slice_key": "R:P16.18.:ADC",
+ "kind": "role",
+ "tournament": "ALL",
+ "patch": "16.18",
+ "role": "ADC",
+ "source": "gol.gg",
+ "source_url": "https://gol.gg/champion/list/season-S16/split-ALL/tournament-ALL/",
+ "method": "POST (form-encoded, same as the page's #FilterForm)",
+ "post_params": {
+  "cbtournament": "ALL",
+  "patch": "16.18.",
+  "role": "ADC",
+  "leaguePost": "true",
+  "side": "ALL",
+  "draft": "ALL"
+ },
+ "fetched_at": "2026-11-06T10:46:02.406Z",
+ "fetch_date": "2026-11-06",
+ "games": 378,
+ "notes": "Only champions with >=1 pick or ban kept (role slices: >=1 pick). Role slices: bans are not role-specific, so only picks/wins. games = sum(picks)/10 (role slices: /2). blind_pick_pct = gol.gg 'BP%' (blind pick %), avg_pick_round = 'Avg RP', avg_ban_turn = 'Avg BT' (1 = first ban).",
+ "rows": [
+  {
+   "champion_id": "Lucian",
+   "gol_icon": "Lucian",
+   "picks": 104,
+   "wins": 51,
+   "losses": 53
+  },
+  {
+   "champion_id": "Caitlyn",
+   "gol_icon": "Caitlyn",
+   "picks": 69,
+   "wins": 35,
+   "losses": 34
+  },
+  {
+   "champion_id": "Ezreal",
+   "gol_icon": "Ezreal",
+   "picks": 74,
+   "wins": 35,
+   "losses": 39
+  },
+  {
+   "champion_id": "Syndra",
+   "gol_icon": "Syndra",
+   "picks": 4,
+   "wins": 2,
+   "losses": 2
+  },
+  {
+   "champion_id": "Yunara",
+   "gol_icon": "Yunara",
+   "picks": 110,
+   "wins": 64,
+   "losses": 46
+  },
+  {
+   "champion_id": "Kalista",
+   "gol_icon": "Kalista",
+   "picks": 50,
+   "wins": 26,
+   "losses": 24
+  },
+  {
+   "champion_id": "Jhin",
+   "gol_icon": "Jhin",
+   "picks": 66,
+   "wins": 28,
+   "losses": 38
+  },
+  {
+   "champion_id": "Seraphine",
+   "gol_icon": "Seraphine",
+   "picks": 3,
+   "wins": 2,
+   "losses": 1
+  },
+  {
+   "champion_id": "Ashe",
+   "gol_icon": "Ashe",
+   "picks": 61,
+   "wins": 26,
+   "losses": 35
+  },
+  {
+   "champion_id": "Xayah",
+   "gol_icon": "Xayah",
+   "picks": 41,
+   "wins": 22,
+   "losses": 19
+  },
+  {
+   "champion_id": "Viktor",
+   "gol_icon": "Viktor",
+   "picks": 5,
+   "wins": 4,
+   "losses": 1
+  },
+  {
+   "champion_id": "Sivir",
+   "gol_icon": "Sivir",
+   "picks": 25,
+   "wins": 13,
+   "losses": 12
+  },
+  {
+   "champion_id": "Kaisa",
+   "gol_icon": "Kaisa",
+   "picks": 24,
+   "wins": 13,
+   "losses": 11
+  },
+  {
+   "champion_id": "Varus",
+   "gol_icon": "Varus",
+   "picks": 13,
+   "wins": 5,
+   "losses": 8
+  },
+  {
+   "champion_id": "Draven",
+   "gol_icon": "Draven",
+   "picks": 2,
+   "wins": 1,
+   "losses": 1
+  },
+  {
+   "champion_id": "Zeri",
+   "gol_icon": "Zeri",
+   "picks": 24,
+   "wins": 14,
+   "losses": 10
+  },
+  {
+   "champion_id": "Tristana",
+   "gol_icon": "Tristana",
+   "picks": 15,
+   "wins": 10,
+   "losses": 5
+  },
+  {
+   "champion_id": "Corki",
+   "gol_icon": "Corki",
+   "picks": 22,
+   "wins": 7,
+   "losses": 15
+  },
+  {
+   "champion_id": "Ziggs",
+   "gol_icon": "Ziggs",
+   "picks": 8,
+   "wins": 4,
+   "losses": 4
+  },
+  {
+   "champion_id": "Jinx",
+   "gol_icon": "Jinx",
+   "picks": 12,
+   "wins": 5,
+   "losses": 7
+  },
+  {
+   "champion_id": "Mel",
+   "gol_icon": "Mel",
+   "picks": 3,
+   "wins": 2,
+   "losses": 1
+  },
+  {
+   "champion_id": "MissFortune",
+   "gol_icon": "MissFortune",
+   "picks": 7,
+   "wins": 2,
+   "losses": 5
+  },
+  {
+   "champion_id": "Aphelios",
+   "gol_icon": "Aphelios",
+   "picks": 7,
+   "wins": 3,
+   "losses": 4
+  },
+  {
+   "champion_id": "Hwei",
+   "gol_icon": "Hwei",
+   "picks": 2,
+   "wins": 2,
+   "losses": 0
+  },
+  {
+   "champion_id": "Swain",
+   "gol_icon": "Swain",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "Senna",
+   "gol_icon": "Senna",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "Karthus",
+   "gol_icon": "Karthus",
+   "picks": 1,
+   "wins": 1,
+   "losses": 0
+  },
+  {
+   "champion_id": "Twitch",
+   "gol_icon": "Twitch",
+   "picks": 1,
+   "wins": 0,
+   "losses": 1
+  },
+  {
+   "champion_id": "Smolder",
+   "gol_icon": "Smolder",
+   "picks": 1,
+   "wins": 1,
+   "losses": 0
+  }
+ ]
+}

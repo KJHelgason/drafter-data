@@ -1,0 +1,2369 @@
+{
+ "fetched": "2026-11-06",
+ "patch": "16.22",
+ "season": "S2026",
+ "team": "Chuds (Kia deildin, EUW)",
+ "method": "op.gg champions tab default 'Ranked' view, Season 2026 (Solo/Duo + Flex + Ranked 5s combined, which is why table totals exceed the solo W-L). Tables list champions with >=2 games. weighted_pool score = sum over seasons of weight (current 1.0, previous 0.5, older 0.25) x games x (0.5 if <5 games); since previous-season stats were unavailable, scores are current-season only. Pool lists champions with >=3 games, top 15. Role share order on op.gg: TOP/JG/MID/ADC/SUP.",
+ "sources_failed": [
+  "op.gg previous-season champion stats (season param ignored; client-side selector)",
+  "op.gg Zoo#CR07: no S2026 ranked games",
+  "op.gg Leifur#123: unranked, inactive",
+  "leagueofgraphs / u.gg / mobalytics / Leaguepedia: not retried (blocked from this environment in the same-day Whisky run)"
+ ],
+ "players": {
+  "Leifur": {
+   "role": "TOP",
+   "main_id": "Car#EUNE",
+   "alt_ids": [
+    {
+     "id": "Zoo#CR07",
+     "region": "EUW",
+     "confidence": "medium",
+     "evidence": "Chuds Challengermode roster account (member 'Aynar', not 'Leifur'). Top-16 mastery = Urgot 449k, Gragas 439k, Kayle 129k, Lee Sin, Sion, Kayn, Fiddlesticks, Xerath, Sylas, Pyke, Thresh, Jayce, Ornn, Nautilus, Camille, Gnar: 7 of Leifur's 10 Kia deildin champions (Urgot, Gragas, Kayle, Sion, Kayn, Sylas, Camille) are in it, including rare picks Urgot and Kayle. No S2026 ranked games on op.gg, so it is not the account Leifur plays on this season. Name mismatch (Aynar vs Leifur) keeps this below high."
+    },
+    {
+     "id": "Leifur#123",
+     "region": "EUW",
+     "confidence": "rejected",
+     "evidence": "Only op.gg search hit for 'Leifur': level 120, unranked, no matches, last updated 9 months ago."
+    }
+   ],
+   "rank": "Diamond 1 solo (EUNE, u.gg 2026-11-06); flex Emerald 3",
+   "seasons": {
+    "current": [],
+    "previous": [],
+    "previous_note": "op.gg season selector is client-side; ?season= is ignored (tested on Sæþór#Cute, still returned S2026), so previous-season per-champion stats could not be retrieved. Only rank history is known.",
+    "mastery_Zoo#CR07": [
+     {
+      "champ": "Urgot",
+      "points": 448815
+     },
+     {
+      "champ": "Gragas",
+      "points": 438581
+     },
+     {
+      "champ": "Kayle",
+      "points": 128911
+     },
+     {
+      "champ": "LeeSin",
+      "points": 106207
+     },
+     {
+      "champ": "Sion",
+      "points": 100150
+     },
+     {
+      "champ": "Kayn",
+      "points": 94340
+     },
+     {
+      "champ": "Fiddlesticks",
+      "points": 87166
+     },
+     {
+      "champ": "Xerath",
+      "points": 61626
+     },
+     {
+      "champ": "Sylas",
+      "points": 58484
+     },
+     {
+      "champ": "Pyke",
+      "points": 57705
+     },
+     {
+      "champ": "Thresh",
+      "points": 55224
+     },
+     {
+      "champ": "Jayce",
+      "points": 52959
+     },
+     {
+      "champ": "Ornn",
+      "points": 47889
+     },
+     {
+      "champ": "Nautilus",
+      "points": 47161
+     },
+     {
+      "champ": "Camille",
+      "points": 46257
+     },
+     {
+      "champ": "Gnar",
+      "points": 45550
+     }
+    ]
+   },
+   "weighted_pool_basis": "No soloQ games found. Pool = competitive Kia deildin Autumn 2026 picks (score 2 per game, games_total = competitive games, approx.) merged with Zoo#CR07 mastery (score +points/100k x 0.25 older-season weight). Treat as low-confidence.",
+   "weighted_pool": [
+    {
+     "champ": "Urgot",
+     "score": 5.12,
+     "games_total": 2
+    },
+    {
+     "champ": "Irelia",
+     "score": 4.0,
+     "games_total": 2
+    },
+    {
+     "champ": "Gragas",
+     "score": 3.1,
+     "games_total": 1
+    },
+    {
+     "champ": "Kayle",
+     "score": 2.32,
+     "games_total": 1
+    },
+    {
+     "champ": "Sion",
+     "score": 2.25,
+     "games_total": 1
+    },
+    {
+     "champ": "Kayn",
+     "score": 2.24,
+     "games_total": 1
+    },
+    {
+     "champ": "Sylas",
+     "score": 2.15,
+     "games_total": 1
+    },
+    {
+     "champ": "Camille",
+     "score": 2.12,
+     "games_total": 1
+    },
+    {
+     "champ": "Poppy",
+     "score": 2.0,
+     "games_total": 1
+    },
+    {
+     "champ": "Nasus",
+     "score": 2.0,
+     "games_total": 1
+    },
+    {
+     "champ": "LeeSin",
+     "score": 0.27,
+     "games_total": 0
+    },
+    {
+     "champ": "Fiddlesticks",
+     "score": 0.22,
+     "games_total": 0
+    },
+    {
+     "champ": "Xerath",
+     "score": 0.15,
+     "games_total": 0
+    },
+    {
+     "champ": "Thresh",
+     "score": 0.14,
+     "games_total": 0
+    },
+    {
+     "champ": "Pyke",
+     "score": 0.14,
+     "games_total": 0
+    }
+   ],
+   "notes": "Riot ID unknown: Leifur is not linked on Challengermode and Leaguepedia lists top as 'Car'. Best lead is Zoo#CR07 (Aynar), whose mastery matches Leifur's competitive pool (Urgot/Gragas/Kayle/Sion/Kayn/Sylas/Camille), but it has no ranked games in S2026. Competitive picks: Irelia, Urgot, Sylas, Gragas, Kayn, Poppy, Camille, Nasus, Sion, Kayle. Urgot and Gragas are the long-term comfort picks (440k+ mastery each). Irelia, Poppy and Nasus appear in competitive but not in Zoo's top-16 mastery. Ask the team or check Kia deildin match histories for his real account. Competitive per-champion counts (11 games over 10 champions) are approximate: Irelia and Urgot assumed 2 games each. | Kjartan confirmed Car#EUNE is Leifur's main soloQ account; Zoo#CR07 is his Challengermode-registered account.",
+   "region": "EUNE"
+  },
+  "Bankastjorinn": {
+   "role": "JUNGLE",
+   "main_id": "Bankastjorinn#BANK",
+   "alt_ids": [
+    {
+     "id": "Bankastjórinn#EZEZ",
+     "region": "EUNE",
+     "confidence": "low",
+     "evidence": "Only op.gg search hit for his 2025 name with the accent; EUNE, level ~27, no rank shown. Probably unrelated or a throwaway; not used."
+    }
+   ],
+   "rank": {
+    "current_solo": "Diamond 4 87 LP, 351W-341L (51%)",
+    "flex": "Emerald 3 33 LP, 81W-82L (50%)",
+    "history_solo": {
+     "S2025": "Emerald 4 62 LP",
+     "S2024 S3": "Platinum 4 80 LP",
+     "S2024 S2": "Platinum 3 69 LP",
+     "S2024 S1": "Platinum 4 55 LP",
+     "S2023 S2": "Platinum 2 40 LP"
+    }
+   },
+   "role_share": "TOP 19% / JG 75% / MID 1% / ADC 4% / SUP 1%",
+   "seasons": {
+    "current": [
+     {
+      "champ": "Viego",
+      "games": 139,
+      "winrate": 52,
+      "kda": 2.39
+     },
+     {
+      "champ": "Volibear",
+      "games": 93,
+      "winrate": 57,
+      "kda": 1.93
+     },
+     {
+      "champ": "Kayn",
+      "games": 67,
+      "winrate": 60,
+      "kda": 2.15
+     },
+     {
+      "champ": "Zac",
+      "games": 46,
+      "winrate": 57,
+      "kda": 3.05
+     },
+     {
+      "champ": "Naafiri",
+      "games": 41,
+      "winrate": 41,
+      "kda": 2.31
+     },
+     {
+      "champ": "Briar",
+      "games": 40,
+      "winrate": 60,
+      "kda": 2.14
+     },
+     {
+      "champ": "Zaahen",
+      "games": 37,
+      "winrate": 49,
+      "kda": 2.01
+     },
+     {
+      "champ": "Diana",
+      "games": 33,
+      "winrate": 55,
+      "kda": 2.0
+     },
+     {
+      "champ": "Renekton",
+      "games": 33,
+      "winrate": 52,
+      "kda": 1.12
+     },
+     {
+      "champ": "DrMundo",
+      "games": 30,
+      "winrate": 43,
+      "kda": 2.05
+     },
+     {
+      "champ": "Ekko",
+      "games": 28,
+      "winrate": 61,
+      "kda": 2.27
+     },
+     {
+      "champ": "Qiyana",
+      "games": 24,
+      "winrate": 38,
+      "kda": 1.84
+     },
+     {
+      "champ": "Illaoi",
+      "games": 22,
+      "winrate": 64,
+      "kda": 1.12
+     },
+     {
+      "champ": "Sylas",
+      "games": 22,
+      "winrate": 59,
+      "kda": 2.35
+     },
+     {
+      "champ": "Vladimir",
+      "games": 21,
+      "winrate": 48,
+      "kda": 1.18
+     },
+     {
+      "champ": "LeeSin",
+      "games": 21,
+      "winrate": 33,
+      "kda": 2.06
+     },
+     {
+      "champ": "Shyvana",
+      "games": 19,
+      "winrate": 42,
+      "kda": 2.01
+     },
+     {
+      "champ": "Mordekaiser",
+      "games": 15,
+      "winrate": 40,
+      "kda": 1.14
+     },
+     {
+      "champ": "Jhin",
+      "games": 13,
+      "winrate": 54,
+      "kda": 2.03
+     },
+     {
+      "champ": "Aphelios",
+      "games": 12,
+      "winrate": 58,
+      "kda": 1.42
+     },
+     {
+      "champ": "Locke",
+      "games": 11,
+      "winrate": 55,
+      "kda": 1.61
+     },
+     {
+      "champ": "Nidalee",
+      "games": 11,
+      "winrate": 45,
+      "kda": 1.8
+     },
+     {
+      "champ": "KSante",
+      "games": 10,
+      "winrate": 50,
+      "kda": 1.17
+     },
+     {
+      "champ": "MonkeyKing",
+      "games": 9,
+      "winrate": 33,
+      "kda": 1.96
+     },
+     {
+      "champ": "Shen",
+      "games": 6,
+      "winrate": 33,
+      "kda": 1.94
+     },
+     {
+      "champ": "XinZhao",
+      "games": 5,
+      "winrate": 80,
+      "kda": 1.82
+     },
+     {
+      "champ": "Nasus",
+      "games": 5,
+      "winrate": 60,
+      "kda": 3.47
+     },
+     {
+      "champ": "Vi",
+      "games": 5,
+      "winrate": 40,
+      "kda": 1.84
+     },
+     {
+      "champ": "Nocturne",
+      "games": 5,
+      "winrate": 20,
+      "kda": 1.9
+     },
+     {
+      "champ": "Darius",
+      "games": 4,
+      "winrate": 75,
+      "kda": 1.82
+     },
+     {
+      "champ": "Amumu",
+      "games": 4,
+      "winrate": 50,
+      "kda": 2.27
+     },
+     {
+      "champ": "Belveth",
+      "games": 4,
+      "winrate": 25,
+      "kda": 1.35
+     },
+     {
+      "champ": "Evelynn",
+      "games": 4,
+      "winrate": 25,
+      "kda": 1.15
+     },
+     {
+      "champ": "RekSai",
+      "games": 3,
+      "winrate": 100,
+      "kda": 2.44
+     },
+     {
+      "champ": "Sion",
+      "games": 3,
+      "winrate": 100,
+      "kda": 1.05
+     },
+     {
+      "champ": "Fiora",
+      "games": 3,
+      "winrate": 67,
+      "kda": 1.5
+     },
+     {
+      "champ": "JarvanIV",
+      "games": 3,
+      "winrate": 33,
+      "kda": 3.47
+     },
+     {
+      "champ": "Sejuani",
+      "games": 3,
+      "winrate": 33,
+      "kda": 1.2
+     },
+     {
+      "champ": "Thresh",
+      "games": 3,
+      "winrate": 33,
+      "kda": 1.44
+     },
+     {
+      "champ": "Smolder",
+      "games": 3,
+      "winrate": 33,
+      "kda": 0.88
+     },
+     {
+      "champ": "Akali",
+      "games": 2,
+      "winrate": 50,
+      "kda": 0.96
+     },
+     {
+      "champ": "Lillia",
+      "games": 2,
+      "winrate": 50,
+      "kda": 3.29
+     },
+     {
+      "champ": "Lucian",
+      "games": 2,
+      "winrate": 50,
+      "kda": 1.71
+     },
+     {
+      "champ": "Ivern",
+      "games": 2,
+      "winrate": 50,
+      "kda": 1.63
+     },
+     {
+      "champ": "Ezreal",
+      "games": 2,
+      "winrate": 50,
+      "kda": 2.13
+     },
+     {
+      "champ": "Lissandra",
+      "games": 2,
+      "winrate": 50,
+      "kda": 1.42
+     },
+     {
+      "champ": "TahmKench",
+      "games": 2,
+      "winrate": 50,
+      "kda": 2.0
+     },
+     {
+      "champ": "Chogath",
+      "games": 2,
+      "winrate": 50,
+      "kda": 1.47
+     },
+     {
+      "champ": "Irelia",
+      "games": 2,
+      "winrate": 0,
+      "kda": 0.91
+     },
+     {
+      "champ": "Olaf",
+      "games": 2,
+      "winrate": 0,
+      "kda": 0.67
+     },
+     {
+      "champ": "Ashe",
+      "games": 2,
+      "winrate": 0,
+      "kda": 1.44
+     }
+    ],
+    "previous": [],
+    "previous_note": "op.gg season selector is client-side; ?season= is ignored (tested on Sæþór#Cute, still returned S2026), so previous-season per-champion stats could not be retrieved. Only rank history is known."
+   },
+   "weighted_pool": [
+    {
+     "champ": "Viego",
+     "score": 139.0,
+     "games_total": 139
+    },
+    {
+     "champ": "Volibear",
+     "score": 93.0,
+     "games_total": 93
+    },
+    {
+     "champ": "Kayn",
+     "score": 67.0,
+     "games_total": 67
+    },
+    {
+     "champ": "Zac",
+     "score": 46.0,
+     "games_total": 46
+    },
+    {
+     "champ": "Naafiri",
+     "score": 41.0,
+     "games_total": 41
+    },
+    {
+     "champ": "Briar",
+     "score": 40.0,
+     "games_total": 40
+    },
+    {
+     "champ": "Zaahen",
+     "score": 37.0,
+     "games_total": 37
+    },
+    {
+     "champ": "Diana",
+     "score": 33.0,
+     "games_total": 33
+    },
+    {
+     "champ": "Renekton",
+     "score": 33.0,
+     "games_total": 33
+    },
+    {
+     "champ": "DrMundo",
+     "score": 30.0,
+     "games_total": 30
+    },
+    {
+     "champ": "Ekko",
+     "score": 28.0,
+     "games_total": 28
+    },
+    {
+     "champ": "Qiyana",
+     "score": 24.0,
+     "games_total": 24
+    },
+    {
+     "champ": "Illaoi",
+     "score": 22.0,
+     "games_total": 22
+    },
+    {
+     "champ": "Sylas",
+     "score": 22.0,
+     "games_total": 22
+    },
+    {
+     "champ": "Vladimir",
+     "score": 21.0,
+     "games_total": 21
+    }
+   ],
+   "notes": "Very high volume (902 ranked games in S2026). Viego is the main (139 games, 540k mastery) with Volibear (93, 57%), Kayn (67, 60%, 438k mastery), Zac (46, 57%, 3.05 KDA), Naafiri, Briar (40, 60%). Competitive picks Diana, Viego, Naafiri, Kayn, Shyvana and Dr. Mundo are all in his soloQ pool, though Naafiri (41%) and Shyvana (42%) and Mundo (43%) have poor soloQ winrates. Not yet seen in competitive: Volibear, Zac, Briar, Zaahen, Ekko. About 19% of games are top (Renekton 33, Illaoi 22 at 64%, Vladimir 21, Mordekaiser 15). Recent 20 games 55% WR. Vladimir 240k mastery but 48% this season. Lee Sin 21 games at 33%."
+  },
+  "Sausi": {
+   "role": "MID",
+   "main_id": "Sausi#EUW",
+   "alt_ids": [],
+   "rank": {
+    "current_solo": "Master 568 LP, 206W-186L (53%), peak Master 920 LP",
+    "flex": "Diamond 3 7 LP, 13W-8L",
+    "history_solo": {
+     "S2025": "none on this account",
+     "S2024 S3": "Diamond 3 18 LP",
+     "S2024 S2": "Emerald 1 75 LP",
+     "S2024 S1": "Diamond 4 51 LP",
+     "S2023 S2": "Diamond 2 75 LP",
+     "S2023 S1": "Master 0 LP"
+    }
+   },
+   "role_share": "TOP 6% / JG 2% / MID 86% / ADC 4% / SUP 2%",
+   "seasons": {
+    "current": [
+     {
+      "champ": "Leblanc",
+      "games": 46,
+      "winrate": 67,
+      "kda": 3.61
+     },
+     {
+      "champ": "Yone",
+      "games": 43,
+      "winrate": 47,
+      "kda": 1.79
+     },
+     {
+      "champ": "Locke",
+      "games": 34,
+      "winrate": 38,
+      "kda": 2.08
+     },
+     {
+      "champ": "Sylas",
+      "games": 33,
+      "winrate": 61,
+      "kda": 3.01
+     },
+     {
+      "champ": "Syndra",
+      "games": 32,
+      "winrate": 66,
+      "kda": 2.73
+     },
+     {
+      "champ": "Zed",
+      "games": 31,
+      "winrate": 61,
+      "kda": 2.24
+     },
+     {
+      "champ": "Cassiopeia",
+      "games": 27,
+      "winrate": 67,
+      "kda": 2.5
+     },
+     {
+      "champ": "Zoe",
+      "games": 27,
+      "winrate": 52,
+      "kda": 2.97
+     },
+     {
+      "champ": "Qiyana",
+      "games": 19,
+      "winrate": 47,
+      "kda": 2.45
+     },
+     {
+      "champ": "Ekko",
+      "games": 18,
+      "winrate": 33,
+      "kda": 1.92
+     },
+     {
+      "champ": "Fizz",
+      "games": 17,
+      "winrate": 53,
+      "kda": 2.39
+     },
+     {
+      "champ": "Kassadin",
+      "games": 14,
+      "winrate": 50,
+      "kda": 2.01
+     },
+     {
+      "champ": "Singed",
+      "games": 10,
+      "winrate": 40,
+      "kda": 1.4
+     },
+     {
+      "champ": "Viktor",
+      "games": 8,
+      "winrate": 62,
+      "kda": 2.79
+     },
+     {
+      "champ": "Ziggs",
+      "games": 6,
+      "winrate": 50,
+      "kda": 2.08
+     },
+     {
+      "champ": "Ahri",
+      "games": 6,
+      "winrate": 0,
+      "kda": 1.19
+     },
+     {
+      "champ": "Akali",
+      "games": 5,
+      "winrate": 80,
+      "kda": 2.63
+     },
+     {
+      "champ": "Talon",
+      "games": 5,
+      "winrate": 80,
+      "kda": 2.45
+     },
+     {
+      "champ": "Orianna",
+      "games": 5,
+      "winrate": 40,
+      "kda": 3.85
+     },
+     {
+      "champ": "Akshan",
+      "games": 5,
+      "winrate": 20,
+      "kda": 1.4
+     },
+     {
+      "champ": "Yasuo",
+      "games": 4,
+      "winrate": 75,
+      "kda": 2.3
+     },
+     {
+      "champ": "Lucian",
+      "games": 4,
+      "winrate": 25,
+      "kda": 1.67
+     },
+     {
+      "champ": "Janna",
+      "games": 4,
+      "winrate": 0,
+      "kda": 1.58
+     },
+     {
+      "champ": "Xerath",
+      "games": 3,
+      "winrate": 67,
+      "kda": 4.29
+     },
+     {
+      "champ": "Lissandra",
+      "games": 3,
+      "winrate": 33,
+      "kda": 2.37
+     },
+     {
+      "champ": "Jayce",
+      "games": 3,
+      "winrate": 33,
+      "kda": 1.28
+     },
+     {
+      "champ": "Hwei",
+      "games": 3,
+      "winrate": 0,
+      "kda": 2.36
+     },
+     {
+      "champ": "Rumble",
+      "games": 2,
+      "winrate": 50,
+      "kda": 1.75
+     },
+     {
+      "champ": "Elise",
+      "games": 2,
+      "winrate": 50,
+      "kda": 1.9
+     }
+    ],
+    "previous": [],
+    "previous_note": "op.gg season selector is client-side; ?season= is ignored (tested on Sæþór#Cute, still returned S2026), so previous-season per-champion stats could not be retrieved. Only rank history is known."
+   },
+   "weighted_pool": [
+    {
+     "champ": "Leblanc",
+     "score": 46.0,
+     "games_total": 46
+    },
+    {
+     "champ": "Yone",
+     "score": 43.0,
+     "games_total": 43
+    },
+    {
+     "champ": "Locke",
+     "score": 34.0,
+     "games_total": 34
+    },
+    {
+     "champ": "Sylas",
+     "score": 33.0,
+     "games_total": 33
+    },
+    {
+     "champ": "Syndra",
+     "score": 32.0,
+     "games_total": 32
+    },
+    {
+     "champ": "Zed",
+     "score": 31.0,
+     "games_total": 31
+    },
+    {
+     "champ": "Cassiopeia",
+     "score": 27.0,
+     "games_total": 27
+    },
+    {
+     "champ": "Zoe",
+     "score": 27.0,
+     "games_total": 27
+    },
+    {
+     "champ": "Qiyana",
+     "score": 19.0,
+     "games_total": 19
+    },
+    {
+     "champ": "Ekko",
+     "score": 18.0,
+     "games_total": 18
+    },
+    {
+     "champ": "Fizz",
+     "score": 17.0,
+     "games_total": 17
+    },
+    {
+     "champ": "Kassadin",
+     "score": 14.0,
+     "games_total": 14
+    },
+    {
+     "champ": "Singed",
+     "score": 10.0,
+     "games_total": 10
+    },
+    {
+     "champ": "Viktor",
+     "score": 8.0,
+     "games_total": 8
+    },
+    {
+     "champ": "Ziggs",
+     "score": 6.0,
+     "games_total": 6
+    }
+   ],
+   "notes": "Wide assassin/mage mid pool, 86% mid. Best results: LeBlanc 46 games 67% 3.61 KDA, Syndra 32 at 66%, Cassiopeia 27 at 67%, Sylas 33 at 61%, Zed 31 at 61%. Zoe is his all-time main (573k mastery) but only 27 games (52%) this season. Yone 43 at 47%, Locke 34 at 38% (new champion, losing). Yasuo is his most-played competitive pick (4 games) yet only 4 soloQ games this season: a comp-only comfort pick, or played on an account not found (Sausi#EUW has no S2025 rank, so a 2025 main may exist elsewhere). Viktor, Lucian, Orianna are light soloQ picks too. Competitive never-picked soloQ staples: Cassiopeia, Zoe, Qiyana, Ekko, Fizz, Kassadin, Locke. Recent 20 games 40% WR."
+  },
+  "Sæþór": {
+   "role": "BOT",
+   "main_id": "Sæþór#Cute",
+   "alt_ids": [],
+   "rank": {
+    "current_solo": "Diamond 2 75 LP, 271W-233L (54%), peak Master 147 LP",
+    "flex": "Diamond 4 87 LP, 48W-35L (58%)",
+    "ranked_5s": "Diamond 2 83 LP, 14W-13L",
+    "history_solo": {
+     "S2025": "Emerald 4 45 LP",
+     "S2024 S3": "Emerald 4 53 LP",
+     "S2024 S2": "Diamond 4 10 LP",
+     "S2023 S2": "Emerald 4 55 LP",
+     "S2022": "Platinum 4 33 LP"
+    }
+   },
+   "role_share": "TOP 2% / JG 5% / MID 13% / ADC 79% / SUP 2%",
+   "seasons": {
+    "current": [
+     {
+      "champ": "Caitlyn",
+      "games": 66,
+      "winrate": 53,
+      "kda": 2.09
+     },
+     {
+      "champ": "Jhin",
+      "games": 53,
+      "winrate": 66,
+      "kda": 2.64
+     },
+     {
+      "champ": "MissFortune",
+      "games": 52,
+      "winrate": 63,
+      "kda": 2.42
+     },
+     {
+      "champ": "Ashe",
+      "games": 38,
+      "winrate": 63,
+      "kda": 2.33
+     },
+     {
+      "champ": "Yunara",
+      "games": 36,
+      "winrate": 53,
+      "kda": 2.04
+     },
+     {
+      "champ": "Aphelios",
+      "games": 29,
+      "winrate": 55,
+      "kda": 1.28
+     },
+     {
+      "champ": "Jinx",
+      "games": 28,
+      "winrate": 54,
+      "kda": 2.14
+     },
+     {
+      "champ": "Sivir",
+      "games": 27,
+      "winrate": 52,
+      "kda": 2.52
+     },
+     {
+      "champ": "Senna",
+      "games": 27,
+      "winrate": 41,
+      "kda": 1.96
+     },
+     {
+      "champ": "Varus",
+      "games": 21,
+      "winrate": 52,
+      "kda": 2.01
+     },
+     {
+      "champ": "Draven",
+      "games": 21,
+      "winrate": 48,
+      "kda": 1.66
+     },
+     {
+      "champ": "TwistedFate",
+      "games": 19,
+      "winrate": 63,
+      "kda": 1.85
+     },
+     {
+      "champ": "Vayne",
+      "games": 13,
+      "winrate": 54,
+      "kda": 1.33
+     },
+     {
+      "champ": "Kaisa",
+      "games": 13,
+      "winrate": 54,
+      "kda": 1.71
+     },
+     {
+      "champ": "Rammus",
+      "games": 12,
+      "winrate": 67,
+      "kda": 2.84
+     },
+     {
+      "champ": "Seraphine",
+      "games": 11,
+      "winrate": 73,
+      "kda": 2.54
+     },
+     {
+      "champ": "Hwei",
+      "games": 9,
+      "winrate": 56,
+      "kda": 2.4
+     },
+     {
+      "champ": "Kalista",
+      "games": 8,
+      "winrate": 62,
+      "kda": 1.76
+     },
+     {
+      "champ": "Malzahar",
+      "games": 8,
+      "winrate": 62,
+      "kda": 1.58
+     },
+     {
+      "champ": "Smolder",
+      "games": 7,
+      "winrate": 43,
+      "kda": 2.31
+     },
+     {
+      "champ": "Lux",
+      "games": 7,
+      "winrate": 43,
+      "kda": 2.09
+     },
+     {
+      "champ": "KogMaw",
+      "games": 6,
+      "winrate": 50,
+      "kda": 2.22
+     },
+     {
+      "champ": "Galio",
+      "games": 6,
+      "winrate": 50,
+      "kda": 1.78
+     },
+     {
+      "champ": "Xerath",
+      "games": 6,
+      "winrate": 50,
+      "kda": 2.4
+     },
+     {
+      "champ": "Anivia",
+      "games": 6,
+      "winrate": 33,
+      "kda": 1.49
+     },
+     {
+      "champ": "Mel",
+      "games": 5,
+      "winrate": 80,
+      "kda": 1.91
+     },
+     {
+      "champ": "Cassiopeia",
+      "games": 5,
+      "winrate": 60,
+      "kda": 2.41
+     },
+     {
+      "champ": "Ambessa",
+      "games": 4,
+      "winrate": 25,
+      "kda": 1.34
+     },
+     {
+      "champ": "Viktor",
+      "games": 4,
+      "winrate": 25,
+      "kda": 1.76
+     },
+     {
+      "champ": "Xayah",
+      "games": 4,
+      "winrate": 0,
+      "kda": 0.71
+     },
+     {
+      "champ": "Velkoz",
+      "games": 4,
+      "winrate": 0,
+      "kda": 1.84
+     },
+     {
+      "champ": "Orianna",
+      "games": 3,
+      "winrate": 100,
+      "kda": 6.29
+     },
+     {
+      "champ": "Taliyah",
+      "games": 3,
+      "winrate": 0,
+      "kda": 0.84
+     },
+     {
+      "champ": "Fiddlesticks",
+      "games": 3,
+      "winrate": 0,
+      "kda": 1.04
+     },
+     {
+      "champ": "Nautilus",
+      "games": 2,
+      "winrate": 100,
+      "kda": 3.0
+     },
+     {
+      "champ": "Swain",
+      "games": 2,
+      "winrate": 100,
+      "kda": 3.63
+     },
+     {
+      "champ": "Mordekaiser",
+      "games": 2,
+      "winrate": 100,
+      "kda": 1.86
+     },
+     {
+      "champ": "Milio",
+      "games": 2,
+      "winrate": 50,
+      "kda": 3.29
+     },
+     {
+      "champ": "JarvanIV",
+      "games": 2,
+      "winrate": 50,
+      "kda": 1.47
+     },
+     {
+      "champ": "Corki",
+      "games": 2,
+      "winrate": 50,
+      "kda": 0.58
+     },
+     {
+      "champ": "Lucian",
+      "games": 2,
+      "winrate": 50,
+      "kda": 1.89
+     },
+     {
+      "champ": "Ezreal",
+      "games": 2,
+      "winrate": 50,
+      "kda": 0.69
+     },
+     {
+      "champ": "Shen",
+      "games": 2,
+      "winrate": 50,
+      "kda": 0.89
+     },
+     {
+      "champ": "Syndra",
+      "games": 2,
+      "winrate": 50,
+      "kda": 1.29
+     },
+     {
+      "champ": "Nocturne",
+      "games": 2,
+      "winrate": 50,
+      "kda": 1.71
+     },
+     {
+      "champ": "Kindred",
+      "games": 2,
+      "winrate": 50,
+      "kda": 1.78
+     },
+     {
+      "champ": "Malphite",
+      "games": 2,
+      "winrate": 0,
+      "kda": 0.75
+     },
+     {
+      "champ": "Ahri",
+      "games": 2,
+      "winrate": 0,
+      "kda": 1.76
+     },
+     {
+      "champ": "Akali",
+      "games": 2,
+      "winrate": 0,
+      "kda": 1.11
+     }
+    ],
+    "previous": [],
+    "previous_note": "op.gg season selector is client-side; ?season= is ignored (tested on Sæþór#Cute, still returned S2026), so previous-season per-champion stats could not be retrieved. Only rank history is known."
+   },
+   "weighted_pool": [
+    {
+     "champ": "Caitlyn",
+     "score": 66.0,
+     "games_total": 66
+    },
+    {
+     "champ": "Jhin",
+     "score": 53.0,
+     "games_total": 53
+    },
+    {
+     "champ": "MissFortune",
+     "score": 52.0,
+     "games_total": 52
+    },
+    {
+     "champ": "Ashe",
+     "score": 38.0,
+     "games_total": 38
+    },
+    {
+     "champ": "Yunara",
+     "score": 36.0,
+     "games_total": 36
+    },
+    {
+     "champ": "Aphelios",
+     "score": 29.0,
+     "games_total": 29
+    },
+    {
+     "champ": "Jinx",
+     "score": 28.0,
+     "games_total": 28
+    },
+    {
+     "champ": "Sivir",
+     "score": 27.0,
+     "games_total": 27
+    },
+    {
+     "champ": "Senna",
+     "score": 27.0,
+     "games_total": 27
+    },
+    {
+     "champ": "Varus",
+     "score": 21.0,
+     "games_total": 21
+    },
+    {
+     "champ": "Draven",
+     "score": 21.0,
+     "games_total": 21
+    },
+    {
+     "champ": "TwistedFate",
+     "score": 19.0,
+     "games_total": 19
+    },
+    {
+     "champ": "Vayne",
+     "score": 13.0,
+     "games_total": 13
+    },
+    {
+     "champ": "Kaisa",
+     "score": 13.0,
+     "games_total": 13
+    },
+    {
+     "champ": "Rammus",
+     "score": 12.0,
+     "games_total": 12
+    }
+   ],
+   "notes": "Marksman player, 79% bot. Caitlyn main (66 games, 315k mastery), then Jhin (53, 66%), Miss Fortune (52, 63%), Ashe (38, 63%), Yunara (36), Aphelios, Jinx, Sivir, Varus, Draven. Competitive picks Yunara, MF, Caitlyn, Ashe, Sivir, Varus all match; Hwei (9 games) and Vel'Koz (4 games, 0-4) are mage bot picks he has barely played in soloQ. Jhin is his best soloQ champion but not yet picked in competitive. Off-role: Twisted Fate 19 at 63%, Rammus 12 at 67%, Senna 27 at 41%. Big jump this season (S2025 Emerald 4 -> Diamond 2, Master peak). Recent 20 games 35% WR (slump)."
+  },
+  "Desilitri": {
+   "role": "SUPPORT",
+   "main_id": "Desilitri#69420",
+   "alt_ids": [],
+   "rank": {
+    "current_solo": "Diamond 1 63 LP, 234W-214L (52%), peak Master 391 LP",
+    "flex": "Diamond 1 1 LP, 48W-49L",
+    "history_solo": {
+     "S2025": "Diamond 3 53 LP",
+     "S2024 S3": "Diamond 4 6 LP",
+     "S2024 S2": "Diamond 2 76 LP",
+     "S2024 S1": "Diamond 4 50 LP",
+     "S2023 S2": "Emerald 2 11 LP"
+    }
+   },
+   "role_share": "TOP 4% / JG 0% / MID 0% / ADC 1% / SUP 94%",
+   "seasons": {
+    "current": [
+     {
+      "champ": "Maokai",
+      "games": 66,
+      "winrate": 70,
+      "kda": 2.9
+     },
+     {
+      "champ": "Rell",
+      "games": 59,
+      "winrate": 59,
+      "kda": 3.48
+     },
+     {
+      "champ": "Poppy",
+      "games": 52,
+      "winrate": 48,
+      "kda": 2.32
+     },
+     {
+      "champ": "Nautilus",
+      "games": 47,
+      "winrate": 47,
+      "kda": 2.05
+     },
+     {
+      "champ": "Braum",
+      "games": 36,
+      "winrate": 56,
+      "kda": 3.05
+     },
+     {
+      "champ": "Leona",
+      "games": 28,
+      "winrate": 75,
+      "kda": 2.97
+     },
+     {
+      "champ": "Nami",
+      "games": 27,
+      "winrate": 56,
+      "kda": 3.29
+     },
+     {
+      "champ": "Lulu",
+      "games": 26,
+      "winrate": 58,
+      "kda": 2.75
+     },
+     {
+      "champ": "Milio",
+      "games": 24,
+      "winrate": 54,
+      "kda": 3.59
+     },
+     {
+      "champ": "Thresh",
+      "games": 24,
+      "winrate": 38,
+      "kda": 2.16
+     },
+     {
+      "champ": "Rakan",
+      "games": 19,
+      "winrate": 47,
+      "kda": 2.55
+     },
+     {
+      "champ": "Karma",
+      "games": 16,
+      "winrate": 50,
+      "kda": 2.06
+     },
+     {
+      "champ": "Alistar",
+      "games": 15,
+      "winrate": 33,
+      "kda": 2.25
+     },
+     {
+      "champ": "Seraphine",
+      "games": 13,
+      "winrate": 46,
+      "kda": 2.61
+     },
+     {
+      "champ": "Swain",
+      "games": 11,
+      "winrate": 64,
+      "kda": 3.58
+     },
+     {
+      "champ": "Galio",
+      "games": 10,
+      "winrate": 60,
+      "kda": 2.36
+     },
+     {
+      "champ": "Bard",
+      "games": 8,
+      "winrate": 50,
+      "kda": 2.71
+     },
+     {
+      "champ": "Janna",
+      "games": 8,
+      "winrate": 38,
+      "kda": 3.06
+     },
+     {
+      "champ": "Neeko",
+      "games": 7,
+      "winrate": 57,
+      "kda": 1.96
+     },
+     {
+      "champ": "Renata",
+      "games": 6,
+      "winrate": 33,
+      "kda": 1.91
+     },
+     {
+      "champ": "Shen",
+      "games": 6,
+      "winrate": 17,
+      "kda": 2.02
+     },
+     {
+      "champ": "Blitzcrank",
+      "games": 5,
+      "winrate": 60,
+      "kda": 2.06
+     },
+     {
+      "champ": "Jinx",
+      "games": 4,
+      "winrate": 100,
+      "kda": 5.58
+     },
+     {
+      "champ": "Yuumi",
+      "games": 4,
+      "winrate": 75,
+      "kda": 3.33
+     },
+     {
+      "champ": "Pyke",
+      "games": 4,
+      "winrate": 50,
+      "kda": 1.66
+     },
+     {
+      "champ": "Senna",
+      "games": 4,
+      "winrate": 50,
+      "kda": 2.5
+     },
+     {
+      "champ": "Ornn",
+      "games": 4,
+      "winrate": 50,
+      "kda": 2.09
+     },
+     {
+      "champ": "DrMundo",
+      "games": 4,
+      "winrate": 25,
+      "kda": 0.66
+     },
+     {
+      "champ": "Morgana",
+      "games": 4,
+      "winrate": 0,
+      "kda": 1.41
+     },
+     {
+      "champ": "Gragas",
+      "games": 3,
+      "winrate": 67,
+      "kda": 2.12
+     },
+     {
+      "champ": "Sivir",
+      "games": 3,
+      "winrate": 33,
+      "kda": 2.14
+     },
+     {
+      "champ": "Amumu",
+      "games": 3,
+      "winrate": 33,
+      "kda": 1.68
+     },
+     {
+      "champ": "Sona",
+      "games": 3,
+      "winrate": 0,
+      "kda": 1.46
+     },
+     {
+      "champ": "Elise",
+      "games": 3,
+      "winrate": 0,
+      "kda": 1.65
+     },
+     {
+      "champ": "Zoe",
+      "games": 2,
+      "winrate": 50,
+      "kda": 2.28
+     },
+     {
+      "champ": "Brand",
+      "games": 2,
+      "winrate": 0,
+      "kda": 1.91
+     },
+     {
+      "champ": "Zyra",
+      "games": 2,
+      "winrate": 0,
+      "kda": 1.53
+     },
+     {
+      "champ": "Camille",
+      "games": 2,
+      "winrate": 0,
+      "kda": 0.42
+     }
+    ],
+    "previous": [],
+    "previous_note": "op.gg season selector is client-side; ?season= is ignored (tested on Sæþór#Cute, still returned S2026), so previous-season per-champion stats could not be retrieved. Only rank history is known."
+   },
+   "weighted_pool": [
+    {
+     "champ": "Maokai",
+     "score": 66.0,
+     "games_total": 66
+    },
+    {
+     "champ": "Rell",
+     "score": 59.0,
+     "games_total": 59
+    },
+    {
+     "champ": "Poppy",
+     "score": 52.0,
+     "games_total": 52
+    },
+    {
+     "champ": "Nautilus",
+     "score": 47.0,
+     "games_total": 47
+    },
+    {
+     "champ": "Braum",
+     "score": 36.0,
+     "games_total": 36
+    },
+    {
+     "champ": "Leona",
+     "score": 28.0,
+     "games_total": 28
+    },
+    {
+     "champ": "Nami",
+     "score": 27.0,
+     "games_total": 27
+    },
+    {
+     "champ": "Lulu",
+     "score": 26.0,
+     "games_total": 26
+    },
+    {
+     "champ": "Milio",
+     "score": 24.0,
+     "games_total": 24
+    },
+    {
+     "champ": "Thresh",
+     "score": 24.0,
+     "games_total": 24
+    },
+    {
+     "champ": "Rakan",
+     "score": 19.0,
+     "games_total": 19
+    },
+    {
+     "champ": "Karma",
+     "score": 16.0,
+     "games_total": 16
+    },
+    {
+     "champ": "Alistar",
+     "score": 15.0,
+     "games_total": 15
+    },
+    {
+     "champ": "Seraphine",
+     "score": 13.0,
+     "games_total": 13
+    },
+    {
+     "champ": "Swain",
+     "score": 11.0,
+     "games_total": 11
+    }
+   ],
+   "notes": "Captain, 94% support, engage/tank leaning. Maokai is the standout (66 games, 70% WR), Leona 28 at 75%, Rell 59 at 59%, Braum 36 at 56%, Lulu 26 at 58%. Poppy support 52 games (48%) and Nautilus 47 (47%) are heavy volume but break-even. All competitive picks (Seraphine, Braum, Leona, Rell, Lulu, Maokai) are in his pool; Seraphine is the weakest of them in soloQ (13 games, 46%). SoloQ picks not seen in competitive: Poppy, Nautilus, Nami, Milio, Thresh, Rakan, Karma, Alistar. Ezreal is his top mastery (304k) but 0 ranked games this season. Recent 20 games 55%."
+  },
+  "Marri": {
+   "role": "SUPPORT",
+   "main_id": "Marri#EUW",
+   "alt_ids": [],
+   "rank": {
+    "current_solo": "Diamond 4 43 LP, 24W-24L (50%)",
+    "flex": "Diamond 3 1 LP, 111W-107L (51%)",
+    "history_solo": {
+     "S2025": "Diamond 4 29 LP",
+     "S2024 S3": "Emerald 1 75 LP",
+     "S2024 S2": "Diamond 4 85 LP",
+     "S2024 S1": "Emerald 2 65 LP",
+     "S2023 S2": "Emerald 1 75 LP"
+    },
+    "history_flex": {
+     "S2025": "Emerald 1 35 LP",
+     "S2024 S3": "Diamond 1 75 LP",
+     "S2024 S2": "Master 9 LP"
+    }
+   },
+   "role_share": "TOP 15% / JG 10% / MID 26% / ADC 7% / SUP 41%",
+   "seasons": {
+    "current": [
+     {
+      "champ": "Soraka",
+      "games": 34,
+      "winrate": 47,
+      "kda": 3.57
+     },
+     {
+      "champ": "Malzahar",
+      "games": 29,
+      "winrate": 48,
+      "kda": 2.74
+     },
+     {
+      "champ": "TahmKench",
+      "games": 28,
+      "winrate": 57,
+      "kda": 2.4
+     },
+     {
+      "champ": "Yuumi",
+      "games": 19,
+      "winrate": 47,
+      "kda": 4.91
+     },
+     {
+      "champ": "Lulu",
+      "games": 18,
+      "winrate": 50,
+      "kda": 5.7
+     },
+     {
+      "champ": "Sion",
+      "games": 15,
+      "winrate": 53,
+      "kda": 3.38
+     },
+     {
+      "champ": "Rell",
+      "games": 12,
+      "winrate": 67,
+      "kda": 3.94
+     },
+     {
+      "champ": "Nasus",
+      "games": 10,
+      "winrate": 50,
+      "kda": 2.63
+     },
+     {
+      "champ": "AurelionSol",
+      "games": 8,
+      "winrate": 62,
+      "kda": 3.84
+     },
+     {
+      "champ": "Senna",
+      "games": 7,
+      "winrate": 71,
+      "kda": 3.25
+     },
+     {
+      "champ": "Milio",
+      "games": 7,
+      "winrate": 71,
+      "kda": 4.58
+     },
+     {
+      "champ": "Smolder",
+      "games": 6,
+      "winrate": 50,
+      "kda": 3.06
+     },
+     {
+      "champ": "Jinx",
+      "games": 5,
+      "winrate": 80,
+      "kda": 4.48
+     },
+     {
+      "champ": "Briar",
+      "games": 5,
+      "winrate": 60,
+      "kda": 2.12
+     },
+     {
+      "champ": "Xerath",
+      "games": 5,
+      "winrate": 40,
+      "kda": 2.52
+     },
+     {
+      "champ": "Ornn",
+      "games": 5,
+      "winrate": 40,
+      "kda": 1.67
+     },
+     {
+      "champ": "Brand",
+      "games": 3,
+      "winrate": 100,
+      "kda": 5.07
+     },
+     {
+      "champ": "Swain",
+      "games": 3,
+      "winrate": 67,
+      "kda": 5.22
+     },
+     {
+      "champ": "DrMundo",
+      "games": 3,
+      "winrate": 67,
+      "kda": 5.8
+     },
+     {
+      "champ": "Zac",
+      "games": 3,
+      "winrate": 33,
+      "kda": 2.24
+     },
+     {
+      "champ": "Thresh",
+      "games": 3,
+      "winrate": 33,
+      "kda": 5.0
+     },
+     {
+      "champ": "Fizz",
+      "games": 2,
+      "winrate": 100,
+      "kda": 3.25
+     },
+     {
+      "champ": "Seraphine",
+      "games": 2,
+      "winrate": 100,
+      "kda": 8.5
+     },
+     {
+      "champ": "Kayn",
+      "games": 2,
+      "winrate": 50,
+      "kda": 1.59
+     },
+     {
+      "champ": "Maokai",
+      "games": 2,
+      "winrate": 50,
+      "kda": 4.42
+     },
+     {
+      "champ": "Braum",
+      "games": 2,
+      "winrate": 50,
+      "kda": 1.9
+     },
+     {
+      "champ": "Sylas",
+      "games": 2,
+      "winrate": 0,
+      "kda": 1.88
+     },
+     {
+      "champ": "Anivia",
+      "games": 2,
+      "winrate": 0,
+      "kda": 0.75
+     },
+     {
+      "champ": "Ryze",
+      "games": 2,
+      "winrate": 0,
+      "kda": 0.6
+     },
+     {
+      "champ": "Yasuo",
+      "games": 2,
+      "winrate": 0,
+      "kda": 1.05
+     },
+     {
+      "champ": "Veigar",
+      "games": 2,
+      "winrate": 0,
+      "kda": 1.07
+     },
+     {
+      "champ": "Yone",
+      "games": 2,
+      "winrate": 0,
+      "kda": 1.45
+     },
+     {
+      "champ": "Nautilus",
+      "games": 2,
+      "winrate": 0,
+      "kda": 1.69
+     },
+     {
+      "champ": "Shen",
+      "games": 2,
+      "winrate": 0,
+      "kda": 1.91
+     },
+     {
+      "champ": "Katarina",
+      "games": 2,
+      "winrate": 0,
+      "kda": 1.13
+     }
+    ],
+    "previous": [],
+    "previous_note": "op.gg season selector is client-side; ?season= is ignored (tested on Sæþór#Cute, still returned S2026), so previous-season per-champion stats could not be retrieved. Only rank history is known."
+   },
+   "weighted_pool": [
+    {
+     "champ": "Soraka",
+     "score": 34.0,
+     "games_total": 34
+    },
+    {
+     "champ": "Malzahar",
+     "score": 29.0,
+     "games_total": 29
+    },
+    {
+     "champ": "TahmKench",
+     "score": 28.0,
+     "games_total": 28
+    },
+    {
+     "champ": "Yuumi",
+     "score": 19.0,
+     "games_total": 19
+    },
+    {
+     "champ": "Lulu",
+     "score": 18.0,
+     "games_total": 18
+    },
+    {
+     "champ": "Sion",
+     "score": 15.0,
+     "games_total": 15
+    },
+    {
+     "champ": "Rell",
+     "score": 12.0,
+     "games_total": 12
+    },
+    {
+     "champ": "Nasus",
+     "score": 10.0,
+     "games_total": 10
+    },
+    {
+     "champ": "AurelionSol",
+     "score": 8.0,
+     "games_total": 8
+    },
+    {
+     "champ": "Senna",
+     "score": 7.0,
+     "games_total": 7
+    },
+    {
+     "champ": "Milio",
+     "score": 7.0,
+     "games_total": 7
+    },
+    {
+     "champ": "Smolder",
+     "score": 6.0,
+     "games_total": 6
+    },
+    {
+     "champ": "Jinx",
+     "score": 5.0,
+     "games_total": 5
+    },
+    {
+     "champ": "Briar",
+     "score": 5.0,
+     "games_total": 5
+    },
+    {
+     "champ": "Xerath",
+     "score": 5.0,
+     "games_total": 5
+    }
+   ],
+   "notes": "Mostly a Flex player (218 flex vs 48 solo games; champion table is all ranked queues). Only 41% support: Tahm Kench is the long-term main (764k mastery, 28 games 57%), Soraka 34, Malzahar 29 (mid/support), Yuumi 19, Lulu 18 (5.70 KDA), Sion 15, Rell 12 at 67%, Nasus 10. Competitive picks Nautilus (2 games, 0-2) and Seraphine (2) are barely played in ranked; Yuumi, Rell, Tahm Kench match. Flexible: also plays mid (26%) and top (15%). Other 'Marri' accounts on EUW (#2121, #1992, #1620) are unranked and not linked."
+  },
+  "PenguinGod": {
+   "role": "TOP (sub)",
+   "main_id": "PenguinGod#EUW",
+   "alt_ids": [],
+   "rank": {
+    "current_solo": "Emerald 2 95 LP, 49W-43L (53%)",
+    "flex": "Diamond 4 25 LP, 29W-19L (60%)",
+    "history_solo": {
+     "S2025": "Emerald 4 85 LP",
+     "S2024 S3": "Platinum 3 17 LP",
+     "S2024 S2": "Emerald 4 47 LP",
+     "S2024 S1": "Emerald 4 0 LP",
+     "S2023 S2": "Platinum 2 58 LP"
+    }
+   },
+   "role_share": "TOP 75% / JG 14% / MID 0% / ADC 1% / SUP 9%",
+   "seasons": {
+    "current": [
+     {
+      "champ": "Chogath",
+      "games": 24,
+      "winrate": 71,
+      "kda": 2.05
+     },
+     {
+      "champ": "Fiora",
+      "games": 13,
+      "winrate": 38,
+      "kda": 1.28
+     },
+     {
+      "champ": "Yone",
+      "games": 12,
+      "winrate": 75,
+      "kda": 1.5
+     },
+     {
+      "champ": "Jax",
+      "games": 11,
+      "winrate": 45,
+      "kda": 1.25
+     },
+     {
+      "champ": "Renekton",
+      "games": 10,
+      "winrate": 50,
+      "kda": 1.38
+     },
+     {
+      "champ": "Garen",
+      "games": 9,
+      "winrate": 56,
+      "kda": 1.91
+     },
+     {
+      "champ": "Aatrox",
+      "games": 9,
+      "winrate": 33,
+      "kda": 1.65
+     },
+     {
+      "champ": "Malphite",
+      "games": 5,
+      "winrate": 80,
+      "kda": 4.67
+     },
+     {
+      "champ": "Khazix",
+      "games": 5,
+      "winrate": 60,
+      "kda": 4.33
+     },
+     {
+      "champ": "MasterYi",
+      "games": 4,
+      "winrate": 50,
+      "kda": 3.24
+     },
+     {
+      "champ": "Riven",
+      "games": 4,
+      "winrate": 25,
+      "kda": 1.47
+     },
+     {
+      "champ": "Gragas",
+      "games": 3,
+      "winrate": 33,
+      "kda": 1.44
+     },
+     {
+      "champ": "Olaf",
+      "games": 3,
+      "winrate": 33,
+      "kda": 1.8
+     },
+     {
+      "champ": "Kayn",
+      "games": 2,
+      "winrate": 100,
+      "kda": 4.5
+     },
+     {
+      "champ": "Pyke",
+      "games": 2,
+      "winrate": 100,
+      "kda": 3.06
+     },
+     {
+      "champ": "Alistar",
+      "games": 2,
+      "winrate": 50,
+      "kda": 3.0
+     },
+     {
+      "champ": "Vayne",
+      "games": 2,
+      "winrate": 50,
+      "kda": 0.85
+     },
+     {
+      "champ": "Elise",
+      "games": 2,
+      "winrate": 50,
+      "kda": 2.33
+     },
+     {
+      "champ": "Nautilus",
+      "games": 2,
+      "winrate": 50,
+      "kda": 3.44
+     },
+     {
+      "champ": "Diana",
+      "games": 2,
+      "winrate": 50,
+      "kda": 1.8
+     }
+    ],
+    "previous": [],
+    "previous_note": "op.gg season selector is client-side; ?season= is ignored (tested on Sæþór#Cute, still returned S2026), so previous-season per-champion stats could not be retrieved. Only rank history is known."
+   },
+   "weighted_pool": [
+    {
+     "champ": "Chogath",
+     "score": 24.0,
+     "games_total": 24
+    },
+    {
+     "champ": "Fiora",
+     "score": 13.0,
+     "games_total": 13
+    },
+    {
+     "champ": "Yone",
+     "score": 12.0,
+     "games_total": 12
+    },
+    {
+     "champ": "Jax",
+     "score": 11.0,
+     "games_total": 11
+    },
+    {
+     "champ": "Renekton",
+     "score": 10.0,
+     "games_total": 10
+    },
+    {
+     "champ": "Garen",
+     "score": 9.0,
+     "games_total": 9
+    },
+    {
+     "champ": "Aatrox",
+     "score": 9.0,
+     "games_total": 9
+    },
+    {
+     "champ": "Malphite",
+     "score": 5.0,
+     "games_total": 5
+    },
+    {
+     "champ": "Khazix",
+     "score": 5.0,
+     "games_total": 5
+    },
+    {
+     "champ": "MasterYi",
+     "score": 2.0,
+     "games_total": 4
+    },
+    {
+     "champ": "Riven",
+     "score": 2.0,
+     "games_total": 4
+    },
+    {
+     "champ": "Gragas",
+     "score": 1.5,
+     "games_total": 3
+    },
+    {
+     "champ": "Olaf",
+     "score": 1.5,
+     "games_total": 3
+    }
+   ],
+   "notes": "Sub, 75% top / 14% jungle. Cho'Gath is the clear best (24 games, 71%), then Fiora (13, 38%), Yone (12, 75%), Jax, Renekton, Garen, Aatrox. Competitive Spring picks Jax, Malphite, Cho'Gath match his soloQ pool; Mordekaiser not played this season. Yasuo top mastery (190k) but no S2026 games. Also on Whisky Tango Foxtrot's Challengermode roster."
+  },
+  "Avian Creev": {
+   "role": "FLEX MID/SUP/TOP (sub)",
+   "main_id": "Avian Creev#EUNE",
+   "alt_ids": [],
+   "rank": {
+    "current_solo": "Diamond 3 13 LP, 87W-80L (52%)",
+    "flex": "Emerald 3 61 LP, 25W-29L",
+    "history_solo": {
+     "S2025": "Emerald 2 91 LP"
+    },
+    "server": "EUW (tag is #EUNE)"
+   },
+   "role_share": "TOP 23% / JG 3% / MID 36% / ADC 3% / SUP 36%",
+   "seasons": {
+    "current": [
+     {
+      "champ": "Xerath",
+      "games": 56,
+      "winrate": 55,
+      "kda": 4.1
+     },
+     {
+      "champ": "Zyra",
+      "games": 43,
+      "winrate": 58,
+      "kda": 2.16
+     },
+     {
+      "champ": "Nami",
+      "games": 19,
+      "winrate": 37,
+      "kda": 2.94
+     },
+     {
+      "champ": "Ahri",
+      "games": 11,
+      "winrate": 55,
+      "kda": 2.94
+     },
+     {
+      "champ": "Nasus",
+      "games": 10,
+      "winrate": 40,
+      "kda": 1.51
+     },
+     {
+      "champ": "Volibear",
+      "games": 9,
+      "winrate": 56,
+      "kda": 1.38
+     },
+     {
+      "champ": "Malzahar",
+      "games": 8,
+      "winrate": 50,
+      "kda": 2.23
+     },
+     {
+      "champ": "Lux",
+      "games": 8,
+      "winrate": 38,
+      "kda": 2.82
+     },
+     {
+      "champ": "Yorick",
+      "games": 7,
+      "winrate": 14,
+      "kda": 1.72
+     },
+     {
+      "champ": "Lulu",
+      "games": 6,
+      "winrate": 67,
+      "kda": 3.55
+     },
+     {
+      "champ": "Malphite",
+      "games": 6,
+      "winrate": 67,
+      "kda": 3.57
+     },
+     {
+      "champ": "Garen",
+      "games": 5,
+      "winrate": 20,
+      "kda": 1.26
+     },
+     {
+      "champ": "Renekton",
+      "games": 5,
+      "winrate": 20,
+      "kda": 1.53
+     },
+     {
+      "champ": "Blitzcrank",
+      "games": 4,
+      "winrate": 75,
+      "kda": 3.87
+     },
+     {
+      "champ": "Warwick",
+      "games": 4,
+      "winrate": 50,
+      "kda": 2.15
+     },
+     {
+      "champ": "Khazix",
+      "games": 3,
+      "winrate": 67,
+      "kda": 2.69
+     },
+     {
+      "champ": "Leona",
+      "games": 3,
+      "winrate": 67,
+      "kda": 4.93
+     },
+     {
+      "champ": "Morgana",
+      "games": 3,
+      "winrate": 33,
+      "kda": 3.6
+     },
+     {
+      "champ": "Smolder",
+      "games": 2,
+      "winrate": 100,
+      "kda": 0.64
+     },
+     {
+      "champ": "Teemo",
+      "games": 2,
+      "winrate": 100,
+      "kda": 1.71
+     },
+     {
+      "champ": "Fizz",
+      "games": 2,
+      "winrate": 100,
+      "kda": 1.25
+     },
+     {
+      "champ": "Swain",
+      "games": 2,
+      "winrate": 50,
+      "kda": 3.25
+     },
+     {
+      "champ": "Sivir",
+      "games": 2,
+      "winrate": 50,
+      "kda": 4.57
+     },
+     {
+      "champ": "Amumu",
+      "games": 2,
+      "winrate": 50,
+      "kda": 3.38
+     }
+    ],
+    "previous": [],
+    "previous_note": "op.gg season selector is client-side; ?season= is ignored (tested on Sæþór#Cute, still returned S2026), so previous-season per-champion stats could not be retrieved. Only rank history is known."
+   },
+   "weighted_pool": [
+    {
+     "champ": "Xerath",
+     "score": 56.0,
+     "games_total": 56
+    },
+    {
+     "champ": "Zyra",
+     "score": 43.0,
+     "games_total": 43
+    },
+    {
+     "champ": "Nami",
+     "score": 19.0,
+     "games_total": 19
+    },
+    {
+     "champ": "Ahri",
+     "score": 11.0,
+     "games_total": 11
+    },
+    {
+     "champ": "Nasus",
+     "score": 10.0,
+     "games_total": 10
+    },
+    {
+     "champ": "Volibear",
+     "score": 9.0,
+     "games_total": 9
+    },
+    {
+     "champ": "Malzahar",
+     "score": 8.0,
+     "games_total": 8
+    },
+    {
+     "champ": "Lux",
+     "score": 8.0,
+     "games_total": 8
+    },
+    {
+     "champ": "Yorick",
+     "score": 7.0,
+     "games_total": 7
+    },
+    {
+     "champ": "Lulu",
+     "score": 6.0,
+     "games_total": 6
+    },
+    {
+     "champ": "Malphite",
+     "score": 6.0,
+     "games_total": 6
+    },
+    {
+     "champ": "Garen",
+     "score": 5.0,
+     "games_total": 5
+    },
+    {
+     "champ": "Renekton",
+     "score": 5.0,
+     "games_total": 5
+    },
+    {
+     "champ": "Blitzcrank",
+     "score": 2.0,
+     "games_total": 4
+    },
+    {
+     "champ": "Warwick",
+     "score": 2.0,
+     "games_total": 4
+    }
+   ],
+   "notes": "Sub. Mage/support player: Xerath 56 games (55%, 4.10 KDA, 249k mastery) and Zyra 43 (58%), Nami 19. Role share 36% mid / 36% support / 23% top. Competitive picks Malphite, Swain, Xerath all present (Swain 235k mastery but 2 games this season). Teemo 249k mastery, only 2 games this season. Top options: Nasus, Malphite, Yorick, Garen, Renekton."
+  }
+ }
+}

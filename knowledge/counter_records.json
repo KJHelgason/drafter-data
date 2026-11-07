@@ -1,0 +1,1209 @@
+{
+ "top": {
+  "Aatrox": {
+   "Renekton": {
+    "games": 171,
+    "wins": 99,
+    "as_counter_pick": 56,
+    "as_counter_pick_wins": 28,
+    "wr": 0.579,
+    "weighted_games": 37.1,
+    "weighted_wr": 0.598,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 2459,
+    "soloq_wr": 0.4945
+   }
+  },
+  "Ambessa": {
+   "Vayne": {
+    "games": 39,
+    "wins": 25,
+    "as_counter_pick": 38,
+    "as_counter_pick_wins": 25,
+    "wr": 0.641,
+    "weighted_games": 17.8,
+    "weighted_wr": 0.617,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 254,
+    "soloq_wr": 0.5236
+   }
+  },
+  "Gnar": {
+   "Vayne": {
+    "games": 68,
+    "wins": 44,
+    "as_counter_pick": 68,
+    "as_counter_pick_wins": 44,
+    "wr": 0.647,
+    "weighted_games": 28.1,
+    "weighted_wr": 0.627,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 293,
+    "soloq_wr": 0.5495
+   },
+   "Kennen": {
+    "games": 48,
+    "wins": 28,
+    "as_counter_pick": 48,
+    "as_counter_pick_wins": 28,
+    "wr": 0.583,
+    "weighted_games": 19.6,
+    "weighted_wr": 0.611,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 528,
+    "soloq_wr": 0.4848
+   },
+   "Rumble": {
+    "games": 112,
+    "wins": 67,
+    "as_counter_pick": 30,
+    "as_counter_pick_wins": 14,
+    "wr": 0.598,
+    "weighted_games": 49.2,
+    "weighted_wr": 0.59,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 420,
+    "soloq_wr": 0.4571
+   }
+  },
+  "Jayce": {
+   "Olaf": {
+    "games": 66,
+    "wins": 42,
+    "as_counter_pick": 62,
+    "as_counter_pick_wins": 40,
+    "wr": 0.636,
+    "weighted_games": 35.9,
+    "weighted_wr": 0.654,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 1969,
+    "soloq_wr": 0.5287
+   }
+  },
+  "KSante": {
+   "Vayne": {
+    "games": 70,
+    "wins": 49,
+    "as_counter_pick": 69,
+    "as_counter_pick_wins": 48,
+    "wr": 0.7,
+    "weighted_games": 28.1,
+    "weighted_wr": 0.675,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 907,
+    "soloq_wr": 0.5127
+   },
+   "Poppy": {
+    "games": 77,
+    "wins": 52,
+    "as_counter_pick": 75,
+    "as_counter_pick_wins": 51,
+    "wr": 0.675,
+    "weighted_games": 17.8,
+    "weighted_wr": 0.661,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 351,
+    "soloq_wr": 0.5755
+   },
+   "Camille": {
+    "games": 85,
+    "wins": 44,
+    "as_counter_pick": 79,
+    "as_counter_pick_wins": 40,
+    "wr": 0.518,
+    "weighted_games": 26.0,
+    "weighted_wr": 0.63,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 1290,
+    "soloq_wr": 0.5496
+   },
+   "Gwen": {
+    "games": 169,
+    "wins": 102,
+    "as_counter_pick": 144,
+    "as_counter_pick_wins": 92,
+    "wr": 0.604,
+    "weighted_games": 53.1,
+    "weighted_wr": 0.611,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 1104,
+    "soloq_wr": 0.5263
+   },
+   "Olaf": {
+    "games": 83,
+    "wins": 47,
+    "as_counter_pick": 39,
+    "as_counter_pick_wins": 19,
+    "wr": 0.566,
+    "weighted_games": 44.8,
+    "weighted_wr": 0.601,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 1011,
+    "soloq_wr": 0.5045
+   }
+  },
+  "Kennen": {
+   "Renekton": {
+    "games": 63,
+    "wins": 33,
+    "as_counter_pick": 3,
+    "as_counter_pick_wins": 2,
+    "wr": 0.524,
+    "weighted_games": 21.7,
+    "weighted_wr": 0.599,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 660,
+    "soloq_wr": 0.4424
+   }
+  },
+  "Olaf": {
+   "Rumble": {
+    "games": 31,
+    "wins": 22,
+    "as_counter_pick": 7,
+    "as_counter_pick_wins": 4,
+    "wr": 0.71,
+    "weighted_games": 16.7,
+    "weighted_wr": 0.755,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 468,
+    "soloq_wr": 0.4402
+   },
+   "Trundle": {
+    "games": 35,
+    "wins": 21,
+    "as_counter_pick": 35,
+    "as_counter_pick_wins": 21,
+    "wr": 0.6,
+    "weighted_games": 26.7,
+    "weighted_wr": 0.61,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 656,
+    "soloq_wr": 0.5061
+   },
+   "Kled": {
+    "games": 40,
+    "wins": 23,
+    "as_counter_pick": 39,
+    "as_counter_pick_wins": 22,
+    "wr": 0.575,
+    "weighted_games": 30.7,
+    "weighted_wr": 0.594,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 696,
+    "soloq_wr": 0.5158
+   },
+   "Camille": {
+    "games": 63,
+    "wins": 36,
+    "as_counter_pick": 54,
+    "as_counter_pick_wins": 30,
+    "wr": 0.571,
+    "weighted_games": 42.5,
+    "weighted_wr": 0.581,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 1370,
+    "soloq_wr": 0.5146
+   }
+  },
+  "Ornn": {
+   "Sion": {
+    "games": 97,
+    "wins": 58,
+    "as_counter_pick": 22,
+    "as_counter_pick_wins": 12,
+    "wr": 0.598,
+    "weighted_games": 19.1,
+    "weighted_wr": 0.623,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 748,
+    "soloq_wr": 0.484
+   },
+   "Gnar": {
+    "games": 77,
+    "wins": 46,
+    "as_counter_pick": 56,
+    "as_counter_pick_wins": 35,
+    "wr": 0.597,
+    "weighted_games": 20.1,
+    "weighted_wr": 0.593,
+    "grade": "favoured",
+    "weight": 0.7,
+    "soloq_games": 1078,
+    "soloq_wr": 0.4601
+   }
+  },
+  "Renekton": {
+   "DrMundo": {
+    "games": 73,
+    "wins": 47,
+    "as_counter_pick": 70,
+    "as_counter_pick_wins": 44,
+    "wr": 0.644,
+    "weighted_games": 35.4,
+    "weighted_wr": 0.62,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 1012,
+    "soloq_wr": 0.5415
+   }
+  },
+  "Sion": {
+   "Gwen": {
+    "games": 279,
+    "wins": 163,
+    "as_counter_pick": 267,
+    "as_counter_pick_wins": 156,
+    "wr": 0.584,
+    "weighted_games": 76.6,
+    "weighted_wr": 0.581,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 1024,
+    "soloq_wr": 0.5605
+   }
+  },
+  "Yorick": {
+   "Renekton": {
+    "games": 73,
+    "wins": 41,
+    "as_counter_pick": 59,
+    "as_counter_pick_wins": 34,
+    "wr": 0.562,
+    "weighted_games": 15.5,
+    "weighted_wr": 0.616,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 554,
+    "soloq_wr": 0.5307
+   }
+  }
+ },
+ "mid": {
+  "Ahri": {
+   "Viktor": {
+    "games": 170,
+    "wins": 94,
+    "as_counter_pick": 79,
+    "as_counter_pick_wins": 45,
+    "wr": 0.553,
+    "weighted_games": 49.9,
+    "weighted_wr": 0.579,
+    "grade": "favoured",
+    "weight": 0.7,
+    "soloq_games": 3686,
+    "soloq_wr": 0.481
+   }
+  },
+  "Akali": {
+   "Ahri": {
+    "games": 87,
+    "wins": 54,
+    "as_counter_pick": 19,
+    "as_counter_pick_wins": 12,
+    "wr": 0.621,
+    "weighted_games": 28.3,
+    "weighted_wr": 0.66,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 2824,
+    "soloq_wr": 0.5365
+   },
+   "Cassiopeia": {
+    "games": 84,
+    "wins": 46,
+    "as_counter_pick": 6,
+    "as_counter_pick_wins": 1,
+    "wr": 0.548,
+    "weighted_games": 44.5,
+    "weighted_wr": 0.591,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 424,
+    "soloq_wr": 0.4811
+   }
+  },
+  "Aurora": {
+   "Anivia": {
+    "games": 37,
+    "wins": 23,
+    "as_counter_pick": 17,
+    "as_counter_pick_wins": 12,
+    "wr": 0.622,
+    "weighted_games": 15.1,
+    "weighted_wr": 0.691,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 512,
+    "soloq_wr": 0.4668
+   },
+   "TwistedFate": {
+    "games": 49,
+    "wins": 32,
+    "as_counter_pick": 40,
+    "as_counter_pick_wins": 27,
+    "wr": 0.653,
+    "weighted_games": 19.6,
+    "weighted_wr": 0.654,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 1024,
+    "soloq_wr": 0.5117
+   },
+   "Annie": {
+    "games": 158,
+    "wins": 95,
+    "as_counter_pick": 86,
+    "as_counter_pick_wins": 50,
+    "wr": 0.601,
+    "weighted_games": 51.9,
+    "weighted_wr": 0.602,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 284,
+    "soloq_wr": 0.5387
+   },
+   "Orianna": {
+    "games": 160,
+    "wins": 89,
+    "as_counter_pick": 65,
+    "as_counter_pick_wins": 35,
+    "wr": 0.556,
+    "weighted_games": 35.0,
+    "weighted_wr": 0.597,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 844,
+    "soloq_wr": 0.4905
+   },
+   "Ahri": {
+    "games": 327,
+    "wins": 179,
+    "as_counter_pick": 210,
+    "as_counter_pick_wins": 119,
+    "wr": 0.547,
+    "weighted_games": 100.2,
+    "weighted_wr": 0.582,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 1920,
+    "soloq_wr": 0.4865
+   }
+  },
+  "Azir": {
+   "Yone": {
+    "games": 298,
+    "wins": 175,
+    "as_counter_pick": 256,
+    "as_counter_pick_wins": 148,
+    "wr": 0.587,
+    "weighted_games": 58.6,
+    "weighted_wr": 0.604,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 788,
+    "soloq_wr": 0.5317
+   },
+   "Annie": {
+    "games": 78,
+    "wins": 44,
+    "as_counter_pick": 56,
+    "as_counter_pick_wins": 31,
+    "wr": 0.564,
+    "weighted_games": 18.7,
+    "weighted_wr": 0.596,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 122,
+    "soloq_wr": 0.5984
+   },
+   "Leblanc": {
+    "games": 93,
+    "wins": 53,
+    "as_counter_pick": 90,
+    "as_counter_pick_wins": 51,
+    "wr": 0.57,
+    "weighted_games": 22.1,
+    "weighted_wr": 0.59,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 530,
+    "soloq_wr": 0.5698
+   }
+  },
+  "Galio": {
+   "Taliyah": {
+    "games": 112,
+    "wins": 67,
+    "as_counter_pick": 29,
+    "as_counter_pick_wins": 16,
+    "wr": 0.598,
+    "weighted_games": 22.2,
+    "weighted_wr": 0.612,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 787,
+    "soloq_wr": 0.5832
+   },
+   "Cassiopeia": {
+    "games": 51,
+    "wins": 29,
+    "as_counter_pick": 16,
+    "as_counter_pick_wins": 9,
+    "wr": 0.569,
+    "weighted_games": 24.7,
+    "weighted_wr": 0.592,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 312,
+    "soloq_wr": 0.4872
+   }
+  },
+  "Hwei": {
+   "Orianna": {
+    "games": 109,
+    "wins": 65,
+    "as_counter_pick": 28,
+    "as_counter_pick_wins": 14,
+    "wr": 0.596,
+    "weighted_games": 18.8,
+    "weighted_wr": 0.626,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 948,
+    "soloq_wr": 0.4662
+   },
+   "Ryze": {
+    "games": 140,
+    "wins": 79,
+    "as_counter_pick": 22,
+    "as_counter_pick_wins": 7,
+    "wr": 0.564,
+    "weighted_games": 34.4,
+    "weighted_wr": 0.605,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 540,
+    "soloq_wr": 0.4389
+   }
+  },
+  "Mel": {
+   "Ahri": {
+    "games": 130,
+    "wins": 76,
+    "as_counter_pick": 8,
+    "as_counter_pick_wins": 6,
+    "wr": 0.585,
+    "weighted_games": 37.8,
+    "weighted_wr": 0.585,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 1614,
+    "soloq_wr": 0.505
+   }
+  },
+  "Syndra": {
+   "Ahri": {
+    "games": 126,
+    "wins": 71,
+    "as_counter_pick": 93,
+    "as_counter_pick_wins": 54,
+    "wr": 0.563,
+    "weighted_games": 52.9,
+    "weighted_wr": 0.617,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 5308,
+    "soloq_wr": 0.5013
+   },
+   "Locke": {
+    "games": 52,
+    "wins": 32,
+    "as_counter_pick": 48,
+    "as_counter_pick_wins": 30,
+    "wr": 0.615,
+    "weighted_games": 36.0,
+    "weighted_wr": 0.621,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 3960,
+    "soloq_wr": 0.5343
+   }
+  },
+  "Viktor": {
+   "Akali": {
+    "games": 158,
+    "wins": 94,
+    "as_counter_pick": 144,
+    "as_counter_pick_wins": 87,
+    "wr": 0.595,
+    "weighted_games": 42.8,
+    "weighted_wr": 0.663,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 2769,
+    "soloq_wr": 0.5244
+   }
+  },
+  "Yone": {
+   "Aurora": {
+    "games": 117,
+    "wins": 70,
+    "as_counter_pick": 92,
+    "as_counter_pick_wins": 54,
+    "wr": 0.598,
+    "weighted_games": 19.9,
+    "weighted_wr": 0.626,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 1498,
+    "soloq_wr": 0.536
+   }
+  }
+ },
+ "bot": {
+  "Caitlyn": {
+   "Ziggs": {
+    "games": 61,
+    "wins": 34,
+    "as_counter_pick": 56,
+    "as_counter_pick_wins": 32,
+    "wr": 0.557,
+    "weighted_games": 25.3,
+    "weighted_wr": 0.608,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 1218,
+    "soloq_wr": 0.5501
+   }
+  },
+  "Corki": {
+   "Kaisa": {
+    "games": 347,
+    "wins": 204,
+    "as_counter_pick": 236,
+    "as_counter_pick_wins": 139,
+    "wr": 0.588,
+    "weighted_games": 72.0,
+    "weighted_wr": 0.597,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 3778,
+    "soloq_wr": 0.5037
+   },
+   "Ashe": {
+    "games": 158,
+    "wins": 91,
+    "as_counter_pick": 75,
+    "as_counter_pick_wins": 43,
+    "wr": 0.576,
+    "weighted_games": 40.0,
+    "weighted_wr": 0.594,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 504,
+    "soloq_wr": 0.5258
+   }
+  },
+  "Ezreal": {
+   "Sivir": {
+    "games": 412,
+    "wins": 229,
+    "as_counter_pick": 391,
+    "as_counter_pick_wins": 221,
+    "wr": 0.556,
+    "weighted_games": 156.5,
+    "weighted_wr": 0.58,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 3238,
+    "soloq_wr": 0.5513
+   },
+   "Zeri": {
+    "games": 104,
+    "wins": 53,
+    "as_counter_pick": 92,
+    "as_counter_pick_wins": 45,
+    "wr": 0.51,
+    "weighted_games": 29.0,
+    "weighted_wr": 0.591,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 3175,
+    "soloq_wr": 0.5493
+   }
+  },
+  "Jhin": {
+   "Sivir": {
+    "games": 127,
+    "wins": 81,
+    "as_counter_pick": 91,
+    "as_counter_pick_wins": 63,
+    "wr": 0.638,
+    "weighted_games": 36.6,
+    "weighted_wr": 0.697,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 4078,
+    "soloq_wr": 0.5235
+   },
+   "Ashe": {
+    "games": 263,
+    "wins": 146,
+    "as_counter_pick": 41,
+    "as_counter_pick_wins": 25,
+    "wr": 0.555,
+    "weighted_games": 77.6,
+    "weighted_wr": 0.599,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 4866,
+    "soloq_wr": 0.5025
+   },
+   "Kaisa": {
+    "games": 221,
+    "wins": 127,
+    "as_counter_pick": 167,
+    "as_counter_pick_wins": 93,
+    "wr": 0.575,
+    "weighted_games": 62.1,
+    "weighted_wr": 0.582,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 25794,
+    "soloq_wr": 0.5221
+   },
+   "Yunara": {
+    "games": 129,
+    "wins": 71,
+    "as_counter_pick": 44,
+    "as_counter_pick_wins": 26,
+    "wr": 0.55,
+    "weighted_games": 58.0,
+    "weighted_wr": 0.58,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 10462,
+    "soloq_wr": 0.5063
+   }
+  },
+  "Kalista": {
+   "Xayah": {
+    "games": 67,
+    "wins": 37,
+    "as_counter_pick": 42,
+    "as_counter_pick_wins": 22,
+    "wr": 0.552,
+    "weighted_games": 31.3,
+    "weighted_wr": 0.595,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 2456,
+    "soloq_wr": 0.5208
+   }
+  },
+  "Lucian": {
+   "Xayah": {
+    "games": 222,
+    "wins": 136,
+    "as_counter_pick": 178,
+    "as_counter_pick_wins": 108,
+    "wr": 0.613,
+    "weighted_games": 96.9,
+    "weighted_wr": 0.6,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 3616,
+    "soloq_wr": 0.5271
+   }
+  },
+  "Mel": {
+   "Ashe": {
+    "games": 83,
+    "wins": 53,
+    "as_counter_pick": 7,
+    "as_counter_pick_wins": 4,
+    "wr": 0.639,
+    "weighted_games": 38.0,
+    "weighted_wr": 0.658,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 230,
+    "soloq_wr": 0.5087
+   }
+  },
+  "MissFortune": {
+   "Caitlyn": {
+    "games": 72,
+    "wins": 44,
+    "as_counter_pick": 23,
+    "as_counter_pick_wins": 13,
+    "wr": 0.611,
+    "weighted_games": 21.7,
+    "weighted_wr": 0.636,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 2592,
+    "soloq_wr": 0.4911
+   }
+  },
+  "Sivir": {
+   "Yunara": {
+    "games": 126,
+    "wins": 78,
+    "as_counter_pick": 53,
+    "as_counter_pick_wins": 32,
+    "wr": 0.619,
+    "weighted_games": 36.6,
+    "weighted_wr": 0.654,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 2406,
+    "soloq_wr": 0.5399
+   }
+  },
+  "Smolder": {
+   "Yunara": {
+    "games": 92,
+    "wins": 54,
+    "as_counter_pick": 8,
+    "as_counter_pick_wins": 5,
+    "wr": 0.587,
+    "weighted_games": 16.3,
+    "weighted_wr": 0.602,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 1464,
+    "soloq_wr": 0.5219
+   }
+  },
+  "Tristana": {
+   "Kaisa": {
+    "games": 117,
+    "wins": 69,
+    "as_counter_pick": 29,
+    "as_counter_pick_wins": 20,
+    "wr": 0.59,
+    "weighted_games": 27.1,
+    "weighted_wr": 0.593,
+    "grade": "favoured",
+    "weight": 0.7,
+    "soloq_games": 10488,
+    "soloq_wr": 0.5021
+   }
+  },
+  "Varus": {
+   "Kalista": {
+    "games": 158,
+    "wins": 95,
+    "as_counter_pick": 82,
+    "as_counter_pick_wins": 50,
+    "wr": 0.601,
+    "weighted_games": 37.6,
+    "weighted_wr": 0.613,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 1492,
+    "soloq_wr": 0.4732
+   }
+  },
+  "Zeri": {
+   "Xayah": {
+    "games": 83,
+    "wins": 50,
+    "as_counter_pick": 17,
+    "as_counter_pick_wins": 12,
+    "wr": 0.602,
+    "weighted_games": 20.4,
+    "weighted_wr": 0.612,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 2516,
+    "soloq_wr": 0.4972
+   },
+   "Lucian": {
+    "games": 66,
+    "wins": 36,
+    "as_counter_pick": 8,
+    "as_counter_pick_wins": 6,
+    "wr": 0.545,
+    "weighted_games": 15.2,
+    "weighted_wr": 0.603,
+    "grade": "favoured",
+    "weight": 0.7,
+    "soloq_games": 2768,
+    "soloq_wr": 0.4906
+   }
+  },
+  "Ziggs": {
+   "Kaisa": {
+    "games": 63,
+    "wins": 39,
+    "as_counter_pick": 57,
+    "as_counter_pick_wins": 36,
+    "wr": 0.619,
+    "weighted_games": 28.2,
+    "weighted_wr": 0.644,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 1644,
+    "soloq_wr": 0.5152
+   },
+   "Ashe": {
+    "games": 54,
+    "wins": 34,
+    "as_counter_pick": 6,
+    "as_counter_pick_wins": 5,
+    "wr": 0.63,
+    "weighted_games": 21.9,
+    "weighted_wr": 0.648,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 332,
+    "soloq_wr": 0.4789
+   },
+   "Lucian": {
+    "games": 45,
+    "wins": 23,
+    "as_counter_pick": 19,
+    "as_counter_pick_wins": 13,
+    "wr": 0.511,
+    "weighted_games": 17.2,
+    "weighted_wr": 0.613,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 690,
+    "soloq_wr": 0.4841
+   }
+  }
+ },
+ "support": {
+  "Alistar": {
+   "Bard": {
+    "games": 190,
+    "wins": 108,
+    "as_counter_pick": 143,
+    "as_counter_pick_wins": 81,
+    "wr": 0.568,
+    "weighted_games": 44.3,
+    "weighted_wr": 0.588,
+    "grade": "favoured",
+    "weight": 0.7,
+    "soloq_games": 2224,
+    "soloq_wr": 0.473
+   }
+  },
+  "Bard": {
+   "Shen": {
+    "games": 55,
+    "wins": 34,
+    "as_counter_pick": 33,
+    "as_counter_pick_wins": 22,
+    "wr": 0.618,
+    "weighted_games": 34.7,
+    "weighted_wr": 0.631,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 262,
+    "soloq_wr": 0.4809
+   }
+  },
+  "Braum": {
+   "Rakan": {
+    "games": 218,
+    "wins": 130,
+    "as_counter_pick": 165,
+    "as_counter_pick_wins": 93,
+    "wr": 0.596,
+    "weighted_games": 33.5,
+    "weighted_wr": 0.611,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 2062,
+    "soloq_wr": 0.5199
+   },
+   "Alistar": {
+    "games": 345,
+    "wins": 197,
+    "as_counter_pick": 67,
+    "as_counter_pick_wins": 43,
+    "wr": 0.571,
+    "weighted_games": 65.9,
+    "weighted_wr": 0.578,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 3258,
+    "soloq_wr": 0.5335
+   }
+  },
+  "Karma": {
+   "Lulu": {
+    "games": 175,
+    "wins": 95,
+    "as_counter_pick": 74,
+    "as_counter_pick_wins": 38,
+    "wr": 0.543,
+    "weighted_games": 74.3,
+    "weighted_wr": 0.589,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 7772,
+    "soloq_wr": 0.5151
+   },
+   "Nautilus": {
+    "games": 272,
+    "wins": 165,
+    "as_counter_pick": 252,
+    "as_counter_pick_wins": 152,
+    "wr": 0.607,
+    "weighted_games": 97.5,
+    "weighted_wr": 0.583,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 6034,
+    "soloq_wr": 0.5287
+   }
+  },
+  "Leona": {
+   "Poppy": {
+    "games": 127,
+    "wins": 79,
+    "as_counter_pick": 99,
+    "as_counter_pick_wins": 63,
+    "wr": 0.622,
+    "weighted_games": 25.1,
+    "weighted_wr": 0.625,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 1074,
+    "soloq_wr": 0.5019
+   },
+   "Bard": {
+    "games": 138,
+    "wins": 82,
+    "as_counter_pick": 51,
+    "as_counter_pick_wins": 27,
+    "wr": 0.594,
+    "weighted_games": 39.5,
+    "weighted_wr": 0.614,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 1988,
+    "soloq_wr": 0.4759
+   },
+   "Neeko": {
+    "games": 141,
+    "wins": 83,
+    "as_counter_pick": 29,
+    "as_counter_pick_wins": 13,
+    "wr": 0.589,
+    "weighted_games": 25.0,
+    "weighted_wr": 0.616,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 606,
+    "soloq_wr": 0.4835
+   },
+   "Lulu": {
+    "games": 66,
+    "wins": 38,
+    "as_counter_pick": 17,
+    "as_counter_pick_wins": 8,
+    "wr": 0.576,
+    "weighted_games": 21.7,
+    "weighted_wr": 0.591,
+    "grade": "favoured",
+    "weight": 0.7,
+    "soloq_games": 4626,
+    "soloq_wr": 0.4615
+   }
+  },
+  "Lulu": {
+   "Thresh": {
+    "games": 67,
+    "wins": 39,
+    "as_counter_pick": 49,
+    "as_counter_pick_wins": 28,
+    "wr": 0.582,
+    "weighted_games": 22.2,
+    "weighted_wr": 0.636,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 11589,
+    "soloq_wr": 0.5366
+   }
+  },
+  "Milio": {
+   "Rakan": {
+    "games": 148,
+    "wins": 84,
+    "as_counter_pick": 99,
+    "as_counter_pick_wins": 56,
+    "wr": 0.568,
+    "weighted_games": 83.1,
+    "weighted_wr": 0.592,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 1528,
+    "soloq_wr": 0.5236
+   }
+  },
+  "Nami": {
+   "Seraphine": {
+    "games": 98,
+    "wins": 61,
+    "as_counter_pick": 30,
+    "as_counter_pick_wins": 21,
+    "wr": 0.622,
+    "weighted_games": 31.6,
+    "weighted_wr": 0.632,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 3308,
+    "soloq_wr": 0.4906
+   }
+  },
+  "Nautilus": {
+   "Poppy": {
+    "games": 89,
+    "wins": 53,
+    "as_counter_pick": 35,
+    "as_counter_pick_wins": 19,
+    "wr": 0.596,
+    "weighted_games": 18.1,
+    "weighted_wr": 0.674,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 1109,
+    "soloq_wr": 0.5005
+   },
+   "Renata": {
+    "games": 126,
+    "wins": 71,
+    "as_counter_pick": 99,
+    "as_counter_pick_wins": 55,
+    "wr": 0.563,
+    "weighted_games": 32.7,
+    "weighted_wr": 0.604,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 1410,
+    "soloq_wr": 0.5624
+   },
+   "Seraphine": {
+    "games": 159,
+    "wins": 86,
+    "as_counter_pick": 19,
+    "as_counter_pick_wins": 8,
+    "wr": 0.541,
+    "weighted_games": 65.7,
+    "weighted_wr": 0.591,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 3020,
+    "soloq_wr": 0.5046
+   },
+   "Leona": {
+    "games": 641,
+    "wins": 359,
+    "as_counter_pick": 459,
+    "as_counter_pick_wins": 257,
+    "wr": 0.56,
+    "weighted_games": 158.4,
+    "weighted_wr": 0.584,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 5318,
+    "soloq_wr": 0.548
+   },
+   "Nami": {
+    "games": 101,
+    "wins": 56,
+    "as_counter_pick": 11,
+    "as_counter_pick_wins": 6,
+    "wr": 0.554,
+    "weighted_games": 23.5,
+    "weighted_wr": 0.598,
+    "grade": "favoured",
+    "weight": 0.7,
+    "soloq_games": 4906,
+    "soloq_wr": 0.4837
+   }
+  },
+  "Neeko": {
+   "Seraphine": {
+    "games": 84,
+    "wins": 51,
+    "as_counter_pick": 49,
+    "as_counter_pick_wins": 30,
+    "wr": 0.607,
+    "weighted_games": 28.4,
+    "weighted_wr": 0.623,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 480,
+    "soloq_wr": 0.5312
+   }
+  },
+  "Pyke": {
+   "Seraphine": {
+    "games": 50,
+    "wins": 25,
+    "as_counter_pick": 3,
+    "as_counter_pick_wins": 3,
+    "wr": 0.5,
+    "weighted_games": 22.1,
+    "weighted_wr": 0.595,
+    "grade": "favoured",
+    "weight": 0.7,
+    "soloq_games": 1342,
+    "soloq_wr": 0.4806
+   }
+  },
+  "Rell": {
+   "Lulu": {
+    "games": 121,
+    "wins": 69,
+    "as_counter_pick": 58,
+    "as_counter_pick_wins": 28,
+    "wr": 0.57,
+    "weighted_games": 36.1,
+    "weighted_wr": 0.602,
+    "grade": "favoured",
+    "weight": 0.7,
+    "soloq_games": 4415,
+    "soloq_wr": 0.477
+   },
+   "Poppy": {
+    "games": 228,
+    "wins": 133,
+    "as_counter_pick": 218,
+    "as_counter_pick_wins": 124,
+    "wr": 0.583,
+    "weighted_games": 41.0,
+    "weighted_wr": 0.594,
+    "grade": "strong",
+    "weight": 1.0,
+    "soloq_games": 1342,
+    "soloq_wr": 0.5149
+   }
+  }
+ }
+}

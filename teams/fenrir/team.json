@@ -1,0 +1,77 @@
+{
+ "name": "Fenrir",
+ "slug": "fenrir",
+ "region": "EUW",
+ "leagues": [
+  "Kia deild (IS)"
+ ],
+ "comp_team_names": [
+  "Fenrir"
+ ],
+ "lineup": {
+  "top": [
+   "gubbifitness",
+   "þór þrumulókur"
+  ],
+  "jungle": [
+   "dréson"
+  ],
+  "mid": [
+   "þór þrumulókur",
+   "gubbifitness",
+   "maeja",
+   "kookie"
+  ],
+  "bot": [
+   "deus",
+   "venni"
+  ],
+  "support": [
+   "kookie",
+   "þór þrumulókur",
+   "maeja"
+  ]
+ },
+ "subs": [
+  "maeja",
+  "venni"
+ ],
+ "riot_ids": {
+  "gubbifitness": [
+   "GubbiFitness#EUW"
+  ],
+  "dréson": [
+   "Dréson#ape"
+  ],
+  "kookie": [
+   "A Kookie#0000"
+  ],
+  "maeja": [
+   "Maeja#vampy"
+  ],
+  "þór þrumulókur": [
+   "Þór Þrumulókur#Beer"
+  ],
+  "kjötið": [
+   "Kjötið#Meat"
+  ],
+  "deus": [
+   "Deus#002"
+  ],
+  "venni": [
+   "Venni#1337"
+  ]
+ },
+ "former_or_staff": {
+  "kjötið": "coach on Challengermode (played support in Spring/early Autumn)",
+  "wind1": "not on tournament roster",
+  "mikki": "not on tournament roster",
+  "sigmar": "not on tournament roster"
+ },
+ "notes": "Registered lineup per Challengermode: Deus#002 (bot), GubbiFitness, Þór Þrumulókur, Dréson (captain), A Kookie. Subs Maeja, Venni#1337; Kjötið coach. Per Kjartan (2026-11-06): Kookie plays SUPPORT and can also play MID; Þór flexes top/mid/support, so Gubbi and Þór can swap top/mid. Expect role swaps.",
+ "flex_players": {
+  "þór þrumulókur": 0.9,
+  "gubbifitness": 0.9,
+  "kookie": 0.9
+ }
+}

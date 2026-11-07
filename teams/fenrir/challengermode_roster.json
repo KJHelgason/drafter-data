@@ -1,0 +1,27 @@
+{
+  "team_name": "Fenrir LoL",
+  "challengermode_team_url": "https://www.challengermode.com/teams/8c46b97e-5ca7-4292-a235-08ddde3d747d",
+  "tournament": "Kia deildin (https://www.challengermode.com/s/RISI/tournaments/b9eead2d-5703-43ff-23b0-08df15925634)",
+  "fetched": "2026-11-06",
+  "notes": "tier_text = rank badge alt text shown on the Challengermode game-account card; cm_tier_label = the 'TIER N' label printed on the card (Challengermode's own tier, not the LoL rank). Riot ID region is the region shown on the card.",
+  "members": [
+    {"cm_username": "Thorwium", "cm_user_url": "https://www.challengermode.com/users/1443c3fb-d1fc-49c3-ab04-06782db5402c", "captain": true,
+     "lol_accounts": [{"riot_id": "Þór Þrumulókur#Beer", "region": "EUW", "tier_text": "DIAMOND I (Ranked Solo 5v5)", "cm_tier_label": "TIER VII"}]},
+    {"cm_username": "kjotid.", "cm_user_url": "https://www.challengermode.com/users/2f4defa6-055e-4873-9804-185c2b0b5b84", "captain": false,
+     "lol_accounts": [{"riot_id": "Kjötið#Meat", "region": "EUW", "tier_text": "DIAMOND IV (Ranked Solo 5v5)", "cm_tier_label": "TIER VII"}]},
+    {"cm_username": "Mæja#2164", "cm_user_url": "https://www.challengermode.com/users/d6bf6ec0-5b87-4092-9999-5c7e7915f8d4", "captain": false,
+     "lol_accounts": [{"riot_id": "Maeja#vampy", "region": "EUW", "tier_text": "DIAMOND IV (Ranked Solo 5v5)", "cm_tier_label": "TIER V"}]},
+    {"cm_username": "AtliSnærAndrésson", "cm_user_url": "https://www.challengermode.com/users/b14c35cb-5369-4966-a469-94339b54b7ff", "captain": false,
+     "lol_accounts": [{"riot_id": "Dréson#ape", "region": "EUW", "tier_text": "DIAMOND II (Ranked Solo 5v5)", "cm_tier_label": "TIER VII"}]},
+    {"cm_username": "Mikki", "cm_user_url": "https://www.challengermode.com/users/908b9e60-b845-4371-950d-94b897ec160f", "captain": false,
+     "lol_accounts": [{"riot_id": "Mikki#Feet", "region": "EUW", "tier_text": "EMERALD I (Ranked Solo 5v5)", "cm_tier_label": "TIER VII"}]},
+    {"cm_username": "WindbreakerXD", "cm_user_url": "https://www.challengermode.com/users/a431808a-7cee-4adc-baea-bfa6915c13c6", "captain": false,
+     "lol_accounts": [{"riot_id": "Wind#111", "region": "EUW", "tier_text": "DIAMOND II (Ranked Solo 5v5)", "cm_tier_label": "TIER IX"}]},
+    {"cm_username": "Kookies", "cm_user_url": "https://www.challengermode.com/users/b961a923-54cc-49cf-a4fb-cfef2dc49368", "captain": false,
+     "lol_accounts": [{"riot_id": "A Kookie#0000", "region": "EUW", "tier_text": "MASTER I (Ranked Solo 5v5)", "cm_tier_label": "TIER VII"}]},
+    {"cm_username": "SigmarIngiNjálsson", "cm_user_url": "https://www.challengermode.com/users/84373186-4728-423b-a747-f4112c39f15c", "captain": false,
+     "lol_accounts": [{"riot_id": "Sigmar#Clog", "region": "EUW", "tier_text": "DIAMOND III (Ranked Solo 5v5)", "cm_tier_label": "TIER IV"}]},
+    {"cm_username": "kalhaus", "cm_user_url": "https://www.challengermode.com/users/65380ea2-dabd-428d-84a1-f7a2fdb1c0ee", "captain": false,
+     "lol_accounts": [{"riot_id": "GubbiFitness#EUW", "region": "EUW", "tier_text": "MASTER I (Ranked Solo 5v5)", "cm_tier_label": "TIER VI"}]}
+  ]
+}
